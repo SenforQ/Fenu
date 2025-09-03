@@ -81,44 +81,40 @@ class _DiscoverPageState extends State<DiscoverPage> {
     final screenHeight = MediaQuery.of(context).size.height;
     
     return Scaffold(
-      body: Stack(
-        children: [
-          // Background Image
-          Positioned.fill(
-            child: Image.asset(
-              'assets/discover_bg_20250902.jpg',
-              width: screenWidth,
-              height: screenHeight,
-              fit: BoxFit.cover,
+      extendBodyBehindAppBar: true,
+      body: Container(
+        width: double.infinity,
+        height: double.infinity,
+        decoration: BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage('assets/discover_bg_20250902.jpg'),
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: SafeArea(
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.all(16.0),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                // Following Section
+                _buildFollowingSection(),
+                
+                const SizedBox(height: 24),
+                
+                // Recommend Section
+                _buildRecommendSection(),
+                
+                const SizedBox(height: 16),
+                
+                // Recommend Background Image
+                _buildRecommendBackground(),
+                
+                const SizedBox(height: 100), // Bottom spacing for navigation
+              ],
             ),
           ),
-          
-          // Content
-          SafeArea(
-            child: SingleChildScrollView(
-              padding: const EdgeInsets.all(16.0),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  // Following Section
-                  _buildFollowingSection(),
-                  
-                  const SizedBox(height: 24),
-                  
-                  // Recommend Section
-                  _buildRecommendSection(),
-                  
-                  const SizedBox(height: 16),
-                  
-                  // Recommend Background Image
-                  _buildRecommendBackground(),
-                  
-                  const SizedBox(height: 100), // Bottom spacing for navigation
-                ],
-              ),
-            ),
-          ),
-        ],
+        ),
       ),
     );
   }

@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
+import 'package:audioplayers/audioplayers.dart';
 import 'place_detail_page.dart';
 import 'search_page.dart';
 
@@ -16,6 +17,12 @@ class _HomePageState extends State<HomePage> {
   late PageController _pageController;
   int _currentPageIndex = 1; // 默认从第2个开始
   Set<String> _favoriteItems = {}; // 收藏的景点ID集合
+  
+  // 音乐播放器相关
+  late AudioPlayer _audioPlayer;
+  bool _isPlaying = false;
+  Duration _duration = Duration.zero;
+  Duration _position = Duration.zero;
 
   @override
   void initState() {
@@ -25,6 +32,42 @@ class _HomePageState extends State<HomePage> {
       initialPage: 1,
     );
     _loadFavorites();
+    _initAudioPlayer();
+  }
+  
+  // 初始化音频播放器
+  void _initAudioPlayer() {
+    _audioPlayer = AudioPlayer();
+    
+    // 监听播放状态
+    _audioPlayer.onPlayerStateChanged.listen((state) {
+      setState(() {
+        _isPlaying = state == PlayerState.playing;
+      });
+    });
+    
+    // 监听播放位置
+    _audioPlayer.onPositionChanged.listen((position) {
+      setState(() {
+        _position = position;
+      });
+    });
+    
+    // 监听音频时长
+    _audioPlayer.onDurationChanged.listen((duration) {
+      setState(() {
+        _duration = duration;
+      });
+    });
+  }
+  
+  // 播放/暂停音乐
+  Future<void> _togglePlayPause() async {
+    if (_isPlaying) {
+      await _audioPlayer.pause();
+    } else {
+      await _audioPlayer.play(AssetSource('fenu_music_20250903.mp3'));
+    }
   }
 
   // 加载收藏数据
@@ -66,6 +109,7 @@ class _HomePageState extends State<HomePage> {
   @override
   void dispose() {
     _pageController.dispose();
+    _audioPlayer.dispose();
     super.dispose();
   }
 
@@ -74,10 +118,12 @@ class _HomePageState extends State<HomePage> {
     final screenWidth = MediaQuery.of(context).size.width;
     return Scaffold(
       backgroundColor: const Color(0xFFFAFDF9),
-      body: SingleChildScrollView(
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
+      body: Stack(
+        children: [
+          SingleChildScrollView(
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
             // 背景图片
               Container(
               width: screenWidth,
@@ -447,13 +493,114 @@ class _HomePageState extends State<HomePage> {
                       },
                     ),
                   ),
+                  const SizedBox(height: 48),
                 ],
               ),
             ),
-          ],
-        ),
+              ],
+            ),
+          ),
+          // 悬浮音乐播放器
+          Positioned(
+            left: 0,
+            right: 0,
+            bottom: 0,
+            child: _buildFloatingMusicPlayer(),
+          ),
+        ],
       ),
     );
+  }
+
+  // 构建悬浮音乐播放器
+  Widget _buildFloatingMusicPlayer() {
+    return Container(
+      height: 44,
+      margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+      decoration: BoxDecoration(
+        color: Colors.white,
+        borderRadius: BorderRadius.circular(22),
+        boxShadow: [
+          BoxShadow(
+            color: Colors.black.withOpacity(0.1),
+            spreadRadius: 1,
+            blurRadius: 8,
+            offset: const Offset(0, 2),
+          ),
+        ],
+      ),
+      child: Row(
+        children: [
+          // 播放/暂停按钮
+          Container(
+            width: 36,
+            height: 36,
+            margin: const EdgeInsets.only(left: 4),
+            decoration: BoxDecoration(
+              color: const Color(0xFF4CAF50),
+              shape: BoxShape.circle,
+            ),
+            child: IconButton(
+              icon: Icon(
+                _isPlaying ? Icons.pause : Icons.play_arrow,
+                color: Colors.white,
+                size: 20,
+              ),
+              onPressed: _togglePlayPause,
+              padding: EdgeInsets.zero,
+            ),
+          ),
+          const SizedBox(width: 12),
+          // 音乐信息
+          Expanded(
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Text(
+                  'Fenu Music',
+                  style: TextStyle(
+                    fontSize: 14,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.grey[800],
+                  ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                ),
+                const SizedBox(height: 2),
+                // 进度条
+                if (_duration.inMilliseconds > 0)
+                  LinearProgressIndicator(
+                    value: _position.inMilliseconds / _duration.inMilliseconds,
+                    backgroundColor: Colors.grey[300],
+                    valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF4CAF50)),
+                    minHeight: 2,
+                  ),
+              ],
+            ),
+          ),
+          const SizedBox(width: 8),
+          // 时间显示
+          if (_duration.inMilliseconds > 0)
+            Text(
+              '${_formatDuration(_position)} / ${_formatDuration(_duration)}',
+              style: TextStyle(
+                fontSize: 12,
+                color: Colors.grey[600],
+              ),
+            ),
+          const SizedBox(width: 8),
+        ],
+      ),
+    );
+  }
+
+  // 格式化时间显示
+  String _formatDuration(Duration duration) {
+    String twoDigits(int n) => n.toString().padLeft(2, '0');
+    final minutes = twoDigits(duration.inMinutes.remainder(60));
+    final seconds = twoDigits(duration.inSeconds.remainder(60));
+    return '$minutes:$seconds';
   }
 
   // 获取所有景点数据

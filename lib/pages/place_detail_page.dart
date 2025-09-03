@@ -225,10 +225,10 @@ class _PlaceDetailPageState extends State<PlaceDetailPage> {
                   // 操作按钮
                   ElevatedButton(
                     onPressed: () {
-                      _toggleFavorite(widget.placeData['id']);
+                      _toggleFavorite(widget.placeData['id'].toString());
                     },
                     style: ElevatedButton.styleFrom(
-                      backgroundColor: _isFavorite(widget.placeData['id']) ? Colors.red : Colors.green,
+                      backgroundColor: _isFavorite(widget.placeData['id'].toString()) ? Colors.red : Colors.green,
                       foregroundColor: Colors.white,
                       padding: const EdgeInsets.symmetric(vertical: 16),
                       shape: RoundedRectangleBorder(
@@ -241,12 +241,12 @@ class _PlaceDetailPageState extends State<PlaceDetailPage> {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: [
                           Icon(
-                            _isFavorite(widget.placeData['id']) ? Icons.favorite : Icons.favorite_border,
+                            _isFavorite(widget.placeData['id'].toString()) ? Icons.favorite : Icons.favorite_border,
                             size: 20,
                           ),
                           const SizedBox(width: 8),
                           Text(
-                            _isFavorite(widget.placeData['id']) ? 'Remove from Favorites' : 'Add to Favorites',
+                            _isFavorite(widget.placeData['id'].toString()) ? 'Remove from Favorites' : 'Add to Favorites',
                             textAlign: TextAlign.center,
                             style: const TextStyle(
                               fontSize: 16,
