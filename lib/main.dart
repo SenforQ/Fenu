@@ -6,6 +6,7 @@ import 'pages/editor_page.dart';
 import 'pages/discover_page.dart';
 import 'pages/mine_page.dart';
 import 'widgets/custom_tabbar.dart';
+import 'services/coin_service.dart';
 
 void main() {
   runApp(const MyApp());
@@ -48,6 +49,21 @@ class _MainScreenState extends State<MainScreen> {
     const DiscoverPage(),
     const MinePage(),
   ];
+
+  @override
+  void initState() {
+    super.initState();
+    // 初始化新用户（给予欢迎奖励）
+    _initializeNewUser();
+  }
+
+  Future<void> _initializeNewUser() async {
+    try {
+      await CoinService.initializeNewUser();
+    } catch (e) {
+      print('Error initializing new user: $e');
+    }
+  }
 
   void _onTabTapped(int index) {
     setState(() {

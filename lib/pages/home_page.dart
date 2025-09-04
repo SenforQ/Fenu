@@ -41,23 +41,29 @@ class _HomePageState extends State<HomePage> {
     
     // 监听播放状态
     _audioPlayer.onPlayerStateChanged.listen((state) {
-      setState(() {
-        _isPlaying = state == PlayerState.playing;
-      });
+      if (mounted) {
+        setState(() {
+          _isPlaying = state == PlayerState.playing;
+        });
+      }
     });
     
     // 监听播放位置
     _audioPlayer.onPositionChanged.listen((position) {
-      setState(() {
-        _position = position;
-      });
+      if (mounted) {
+        setState(() {
+          _position = position;
+        });
+      }
     });
     
     // 监听音频时长
     _audioPlayer.onDurationChanged.listen((duration) {
-      setState(() {
-        _duration = duration;
-      });
+      if (mounted) {
+        setState(() {
+          _duration = duration;
+        });
+      }
     });
   }
   
@@ -76,9 +82,11 @@ class _HomePageState extends State<HomePage> {
     final favoritesJson = prefs.getString('favorites');
     if (favoritesJson != null) {
       final List<dynamic> favoritesList = json.decode(favoritesJson);
-      setState(() {
-        _favoriteItems = favoritesList.map((e) => e.toString()).toSet();
-      });
+      if (mounted) {
+        setState(() {
+          _favoriteItems = favoritesList.map((e) => e.toString()).toSet();
+        });
+      }
     }
   }
 
@@ -91,13 +99,15 @@ class _HomePageState extends State<HomePage> {
 
   // 切换收藏状态
   Future<void> _toggleFavorite(String itemId) async {
-    setState(() {
-      if (_favoriteItems.contains(itemId)) {
-        _favoriteItems.remove(itemId);
-      } else {
-        _favoriteItems.add(itemId);
-      }
-    });
+    if (mounted) {
+      setState(() {
+        if (_favoriteItems.contains(itemId)) {
+          _favoriteItems.remove(itemId);
+        } else {
+          _favoriteItems.add(itemId);
+        }
+      });
+    }
     await _saveFavorites();
   }
 
@@ -217,9 +227,11 @@ class _HomePageState extends State<HomePage> {
                     child: PageView.builder(
                       controller: _pageController,
                       onPageChanged: (index) {
-                        setState(() {
-                          _currentPageIndex = index;
-                        });
+                        if (mounted) {
+                          setState(() {
+                            _currentPageIndex = index;
+                          });
+                        }
                       },
                       itemCount: _getCategoryData().length,
                       itemBuilder: (context, index) {
@@ -852,9 +864,11 @@ class _HomePageState extends State<HomePage> {
     
     return GestureDetector(
       onTap: () {
-        setState(() {
-          selectedCategoryIndex = index;
-        });
+        if (mounted) {
+          setState(() {
+            selectedCategoryIndex = index;
+          });
+        }
       },
       child: Container(
         width: 76,

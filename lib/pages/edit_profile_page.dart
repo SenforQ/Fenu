@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:image_picker/image_picker.dart';
 import 'dart:io';
 import '../services/user_service.dart';
+import '../services/vip_service.dart';
+import 'vip_page.dart';
 
 class EditProfilePage extends StatefulWidget {
   const EditProfilePage({super.key});
@@ -18,6 +20,7 @@ class _EditProfilePageState extends State<EditProfilePage> {
   String avatar = UserProfileService.defaultAvatar;
   bool _loading = true;
   bool _uploading = false;
+  bool _isVipActive = false;
 
   @override
   void initState() {
@@ -29,10 +32,16 @@ class _EditProfilePageState extends State<EditProfilePage> {
     final a = await UserProfileService.getAvatar();
     final n = await UserProfileService.getUserName();
     final s = await UserProfileService.getSignature();
+    
+    // 检查VIP状态
+    final isActive = await VipService.isVipActive();
+    final isExpired = await VipService.isVipExpired();
+    
     setState(() {
       avatar = a;
       _nameController.text = n;
       _signController.text = s;
+      _isVipActive = isActive && !isExpired;
       _loading = false;
     });
   }
@@ -93,11 +102,136 @@ class _EditProfilePageState extends State<EditProfilePage> {
   }
 
   Future<void> _save() async {
+    // 检查是否为VIP用户
+    if (!_isVipActive) {
+      _showVipRequiredDialog();
+      return;
+    }
+    
     // 统一保存所有用户信息
     await UserProfileService.setAvatar(avatar);
     await UserProfileService.setUserName(_nameController.text.trim());
     await UserProfileService.setSignature(_signController.text.trim());
     if (mounted) Navigator.pop(context, true);
+  }
+
+  void _showVipRequiredDialog() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          backgroundColor: Colors.white,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  gradient: const LinearGradient(
+                    colors: [
+                      Color(0xFFBCFF39),
+                      Color(0xFF87A156),
+                    ],
+                  ),
+                  shape: BoxShape.circle,
+                ),
+                child: const Icon(
+                  Icons.star,
+                  color: Colors.white,
+                  size: 24,
+                ),
+              ),
+              const SizedBox(width: 12),
+              const Text(
+                'VIP Required',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+            ],
+          ),
+          content: const Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                'Profile editing is a VIP feature. Please upgrade to VIP to edit your profile.',
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.black,
+                ),
+                textAlign: TextAlign.center,
+              ),
+              SizedBox(height: 16),
+              Text(
+                'VIP Benefits:',
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                  color: Color(0xFF87A156),
+                ),
+              ),
+              SizedBox(height: 8),
+              Text(
+                '• Unlimited Profile Editing\n• Ad-Free Experience\n• Unlimited Create Post',
+                style: TextStyle(
+                  fontSize: 14,
+                  color: Colors.black87,
+                ),
+                textAlign: TextAlign.left,
+              ),
+            ],
+          ),
+          actions: [
+            Row(
+              children: [
+                Expanded(
+                  child: TextButton(
+                    onPressed: () => Navigator.of(context).pop(),
+                    child: const Text(
+                      'Cancel',
+                      style: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 16,
+                      ),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => const VipPage()),
+                      );
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color(0xFFBCFF39),
+                      foregroundColor: Colors.black,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                    ),
+                    child: const Text(
+                      'Upgrade to VIP',
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        );
+      },
+    );
   }
 
   Widget _buildAvatar() {

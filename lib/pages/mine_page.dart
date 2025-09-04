@@ -7,6 +7,9 @@ import 'about_us_page.dart';
 import 'edit_profile_page.dart';
 import 'favorite_detail_page.dart';
 import 'followers_detail_page.dart';
+import 'vip_page.dart';
+import 'wallet_page.dart';
+import '../services/vip_service.dart';
 
 class MinePage extends StatefulWidget {
   const MinePage({super.key});
@@ -19,6 +22,7 @@ class _MinePageState extends State<MinePage> {
   int postCount = 0;
   int followersCount = 0; // 绑定到关注的人数（community_following）
   int followingCount = 0; // 绑定到收藏记录数据（favorites）
+  bool _isVipActive = false;
 
   @override
   void initState() {
@@ -38,6 +42,23 @@ class _MinePageState extends State<MinePage> {
     await _loadPostCount();
     await _loadFollowersCount();
     await _loadFollowingCount();
+    await _loadVipStatus();
+  }
+
+  // 加载VIP状态
+  Future<void> _loadVipStatus() async {
+    try {
+      final isActive = await VipService.isVipActive();
+      final isExpired = await VipService.isVipExpired();
+      
+      if (mounted) {
+        setState(() {
+          _isVipActive = isActive && !isExpired;
+        });
+      }
+    } catch (e) {
+      print('MinePage - Error loading VIP status: $e');
+    }
   }
 
   // 加载Post数量（这里可以扩展为实际的帖子数据）
@@ -98,31 +119,41 @@ class _MinePageState extends State<MinePage> {
             // 顶部背景和用户信息
             _buildTopSection(context),
             
-            // // 功能卡片区域
-            // Padding(
-            //   padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 20.0),
-            //   child: Row(
-            //     children: [
-            //       Expanded(
-            //         child: _buildFeatureCard(
-            //           title: 'Wallet',
-            //           subtitle: 'More assets',
-            //           color: const Color(0xFFFFD700),
-            //           icon: Icons.account_balance_wallet,
-            //         ),
-            //       ),
-            //       const SizedBox(width: 12),
-            //       Expanded(
-            //         child: _buildFeatureCard(
-            //           title: 'VIP Club',
-            //           subtitle: 'More benefits',
-            //           color: const Color(0xFF90EE90),
-            //           icon: Icons.star,
-            //         ),
-            //       ),
-            //     ],
-            //   ),
-            // ),
+            // 功能卡片区域
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 20.0),
+              child: Row(
+                children: [
+                  Expanded(
+                    child: _buildImageCard(
+                      imagePath: 'assets/mine_wallet_20250904.png',
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const WalletPage(),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                  const SizedBox(width: 12),
+                  Expanded(
+                    child: _buildImageCard(
+                      imagePath: 'assets/mine_vip_20250904.png',
+                      onTap: () {
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => const VipPage(),
+                          ),
+                        );
+                      },
+                    ),
+                  ),
+                ],
+              ),
+            ),
             
             // 设置菜单列表
             Padding(
@@ -221,18 +252,49 @@ class _MinePageState extends State<MinePage> {
                 children: [
                   SizedBox(height: topImageHeight - 60),
                 
-                // 用户头像
-                Container(
-                  width: 82,
-                  height: 82,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    border: Border.all(color: Colors.white, width: 4),
-                    image: const DecorationImage(
-                      image: AssetImage('assets/user_default_icon_20250901.png'),
-                      fit: BoxFit.cover,
+                // 用户头像（带VIP标识）
+                Stack(
+                  children: [
+                    Container(
+                      width: 82,
+                      height: 82,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        border: Border.all(color: Colors.white, width: 4),
+                        image: const DecorationImage(
+                          image: AssetImage('assets/user_default_icon_20250901.png'),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
                     ),
-                  ),
+                    // VIP标识
+                    if (_isVipActive)
+                      Positioned(
+                        bottom: 0,
+                        right: 0,
+                        child: Container(
+                          width: 24,
+                          height: 24,
+                          decoration: BoxDecoration(
+                            color: const Color(0xFFBCFF39),
+                            shape: BoxShape.circle,
+                            border: Border.all(color: Colors.white, width: 2),
+                            boxShadow: [
+                              BoxShadow(
+                                color: Colors.black.withOpacity(0.2),
+                                blurRadius: 4,
+                                offset: const Offset(0, 2),
+                              ),
+                            ],
+                          ),
+                          child: const Icon(
+                            Icons.star,
+                            color: Colors.white,
+                            size: 14,
+                          ),
+                        ),
+                      ),
+                  ],
                 ),
                 
                 const SizedBox(height: 16),
@@ -357,52 +419,40 @@ class _MinePageState extends State<MinePage> {
     return content;
   }
 
-  Widget _buildFeatureCard({
-    required String title,
-    required String subtitle,
-    required Color color,
-    required IconData icon,
+  Widget _buildImageCard({
+    required String imagePath,
+    VoidCallback? onTap,
   }) {
-    return Container(
-      height: 80,
-      padding: const EdgeInsets.all(16),
-      decoration: BoxDecoration(
-        color: color,
-        borderRadius: BorderRadius.circular(16),
-      ),
-      child: Row(
-        children: [
-          Expanded(
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: [
-                Text(
-                  title,
-                  style: const TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
-                    color: Colors.white,
-                  ),
-                ),
-                const SizedBox(height: 4),
-                Text(
-                  subtitle,
-                  style: const TextStyle(
-                    fontSize: 12,
-                    color: Colors.white70,
-                  ),
-                ),
-              ],
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final screenWidth = MediaQuery.of(context).size.width;
+        final cardWidth = (screenWidth - 32 - 13) / 2.0;
+        final cardHeight = cardWidth * 0.37;
+        
+        Widget cardContent = Container(
+          width: cardWidth,
+          height: cardHeight,
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(16),
+            child: Image.asset(
+              imagePath,
+              fit: BoxFit.cover,
             ),
           ),
-          Icon(
-            icon,
-            color: Colors.white,
-            size: 32,
-          ),
-        ],
-      ),
+        );
+
+        if (onTap != null) {
+          return GestureDetector(
+            onTap: onTap,
+            child: cardContent,
+          );
+        }
+
+        return cardContent;
+      },
     );
   }
 

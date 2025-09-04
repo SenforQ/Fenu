@@ -303,6 +303,7 @@ class _CommunityPageState extends State<CommunityPage> {
                         Colors.transparent,
                         Colors.black.withOpacity(0.7),
                       ],
+                      stops: const [0.5, 1.0],
                     ),
                   ),
                 ),
@@ -353,18 +354,6 @@ class _CommunityPageState extends State<CommunityPage> {
                         overflow: TextOverflow.ellipsis,
                       ),
                       const SizedBox(height: 4),
-                      
-                      // 旅游标题
-                      Text(
-                        person['FenuTravelTitle'] ?? person['FenuShowMotto'],
-                        style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 12,
-                        ),
-                        maxLines: 2,
-                        overflow: TextOverflow.ellipsis,
-                      ),
-                      const SizedBox(height: 8),
                       
                       // 粉丝数
                       Row(

@@ -5,6 +5,8 @@ import 'dart:convert';
 import 'dart:async';
 import 'package:http/http.dart' as http;
 import 'voice_call_page.dart';
+import '../services/coin_service.dart';
+import '../services/vip_service.dart';
 
 class ChatPage extends StatefulWidget {
   final String userName; // 对方（角色）名称
@@ -27,6 +29,8 @@ class _ChatPageState extends State<ChatPage> {
   final ScrollController _scrollController = ScrollController();
   final List<_ChatMessage> _messages = [];
   bool _sending = false;
+  int _currentCoins = 0;
+  bool _isVipActive = false;
 
   // 本机用户信息（自己）
   String _selfAvatarPath = 'assets/user_default_icon_20250901.png';
@@ -44,6 +48,20 @@ class _ChatPageState extends State<ChatPage> {
     _convKey = _conversationKey(widget.userName, widget.userAvatar);
     _initUser();
     _loadHistory();
+    _loadCoinsAndVipStatus();
+  }
+
+  Future<void> _loadCoinsAndVipStatus() async {
+    final coins = await CoinService.getCurrentCoins();
+    final isActive = await VipService.isVipActive();
+    final isExpired = await VipService.isVipExpired();
+    
+    if (mounted) {
+      setState(() {
+        _currentCoins = coins;
+        _isVipActive = isActive && !isExpired;
+      });
+    }
   }
 
   String _conversationKey(String userName, String userAvatar) {
@@ -94,6 +112,12 @@ class _ChatPageState extends State<ChatPage> {
     final text = _inputController.text.trim();
     if (text.isEmpty || _sending) return;
     
+    // 检查金币余额（所有用户都需要20金币）
+    if (_currentCoins < 20) {
+      _showInsufficientCoinsDialog();
+      return;
+    }
+    
     setState(() {
       _sending = true;
       _messages.add(_ChatMessage(role: 'user', content: text));
@@ -113,6 +137,11 @@ class _ChatPageState extends State<ChatPage> {
       });
       _scrollToBottomDeferred();
       await _persist();
+      
+      // 扣除金币（所有用户都扣除20金币）
+      await CoinService.spendCoins(20);
+      await _loadCoinsAndVipStatus();
+      _showToast('Message sent! -20 coins');
     } catch (e) {
       if (!mounted) return;
       setState(() {
@@ -170,12 +199,258 @@ class _ChatPageState extends State<ChatPage> {
     });
   }
 
+  void _showInsufficientCoinsDialog() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          backgroundColor: Colors.white,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  gradient: const LinearGradient(
+                    colors: [
+                      Color(0xFFFFD700),
+                      Color(0xFFFFA500),
+                    ],
+                  ),
+                  shape: BoxShape.circle,
+                ),
+                child: const Icon(
+                  Icons.monetization_on,
+                  color: Colors.white,
+                  size: 24,
+                ),
+              ),
+              const SizedBox(width: 12),
+              const Text(
+                'Insufficient Coins',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+            ],
+          ),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              Text(
+                'You need 20 coins to send a message.\nCurrent balance: $_currentCoins coins',
+                style: const TextStyle(
+                  fontSize: 16,
+                  color: Colors.black,
+                ),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 16),
+              const Text(
+                'Get more coins to continue chatting!',
+                style: TextStyle(
+                  fontSize: 14,
+                  color: Colors.grey,
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ],
+          ),
+          actions: [
+            Row(
+              children: [
+                Expanded(
+                  child: TextButton(
+                    onPressed: () => Navigator.of(context).pop(),
+                    child: const Text(
+                      'Cancel',
+                      style: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 16,
+                      ),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      Navigator.pushNamed(context, '/wallet');
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color(0xFFFFD700),
+                      foregroundColor: Colors.black,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                    ),
+                    child: const Text(
+                      'Get Coins',
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void _showVoiceCallDialog() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          backgroundColor: Colors.white,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          title: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                padding: const EdgeInsets.all(8),
+                decoration: BoxDecoration(
+                  gradient: const LinearGradient(
+                    colors: [
+                      Color(0xFFFFD700),
+                      Color(0xFFFFA500),
+                    ],
+                  ),
+                  shape: BoxShape.circle,
+                ),
+                child: const Icon(
+                  Icons.call,
+                  color: Colors.white,
+                  size: 24,
+                ),
+              ),
+              const SizedBox(width: 12),
+              const Text(
+                'Voice Call',
+                style: TextStyle(
+                  fontSize: 20,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black,
+                ),
+              ),
+            ],
+          ),
+          content: Column(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              const Text(
+                'Each successful voice call will cost 200 coins.',
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.black,
+                ),
+                textAlign: TextAlign.center,
+              ),
+              const SizedBox(height: 8),
+              Text(
+                'Current balance: $_currentCoins coins',
+                style: const TextStyle(
+                  fontSize: 14,
+                  color: Colors.grey,
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ],
+          ),
+          actions: [
+            Row(
+              children: [
+                Expanded(
+                  child: TextButton(
+                    onPressed: () => Navigator.of(context).pop(),
+                    child: const Text(
+                      'Cancel',
+                      style: TextStyle(
+                        color: Colors.grey,
+                        fontSize: 16,
+                      ),
+                    ),
+                  ),
+                ),
+                Expanded(
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => VoiceCallPage(
+                            userName: widget.userName,
+                            userAvatar: widget.userAvatar,
+                            backgroundPhoto: widget.backgroundPhoto,
+                          ),
+                        ),
+                      );
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color(0xFFFFD700),
+                      foregroundColor: Colors.black,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                    ),
+                    child: const Text(
+                      'Start Call',
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  void _showToast(String message) {
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(message),
+          backgroundColor: const Color(0xFF4A1B4A),
+          duration: const Duration(seconds: 2),
+        ),
+      );
+    }
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFFFFFFFF),
       appBar: AppBar(
-        title: Text(widget.userName),
+        title: Column(
+          children: [
+            Text(widget.userName),
+            Text(
+              '$_currentCoins coins',
+              style: const TextStyle(
+                fontSize: 12,
+                color: Colors.grey,
+              ),
+            ),
+          ],
+        ),
         centerTitle: true,
         backgroundColor: const Color(0xFFFFFFFF),
         foregroundColor: const Color(0xFF000000),
@@ -338,16 +613,7 @@ class _ChatPageState extends State<ChatPage> {
             width: 44,
             child: ElevatedButton(
               onPressed: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => VoiceCallPage(
-                      userName: widget.userName,
-                      userAvatar: widget.userAvatar,
-                      backgroundPhoto: widget.backgroundPhoto,
-                    ),
-                  ),
-                );
+                _showVoiceCallDialog();
               },
               style: ElevatedButton.styleFrom(
                 backgroundColor: const Color(0xFFFE573D),
