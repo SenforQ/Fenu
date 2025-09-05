@@ -445,6 +445,10 @@ class _VipPageState extends State<VipPage> {
           _buildBenefitItem('Ad-Free Experience'),
           const SizedBox(height: 6),
           _buildBenefitItem('Unlimited Create Post'),
+          const SizedBox(height: 6),
+          _buildBenefitItem('3 Free Messages Daily'),
+          const SizedBox(height: 6),
+          _buildBenefitItem('Access to Team Activities'),
           const SizedBox(height: 20),
           // 添加选项区域
           _buildOptionsSection(),

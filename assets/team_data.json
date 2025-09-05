@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Beach Camping",
+    "image": "team_1_bg_20250905.jpg",
+    "content": "Set up tents on golden beaches and enjoy nights caressed by ocean breezes. Activities include: beach volleyball tournament, bonfire party, sunrise yoga, seafood barbecue, beach walking, stargazing. Perfect for outdoor enthusiasts of all ages to experience the most authentic ocean camping life.",
+    "participants": [
+      {
+        "FenuUserName": "Kai",
+        "FenuNickName": "WaveRider",
+        "FenuUserIcon": "10_p_2025_09_02_1.png",
+        "FenuShowPhoto": "10_p_2025_09_02_2.png"
+      },
+      {
+        "FenuUserName": "Zoe",
+        "FenuNickName": "SunsetChaser",
+        "FenuUserIcon": "4_p_2025_09_02_1.png",
+        "FenuShowPhoto": "4_p_2025_09_02_2.png"
+      },
+      {
+        "FenuUserName": "Iris",
+        "FenuNickName": "RainbowSeeker",
+        "FenuUserIcon": "8_p_2025_09_02_1.png",
+        "FenuShowPhoto": "8_p_2025_09_02_2.png"
+      }
+    ],
+    "participantCount": 3,
+    "isHot": true,
+    "difficulty": "Beginner",
+    "duration": "2 days 1 night",
+    "location": "Gold Coast",
+    "startDate": "2026/1/20"
+  },
+  {
+    "id": 2,
+    "title": "Mountain Climbing",
+    "image": "team_2_bg_20250905.jpg",
+    "content": "Challenge steep peaks and conquer natural heights. Activities include: professional climbing guidance, safety equipment usage, team collaboration training, summit viewing, photography recording, descent techniques. Perfect for adventurers with good physical condition to experience the achievement of conquering peaks.",
+    "participants": [
+      {
+        "FenuUserName": "Alex",
+        "FenuNickName": "MountainSage",
+        "FenuUserIcon": "2_p_2025_09_02_1.png",
+        "FenuShowPhoto": "2_p_2025_09_02_2.png"
+      },
+      {
+        "FenuUserName": "Aria",
+        "FenuNickName": "SkyExplorer",
+        "FenuUserIcon": "6_p_2025_09_02_1.png",
+        "FenuShowPhoto": "6_p_2025_09_02_2.png"
+      }
+    ],
+    "participantCount": 2,
+    "isHot": false,
+    "difficulty": "Intermediate",
+    "duration": "1 day",
+    "location": "Mount Tai",
+    "startDate": "2026/2/3"
+  },
+  {
+    "id": 3,
+    "title": "Mountain Crossing",
+    "image": "team_3_bg_20250905.jpg",
+    "content": "Traverse rugged mountain ranges and challenge extreme heights. Activities include: high altitude adaptation training, professional guide leadership, extreme challenge projects, team mutual assistance, summit camping, sunrise viewing. Perfect for experienced outdoor adventurers to experience the most thrilling mountain adventures.",
+    "participants": [
+      {
+        "FenuUserName": "Phoenix",
+        "FenuNickName": "FireSpirit",
+        "FenuUserIcon": "12_p_2025_09_02_1.png",
+        "FenuShowPhoto": "12_p_2025_09_02_2.png"
+      },
+      {
+        "FenuUserName": "River",
+        "FenuNickName": "CurrentFlow",
+        "FenuUserIcon": "11_p_2025_09_02_1.png",
+        "FenuShowPhoto": "11_p_2025_09_02_2.png"
+      },
+      {
+        "FenuUserName": "Orion",
+        "FenuNickName": "NightHunter",
+        "FenuUserIcon": "13_p_2025_09_02_1.png",
+        "FenuShowPhoto": "13_p_2025_09_02_2.png"
+      }
+    ],
+    "participantCount": 3,
+    "isHot": true,
+    "difficulty": "Advanced",
+    "duration": "3 days 2 nights",
+    "location": "Mount Everest Base Camp",
+    "startDate": "2026/4/21"
+  }
+]

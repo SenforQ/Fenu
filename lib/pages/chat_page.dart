@@ -31,6 +31,9 @@ class _ChatPageState extends State<ChatPage> {
   bool _sending = false;
   int _currentCoins = 0;
   bool _isVipActive = false;
+  int _freeMessagesUsed = 0;
+  int _freeMessagesRemaining = 0;
+  String _lastResetDate = '';
 
   // 本机用户信息（自己）
   String _selfAvatarPath = 'assets/user_default_icon_20250901.png';
@@ -49,6 +52,7 @@ class _ChatPageState extends State<ChatPage> {
     _initUser();
     _loadHistory();
     _loadCoinsAndVipStatus();
+    _loadFreeMessagesStatus();
   }
 
   Future<void> _loadCoinsAndVipStatus() async {
@@ -60,6 +64,38 @@ class _ChatPageState extends State<ChatPage> {
       setState(() {
         _currentCoins = coins;
         _isVipActive = isActive && !isExpired;
+      });
+      // 重新计算免费消息剩余数量
+      _updateFreeMessagesRemaining();
+    }
+  }
+
+  Future<void> _loadFreeMessagesStatus() async {
+    final prefs = await SharedPreferences.getInstance();
+    final today = DateTime.now().toIso8601String().split('T')[0]; // 获取今天的日期 YYYY-MM-DD
+    
+    if (mounted) {
+      setState(() {
+        _lastResetDate = prefs.getString('${_convKey}_last_reset_date') ?? '';
+        _freeMessagesUsed = prefs.getInt('${_convKey}_free_messages_used') ?? 0;
+        
+        // 如果是新的一天，重置免费消息计数
+        if (_lastResetDate != today) {
+          _freeMessagesUsed = 0;
+          _lastResetDate = today;
+          prefs.setString('${_convKey}_last_reset_date', today);
+          prefs.setInt('${_convKey}_free_messages_used', 0);
+        }
+      });
+      // 计算免费消息剩余数量
+      _updateFreeMessagesRemaining();
+    }
+  }
+
+  void _updateFreeMessagesRemaining() {
+    if (mounted) {
+      setState(() {
+        _freeMessagesRemaining = _isVipActive ? (3 - _freeMessagesUsed) : 0;
       });
     }
   }
@@ -112,8 +148,11 @@ class _ChatPageState extends State<ChatPage> {
     final text = _inputController.text.trim();
     if (text.isEmpty || _sending) return;
     
-    // 检查金币余额（所有用户都需要20金币）
-    if (_currentCoins < 20) {
+    // 检查是否可以使用免费消息
+    bool useFreeMessage = false;
+    if (_isVipActive && _freeMessagesRemaining > 0) {
+      useFreeMessage = true;
+    } else if (_currentCoins < 20) {
       _showInsufficientCoinsDialog();
       return;
     }
@@ -138,10 +177,16 @@ class _ChatPageState extends State<ChatPage> {
       _scrollToBottomDeferred();
       await _persist();
       
-      // 扣除金币（所有用户都扣除20金币）
-      await CoinService.spendCoins(20);
-      await _loadCoinsAndVipStatus();
-      _showToast('Message sent! -20 coins');
+      if (useFreeMessage) {
+        // 使用免费消息
+        await _useFreeMessage();
+        _showToast('Message sent! (Free message used)');
+      } else {
+        // 扣除金币
+        await CoinService.spendCoins(20);
+        await _loadCoinsAndVipStatus();
+        _showToast('Message sent! -20 coins');
+      }
     } catch (e) {
       if (!mounted) return;
       setState(() {
@@ -150,6 +195,20 @@ class _ChatPageState extends State<ChatPage> {
       });
       _scrollToBottomDeferred();
       await _persist();
+    }
+  }
+
+  Future<void> _useFreeMessage() async {
+    final prefs = await SharedPreferences.getInstance();
+    final newUsedCount = _freeMessagesUsed + 1;
+    
+    await prefs.setInt('${_convKey}_free_messages_used', newUsedCount);
+    
+    if (mounted) {
+      setState(() {
+        _freeMessagesUsed = newUsedCount;
+        _freeMessagesRemaining = _isVipActive ? (3 - _freeMessagesUsed) : 0;
+      });
     }
   }
 
@@ -242,23 +301,44 @@ class _ChatPageState extends State<ChatPage> {
           content: Column(
             mainAxisSize: MainAxisSize.min,
             children: [
-              Text(
-                'You need 20 coins to send a message.\nCurrent balance: $_currentCoins coins',
-                style: const TextStyle(
-                  fontSize: 16,
-                  color: Colors.black,
+              if (_isVipActive && _freeMessagesRemaining > 0) ...[
+                Text(
+                  'You have $_freeMessagesRemaining free messages remaining today!\nUse them before spending coins.',
+                  style: const TextStyle(
+                    fontSize: 16,
+                    color: Colors.green,
+                    fontWeight: FontWeight.w500,
+                  ),
+                  textAlign: TextAlign.center,
                 ),
-                textAlign: TextAlign.center,
-              ),
-              const SizedBox(height: 16),
-              const Text(
-                'Get more coins to continue chatting!',
-                style: TextStyle(
-                  fontSize: 14,
-                  color: Colors.grey,
+                const SizedBox(height: 12),
+                Text(
+                  'Current balance: $_currentCoins coins',
+                  style: const TextStyle(
+                    fontSize: 14,
+                    color: Colors.grey,
+                  ),
+                  textAlign: TextAlign.center,
                 ),
-                textAlign: TextAlign.center,
-              ),
+              ] else ...[
+                Text(
+                  'You need 20 coins to send a message.\nCurrent balance: $_currentCoins coins',
+                  style: const TextStyle(
+                    fontSize: 16,
+                    color: Colors.black,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+                const SizedBox(height: 16),
+                const Text(
+                  'Get more coins to continue chatting!',
+                  style: TextStyle(
+                    fontSize: 14,
+                    color: Colors.grey,
+                  ),
+                  textAlign: TextAlign.center,
+                ),
+              ],
             ],
           ),
           actions: [
@@ -276,28 +356,53 @@ class _ChatPageState extends State<ChatPage> {
                     ),
                   ),
                 ),
-                Expanded(
-                  child: ElevatedButton(
-                    onPressed: () {
-                      Navigator.of(context).pop();
-                      Navigator.pushNamed(context, '/wallet');
-                    },
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: const Color(0xFFFFD700),
-                      foregroundColor: Colors.black,
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20),
+                if (_isVipActive && _freeMessagesRemaining > 0) ...[
+                  Expanded(
+                    child: ElevatedButton(
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                        _send();
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: const Color(0xFF4CAF50),
+                        foregroundColor: Colors.white,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
                       ),
-                    ),
-                    child: const Text(
-                      'Get Coins',
-                      style: TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.bold,
+                      child: const Text(
+                        'Use Free Message',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
                       ),
                     ),
                   ),
-                ),
+                ] else ...[
+                  Expanded(
+                    child: ElevatedButton(
+                      onPressed: () {
+                        Navigator.of(context).pop();
+                        Navigator.pushNamed(context, '/wallet');
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: const Color(0xFFFFD700),
+                        foregroundColor: Colors.black,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(20),
+                        ),
+                      ),
+                      child: const Text(
+                        'Get Coins',
+                        style: TextStyle(
+                          fontSize: 16,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                  ),
+                ],
               ],
             ),
           ],
@@ -442,12 +547,35 @@ class _ChatPageState extends State<ChatPage> {
         title: Column(
           children: [
             Text(widget.userName),
-            Text(
-              '$_currentCoins coins',
-              style: const TextStyle(
-                fontSize: 12,
-                color: Colors.grey,
-              ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  '$_currentCoins coins',
+                  style: const TextStyle(
+                    fontSize: 12,
+                    color: Colors.grey,
+                  ),
+                ),
+                if (_isVipActive && _freeMessagesRemaining > 0) ...[
+                  const SizedBox(width: 8),
+                  Container(
+                    padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 2),
+                    decoration: BoxDecoration(
+                      color: const Color(0xFF4CAF50),
+                      borderRadius: BorderRadius.circular(10),
+                    ),
+                    child: Text(
+                      '$_freeMessagesRemaining free',
+                      style: const TextStyle(
+                        fontSize: 10,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold,
+                      ),
+                    ),
+                  ),
+                ],
+              ],
             ),
           ],
         ),
