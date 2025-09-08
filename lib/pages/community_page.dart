@@ -2,7 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'dart:convert';
+import 'dart:ui';
 import 'person_detail_page.dart';
+import 'vip_page.dart';
 
 class CommunityPage extends StatefulWidget {
   const CommunityPage({super.key});
@@ -15,12 +17,14 @@ class _CommunityPageState extends State<CommunityPage> {
   List<Map<String, dynamic>> peopleData = [];
   bool isLoading = true;
   Set<String> likedPosts = {};
+  bool _isVipUser = false; // VIP 用户状态
 
   @override
   void initState() {
     super.initState();
     _loadPeopleData();
     _loadLikedPosts();
+    _loadVipStatus();
   }
 
   // 加载用户数据
@@ -118,6 +122,111 @@ class _CommunityPageState extends State<CommunityPage> {
       }
     });
     await _saveLikedPosts();
+  }
+
+  // 加载 VIP 状态
+  Future<void> _loadVipStatus() async {
+    final prefs = await SharedPreferences.getInstance();
+    if (mounted) {
+      setState(() {
+        _isVipUser = prefs.getBool('isVipUser') ?? false;
+      });
+    }
+  }
+
+  // 检查 VIP 权限
+  bool _checkVipPermission(int index) {
+    // 前三个卡片（index 0, 1, 2）不需要 VIP 权限
+    return index < 3 || _isVipUser;
+  }
+
+  // 显示 VIP 提示对话框
+  void _showVipRequiredDialog() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          title: Row(
+            children: [
+              Container(
+                width: 24,
+                height: 24,
+                decoration: BoxDecoration(
+                  color: const Color(0xFFFFD700),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: const Center(
+                  child: Text(
+                    'V',
+                    style: TextStyle(
+                      color: Color(0xFF8B4513),
+                      fontSize: 14,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
+              const SizedBox(width: 8),
+              const Text(
+                'VIP Feature',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          ),
+          content: const Text(
+            'This content requires VIP membership to access.\n\nUpgrade to VIP membership to unlock more amazing content!',
+            style: TextStyle(
+              fontSize: 16,
+              height: 1.5,
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: const Text(
+                'Cancel',
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: 16,
+                ),
+              ),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const VipPage()),
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFFFFD700),
+                foregroundColor: const Color(0xFF8B4513),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+              ),
+              child: const Text(
+                'Upgrade VIP',
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ],
+        );
+      },
+    );
   }
 
   @override
@@ -252,9 +361,16 @@ class _CommunityPageState extends State<CommunityPage> {
   Widget _buildPersonCard(Map<String, dynamic> person, int index, {required double height}) {
     final postId = person['FenuUserName'];
     final isLiked = likedPosts.contains(postId);
+    final needsVip = !_checkVipPermission(index);
     
     return GestureDetector(
       onTap: () async {
+        // 检查 VIP 权限
+        if (needsVip) {
+          _showVipRequiredDialog();
+          return;
+        }
+        
         final result = await Navigator.push(
           context,
           MaterialPageRoute(
@@ -377,6 +493,79 @@ class _CommunityPageState extends State<CommunityPage> {
                   ),
                 ),
               ),
+              
+              // VIP 玻璃模糊效果 - 只在需要 VIP 权限时显示
+              if (needsVip)
+                Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(12),
+                    color: Colors.white.withOpacity(0.1),
+                  ),
+                  child: BackdropFilter(
+                    filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
+                    child: Container(
+                      decoration: BoxDecoration(
+                        borderRadius: BorderRadius.circular(12),
+                        color: Colors.black.withOpacity(0.3),
+                      ),
+                      child: Center(
+                        child: Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            // VIP 标识符
+                            Container(
+                              width: 60,
+                              height: 60,
+                              decoration: BoxDecoration(
+                                color: const Color(0xFFFFD700),
+                                borderRadius: BorderRadius.circular(30),
+                                border: Border.all(
+                                  color: const Color(0xFFFFA500),
+                                  width: 3,
+                                ),
+                                boxShadow: [
+                                  BoxShadow(
+                                    color: Colors.black.withOpacity(0.3),
+                                    spreadRadius: 2,
+                                    blurRadius: 8,
+                                    offset: const Offset(0, 4),
+                                  ),
+                                ],
+                              ),
+                              child: const Center(
+                                child: Text(
+                                  'V',
+                                  style: TextStyle(
+                                    color: Color(0xFF8B4513),
+                                    fontSize: 28,
+                                    fontWeight: FontWeight.bold,
+                                  ),
+                                ),
+                              ),
+                            ),
+                            const SizedBox(height: 12),
+                            const Text(
+                              'VIP Required',
+                              style: TextStyle(
+                                color: Colors.white,
+                                fontSize: 16,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
+                            const SizedBox(height: 4),
+                            const Text(
+                              'Tap to upgrade',
+                              style: TextStyle(
+                                color: Colors.white70,
+                                fontSize: 12,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
             ],
           ),
         ),

@@ -4,6 +4,7 @@ import 'dart:convert';
 import 'package:audioplayers/audioplayers.dart';
 import 'place_detail_page.dart';
 import 'search_page.dart';
+import 'vip_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -17,6 +18,7 @@ class _HomePageState extends State<HomePage> {
   late PageController _pageController;
   int _currentPageIndex = 1; // 默认从第2个开始
   Set<String> _favoriteItems = {}; // 收藏的景点ID集合
+  bool _isVipUser = false; // VIP 用户状态
   
   // 音乐播放器相关
   late AudioPlayer _audioPlayer;
@@ -32,6 +34,7 @@ class _HomePageState extends State<HomePage> {
       initialPage: 1,
     );
     _loadFavorites();
+    _loadVipStatus();
     _initAudioPlayer();
   }
   
@@ -116,6 +119,132 @@ class _HomePageState extends State<HomePage> {
     return _favoriteItems.contains(itemId);
   }
 
+  // 加载 VIP 状态
+  Future<void> _loadVipStatus() async {
+    final prefs = await SharedPreferences.getInstance();
+    if (mounted) {
+      setState(() {
+        _isVipUser = prefs.getBool('isVipUser') ?? false;
+      });
+    }
+  }
+
+  // 检查 VIP 权限
+  bool _checkVipPermission(int categoryIndex) {
+    // Canyon (1), Desert (2), Lake (3) 需要 VIP 权限
+    bool needsVip = categoryIndex == 1 || categoryIndex == 2 || categoryIndex == 3;
+    return !needsVip || _isVipUser;
+  }
+
+  // 显示 VIP 提示对话框
+  void _showVipRequiredDialog() {
+    showDialog(
+      context: context,
+      builder: (BuildContext context) {
+        return AlertDialog(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(16),
+          ),
+          title: Row(
+            children: [
+              Container(
+                width: 24,
+                height: 24,
+                decoration: BoxDecoration(
+                  color: const Color(0xFFFFD700),
+                  borderRadius: BorderRadius.circular(12),
+                ),
+                child: const Center(
+                  child: Text(
+                    'V',
+                    style: TextStyle(
+                      color: Color(0xFF8B4513),
+                      fontSize: 14,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ),
+              ),
+              const SizedBox(width: 8),
+              const Text(
+                'VIP Feature',
+                style: TextStyle(
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ],
+          ),
+          content: const Text(
+            'Canyon, Desert, and Lake categories require VIP membership to access.\n\nUpgrade to VIP membership to unlock more amazing content!',
+            style: TextStyle(
+              fontSize: 16,
+              height: 1.5,
+            ),
+          ),
+          actions: [
+            TextButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+              },
+              child: const Text(
+                'Cancel',
+                style: TextStyle(
+                  color: Colors.grey,
+                  fontSize: 16,
+                ),
+              ),
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.of(context).pop();
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => const VipPage()),
+                );
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color(0xFFFFD700),
+                foregroundColor: const Color(0xFF8B4513),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(8),
+                ),
+                padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
+              ),
+              child: const Text(
+                'Upgrade VIP',
+                style: TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.bold,
+                ),
+              ),
+            ),
+          ],
+        );
+      },
+    );
+  }
+
+  // 测试方法：切换 VIP 状态（用于调试）
+  Future<void> _toggleVipStatus() async {
+    final prefs = await SharedPreferences.getInstance();
+    if (mounted) {
+      setState(() {
+        _isVipUser = !_isVipUser;
+      });
+      await prefs.setBool('isVipUser', _isVipUser);
+      
+      // 显示状态提示
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Text(_isVipUser ? 'Upgraded to VIP User' : 'VIP Status Removed'),
+          backgroundColor: _isVipUser ? Colors.green : Colors.orange,
+          duration: const Duration(seconds: 2),
+        ),
+      );
+    }
+  }
+
   @override
   void dispose() {
     _pageController.dispose();
@@ -179,11 +308,32 @@ class _HomePageState extends State<HomePage> {
                       children: [
                         Icon(Icons.search, color: Colors.grey[600]),
                         const SizedBox(width: 12),
-                        Text(
-                          'Search destinations...',
-                          style: TextStyle(
-                            color: Colors.grey[600],
-                            fontSize: 16,
+                        Expanded(
+                          child: Text(
+                            'Search destinations...',
+                            style: TextStyle(
+                              color: Colors.grey[600],
+                              fontSize: 16,
+                            ),
+                          ),
+                        ),
+                        // VIP 状态测试按钮（调试用）
+                        GestureDetector(
+                          onTap: _toggleVipStatus,
+                          child: Container(
+                            padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                            decoration: BoxDecoration(
+                              color: _isVipUser ? const Color(0xFFFFD700) : Colors.grey[300],
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            child: Text(
+                              _isVipUser ? 'VIP' : 'Free',
+                              style: TextStyle(
+                                color: _isVipUser ? const Color(0xFF8B4513) : Colors.grey[600],
+                                fontSize: 12,
+                                fontWeight: FontWeight.bold,
+                              ),
+                            ),
                           ),
                         ),
                       ],
@@ -397,8 +547,14 @@ class _HomePageState extends State<HomePage> {
                       itemCount: _getAllPopularData().length,
                       itemBuilder: (context, index) {
                         final item = _getAllPopularData()[index];
+                        bool needsVip = !_isVipUser && index > 0; // 除了第一个，其他都需要VIP
+                        
                         return GestureDetector(
                           onTap: () {
+                            if (needsVip) {
+                              _showVipRequiredDialog();
+                              return;
+                            }
                             Navigator.push(
                               context,
                               MaterialPageRoute(
@@ -497,6 +653,61 @@ class _HomePageState extends State<HomePage> {
                                       ],
                                     ),
                                   ),
+                                  // VIP 蒙层 - 只在非VIP且不是第一个景点时显示
+                                  if (needsVip)
+                                    Container(
+                                      decoration: BoxDecoration(
+                                        borderRadius: BorderRadius.circular(12),
+                                        color: Colors.black.withOpacity(0.6),
+                                      ),
+                                      child: Center(
+                                        child: Column(
+                                          mainAxisAlignment: MainAxisAlignment.center,
+                                          children: [
+                                            // VIP 标识符
+                                            Container(
+                                              width: 48,
+                                              height: 48,
+                                              decoration: BoxDecoration(
+                                                color: const Color(0xFFFFD700),
+                                                borderRadius: BorderRadius.circular(24),
+                                                border: Border.all(
+                                                  color: const Color(0xFFFFA500),
+                                                  width: 2,
+                                                ),
+                                              ),
+                                              child: const Center(
+                                                child: Text(
+                                                  'V',
+                                                  style: TextStyle(
+                                                    color: Color(0xFF8B4513),
+                                                    fontSize: 24,
+                                                    fontWeight: FontWeight.bold,
+                                                  ),
+                                                ),
+                                              ),
+                                            ),
+                                            const SizedBox(height: 8),
+                                            const Text(
+                                              'VIP Required',
+                                              style: TextStyle(
+                                                color: Colors.white,
+                                                fontSize: 16,
+                                                fontWeight: FontWeight.bold,
+                                              ),
+                                            ),
+                                            const SizedBox(height: 4),
+                                            const Text(
+                                              'Tap to upgrade',
+                                              style: TextStyle(
+                                                color: Colors.white70,
+                                                fontSize: 12,
+                                              ),
+                                            ),
+                                          ],
+                                        ),
+                                      ),
+                                    ),
                                 ],
                               ),
                             ),
@@ -861,9 +1072,16 @@ class _HomePageState extends State<HomePage> {
 
   Widget _buildCategoryItem(String imagePath, String label, int index) {
     bool isSelected = selectedCategoryIndex == index;
+    bool isVipCategory = index == 1 || index == 2 || index == 3; // Canyon, Desert, Lake
     
     return GestureDetector(
       onTap: () {
+        // 检查 VIP 权限
+        if (!_checkVipPermission(index)) {
+          _showVipRequiredDialog();
+          return;
+        }
+        
         if (mounted) {
           setState(() {
             selectedCategoryIndex = index;
@@ -873,7 +1091,7 @@ class _HomePageState extends State<HomePage> {
       child: Container(
         width: 76,
         height: 76,
-      decoration: BoxDecoration(
+        decoration: BoxDecoration(
           color: isSelected ? const Color(0xFFF5FFE2) : const Color(0xFFEFEFEF),
           border: Border.all(
             color: isSelected ? const Color(0xFFBBFF36) : const Color(0xFFEFEFEF),
@@ -884,15 +1102,55 @@ class _HomePageState extends State<HomePage> {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset(
-              imagePath,
-              width: 32,
-              height: 32,
-              fit: BoxFit.contain,
+            // 图片和VIP标识符的容器
+            SizedBox(
+              width: 76,
+              height: 40,
+              child: Stack(
+                children: [
+                  // 图片居中
+                  Center(
+                    child: Image.asset(
+                      imagePath,
+                      width: 32,
+                      height: 32,
+                      fit: BoxFit.contain,
+                    ),
+                  ),
+                  // VIP 标识符 - 只在 Canyon, Desert, Lake 时显示
+                  if (isVipCategory)
+                    Positioned(
+                      top: 0,
+                      right: 6,
+                      child: Container(
+                        width: 16,
+                        height: 16,
+                        decoration: BoxDecoration(
+                          color: const Color(0xFFFFD700), // 金色背景
+                          borderRadius: BorderRadius.circular(8),
+                          border: Border.all(
+                            color: const Color(0xFFFFA500), // 橙色边框
+                            width: 1,
+                          ),
+                        ),
+                        child: const Center(
+                          child: Text(
+                            'V',
+                            style: TextStyle(
+                              color: Color(0xFF8B4513), // 深棕色文字
+                              fontSize: 10,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                ],
+              ),
             ),
             const SizedBox(height: 4),
             Text(
-        label,
+              label,
               style: const TextStyle(
                 color: Color(0xFF000000),
                 fontSize: 14,

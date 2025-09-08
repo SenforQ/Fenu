@@ -9,6 +9,7 @@ import 'favorite_detail_page.dart';
 import 'followers_detail_page.dart';
 import 'vip_page.dart';
 import 'wallet_page.dart';
+import 'music_list_page.dart';
 import '../services/vip_service.dart';
 
 class MinePage extends StatefulWidget {
@@ -160,6 +161,19 @@ class _MinePageState extends State<MinePage> {
               padding: const EdgeInsets.symmetric(horizontal: 16.0),
               child: Column(
                 children: [
+                  _buildMenuItem(
+                    imagePath: 'assets/mine_about_20250901.png',
+                    title: 'Music List',
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const MusicListPage(),
+                        ),
+                      );
+                    },
+                  ),
+                  const SizedBox(height: 1),
                   _buildMenuItem(
                     imagePath: 'assets/mine_about_20250901.png',
                     title: 'About us',
