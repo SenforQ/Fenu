@@ -21,8 +21,8 @@ class VipProduct {
 }
 
 final List<VipProduct> kVipProducts = [
-  VipProduct(productId: 'FenuWeekVIP', period: 'Per week', price: 12.99, priceText: '\$12.99'),
-  VipProduct(productId: 'FenuMonthVIP', period: 'Per month', price: 49.99, priceText: '\$49.99'),
+  VipProduct(productId: 'FenuWeekVIP', period: 'Per week', price: 6.99, priceText: '\$6.99'),
+  VipProduct(productId: 'FenuMonthVIP', period: 'Per month', price: 12.99, priceText: '\$12.99'),
 ];
 
 class VipPage extends StatefulWidget {
