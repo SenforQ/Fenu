@@ -11,16 +11,43 @@ class VipProduct {
   final String period;
   final double price;
   final String priceText;
+  final bool isPriceLoaded;
+  final double? originalPrice;
+  final String? originalPriceText;
 
   VipProduct({
     required this.productId,
     required this.period,
     required this.price,
     required this.priceText,
+    this.isPriceLoaded = false,
+    this.originalPrice,
+    this.originalPriceText,
   });
+
+  VipProduct copyWith({
+    String? productId,
+    String? period,
+    double? price,
+    String? priceText,
+    bool? isPriceLoaded,
+    double? originalPrice,
+    String? originalPriceText,
+  }) {
+    return VipProduct(
+      productId: productId ?? this.productId,
+      period: period ?? this.period,
+      price: price ?? this.price,
+      priceText: priceText ?? this.priceText,
+      isPriceLoaded: isPriceLoaded ?? this.isPriceLoaded,
+      originalPrice: originalPrice ?? this.originalPrice,
+      originalPriceText: originalPriceText ?? this.originalPriceText,
+    );
+  }
 }
 
-final List<VipProduct> kVipProducts = [
+// 初始VIP产品列表（使用默认价格，后续会被苹果商店实际价格覆盖）
+List<VipProduct> kVipProducts = [
   VipProduct(productId: 'FenuWeekVIP', period: 'Per week', price: 6.99, priceText: '\$6.99'),
   VipProduct(productId: 'FenuMonthVIP', period: 'Per month', price: 12.99, priceText: '\$12.99'),
 ];
@@ -40,6 +67,7 @@ class _VipPageState extends State<VipPage> {
   int _retryCount = 0;
   static const int maxRetries = 3;
   static const int timeoutDuration = 30; // 30秒超时
+  bool _isPriceLoading = true; // 价格加载状态
   
   // 滚动控制器
   late ScrollController _scrollController;
@@ -49,6 +77,7 @@ class _VipPageState extends State<VipPage> {
   StreamSubscription<List<PurchaseDetails>>? _subscription;
   bool _isAvailable = false;
   Map<String, ProductDetails> _products = {};
+  List<VipProduct> _vipProducts = List.from(kVipProducts); // 当前显示的产品列表
 
   @override
   void initState() {
@@ -123,10 +152,17 @@ class _VipPageState extends State<VipPage> {
           return;
         }
         _showToast('Failed to load products: ${response.error!.message}');
+        setState(() {
+          _isPriceLoading = false;
+        });
       }
       setState(() {
         _products = {for (var p in response.productDetails) p.id: p};
+        _isPriceLoading = false;
       });
+      
+      // 更新产品价格
+      _updateProductPrices();
       
       _subscription = _inAppPurchase.purchaseStream.listen(
         _onPurchaseUpdate,
@@ -147,6 +183,9 @@ class _VipPageState extends State<VipPage> {
       } else {
         if (mounted) {
           _showToast('Failed to initialize in-app purchases. Please try again later.');
+          setState(() {
+            _isPriceLoading = false;
+          });
         }
       }
     }
@@ -170,6 +209,49 @@ class _VipPageState extends State<VipPage> {
       }
     } catch (e) {
       print('VipPage - Error loading VIP status: $e');
+    }
+  }
+
+  /// 更新产品价格（从苹果商店获取实际价格）
+  void _updateProductPrices() {
+    if (_products.isEmpty) {
+      // 如果没有产品详情，保持原价格但标记为未加载
+      setState(() {
+        _vipProducts = kVipProducts.map((product) => product.copyWith(isPriceLoaded: false)).toList();
+      });
+      return;
+    }
+    
+    final updatedProducts = <VipProduct>[];
+    bool hasAnyLoadedPrice = false;
+    
+    for (final vipProduct in kVipProducts) {
+      final productDetails = _products[vipProduct.productId];
+      
+      if (productDetails != null) {
+        // 使用苹果商店的实际价格
+        final updatedProduct = vipProduct.copyWith(
+          price: productDetails.rawPrice,
+          priceText: productDetails.price,
+          isPriceLoaded: true,
+          originalPrice: vipProduct.price,
+          originalPriceText: vipProduct.priceText,
+        );
+        updatedProducts.add(updatedProduct);
+        hasAnyLoadedPrice = true;
+      } else {
+        // 如果找不到产品详情，保持原价格但标记为未加载
+        updatedProducts.add(vipProduct.copyWith(isPriceLoaded: false));
+      }
+    }
+    
+    setState(() {
+      _vipProducts = updatedProducts;
+    });
+    
+    // 如果没有任何价格加载成功，显示提示
+    if (!hasAnyLoadedPrice) {
+      _showToast('Unable to load current prices. Using default prices.');
     }
   }
 
@@ -251,7 +333,7 @@ class _VipPageState extends State<VipPage> {
     }
     
     // 根据选择确定要购买的产品
-    final selectedProduct = selectedOption == 0 ? kVipProducts[0] : kVipProducts[1];
+    final selectedProduct = selectedOption == 0 ? _vipProducts[0] : _vipProducts[1];
     
     setState(() {
       _loadingStates[selectedProduct.productId] = true; // 设置当前商品的loading状态
@@ -499,10 +581,11 @@ class _VipPageState extends State<VipPage> {
                 });
               },
               child: _buildOptionItem(
-                kVipProducts[0].priceText,
-                kVipProducts[0].period,
-                'Total ${kVipProducts[0].priceText}',
+                _vipProducts[0].priceText,
+                _vipProducts[0].period,
+                'Total ${_vipProducts[0].priceText}',
                 isSelected: selectedOption == 0,
+                isPriceLoaded: _vipProducts[0].isPriceLoaded,
               ),
             ),
             const SizedBox(width: 12),
@@ -513,10 +596,11 @@ class _VipPageState extends State<VipPage> {
                 });
               },
               child: _buildOptionItem(
-                kVipProducts[1].priceText,
-                kVipProducts[1].period,
-                'Total ${kVipProducts[1].priceText}',
+                _vipProducts[1].priceText,
+                _vipProducts[1].period,
+                'Total ${_vipProducts[1].priceText}',
                 isSelected: selectedOption == 1,
+                isPriceLoaded: _vipProducts[1].isPriceLoaded,
               ),
             ),
           ],
@@ -527,7 +611,7 @@ class _VipPageState extends State<VipPage> {
     );
   }
 
-  Widget _buildOptionItem(String price, String period, String total, {required bool isSelected}) {
+  Widget _buildOptionItem(String price, String period, String total, {required bool isSelected, bool isPriceLoaded = true}) {
     final screenWidth = MediaQuery.of(context).size.width;
     final itemWidth = (screenWidth - 40 - 12) / 2.0;
     
@@ -547,14 +631,39 @@ class _VipPageState extends State<VipPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            Text(
-              price,
-              style: TextStyle(
-                color: isSelected ? const Color(0xFF87A156) : const Color(0xFF333333),
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
+            if (isPriceLoaded)
+              Text(
+                price,
+                style: TextStyle(
+                  color: isSelected ? const Color(0xFF87A156) : const Color(0xFF333333),
+                  fontSize: 18,
+                  fontWeight: FontWeight.bold,
+                ),
+              )
+            else
+              Row(
+                children: [
+                  SizedBox(
+                    width: 16,
+                    height: 16,
+                    child: CircularProgressIndicator(
+                      strokeWidth: 2,
+                      valueColor: AlwaysStoppedAnimation<Color>(
+                        isSelected ? const Color(0xFF87A156) : const Color(0xFF333333),
+                      ),
+                    ),
+                  ),
+                  const SizedBox(width: 8),
+                  Text(
+                    'Loading...',
+                    style: TextStyle(
+                      color: isSelected ? const Color(0xFF87A156) : const Color(0xFF333333),
+                      fontSize: 14,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                ],
               ),
-            ),
             const SizedBox(height: 4),
             Text(
               period,
@@ -564,13 +673,22 @@ class _VipPageState extends State<VipPage> {
               ),
             ),
             const SizedBox(height: 4),
-            Text(
-              total,
-              style: TextStyle(
-                color: isSelected ? const Color(0xFF87A156) : const Color(0xFF999999),
-                fontSize: 12,
+            if (isPriceLoaded)
+              Text(
+                total,
+                style: TextStyle(
+                  color: isSelected ? const Color(0xFF87A156) : const Color(0xFF999999),
+                  fontSize: 12,
+                ),
+              )
+            else
+              Text(
+                'Price loading...',
+                style: TextStyle(
+                  color: isSelected ? const Color(0xFF87A156) : const Color(0xFF999999),
+                  fontSize: 12,
+                ),
               ),
-            ),
           ],
         ),
       ),
@@ -578,22 +696,38 @@ class _VipPageState extends State<VipPage> {
   }
 
   Widget _buildPurchaseButton() {
+    // 检查是否有产品价格已加载
+    final hasLoadedPrices = _vipProducts.any((product) => product.isPriceLoaded);
+    final selectedProduct = selectedOption < _vipProducts.length ? _vipProducts[selectedOption] : null;
+    final canPurchase = !_isVipActive && 
+                       selectedProduct != null && 
+                       selectedProduct.isPriceLoaded && 
+                       !_isPriceLoading;
+    
     return Column(
       children: [
         Container(
           width: double.infinity,
           height: 50,
           child: ElevatedButton(
-            onPressed: _isVipActive ? null : _handleConfirmPurchase,
+            onPressed: canPurchase ? _handleConfirmPurchase : null,
             style: ElevatedButton.styleFrom(
-              backgroundColor: const Color(0xFFBCFF39),
-              foregroundColor: Colors.black,
+              backgroundColor: canPurchase ? const Color(0xFFBCFF39) : const Color(0xFFE0E0E0),
+              foregroundColor: canPurchase ? Colors.black : const Color(0xFF999999),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(25),
               ),
             ),
             child: Text(
-              _isVipActive ? 'VIP Active' : 'Purchase',
+              _isVipActive 
+                ? 'VIP Active' 
+                : _isPriceLoading 
+                  ? 'Loading Prices...'
+                  : !hasLoadedPrices
+                    ? 'Price Unavailable'
+                    : selectedProduct?.isPriceLoaded == false
+                      ? 'Price Loading...'
+                      : 'Purchase',
               style: const TextStyle(
                 fontSize: 18,
                 fontWeight: FontWeight.bold,
