@@ -28,8 +28,8 @@ final List<CoinProduct> kCoinProducts = [
   CoinProduct(productId: 'Fenu19', coins: 729, price: 19.99, priceText: '\$19.99'),
   CoinProduct(productId: 'Fenu49', coins: 1869, price: 49.99, priceText: '\$49.99'),
   CoinProduct(productId: 'Fenu99', coins: 3799, price: 99.99, priceText: '\$99.99'),
-  CoinProduct(productId: 'Fenu159', coins: 8999, price: 159.99, priceText: '\$159.99'),
-  CoinProduct(productId: 'Fenu239', coins: 188888, price: 239.99, priceText: '\$239.99'), 
+  CoinProduct(productId: 'Fenu159', coins: 8666, price: 159.99, priceText: '\$159.99'),
+  CoinProduct(productId: 'Fenu239', coins: 18666, price: 239.99, priceText: '\$239.99'), 
 ];
 
 class WalletPage extends StatefulWidget {
