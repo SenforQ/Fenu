@@ -27,10 +27,9 @@ class CustomTabBar extends StatelessWidget {
       child: Row(
         children: [
           _buildTabItem(0, 'assets/tab_1_n_20250831.png', 'assets/tab_1_s_20250831.png'),
-          _buildTabItem(1, 'assets/tab_2_n_20250831.png', 'assets/tab_2_s_20250831.png'),
-          _buildTabItem(2, 'assets/tab_3_n_20250831.png', 'assets/tab_3_s_20250831.png'),
-          _buildTabItem(3, 'assets/tab_4_n_20250831.png', 'assets/tab_4_s_20250831.png'),
-          _buildTabItem(4, 'assets/tab_5_n_20250831.png', 'assets/tab_5_s_20250831.png'),
+          _buildTabItem(1, 'assets/tab_3_n_20250831.png', 'assets/tab_3_s_20250831.png'),
+          _buildTabItem(2, 'assets/tab_4_n_20250831.png', 'assets/tab_4_s_20250831.png'),
+          _buildTabItem(3, 'assets/tab_5_n_20250831.png', 'assets/tab_5_s_20250831.png'),
         ],
       ),
     );

@@ -5,6 +5,7 @@ import 'package:audioplayers/audioplayers.dart';
 import 'place_detail_page.dart';
 import 'search_page.dart';
 import 'vip_page.dart';
+import 'community_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -530,8 +531,33 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                   ),
-                  const SizedBox(height: 24),
+
+                  const SizedBox(height: 16),
       
+                  Image.asset(
+                    'assets/community_discover_20250902.png',
+                    width: 231,
+                    height: 24,
+                    fit: BoxFit.contain,
+                  ),
+                  const SizedBox(height: 16),
+                  GestureDetector(
+                    onTap: () {
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(
+                          builder: (context) => const CommunityPage(),
+                        ),
+                      );
+                    },
+                    child: Image.asset(
+                      'assets/community_top_20250902.png',
+                      width: screenWidth,
+                      fit: BoxFit.cover,
+                    ),
+                  ),
+
+                  const SizedBox(height: 16),
                   Image.asset(
                     'assets/home_featured_20250902.png',
                     width: 197,

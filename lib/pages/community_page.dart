@@ -134,10 +134,10 @@ class _CommunityPageState extends State<CommunityPage> {
     }
   }
 
-  // 检查 VIP 权限
+  // 检查 VIP 权限 - 已禁用
   bool _checkVipPermission(int index) {
-    // 前三个卡片（index 0, 1, 2）不需要 VIP 权限
-    return index < 3 || _isVipUser;
+    // 所有卡片都不需要 VIP 权限
+    return true;
   }
 
   // 显示 VIP 提示对话框
@@ -248,6 +248,43 @@ class _CommunityPageState extends State<CommunityPage> {
                 // 状态栏安全区域
                 SliverToBoxAdapter(
                   child: SizedBox(height: MediaQuery.of(context).padding.top),
+                ),
+                
+                // 返回按钮
+                SliverToBoxAdapter(
+                  child: Padding(
+                    padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 8),
+                    child: Row(
+                      children: [
+                        GestureDetector(
+                          onTap: () {
+                            Navigator.of(context).pop();
+                          },
+                          child: Container(
+                            width: 40,
+                            height: 40,
+                            decoration: BoxDecoration(
+                              color: Colors.white.withOpacity(0.9),
+                              borderRadius: BorderRadius.circular(20),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withOpacity(0.1),
+                                  spreadRadius: 1,
+                                  blurRadius: 4,
+                                  offset: const Offset(0, 2),
+                                ),
+                              ],
+                            ),
+                            child: const Icon(
+                              Icons.arrow_back_ios,
+                              color: Colors.black87,
+                              size: 20,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
                 
                 // 顶部横幅区域
@@ -361,16 +398,9 @@ class _CommunityPageState extends State<CommunityPage> {
   Widget _buildPersonCard(Map<String, dynamic> person, int index, {required double height}) {
     final postId = person['FenuUserName'];
     final isLiked = likedPosts.contains(postId);
-    final needsVip = !_checkVipPermission(index);
     
     return GestureDetector(
       onTap: () async {
-        // 检查 VIP 权限
-        if (needsVip) {
-          _showVipRequiredDialog();
-          return;
-        }
-        
         final result = await Navigator.push(
           context,
           MaterialPageRoute(
@@ -494,78 +524,6 @@ class _CommunityPageState extends State<CommunityPage> {
                 ),
               ),
               
-              // VIP 玻璃模糊效果 - 只在需要 VIP 权限时显示
-              if (needsVip)
-                Container(
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(12),
-                    color: Colors.white.withOpacity(0.1),
-                  ),
-                  child: BackdropFilter(
-                    filter: ImageFilter.blur(sigmaX: 10, sigmaY: 10),
-                    child: Container(
-                      decoration: BoxDecoration(
-                        borderRadius: BorderRadius.circular(12),
-                        color: Colors.black.withOpacity(0.3),
-                      ),
-                      child: Center(
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            // VIP 标识符
-                            Container(
-                              width: 60,
-                              height: 60,
-                              decoration: BoxDecoration(
-                                color: const Color(0xFFFFD700),
-                                borderRadius: BorderRadius.circular(30),
-                                border: Border.all(
-                                  color: const Color(0xFFFFA500),
-                                  width: 3,
-                                ),
-                                boxShadow: [
-                                  BoxShadow(
-                                    color: Colors.black.withOpacity(0.3),
-                                    spreadRadius: 2,
-                                    blurRadius: 8,
-                                    offset: const Offset(0, 4),
-                                  ),
-                                ],
-                              ),
-                              child: const Center(
-                                child: Text(
-                                  'V',
-                                  style: TextStyle(
-                                    color: Color(0xFF8B4513),
-                                    fontSize: 28,
-                                    fontWeight: FontWeight.bold,
-                                  ),
-                                ),
-                              ),
-                            ),
-                            const SizedBox(height: 12),
-                            const Text(
-                              'VIP Required',
-                              style: TextStyle(
-                                color: Colors.white,
-                                fontSize: 16,
-                                fontWeight: FontWeight.bold,
-                              ),
-                            ),
-                            const SizedBox(height: 4),
-                            const Text(
-                              'Tap to upgrade',
-                              style: TextStyle(
-                                color: Colors.white70,
-                                fontSize: 12,
-                              ),
-                            ),
-                          ],
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
             ],
           ),
         ),
