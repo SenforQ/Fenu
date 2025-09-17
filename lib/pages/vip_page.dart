@@ -394,8 +394,12 @@ class _VipPageState extends State<VipPage> {
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
           content: Text(message),
-          backgroundColor: const Color(0xFF4A1B4A),
+          backgroundColor: const Color(0xFF4CAF50),
           duration: const Duration(seconds: 2),
+          behavior: SnackBarBehavior.floating,
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(8),
+          ),
         ),
       );
     }
@@ -515,23 +519,117 @@ class _VipPageState extends State<VipPage> {
   }
 
   Widget _buildVipBenefits() {
-    return Padding(
-      padding: const EdgeInsets.only(top: 20, left: 20, right: 20),
+    return Container(
+      margin: const EdgeInsets.symmetric(horizontal: 20),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
+          // VIP 标题和描述
+          Container(
+            padding: const EdgeInsets.all(24),
+            decoration: BoxDecoration(
+              gradient: const LinearGradient(
+                begin: Alignment.topLeft,
+                end: Alignment.bottomRight,
+                colors: [
+                  Color(0xFF4CAF50),
+                  Color(0xFF2E7D32),
+                ],
+              ),
+              borderRadius: BorderRadius.circular(16),
+              boxShadow: [
+                BoxShadow(
+                  color: const Color(0xFF4CAF50).withOpacity(0.3),
+                  spreadRadius: 0,
+                  blurRadius: 20,
+                  offset: const Offset(0, 8),
+                ),
+              ],
+            ),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                const Text(
+                  'Upgrade to VIP',
+                  style: TextStyle(
+                    color: Colors.white,
+                    fontSize: 28,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+                const SizedBox(height: 8),
+                const Text(
+                  'Unlock premium features and enjoy an enhanced experience',
+                  style: TextStyle(
+                    color: Colors.white70,
+                    fontSize: 16,
+                    height: 1.4,
+                  ),
+                ),
+                const SizedBox(height: 20),
+                // 权益预览
+                Row(
+                  children: [
+                    _buildQuickBenefit('Unlimited'),
+                    const SizedBox(width: 16),
+                    _buildQuickBenefit('Ad-Free'),
+                    const SizedBox(width: 16),
+                    _buildQuickBenefit('Premium'),
+                  ],
+                ),
+              ],
+            ),
+          ),
           
+          const SizedBox(height: 24),
+          
+          // 详细权益列表
+          const Text(
+            'VIP Benefits',
+            style: TextStyle(
+              fontSize: 20,
+              fontWeight: FontWeight.bold,
+              color: Colors.black,
+            ),
+          ),
           const SizedBox(height: 16),
-          _buildBenefitItem('Unlimited Profile Editing'),
-          const SizedBox(height: 6),
-          _buildBenefitItem('Ad-Free Experience'),
-          const SizedBox(height: 6),
-          _buildBenefitItem('Unlimited Create Post'),
-          const SizedBox(height: 6),
-          _buildBenefitItem('3 Free Messages Daily'),
-          const SizedBox(height: 6),
-          _buildBenefitItem('Access to Team Activities'),
-          const SizedBox(height: 20),
+          
+          // 权益统一容器
+          Container(
+            padding: const EdgeInsets.all(20),
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(16),
+              border: Border.all(
+                color: const Color(0xFFE0E0E0),
+                width: 1,
+              ),
+              boxShadow: [
+                BoxShadow(
+                  color: Colors.black.withOpacity(0.05),
+                  spreadRadius: 0,
+                  blurRadius: 8,
+                  offset: const Offset(0, 2),
+                ),
+              ],
+            ),
+            child: Column(
+              children: [
+                _buildBenefitRow('Unlimited Profile Editing', Icons.edit),
+                const SizedBox(height: 16),
+                _buildBenefitRow('Ad-Free Experience', Icons.block),
+                const SizedBox(height: 16),
+                _buildBenefitRow('Unlimited Create Post', Icons.add_circle),
+                const SizedBox(height: 16),
+                _buildBenefitRow('3 Free Messages Daily', Icons.message),
+                const SizedBox(height: 16),
+                _buildBenefitRow('Access to Team Activities', Icons.group),
+              ],
+            ),
+          ),
+          
+          const SizedBox(height: 32),
+          
           // 添加选项区域
           _buildOptionsSection(),
         ],
@@ -539,39 +637,77 @@ class _VipPageState extends State<VipPage> {
     );
   }
 
-  Widget _buildBenefitItem(String title) {
+  Widget _buildQuickBenefit(String text) {
     return Container(
-      padding: const EdgeInsets.all(16),
+      padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
       decoration: BoxDecoration(
-        color: const Color(0xFFF8F8F8),
-        borderRadius: BorderRadius.circular(12),
+        color: Colors.white.withOpacity(0.2),
+        borderRadius: BorderRadius.circular(20),
+        border: Border.all(
+          color: Colors.white.withOpacity(0.3),
+          width: 1,
+        ),
       ),
-      child: Row(
-        children: [
-          const Icon(
-            Icons.check_circle,
-            color: Color(0xFFBCFF39),
+      child: Text(
+        text,
+        style: const TextStyle(
+          color: Colors.white,
+          fontSize: 12,
+          fontWeight: FontWeight.w600,
+        ),
+      ),
+    );
+  }
+
+  Widget _buildBenefitRow(String title, IconData icon) {
+    return Row(
+      children: [
+        Container(
+          width: 40,
+          height: 40,
+          decoration: BoxDecoration(
+            color: const Color(0xFF4CAF50).withOpacity(0.1),
+            borderRadius: BorderRadius.circular(20),
+          ),
+          child: Icon(
+            icon,
+            color: const Color(0xFF4CAF50),
             size: 20,
           ),
-          const SizedBox(width: 12),
-          Expanded(
-            child: Text(
-              title,
-              style: const TextStyle(
-                color: Color(0xFF333333),
-                fontSize: 16,
-                fontWeight: FontWeight.w500,
-              ),
+        ),
+        const SizedBox(width: 16),
+        Expanded(
+          child: Text(
+            title,
+            style: const TextStyle(
+              color: Color(0xFF333333),
+              fontSize: 16,
+              fontWeight: FontWeight.w500,
             ),
           ),
-        ],
-      ),
+        ),
+        const Icon(
+          Icons.check_circle,
+          color: Color(0xFF4CAF50),
+          size: 20,
+        ),
+      ],
     );
   }
 
   Widget _buildOptionsSection() {
     return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
+        const Text(
+          'Choose Your Plan',
+          style: TextStyle(
+            fontSize: 20,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+          ),
+        ),
+        const SizedBox(height: 16),
         Row(
           children: [
             GestureDetector(
@@ -605,7 +741,7 @@ class _VipPageState extends State<VipPage> {
             ),
           ],
         ),
-        const SizedBox(height: 20),
+        const SizedBox(height: 24),
         _buildPurchaseButton(),
       ],
     );
@@ -617,77 +753,134 @@ class _VipPageState extends State<VipPage> {
     
     return Container(
       width: itemWidth,
-      height: 110,
+      height: 120,
       decoration: BoxDecoration(
-        color: isSelected ? const Color(0xFFBCFF39).withOpacity(0.1) : Colors.white,
-        borderRadius: BorderRadius.circular(12),
+        color: isSelected ? const Color(0xFF4CAF50).withOpacity(0.1) : Colors.white,
+        borderRadius: BorderRadius.circular(16),
         border: Border.all(
-          color: isSelected ? const Color(0xFFBCFF39) : const Color(0xFFE0E0E0),
-          width: 1,
+          color: isSelected ? const Color(0xFF4CAF50) : const Color(0xFFE0E0E0),
+          width: isSelected ? 2 : 1,
         ),
+        boxShadow: [
+          BoxShadow(
+            color: isSelected 
+                ? const Color(0xFF4CAF50).withOpacity(0.2)
+                : Colors.black.withOpacity(0.05),
+            spreadRadius: 0,
+            blurRadius: isSelected ? 12 : 4,
+            offset: Offset(0, isSelected ? 4 : 2),
+          ),
+        ],
       ),
       child: Padding(
-        padding: const EdgeInsets.all(16),
+        padding: const EdgeInsets.all(12),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
+          mainAxisSize: MainAxisSize.min,
           children: [
+            // 选中指示器
+            if (isSelected)
+              Container(
+                width: 16,
+                height: 16,
+                decoration: const BoxDecoration(
+                  color: Color(0xFF4CAF50),
+                  shape: BoxShape.circle,
+                ),
+                child: const Icon(
+                  Icons.check,
+                  color: Colors.white,
+                  size: 10,
+                ),
+              )
+            else
+              Container(
+                width: 16,
+                height: 16,
+                decoration: BoxDecoration(
+                  color: Colors.transparent,
+                  shape: BoxShape.circle,
+                  border: Border.all(
+                    color: const Color(0xFFE0E0E0),
+                    width: 2,
+                  ),
+                ),
+              ),
+            
+            const SizedBox(height: 8),
+            
             if (isPriceLoaded)
               Text(
                 price,
                 style: TextStyle(
-                  color: isSelected ? const Color(0xFF87A156) : const Color(0xFF333333),
+                  color: isSelected ? const Color(0xFF2E7D32) : const Color(0xFF333333),
                   fontSize: 18,
                   fontWeight: FontWeight.bold,
                 ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
               )
             else
               Row(
                 children: [
                   SizedBox(
-                    width: 16,
-                    height: 16,
+                    width: 14,
+                    height: 14,
                     child: CircularProgressIndicator(
                       strokeWidth: 2,
                       valueColor: AlwaysStoppedAnimation<Color>(
-                        isSelected ? const Color(0xFF87A156) : const Color(0xFF333333),
+                        isSelected ? const Color(0xFF2E7D32) : const Color(0xFF333333),
                       ),
                     ),
                   ),
-                  const SizedBox(width: 8),
-                  Text(
-                    'Loading...',
-                    style: TextStyle(
-                      color: isSelected ? const Color(0xFF87A156) : const Color(0xFF333333),
-                      fontSize: 14,
-                      fontWeight: FontWeight.w500,
+                  const SizedBox(width: 6),
+                  Expanded(
+                    child: Text(
+                      'Loading...',
+                      style: TextStyle(
+                        color: isSelected ? const Color(0xFF2E7D32) : const Color(0xFF333333),
+                        fontSize: 12,
+                        fontWeight: FontWeight.w500,
+                      ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
                     ),
                   ),
                 ],
               ),
-            const SizedBox(height: 4),
+            const SizedBox(height: 2),
             Text(
               period,
               style: TextStyle(
-                color: isSelected ? const Color(0xFF87A156) : const Color(0xFF666666),
-                fontSize: 14,
+                color: isSelected ? const Color(0xFF2E7D32) : const Color(0xFF666666),
+                fontSize: 12,
+                fontWeight: FontWeight.w500,
               ),
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
             ),
             const SizedBox(height: 4),
             if (isPriceLoaded)
               Text(
                 total,
                 style: TextStyle(
-                  color: isSelected ? const Color(0xFF87A156) : const Color(0xFF999999),
-                  fontSize: 12,
+                  color: isSelected ? const Color(0xFF2E7D32) : const Color(0xFF999999),
+                  fontSize: 10,
+                  fontWeight: FontWeight.w500,
                 ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
               )
             else
               Text(
                 'Price loading...',
                 style: TextStyle(
-                  color: isSelected ? const Color(0xFF87A156) : const Color(0xFF999999),
-                  fontSize: 12,
+                  color: isSelected ? const Color(0xFF2E7D32) : const Color(0xFF999999),
+                  fontSize: 10,
+                  fontWeight: FontWeight.w500,
                 ),
+                maxLines: 1,
+                overflow: TextOverflow.ellipsis,
               ),
           ],
         ),
@@ -708,15 +901,17 @@ class _VipPageState extends State<VipPage> {
       children: [
         Container(
           width: double.infinity,
-          height: 50,
+          height: 56,
           child: ElevatedButton(
             onPressed: canPurchase ? _handleConfirmPurchase : null,
             style: ElevatedButton.styleFrom(
-              backgroundColor: canPurchase ? const Color(0xFFBCFF39) : const Color(0xFFE0E0E0),
-              foregroundColor: canPurchase ? Colors.black : const Color(0xFF999999),
+              backgroundColor: canPurchase ? const Color(0xFF4CAF50) : const Color(0xFFE0E0E0),
+              foregroundColor: canPurchase ? Colors.white : const Color(0xFF999999),
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(25),
+                borderRadius: BorderRadius.circular(16),
               ),
+              elevation: canPurchase ? 4 : 0,
+              shadowColor: canPurchase ? const Color(0xFF4CAF50).withOpacity(0.3) : Colors.transparent,
             ),
             child: Text(
               _isVipActive 
@@ -727,10 +922,10 @@ class _VipPageState extends State<VipPage> {
                     ? 'Price Unavailable'
                     : selectedProduct?.isPriceLoaded == false
                       ? 'Price Loading...'
-                      : 'Purchase',
+                      : 'Start VIP Subscription',
               style: const TextStyle(
                 fontSize: 18,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w600,
               ),
             ),
           ),
@@ -739,26 +934,38 @@ class _VipPageState extends State<VipPage> {
         // 添加Restore按钮
         Container(
           width: double.infinity,
-          height: 50,
+          height: 48,
           child: OutlinedButton(
             onPressed: _restorePurchases,
             style: OutlinedButton.styleFrom(
-              foregroundColor: const Color(0xFF000000),
-              side: const BorderSide(color: Color(0xFFBCFF39), width: 1),
+              foregroundColor: const Color(0xFF4CAF50),
+              side: const BorderSide(color: Color(0xFF4CAF50), width: 1.5),
               shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(25),
+                borderRadius: BorderRadius.circular(16),
               ),
             ),
             child: const Text(
-              'Restore',
+              'Restore Purchases',
               style: TextStyle(
-                fontSize: 18,
-                fontWeight: FontWeight.bold,
+                fontSize: 16,
+                fontWeight: FontWeight.w600,
               ),
             ),
           ),
+        ),
+        const SizedBox(height: 16),
+        // 添加说明文字
+        Text(
+          'Subscription will be charged to your Apple ID account. You can cancel anytime in Settings.',
+          style: TextStyle(
+            color: Colors.grey[600],
+            fontSize: 12,
+            height: 1.4,
+          ),
+          textAlign: TextAlign.center,
         ),
       ],
     );
   }
 }
+

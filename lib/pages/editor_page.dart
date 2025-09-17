@@ -16,6 +16,17 @@ class _EditorPageState extends State<EditorPage> {
   final TextEditingController _locationController = TextEditingController();
   final ImagePicker _picker = ImagePicker();
   List<XFile> _selectedImages = [];
+  
+  // 露营装备标签列表
+  final List<String> _campingTags = [
+    'Tent', 'Sleeping Bag', 'Sleeping Pad', 'Camping Light', 'Headlamp', 'Stove', 'Cookware', 'Utensils',
+    'Water Bottle', 'Backpack', 'Trekking Poles', 'Compass', 'Map', 'First Aid Kit', 'Sunscreen',
+    'Insect Repellent', 'Folding Chair', 'Folding Table', 'Tarp', 'Tent Stakes', 'Guy Lines', 'Air Mattress',
+    'Thermos', 'Multi-tool', 'Lighter', 'Matches', 'Rope', 'Carabiners', 'Storage Bags'
+  ];
+  
+  // 选中的标签
+  Set<String> _selectedTags = <String>{};
 
   @override
   void dispose() {
@@ -68,7 +79,7 @@ class _EditorPageState extends State<EditorPage> {
                         begin: Alignment.topCenter,
                         end: Alignment.bottomCenter,
                         colors: [
-                          Colors.black.withOpacity(0.3),
+                          const Color(0xFF4CAF50).withOpacity(0.3),
                           Colors.transparent,
                         ],
                       ),
@@ -97,11 +108,6 @@ class _EditorPageState extends State<EditorPage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
-                      // 图片上传区域
-                      _buildImageUploadSection(),
-                      
-                      const SizedBox(height: 24),
-                      
                       // 标题输入
                       _buildInputSection(
                         'Title',
@@ -122,13 +128,8 @@ class _EditorPageState extends State<EditorPage> {
                       
                       const SizedBox(height: 20),
                       
-                      // 标签输入
-                      _buildInputSection(
-                        'Tags',
-                        'Add tags (e.g., hiking, camping, nature)',
-                        _tagsController,
-                        maxLines: 1,
-                      ),
+                      // 标签选择
+                      _buildTagSelectionSection(),
                       
                       const SizedBox(height: 20),
                       
@@ -139,6 +140,11 @@ class _EditorPageState extends State<EditorPage> {
                         _locationController,
                         maxLines: 1,
                       ),
+                      
+                      const SizedBox(height: 20),
+                      
+                      // 图片上传区域
+                      _buildImageUploadSection(),
                       
                       const SizedBox(height: 30),
                       
@@ -352,6 +358,130 @@ class _EditorPageState extends State<EditorPage> {
     );
   }
 
+  // 标签选择区域
+  Widget _buildTagSelectionSection() {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        Text(
+          'Camping Equipment Tags',
+          style: const TextStyle(
+            fontSize: 18,
+            fontWeight: FontWeight.bold,
+            color: Colors.black,
+          ),
+        ),
+        const SizedBox(height: 8),
+        Text(
+          'Select your camping equipment (${_selectedTags.length} selected)',
+          style: TextStyle(
+            fontSize: 14,
+            color: Colors.grey[600],
+          ),
+        ),
+        const SizedBox(height: 12),
+        
+        // 标签网格
+        Wrap(
+          spacing: 8,
+          runSpacing: 8,
+          children: _campingTags.map((tag) {
+            final isSelected = _selectedTags.contains(tag);
+            return GestureDetector(
+              onTap: () {
+                setState(() {
+                  if (isSelected) {
+                    _selectedTags.remove(tag);
+                  } else {
+                    _selectedTags.add(tag);
+                  }
+                });
+              },
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 12, vertical: 6),
+                decoration: BoxDecoration(
+                  color: isSelected ? const Color(0xFF4CAF50) : Colors.grey[100],
+                  borderRadius: BorderRadius.circular(20),
+                  border: Border.all(
+                    color: isSelected ? const Color(0xFF4CAF50) : Colors.grey[300]!,
+                    width: 1,
+                  ),
+                ),
+                child: Row(
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    if (isSelected)
+                      const Icon(
+                        Icons.check,
+                        color: Colors.white,
+                        size: 16,
+                      ),
+                    if (isSelected) const SizedBox(width: 4),
+                    Text(
+                      tag,
+                      style: TextStyle(
+                        color: isSelected ? Colors.white : Colors.grey[700],
+                        fontSize: 14,
+                        fontWeight: isSelected ? FontWeight.w600 : FontWeight.normal,
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            );
+          }).toList(),
+        ),
+        
+        // 自定义标签输入
+        const SizedBox(height: 16),
+        Text(
+          'Custom Tags',
+          style: const TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.w600,
+            color: Colors.black,
+          ),
+        ),
+        const SizedBox(height: 8),
+        Container(
+          decoration: BoxDecoration(
+            borderRadius: BorderRadius.circular(12),
+            boxShadow: [
+              BoxShadow(
+                color: Colors.grey.withOpacity(0.1),
+                spreadRadius: 1,
+                blurRadius: 4,
+                offset: const Offset(0, 2),
+              ),
+            ],
+          ),
+          child: TextField(
+            controller: _tagsController,
+            maxLines: 1,
+            decoration: InputDecoration(
+              hintText: 'Add custom tags (e.g., hiking, camping, nature)',
+              filled: true,
+              fillColor: Colors.white,
+              border: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(12),
+                borderSide: BorderSide(color: Colors.grey[300]!),
+              ),
+              enabledBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(12),
+                borderSide: BorderSide(color: Colors.grey[300]!),
+              ),
+              focusedBorder: OutlineInputBorder(
+                borderRadius: BorderRadius.circular(12),
+                borderSide: const BorderSide(color: Color(0xFF4CAF50), width: 2),
+              ),
+              contentPadding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+            ),
+          ),
+        ),
+      ],
+    );
+  }
+
 
 
   Widget _buildPublishButton() {
@@ -476,6 +606,7 @@ class _EditorPageState extends State<EditorPage> {
       _tagsController.clear();
       _locationController.clear();
       _selectedImages.clear();
+      _selectedTags.clear();
     });
   }
 }

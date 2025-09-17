@@ -139,88 +139,129 @@ class _HomePageState extends State<HomePage> {
 
   // 显示 VIP 提示对话框
   void _showVipRequiredDialog() {
-    showDialog(
+    showModalBottomSheet(
       context: context,
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
       builder: (BuildContext context) {
-        return AlertDialog(
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16),
+        return Container(
+          decoration: const BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.only(
+              topLeft: Radius.circular(20),
+              topRight: Radius.circular(20),
+            ),
           ),
-          title: Row(
-            children: [
-              Container(
-                width: 24,
-                height: 24,
-                decoration: BoxDecoration(
-                  color: const Color(0xFFFFD700),
-                  borderRadius: BorderRadius.circular(12),
+          child: SafeArea(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // 拖拽指示器
+                Container(
+                  width: 40,
+                  height: 4,
+                  margin: const EdgeInsets.only(top: 12, bottom: 8),
+                  decoration: BoxDecoration(
+                    color: Colors.grey[300],
+                    borderRadius: BorderRadius.circular(2),
+                  ),
                 ),
-                child: const Center(
+                
+                // 标题
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
                   child: Text(
-                    'V',
-                    style: TextStyle(
-                      color: Color(0xFF8B4513),
-                      fontSize: 14,
-                      fontWeight: FontWeight.bold,
+                    'VIP Feature',
+                    style: const TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.black,
                     ),
                   ),
                 ),
-              ),
-              const SizedBox(width: 8),
-              const Text(
-                'VIP Feature',
-                style: TextStyle(
-                  fontSize: 18,
-                  fontWeight: FontWeight.bold,
+                
+                // 内容
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  child: Text(
+                    'Canyon, Desert, and Lake categories require VIP membership to access.\n\nUpgrade to VIP membership to unlock more amazing content!',
+                    style: const TextStyle(
+                      fontSize: 16,
+                      color: Colors.black,
+                      height: 1.5,
+                    ),
+                    textAlign: TextAlign.center,
+                  ),
                 ),
-              ),
-            ],
-          ),
-          content: const Text(
-            'Canyon, Desert, and Lake categories require VIP membership to access.\n\nUpgrade to VIP membership to unlock more amazing content!',
-            style: TextStyle(
-              fontSize: 16,
-              height: 1.5,
+                
+                const SizedBox(height: 24),
+                
+                // 底部按钮
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
+                  child: Column(
+                    children: [
+                      // 升级按钮
+                      SizedBox(
+                        width: double.infinity,
+                        height: 50,
+                        child: ElevatedButton(
+                          onPressed: () {
+                            Navigator.of(context).pop();
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) => const VipPage()),
+                            );
+                          },
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: const Color(0xFF4CAF50),
+                            foregroundColor: Colors.white,
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                            elevation: 2,
+                            shadowColor: const Color(0xFF4CAF50).withOpacity(0.3),
+                          ),
+                          child: const Text(
+                            'Upgrade VIP',
+                            style: TextStyle(
+                              fontSize: 17,
+                              fontWeight: FontWeight.w600,
+                            ),
+                          ),
+                        ),
+                      ),
+                      
+                      const SizedBox(height: 12),
+                      
+                      // 取消按钮
+                      SizedBox(
+                        width: double.infinity,
+                        height: 44,
+                        child: TextButton(
+                          onPressed: () => Navigator.of(context).pop(),
+                          style: TextButton.styleFrom(
+                            foregroundColor: Colors.grey[600],
+                            shape: RoundedRectangleBorder(
+                              borderRadius: BorderRadius.circular(12),
+                            ),
+                          ),
+                          child: const Text(
+                            'Cancel',
+                            style: TextStyle(
+                              fontSize: 16,
+                              fontWeight: FontWeight.w500,
+                            ),
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
+                ),
+              ],
             ),
           ),
-          actions: [
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-              child: const Text(
-                'Cancel',
-                style: TextStyle(
-                  color: Colors.grey,
-                  fontSize: 16,
-                ),
-              ),
-            ),
-            ElevatedButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => const VipPage()),
-                );
-              },
-              style: ElevatedButton.styleFrom(
-                backgroundColor: const Color(0xFFFFD700),
-                foregroundColor: const Color(0xFF8B4513),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(8),
-                ),
-                padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 12),
-              ),
-              child: const Text(
-                'Upgrade VIP',
-                style: TextStyle(
-                  fontSize: 16,
-                  fontWeight: FontWeight.bold,
-                ),
-              ),
-            ),
-          ],
         );
       },
     );
@@ -324,13 +365,13 @@ class _HomePageState extends State<HomePage> {
                           child: Container(
                             padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
                             decoration: BoxDecoration(
-                              color: _isVipUser ? const Color(0xFFFFD700) : Colors.grey[300],
+                              color: _isVipUser ? const Color(0xFF4CAF50) : Colors.grey[300],
                               borderRadius: BorderRadius.circular(12),
                             ),
                             child: Text(
                               _isVipUser ? 'VIP' : 'Free',
                               style: TextStyle(
-                                color: _isVipUser ? const Color(0xFF8B4513) : Colors.grey[600],
+                                color: _isVipUser ? Colors.white : Colors.grey[600],
                                 fontSize: 12,
                                 fontWeight: FontWeight.bold,
                               ),
@@ -695,10 +736,10 @@ class _HomePageState extends State<HomePage> {
                                               width: 48,
                                               height: 48,
                                               decoration: BoxDecoration(
-                                                color: const Color(0xFFFFD700),
+                                                color: const Color(0xFF4CAF50),
                                                 borderRadius: BorderRadius.circular(24),
                                                 border: Border.all(
-                                                  color: const Color(0xFFFFA500),
+                                                  color: const Color(0xFF2E7D32),
                                                   width: 2,
                                                 ),
                                               ),
@@ -706,7 +747,7 @@ class _HomePageState extends State<HomePage> {
                                                 child: Text(
                                                   'V',
                                                   style: TextStyle(
-                                                    color: Color(0xFF8B4513),
+                                                    color: Colors.white,
                                                     fontSize: 24,
                                                     fontWeight: FontWeight.bold,
                                                   ),
@@ -1152,10 +1193,10 @@ class _HomePageState extends State<HomePage> {
                         width: 16,
                         height: 16,
                         decoration: BoxDecoration(
-                          color: const Color(0xFFFFD700), // 金色背景
+                          color: const Color(0xFF4CAF50), // 森林绿背景
                           borderRadius: BorderRadius.circular(8),
                           border: Border.all(
-                            color: const Color(0xFFFFA500), // 橙色边框
+                            color: const Color(0xFF2E7D32), // 深森林绿边框
                             width: 1,
                           ),
                         ),
@@ -1163,7 +1204,7 @@ class _HomePageState extends State<HomePage> {
                           child: Text(
                             'V',
                             style: TextStyle(
-                              color: Color(0xFF8B4513), // 深棕色文字
+                              color: Colors.white, // 白色文字
                               fontSize: 10,
                               fontWeight: FontWeight.bold,
                             ),

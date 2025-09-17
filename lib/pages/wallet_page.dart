@@ -412,97 +412,106 @@ class _WalletPageState extends State<WalletPage> {
 
   /// Display coin usage rules and guidelines
   void _showCoinRules(BuildContext context) {
-    showDialog(
+    showModalBottomSheet(
       context: context,
+      backgroundColor: Colors.transparent,
+      isScrollControlled: true,
       builder: (BuildContext context) {
-        return AlertDialog(
-          backgroundColor: Colors.white,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(16),
+        return Container(
+          decoration: const BoxDecoration(
+            color: Colors.white,
+            borderRadius: BorderRadius.only(
+              topLeft: Radius.circular(20),
+              topRight: Radius.circular(20),
+            ),
           ),
-          title: Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-              Container(
-                padding: const EdgeInsets.all(8),
-                decoration: BoxDecoration(
-                  gradient: const LinearGradient(
-                    colors: [
-                      Color(0xFFBCFF39),
-                      Color(0xFF87A156),
+          child: SafeArea(
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // 拖拽指示器
+                Container(
+                  width: 40,
+                  height: 4,
+                  margin: const EdgeInsets.only(top: 12, bottom: 8),
+                  decoration: BoxDecoration(
+                    color: Colors.grey[300],
+                    borderRadius: BorderRadius.circular(2),
+                  ),
+                ),
+                
+                // 标题
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 16),
+                  child: Text(
+                    'Coin Usage Policy',
+                    style: const TextStyle(
+                      fontSize: 20,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.black,
+                    ),
+                  ),
+                ),
+                
+                // 内容列表
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 20),
+                  child: Column(
+                    children: [
+                      _buildRuleItem(
+                        '1',
+                        'New users receive 100 coins as a welcome bonus upon first app launch',
+                      ),
+                      const SizedBox(height: 16),
+                      _buildRuleItem(
+                        '2',
+                        'Each chat message sent consumes 20 coins as service fee',
+                      ),
+                      const SizedBox(height: 16),
+                      _buildRuleItem(
+                        '3',
+                        'Additional coins may be awarded through promotional campaigns and platform partnerships',
+                      ),
                     ],
                   ),
-                  shape: BoxShape.circle,
                 ),
-                child: const Icon(
-                  Icons.info_outline,
-                  color: Colors.white,
-                  size: 24,
-                ),
-              ),
-              const SizedBox(width: 12),
-              const Text(
-                'Coin Usage Policy',
-                style: TextStyle(
-                  fontSize: 20,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.black,
-                ),
-              ),
-            ],
-          ),
-          content: Column(
-            mainAxisSize: MainAxisSize.min,
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              _buildRuleItem(
-                '1',
-                'New users receive 100 coins as a welcome bonus upon first app launch',
-                Icons.card_giftcard,
-              ),
-              const SizedBox(height: 16),
-              _buildRuleItem(
-                '2',
-                'Each chat message sent consumes 20 coins as service fee',
-                Icons.chat_bubble_outline,
-              ),
-              const SizedBox(height: 16),
-              _buildRuleItem(
-                '3',
-                'Additional coins may be awarded through promotional campaigns and platform partnerships',
-                Icons.share,
-              ),
-            ],
-          ),
-          actions: [
-            Center(
-              child: ElevatedButton(
-                onPressed: () {
-                  Navigator.of(context).pop();
-                },
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: const Color(0xFFBCFF39),
-                  foregroundColor: Colors.black,
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(20),
+                
+                const SizedBox(height: 24),
+                
+                // 底部按钮
+                Container(
+                  width: double.infinity,
+                  padding: const EdgeInsets.fromLTRB(20, 0, 20, 20),
+                  child: ElevatedButton(
+                    onPressed: () {
+                      Navigator.of(context).pop();
+                    },
+                    style: ElevatedButton.styleFrom(
+                      backgroundColor: const Color(0xFF4CAF50),
+                      foregroundColor: Colors.white,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      padding: const EdgeInsets.symmetric(vertical: 16),
+                    ),
+                    child: const Text(
+                      'Understood',
+                      style: TextStyle(
+                        fontSize: 17,
+                        fontWeight: FontWeight.w600,
+                      ),
+                    ),
                   ),
                 ),
-                child: const Text(
-                  'Understood',
-                  style: TextStyle(
-                    fontSize: 16,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ),
+              ],
             ),
-          ],
+          ),
         );
       },
     );
   }
 
-  Widget _buildRuleItem(String number, String text, IconData icon) {
+  Widget _buildRuleItem(String number, String text) {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
@@ -510,12 +519,7 @@ class _WalletPageState extends State<WalletPage> {
           width: 24,
           height: 24,
           decoration: BoxDecoration(
-            gradient: const LinearGradient(
-              colors: [
-                Color(0xFFBCFF39),
-                Color(0xFF87A156),
-              ],
-            ),
+            color: const Color(0xFF4CAF50),
             shape: BoxShape.circle,
           ),
           child: Center(
@@ -524,32 +528,20 @@ class _WalletPageState extends State<WalletPage> {
               style: const TextStyle(
                 color: Colors.white,
                 fontSize: 14,
-                fontWeight: FontWeight.bold,
+                fontWeight: FontWeight.w600,
               ),
             ),
           ),
         ),
         const SizedBox(width: 12),
         Expanded(
-          child: Row(
-            children: [
-              Icon(
-                icon,
-                color: const Color(0xFF87A156),
-                size: 20,
-              ),
-              const SizedBox(width: 8),
-              Expanded(
-                child: Text(
-                  text,
-                  style: const TextStyle(
-                    fontSize: 16,
-                    color: Colors.black,
-                    height: 1.4,
-                  ),
-                ),
-              ),
-            ],
+          child: Text(
+            text,
+            style: const TextStyle(
+              fontSize: 16,
+              color: Colors.black,
+              height: 1.4,
+            ),
           ),
         ),
       ],
@@ -562,9 +554,11 @@ class _WalletPageState extends State<WalletPage> {
     final imageHeight = screenWidth / 375 * 234;
     
     return Scaffold(
+      backgroundColor: Colors.white,
       body: Container(
         width: screenWidth,
         height: MediaQuery.of(context).size.height,
+        color: Colors.white,
         child: Stack(
           children: [
             // 顶部背景图片
@@ -671,7 +665,7 @@ class _WalletPageState extends State<WalletPage> {
                                 'Account balance',
                                 style: TextStyle(
                                   fontSize: 16,
-                                  color: Color(0xFF4CAF50),
+                                  color: Color(0xFF2E7D32),
                                   fontWeight: FontWeight.w500,
                                 ),
                               ),
@@ -693,28 +687,26 @@ class _WalletPageState extends State<WalletPage> {
                   
                   const SizedBox(height: 30),
                   
-                  // 金币购买选项网格 - 2行3列布局
+                  // 金币购买选项列表 - 一行一个布局
                   Expanded(
                     child: Padding(
                       padding: const EdgeInsets.symmetric(horizontal: 20),
-                      child: GridView.builder(
-                        gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
-                          crossAxisCount: 3,
-                          crossAxisSpacing: 12,
-                          mainAxisSpacing: 16,
-                          childAspectRatio: 0.75,
-                        ),
-                        itemCount: kCoinProducts.length, // 显示所有产品
+                      child: ListView.builder(
+                        itemCount: kCoinProducts.length,
                         itemBuilder: (context, index) {
                           final product = kCoinProducts[index];
-                          return _buildCoinCard(product, index);
+                          return Padding(
+                            padding: const EdgeInsets.only(bottom: 12),
+                            child: _buildCoinCard(product, index),
+                          );
                         },
                       ),
                     ),
                   ),
                   
                   // 底部购买按钮
-                  Padding(
+                  Container(
+                    color: Colors.white,
                     padding: const EdgeInsets.all(20),
                     child: Container(
                       width: double.infinity,
@@ -764,49 +756,113 @@ class _WalletPageState extends State<WalletPage> {
         });
       },
       child: Container(
+        height: 80,
         decoration: BoxDecoration(
-          color: const Color(0xFFE8F5E8), // 浅绿色背景
+          color: isSelected ? const Color(0xFFE8F5E8) : Colors.white,
           borderRadius: BorderRadius.circular(12),
           border: Border.all(
-            color: isSelected ? const Color(0xFF4CAF50) : const Color(0xFFC8E6C9),
-            width: 1,
+            color: isSelected ? const Color(0xFF4CAF50) : const Color(0xFFE0E0E0),
+            width: isSelected ? 2 : 1,
           ),
-        ),
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            // 金币图标
-            Container(
-              padding: const EdgeInsets.all(8),
-              child: Image.asset(
-                'assets/wallet_icon_20250904.png',
-                width: 32,
-                height: 32,
-                fit: BoxFit.contain,
-              ),
-            ),
-            
-            // 金币数量
-            Text(
-              '${product.coins}',
-              style: const TextStyle(
-                fontSize: 16,
-                fontWeight: FontWeight.bold,
-                color: Colors.black,
-              ),
-            ),
-            
-            const SizedBox(height: 4),
-            
-            // "Gold coins" 文字
-            const Text(
-              'Gold coins',
-              style: TextStyle(
-                fontSize: 12,
-                color: Colors.black87,
-              ),
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.05),
+              spreadRadius: 1,
+              blurRadius: 4,
+              offset: const Offset(0, 2),
             ),
           ],
+        ),
+        child: Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
+          child: Row(
+            children: [
+              // 金币图标
+              Container(
+                width: 56,
+                height: 56,
+                decoration: BoxDecoration(
+                  color: const Color(0xFFF0F8F0),
+                  borderRadius: BorderRadius.circular(28),
+                ),
+                child: Center(
+                  child: Image.asset(
+                    'assets/wallet_icon_20250904.png',
+                    width: 32,
+                    height: 32,
+                    fit: BoxFit.contain,
+                  ),
+                ),
+              ),
+              
+              const SizedBox(width: 16),
+              
+              // 金币信息
+              Expanded(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  mainAxisSize: MainAxisSize.min,
+                  children: [
+                    Text(
+                      '${product.coins} Gold Coins',
+                      style: const TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      'Perfect for AI chat',
+                      style: TextStyle(
+                        fontSize: 12,
+                        color: Colors.grey[600],
+                      ),
+                      maxLines: 1,
+                      overflow: TextOverflow.ellipsis,
+                    ),
+                  ],
+                ),
+              ),
+              
+              // 价格信息
+              Column(
+                crossAxisAlignment: CrossAxisAlignment.end,
+                mainAxisAlignment: MainAxisAlignment.center,
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Text(
+                    product.priceText,
+                    style: const TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                      color: Color(0xFF2E7D32),
+                    ),
+                  ),
+                  const SizedBox(height: 2),
+                  if (isSelected)
+                    Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 6, vertical: 1),
+                      decoration: BoxDecoration(
+                        color: const Color(0xFF2E7D32),
+                        borderRadius: BorderRadius.circular(8),
+                      ),
+                      child: const Text(
+                        'Selected',
+                        style: TextStyle(
+                          fontSize: 10,
+                          color: Colors.white,
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                ],
+              ),
+            ],
+          ),
         ),
       ),
     );
