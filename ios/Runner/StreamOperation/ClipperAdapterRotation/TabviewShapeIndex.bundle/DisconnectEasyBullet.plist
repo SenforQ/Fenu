@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedGrainSkewy</key>
+	<string>injectionOutsidePattern</string>
+	<key>cacheInsideWork</key>
+	<string>routerModeAcceleration</string>
+	<key>exponentValueAcceleration</key>
+	<string>numericalDelegateSpeed</string>
+	<key>grayscaleExceptMode</key>
+	<string>declarativeCanvasFormat</string>
+	<key>sliderVariableOrigin</key>
+	<string>interactiveRequestMargin</string>
+	<key>statefulOutsideChain</key>
+	<string>mapWorkColor</string>
+</dict>
+</plist>

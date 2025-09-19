@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customizedCycleType</key>
+	<string>symbolAndVariable</string>
+	<key>deferredManagerDuration</key>
+	<string>overlayByPrototype</string>
+	<key>inheritedMusicDirection</key>
+	<string>localizationContainVariable</string>
+	<key>localCupertinoHead</key>
+	<string>desktopControllerInterval</string>
+	<key>mobileTweenContrast</key>
+	<string>lazyCompleterLocation</string>
+	<key>sizeTypeBehavior</key>
+	<string>resolverCommandLeft</string>
+	<key>subscriptionAroundFacade</key>
+	<string>rowOrParam</string>
+	<key>subtleGroupSpacing</key>
+	<string>dynamicBoxshadowCount</string>
+</dict>
+</plist>

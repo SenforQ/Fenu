@@ -170,7 +170,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
       children: [
         // Following Title
         Image.asset(
-          'assets/following_title_20250902.png',
+          'assets/following_title_20250902.webp',
           width: 100,
           height: 24,
           fit: BoxFit.contain,
@@ -247,7 +247,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
 
     final userIcon = personData.isNotEmpty 
         ? personData['FenuUserIcon'] 
-        : 'user_default_icon_20250901.png';
+        : 'user_default_icon_20250901.webp';
     final displayName = personData.isNotEmpty 
         ? personData['FenuNickName'] 
         : userName;
@@ -301,7 +301,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
 
   Widget _buildRecommendSection() {
     return Image.asset(
-      'assets/recommend_title_20250902.png',
+      'assets/recommend_title_20250902.webp',
       width: 111,
       height: 24,
       fit: BoxFit.contain,
@@ -332,7 +332,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
         }
       },
       child: Image.asset(
-        'assets/recommend_bg_20250902.png',
+        'assets/recommend_bg_20250902.webp',
         width: 330,
         height: 334,
         fit: BoxFit.contain,
@@ -342,7 +342,7 @@ class _DiscoverPageState extends State<DiscoverPage> {
 
   Widget _buildTeamTitle() {
     return Image.asset(
-      'assets/team_title_20250905.png',
+      'assets/team_title_20250905.webp',
       width: 94,
       height: 24,
       fit: BoxFit.contain,

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appbarChainName</key>
+	<string>behaviorIncludeWork</string>
+	<key>featureFormSkewy</key>
+	<string>viewAdapterFeedback</string>
+	<key>futureVariableInterval</key>
+	<string>fusedInstructionAcceleration</string>
+	<key>multiplicationAmongJob</key>
+	<string>materialRequestValidation</string>
+	<key>otherDescriptorForce</key>
+	<string>interactorScopeHue</string>
+</dict>
+</plist>

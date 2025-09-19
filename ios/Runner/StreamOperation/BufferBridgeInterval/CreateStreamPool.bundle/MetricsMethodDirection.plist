@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoProgressbarFlags</key>
+	<string>cupertinoRoleShape</string>
+	<key>globalRouterBrightness</key>
+	<string>promiseParameterOpacity</string>
+	<key>matrixValueAlignment</key>
+	<string>customizedManagerRate</string>
+	<key>mobileTextFlags</key>
+	<string>workflowTaskTag</string>
+	<key>respectiveFlexScale</key>
+	<string>tabviewMethodKind</string>
+	<key>semanticMarginCoord</key>
+	<string>pivotalLayoutName</string>
+	<key>subpixelMementoTop</key>
+	<string>requestDecoratorEdge</string>
+	<key>transitionCommandDistance</key>
+	<string>diffableContractionAlignment</string>
+	<key>widgetActivityFrequency</key>
+	<string>substantialFeatureBorder</string>
+</dict>
+</plist>

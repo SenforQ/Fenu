@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>decorationVisitorValidation</key>
+	<string>navigatorProcessCount</string>
+	<key>paddingScopeScale</key>
+	<string>directSubpixelRight</string>
+	<key>routeCommandState</key>
+	<string>modelInVar</string>
+	<key>segueWithoutKind</key>
+	<string>temporaryGridShape</string>
+	<key>serviceNumberFeedback</key>
+	<string>tweenFromForm</string>
+	<key>utilStyleVisibility</key>
+	<string>offsetAsContext</string>
+</dict>
+</plist>

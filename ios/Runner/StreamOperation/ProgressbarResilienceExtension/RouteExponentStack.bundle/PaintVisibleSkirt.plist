@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cupertinoSemanticsBehavior</key>
+	<string>lostDelegateRotation</string>
+	<key>customContainerIndex</key>
+	<string>adaptiveBlocSaturation</string>
+	<key>loopVersusState</key>
+	<string>multiManagerMode</string>
+	<key>rowOutsideWork</key>
+	<string>previewThroughType</string>
+	<key>substantialBrushSpeed</key>
+	<string>rapidPaddingSaturation</string>
+</dict>
+</plist>

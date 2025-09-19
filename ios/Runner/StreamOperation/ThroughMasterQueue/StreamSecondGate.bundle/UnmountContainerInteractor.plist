@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chartViaInterpreter</key>
+	<string>responseLevelVisibility</string>
+	<key>controllerMementoContrast</key>
+	<string>shaderOfPlatform</string>
+	<key>dedicatedBaseAppearance</key>
+	<string>frameFromStrategy</string>
+	<key>instructionSingletonColor</key>
+	<string>transitionJobTheme</string>
+	<key>newestTextVisible</key>
+	<string>concreteStampHead</string>
+	<key>positionedVarAlignment</key>
+	<string>multiCommandLeft</string>
+	<key>requiredBuilderVisibility</key>
+	<string>rowWithoutAction</string>
+	<key>statefulLogRotation</key>
+	<string>statefulWorkflowFlags</string>
+	<key>widgetWorkType</key>
+	<string>specifierSingletonTag</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>groupAsEnvironment</key>
+	<string>typicalCertificateFrequency</string>
+	<key>groupProcessSkewx</key>
+	<string>descriptorBridgeDelay</string>
+	<key>independentTableSkewx</key>
+	<string>segmentDuringSingleton</string>
+	<key>prevAwaitFlags</key>
+	<string>routerWithoutPhase</string>
+	<key>spriteFlyweightDistance</key>
+	<string>canvasPerState</string>
+	<key>transformerPlatformOrigin</key>
+	<string>graphSinceActivity</string>
+	<key>viewAsMethod</key>
+	<string>swiftValueSkewx</string>
+</dict>
+</plist>

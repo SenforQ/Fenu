@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedRouteBehavior</key>
+	<string>dedicatedRectOrigin</string>
+	<key>awaitMediatorHue</key>
+	<string>mediaqueryVersusMode</string>
+	<key>dialogsAtForm</key>
+	<string>displayableNodeTheme</string>
+	<key>labelContextInset</key>
+	<string>easyListviewInterval</string>
+	<key>loopAboutType</key>
+	<string>textureFlyweightIndex</string>
+	<key>mobilePrecisionFrequency</key>
+	<string>imageInValue</string>
+	<key>positionBeyondJob</key>
+	<string>presenterBeyondFunction</string>
+	<key>repositoryWithoutShape</key>
+	<string>criticalApertureStyle</string>
+	<key>tappableSinkSpeed</key>
+	<string>popupAwayVariable</string>
+</dict>
+</plist>

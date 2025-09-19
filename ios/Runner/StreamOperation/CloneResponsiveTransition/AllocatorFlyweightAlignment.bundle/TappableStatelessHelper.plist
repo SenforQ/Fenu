@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>agileCanvasDistance</key>
+	<string>documentThanObserver</string>
+	<key>eagerContainerBehavior</key>
+	<string>rectCommandForce</string>
+	<key>notificationAsOperation</key>
+	<string>actionCompositeInterval</string>
+	<key>opaqueSensorShape</key>
+	<string>prevListenerBound</string>
+	<key>singletonFunctionBehavior</key>
+	<string>radiusAgainstVariable</string>
+	<key>taskOrPlatform</key>
+	<string>mainNavigatorFlags</string>
+	<key>transitionLikeFramework</key>
+	<string>aspectFromJob</string>
+</dict>
+</plist>

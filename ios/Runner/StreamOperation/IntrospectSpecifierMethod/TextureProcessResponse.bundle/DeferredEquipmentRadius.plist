@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>activitySinceStyle</key>
+	<string>entityAtParam</string>
+	<key>aspectAtVariable</key>
+	<string>singletonOrPrototype</string>
+	<key>completerLikeSingleton</key>
+	<string>smartProtocolSpacing</string>
+	<key>keyKernelDuration</key>
+	<string>captionPlatformVelocity</string>
+	<key>substantialBulletOffset</key>
+	<string>painterTaskDepth</string>
+	<key>themePatternBorder</key>
+	<string>eagerEquipmentVisibility</string>
+</dict>
+</plist>

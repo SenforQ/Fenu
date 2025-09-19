@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bufferExceptAction</key>
+	<string>listenerShapeOrientation</string>
+	<key>inheritedSpecifierDensity</key>
+	<string>animatedcontainerOutsideStructure</string>
+	<key>nibAsScope</key>
+	<string>metadataCycleBehavior</string>
+	<key>normalOverlayPadding</key>
+	<string>denseResourceResponse</string>
+</dict>
+</plist>

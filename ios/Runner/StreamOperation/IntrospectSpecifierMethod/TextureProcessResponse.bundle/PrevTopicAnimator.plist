@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>buttonFunctionInterval</key>
+	<string>playbackAboutVariable</string>
+	<key>directGraphDistance</key>
+	<string>characterFromVar</string>
+	<key>reducerValueDelay</key>
+	<string>segueOfKind</string>
+	<key>smartBuilderAlignment</key>
+	<string>iterativeTaskDensity</string>
+</dict>
+</plist>

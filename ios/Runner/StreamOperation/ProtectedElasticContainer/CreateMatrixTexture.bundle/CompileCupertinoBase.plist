@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appbarAtMediator</key>
+	<string>radiusVariableContrast</string>
+	<key>aspectChainStyle</key>
+	<string>streamPhaseStyle</string>
+	<key>asyncAsMediator</key>
+	<string>lazyPointDuration</string>
+	<key>collectionDespitePrototype</key>
+	<string>coordinatorScopeCount</string>
+	<key>gramThroughAdapter</key>
+	<string>widgetVisitorTheme</string>
+	<key>injectionKindScale</key>
+	<string>usecaseBridgePadding</string>
+	<key>secondRoleFeedback</key>
+	<string>scrollActivityVisible</string>
+</dict>
+</plist>

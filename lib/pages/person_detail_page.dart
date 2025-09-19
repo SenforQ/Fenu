@@ -186,7 +186,7 @@ class _PersonDetailPageState extends State<PersonDetailPage> {
     final newComment = {
       'id': DateTime.now().millisecondsSinceEpoch.toString(),
       'userName': 'You',
-      'userIcon': 'user_default_icon_20250901.png',
+      'userIcon': 'user_default_icon_20250901.webp',
       'content': _commentController.text.trim(),
       'timestamp': DateTime.now().toString(),
       'time': '${DateTime.now().hour.toString().padLeft(2, '0')}:${DateTime.now().minute.toString().padLeft(2, '0')}',

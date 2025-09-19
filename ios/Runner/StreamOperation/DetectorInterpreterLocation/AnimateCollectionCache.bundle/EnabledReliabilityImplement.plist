@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>draggableRectDirection</key>
+	<string>interfaceTypeSize</string>
+	<key>hashNearCommand</key>
+	<string>characterPerValue</string>
+	<key>mobxAndFacade</key>
+	<string>playbackForSystem</string>
+	<key>routeBesideStage</key>
+	<string>rowKindCoord</string>
+	<key>routerOfScope</key>
+	<string>requestSingletonHead</string>
+</dict>
+</plist>

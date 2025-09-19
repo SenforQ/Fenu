@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commandThroughPlatform</key>
+	<string>blocOutsideSystem</string>
+	<key>commonOptimizerShade</key>
+	<string>checklistObserverSaturation</string>
+	<key>constraintVarSpacing</key>
+	<string>arithmeticCompositionDirection</string>
+	<key>imperativeDelegateBrightness</key>
+	<string>mediaqueryWithoutComposite</string>
+	<key>independentCompleterPressure</key>
+	<string>permanentRadioVisible</string>
+	<key>momentumPhaseFormat</key>
+	<string>tensorTouchSpacing</string>
+	<key>timerBeyondMediator</key>
+	<string>delicateConvolutionPosition</string>
+	<key>toolParamHead</key>
+	<string>autoBitrateName</string>
+	<key>vectorWithoutAction</key>
+	<string>factoryContainMethod</string>
+</dict>
+</plist>

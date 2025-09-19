@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>behaviorDecoratorBrightness</key>
+	<string>fixedLabelColor</string>
+	<key>channelsLikeMode</key>
+	<string>consultativeCursorOffset</string>
+	<key>cupertinoChapterVisibility</key>
+	<string>independentSemanticsFeedback</string>
+	<key>layerAroundEnvironment</key>
+	<string>nibAlongInterpreter</string>
+	<key>logThroughPattern</key>
+	<string>reusableConstraintOpacity</string>
+	<key>menuForFlyweight</key>
+	<string>fusedOptionTop</string>
+	<key>metadataInsidePrototype</key>
+	<string>popupAdapterBound</string>
+	<key>secondSpriteCoord</key>
+	<string>metadataAsTemple</string>
+	<key>smallScreenSize</key>
+	<string>sophisticatedContainerRotation</string>
+</dict>
+</plist>

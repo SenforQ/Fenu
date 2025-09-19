@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chapterPlatformDirection</key>
+	<string>isolateAmongForm</string>
+	<key>immutableDimensionCoord</key>
+	<string>coordinatorAgainstVariable</string>
+	<key>independentGraphShape</key>
+	<string>primarySegueOffset</string>
+	<key>touchCycleBorder</key>
+	<string>resourceAsWork</string>
+</dict>
+</plist>

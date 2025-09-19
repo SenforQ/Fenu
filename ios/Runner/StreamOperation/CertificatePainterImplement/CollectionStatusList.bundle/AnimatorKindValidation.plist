@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allocatorPerVisitor</key>
+	<string>allocatorAmongJob</string>
+	<key>alphaMementoEdge</key>
+	<string>smallAlertInterval</string>
+	<key>brushWithParameter</key>
+	<string>missionPlatformInset</string>
+	<key>disparateStampOpacity</key>
+	<string>responsiveBatchFormat</string>
+	<key>interfaceSingletonFrequency</key>
+	<string>isolateContextRight</string>
+	<key>optimizerActivityTail</key>
+	<string>immediateNormBrightness</string>
+	<key>requestParameterMode</key>
+	<string>timerOrFramework</string>
+	<key>sliderPlatformMargin</key>
+	<string>largeClipperContrast</string>
+</dict>
+</plist>

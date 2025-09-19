@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bitrateStateMode</key>
+	<string>stepIncludeChain</string>
+	<key>coordinatorActionFeedback</key>
+	<string>denseRouteBrightness</string>
+	<key>errorMediatorCenter</key>
+	<string>containerWithoutCommand</string>
+	<key>factoryOrVar</key>
+	<string>behaviorFrameworkCenter</string>
+	<key>intuitiveCaptionHead</key>
+	<string>textureWithVar</string>
+	<key>intuitiveInjectionValidation</key>
+	<string>handlerForFlyweight</string>
+	<key>largeSwiftMomentum</key>
+	<string>asynchronousThemeShade</string>
+	<key>navigatorSinceParam</key>
+	<string>descriptionAsSystem</string>
+	<key>nodeFormFrequency</key>
+	<string>borderBeyondCommand</string>
+	<key>presenterAmongWork</key>
+	<string>sophisticatedGestureKind</string>
+</dict>
+</plist>

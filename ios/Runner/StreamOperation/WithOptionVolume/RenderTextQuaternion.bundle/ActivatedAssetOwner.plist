@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>asyncOrStyle</key>
+	<string>usecaseActionResponse</string>
+	<key>exceptionContextFeedback</key>
+	<string>previewOfActivity</string>
+	<key>firstCanvasLeft</key>
+	<string>resourceFacadeTop</string>
+	<key>indicatorBridgeStatus</key>
+	<string>intermediateMatrixDepth</string>
+	<key>isolateContainObserver</key>
+	<string>nodeVarShape</string>
+	<key>protocolFormTop</key>
+	<string>integerAroundInterpreter</string>
+</dict>
+</plist>

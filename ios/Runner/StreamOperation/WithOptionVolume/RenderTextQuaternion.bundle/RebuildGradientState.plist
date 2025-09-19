@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appbarEnvironmentFlags</key>
+	<string>entityObserverTint</string>
+	<key>backwardFactoryType</key>
+	<string>beginnerBinaryEdge</string>
+	<key>compositionVersusSystem</key>
+	<string>cacheAmongAction</string>
+	<key>eventForProxy</key>
+	<string>associatedCharacterBound</string>
+	<key>queueFrameworkForce</key>
+	<string>navigatorTaskMomentum</string>
+	<key>storeSinceTask</key>
+	<string>riverpodPatternFrequency</string>
+	<key>streamUntilVisitor</key>
+	<string>subpixelFromCycle</string>
+</dict>
+</plist>

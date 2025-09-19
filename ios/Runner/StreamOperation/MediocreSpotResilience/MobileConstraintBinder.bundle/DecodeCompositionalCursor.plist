@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bufferAdapterContrast</key>
+	<string>touchPlatformSpacing</string>
+	<key>capacitiesAsCommand</key>
+	<string>explicitMapTheme</string>
+	<key>constGateEdge</key>
+	<string>mobileTweenName</string>
+	<key>draggablePositionBottom</key>
+	<string>errorContextInset</string>
+	<key>layerWithFlyweight</key>
+	<string>sophisticatedCurveKind</string>
+	<key>mobileLogarithmOpacity</key>
+	<string>reducerAndOperation</string>
+	<key>prismaticQueryAcceleration</key>
+	<string>featureVisitorInteraction</string>
+	<key>touchWithoutWork</key>
+	<string>taskStrategyEdge</string>
+</dict>
+</plist>

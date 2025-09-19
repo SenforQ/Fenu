@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>actionModeFrequency</key>
+	<string>autoBinaryCenter</string>
+	<key>arithmeticLayoutVelocity</key>
+	<string>entityWorkOrigin</string>
+	<key>axisStructureOpacity</key>
+	<string>convolutionAroundLevel</string>
+	<key>configurationTaskVisible</key>
+	<string>mutableStateOrigin</string>
+	<key>disabledLayoutFormat</key>
+	<string>hierarchicalResponseBottom</string>
+	<key>gemParameterCenter</key>
+	<string>modulusAsProxy</string>
+	<key>mobxStyleCount</key>
+	<string>resolverWorkInterval</string>
+	<key>tableLevelSaturation</key>
+	<string>eagerLogarithmType</string>
+	<key>visibleFrameFrequency</key>
+	<string>stateOperationFrequency</string>
+</dict>
+</plist>

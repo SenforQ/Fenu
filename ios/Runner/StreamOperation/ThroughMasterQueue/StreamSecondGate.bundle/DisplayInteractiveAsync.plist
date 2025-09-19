@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cycleStateTag</key>
+	<string>custompaintValueOffset</string>
+	<key>modulusByCommand</key>
+	<string>workflowKindState</string>
+	<key>storyboardBufferType</key>
+	<string>blocOrObserver</string>
+	<key>symmetricSkinValidation</key>
+	<string>coordinatorBeyondFlyweight</string>
+	<key>titleBesideCommand</key>
+	<string>textPrototypeBound</string>
+</dict>
+</plist>

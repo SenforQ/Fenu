@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>descriptorThroughSingleton</key>
+	<string>canvasPerCommand</string>
+	<key>disparateTransitionTransparency</key>
+	<string>offsetPatternBrightness</string>
+	<key>eagerStackBound</key>
+	<string>completerTaskSkewy</string>
+	<key>futureWorkInset</key>
+	<string>textfieldBesideShape</string>
+	<key>inactiveResourceSkewy</key>
+	<string>functionalIsolateVisible</string>
+	<key>injectionKindDuration</key>
+	<string>transitionVersusVisitor</string>
+	<key>observerSingletonScale</key>
+	<string>queueVersusStage</string>
+	<key>responsiveBulletMomentum</key>
+	<string>petWorkDelay</string>
+	<key>stackIncludeForm</key>
+	<string>pageviewVersusParam</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>behaviorJobAlignment</key>
+	<string>taskInterpreterIndex</string>
+	<key>drawerForCycle</key>
+	<string>reactiveGroupInset</string>
+	<key>eventAtScope</key>
+	<string>managerLevelBehavior</string>
+	<key>resourceTierInterval</key>
+	<string>originalTabbarBrightness</string>
+</dict>
+</plist>

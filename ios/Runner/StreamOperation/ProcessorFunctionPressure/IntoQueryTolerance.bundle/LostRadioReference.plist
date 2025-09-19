@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>composableOffsetInset</key>
+	<string>globalLocalizationBottom</string>
+	<key>delegateThanStructure</key>
+	<string>cupertinoWorkRight</string>
+	<key>diffableDecorationShape</key>
+	<string>plateBesideNumber</string>
+	<key>navigatorOrBuffer</key>
+	<string>flexibleTextfieldTail</string>
+</dict>
+</plist>

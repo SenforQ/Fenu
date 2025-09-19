@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>activatedPriorityType</key>
+	<string>builderShapeRotation</string>
+	<key>cubitBeyondProxy</key>
+	<string>oldGesturedetectorTint</string>
+	<key>keyMomentumFormat</key>
+	<string>relationalMultiplicationFormat</string>
+	<key>labelInShape</key>
+	<string>symbolPerChain</string>
+	<key>lastCacheCount</key>
+	<string>directlySymbolHead</string>
+	<key>viewAtVariable</key>
+	<string>memberOfValue</string>
+</dict>
+</plist>

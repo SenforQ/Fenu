@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>coordinatorKindFormat</key>
+	<string>cacheActionEdge</string>
+	<key>criticalCoordinatorSkewy</key>
+	<string>builderAsFunction</string>
+	<key>delegateInSystem</key>
+	<string>servicePlatformAcceleration</string>
+	<key>firstVectorCenter</key>
+	<string>workflowByInterpreter</string>
+	<key>persistentListviewFormat</key>
+	<string>concurrentListenerDepth</string>
+	<key>sinkLikeFramework</key>
+	<string>providerTierCoord</string>
+	<key>spineAsCommand</key>
+	<string>exceptionIncludeProcess</string>
+	<key>topicAmongInterpreter</key>
+	<string>comprehensiveAwaitFormat</string>
+</dict>
+</plist>

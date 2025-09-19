@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commonExceptionForce</key>
+	<string>sliderAwaySingleton</string>
+	<key>dropdownbuttonEnvironmentSpeed</key>
+	<string>largeIsolateInterval</string>
+	<key>fixedAlignmentSkewy</key>
+	<string>tabviewProcessStatus</string>
+	<key>frameAgainstAdapter</key>
+	<string>requiredCycleTint</string>
+	<key>numericalCompletionFeedback</key>
+	<string>effectStrategyDirection</string>
+	<key>visibleCosineSize</key>
+	<string>iconInBuffer</string>
+</dict>
+</plist>

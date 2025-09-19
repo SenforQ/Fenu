@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>asyncAboutFramework</key>
+	<string>sineSinceComposite</string>
+	<key>callbackStyleInterval</key>
+	<string>inheritedCacheScale</string>
+	<key>cycleMediatorTint</key>
+	<string>methodAroundSingleton</string>
+	<key>groupFromSystem</key>
+	<string>loopOfComposite</string>
+	<key>interfaceFromEnvironment</key>
+	<string>rectAroundForm</string>
+	<key>invisibleExtensionRotation</key>
+	<string>crudeSegueInteraction</string>
+	<key>iterativeBulletBrightness</key>
+	<string>cubitVarTransparency</string>
+	<key>localizationFunctionInset</key>
+	<string>adaptiveEqualizationCount</string>
+	<key>scrollParameterOrientation</key>
+	<string>relationalNavigatorCount</string>
+	<key>scrollUntilObserver</key>
+	<string>indicatorValueIndex</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cardInsideOperation</key>
+	<string>relationalFlexMargin</string>
+	<key>cyclePatternHue</key>
+	<string>tappableSymbolOrigin</string>
+	<key>futurePlatformTag</key>
+	<string>controllerFormPressure</string>
+	<key>missedInkwellHue</key>
+	<string>permissiveSensorVisible</string>
+	<key>mutableSensorValidation</key>
+	<string>immutableSliderSpeed</string>
+	<key>publicPainterFlags</key>
+	<string>semanticsChainName</string>
+	<key>scrollOrAction</key>
+	<string>methodBeyondCycle</string>
+</dict>
+</plist>

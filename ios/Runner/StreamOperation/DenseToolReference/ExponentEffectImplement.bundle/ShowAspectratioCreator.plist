@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedcontainerTempleState</key>
+	<string>subscriptionTaskVisibility</string>
+	<key>awaitOutsideStrategy</key>
+	<string>grainForPhase</string>
+	<key>criticalManagerSkewy</key>
+	<string>columnFrameworkBorder</string>
+	<key>hardHeapOrientation</key>
+	<string>lazyLabelRotation</string>
+	<key>newestDescriptionOrientation</key>
+	<string>integerChainSaturation</string>
+	<key>normalFutureState</key>
+	<string>completerParameterVelocity</string>
+	<key>popupBeyondPhase</key>
+	<string>labelMementoSpacing</string>
+	<key>textBufferBehavior</key>
+	<string>drawerFacadeBound</string>
+</dict>
+</plist>

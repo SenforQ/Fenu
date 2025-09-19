@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arithmeticZoneBehavior</key>
+	<string>protectedLabelRate</string>
+	<key>containerContainKind</key>
+	<string>smallTopicAppearance</string>
+	<key>denseSubpixelCoord</key>
+	<string>backwardFutureEdge</string>
+	<key>exceptionPatternInteraction</key>
+	<string>sampleAdapterBottom</string>
+	<key>mobxPrototypeHead</key>
+	<string>multiTransitionCenter</string>
+	<key>providerAndContext</key>
+	<string>significantCompositionOrientation</string>
+</dict>
+</plist>

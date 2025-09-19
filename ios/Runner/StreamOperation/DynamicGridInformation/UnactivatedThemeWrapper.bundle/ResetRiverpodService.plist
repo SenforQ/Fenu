@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>associatedDescriptionKind</key>
+	<string>delegateOutsideSystem</string>
+	<key>discardedPresenterPosition</key>
+	<string>nibFromVar</string>
+	<key>drawerInsidePrototype</key>
+	<string>hardCurveHead</string>
+	<key>geometricConstraintFlags</key>
+	<string>compositionWithoutActivity</string>
+	<key>grayscaleScopeAppearance</key>
+	<string>spriteWithoutBridge</string>
+	<key>reductionSinceInterpreter</key>
+	<string>exceptionDecoratorSaturation</string>
+</dict>
+</plist>

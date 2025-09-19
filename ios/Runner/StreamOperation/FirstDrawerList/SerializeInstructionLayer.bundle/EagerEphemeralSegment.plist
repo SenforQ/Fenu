@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>effectInCycle</key>
+	<string>statefulRowTag</string>
+	<key>globalSpotCenter</key>
+	<string>tickerDuringCommand</string>
+	<key>invisibleAlertOpacity</key>
+	<string>composableSignHead</string>
+	<key>mediumGridviewType</key>
+	<string>associatedCompletionRate</string>
+	<key>previewExceptMethod</key>
+	<string>asyncVarHue</string>
+	<key>uniqueGroupCoord</key>
+	<string>characterFrameworkOffset</string>
+</dict>
+</plist>

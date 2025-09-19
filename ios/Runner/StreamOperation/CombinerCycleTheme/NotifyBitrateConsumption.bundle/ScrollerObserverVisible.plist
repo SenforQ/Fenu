@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedZoneBrightness</key>
+	<string>popupNumberSize</string>
+	<key>mainCommandFeedback</key>
+	<string>prismaticCubitShape</string>
+	<key>menuWithoutTask</key>
+	<string>apertureTaskSpacing</string>
+	<key>radioAlongCommand</key>
+	<string>respectiveMethodScale</string>
+	<key>samplePrototypeDensity</key>
+	<string>dropdownbuttonWithoutProxy</string>
+	<key>streamAmongFramework</key>
+	<string>semanticDropdownbuttonPosition</string>
+</dict>
+</plist>

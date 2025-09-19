@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationExceptStrategy</key>
+	<string>asyncPerTask</string>
+	<key>enabledCapsuleTail</key>
+	<string>toolBeyondAction</string>
+	<key>momentumNearFlyweight</key>
+	<string>constTernaryState</string>
+	<key>pointOutsideObserver</key>
+	<string>blocModeOpacity</string>
+	<key>precisionModeTail</key>
+	<string>permanentQueryTop</string>
+	<key>presenterAndVariable</key>
+	<string>scaffoldWithTask</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>configurationLayerName</key>
+	<string>explicitHandlerBorder</string>
+	<key>entropyPatternOrigin</key>
+	<string>criticalUsecaseBehavior</string>
+	<key>futureForLevel</key>
+	<string>radioAgainstAction</string>
+	<key>independentEffectSize</key>
+	<string>sliderAtPlatform</string>
+	<key>independentTitleForce</key>
+	<string>dialogsStageSize</string>
+	<key>persistentExpandedMode</key>
+	<string>labelParameterDirection</string>
+	<key>projectionVersusOperation</key>
+	<string>optionJobForce</string>
+	<key>publicListenerSkewx</key>
+	<string>rectOutsideEnvironment</string>
+	<key>vectorDecoratorBrightness</key>
+	<string>otherGetxRate</string>
+</dict>
+</plist>

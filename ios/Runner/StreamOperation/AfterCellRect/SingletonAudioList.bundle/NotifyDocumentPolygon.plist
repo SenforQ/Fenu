@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alertScopeForce</key>
+	<string>opaqueMetadataTransparency</string>
+	<key>cubitAwayJob</key>
+	<string>listenerExceptCommand</string>
+	<key>injectionByShape</key>
+	<string>layoutCompositeDepth</string>
+	<key>reactiveMemberOpacity</key>
+	<string>touchMementoDuration</string>
+	<key>responseUntilPattern</key>
+	<string>consumerThanStrategy</string>
+	<key>synchronousCoordinatorInteraction</key>
+	<string>oldGroupStyle</string>
+	<key>topicAgainstMemento</key>
+	<string>coordinatorActionInteraction</string>
+	<key>tweenLevelDirection</key>
+	<string>hashNearMemento</string>
+</dict>
+</plist>

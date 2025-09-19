@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cubitLayerPressure</key>
+	<string>boxshadowWithoutAction</string>
+	<key>difficultActivityPosition</key>
+	<string>positionActionInteraction</string>
+	<key>parallelDimensionMargin</key>
+	<string>paddingMediatorLocation</string>
+	<key>progressbarPerWork</key>
+	<string>euclideanTransformerTension</string>
+	<key>projectMementoDepth</key>
+	<string>tensorHandlerDistance</string>
+	<key>tensorFragmentCount</key>
+	<string>logAdapterTension</string>
+	<key>utilVersusVariable</key>
+	<string>notificationWithoutCommand</string>
+</dict>
+</plist>

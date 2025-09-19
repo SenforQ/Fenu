@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>buttonStructureBehavior</key>
+	<string>firstIconDepth</string>
+	<key>convolutionPerVar</key>
+	<string>ternaryAlongAction</string>
+	<key>disabledMasterCenter</key>
+	<string>normAlongFlyweight</string>
+	<key>imageAgainstForm</key>
+	<string>handlerBesideAdapter</string>
+	<key>repositoryVarPressure</key>
+	<string>radiusStructureBorder</string>
+	<key>usedGraphKind</key>
+	<string>dropdownbuttonNumberLeft</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cursorStyleDepth</key>
+	<string>equalizationWithoutForm</string>
+	<key>entityInterpreterDelay</key>
+	<string>groupOutsideMode</string>
+	<key>instructionStructureMargin</key>
+	<string>handlerWithoutChain</string>
+	<key>normalGestureVisibility</key>
+	<string>offsetMediatorOpacity</string>
+	<key>positionMediatorVisibility</key>
+	<string>largeIconState</string>
+	<key>repositoryPerFunction</key>
+	<string>basicOffsetRotation</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>advancedBehaviorTransparency</key>
+	<string>sortedFutureContrast</string>
+	<key>collectionByStructure</key>
+	<string>entityThroughStrategy</string>
+	<key>columnDespiteValue</key>
+	<string>visibleFeatureTag</string>
+	<key>concurrentScrollSpacing</key>
+	<string>controllerThanStage</string>
+	<key>denseStreamResponse</key>
+	<string>transitionCycleDuration</string>
+	<key>grainStrategyCenter</key>
+	<string>disabledTextureStyle</string>
+	<key>viewShapeRate</key>
+	<string>statelessWorkSpeed</string>
+</dict>
+</plist>

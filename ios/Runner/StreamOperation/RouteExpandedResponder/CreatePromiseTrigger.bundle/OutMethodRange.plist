@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>asyncObserverPadding</key>
+	<string>nodeDuringFacade</string>
+	<key>descriptionStrategyType</key>
+	<string>buttonPerMethod</string>
+	<key>entropyPerFacade</key>
+	<string>mediumSessionShape</string>
+	<key>intuitiveInterfaceSkewy</key>
+	<string>entityTypeCoord</string>
+	<key>matrixOutsideTemple</key>
+	<string>customTextureBorder</string>
+	<key>mobxOutsideVar</key>
+	<string>synchronousParticleInteraction</string>
+</dict>
+</plist>

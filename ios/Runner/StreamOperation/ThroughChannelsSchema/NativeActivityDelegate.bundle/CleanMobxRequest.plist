@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baselineObserverCenter</key>
+	<string>checkboxTaskType</string>
+	<key>constraintUntilPrototype</key>
+	<string>composableTitleValidation</string>
+	<key>dynamicDurationFeedback</key>
+	<string>sizeProxyHead</string>
+	<key>exponentTaskBehavior</key>
+	<string>getxAsWork</string>
+	<key>immediateSinkSkewy</key>
+	<string>firstFutureSpeed</string>
+	<key>stateLevelTail</key>
+	<string>segmentStructureTop</string>
+	<key>visibleNodeAcceleration</key>
+	<string>gradientSingletonDistance</string>
+</dict>
+</plist>

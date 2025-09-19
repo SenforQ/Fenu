@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>canvasParameterLeft</key>
+	<string>enabledScrollBrightness</string>
+	<key>clipperTypeSize</key>
+	<string>captionBesidePlatform</string>
+	<key>draggableTextureKind</key>
+	<string>retainedMediaFeedback</string>
+	<key>fusedActionInterval</key>
+	<string>grainLevelFlags</string>
+	<key>overlayAndStyle</key>
+	<string>chapterCommandType</string>
+	<key>playbackFrameworkBorder</key>
+	<string>criticalChapterContrast</string>
+	<key>positionNearStyle</key>
+	<string>topicKindSpacing</string>
+	<key>reducerContextDepth</key>
+	<string>otherWorkflowAlignment</string>
+	<key>titleBeyondPhase</key>
+	<string>textfieldLevelInteraction</string>
+</dict>
+</plist>

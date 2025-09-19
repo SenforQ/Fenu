@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>advancedCompleterDensity</key>
+	<string>bufferFromStrategy</string>
+	<key>animationVersusFacade</key>
+	<string>mobxOrMemento</string>
+	<key>errorInsideFramework</key>
+	<string>mobxAtBuffer</string>
+	<key>factoryParameterState</key>
+	<string>enabledFeatureColor</string>
+	<key>labelAgainstLevel</key>
+	<string>movementContainProxy</string>
+	<key>layerCycleBorder</key>
+	<string>visibleTimerDepth</string>
+	<key>modelAlongCommand</key>
+	<string>remainderIncludeVar</string>
+	<key>usageOfFacade</key>
+	<string>storeBufferOpacity</string>
+	<key>webExpandedSpacing</key>
+	<string>visibleContainerShade</string>
+</dict>
+</plist>

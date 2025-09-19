@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>desktopDecorationOffset</key>
+	<string>mediumSlashStyle</string>
+	<key>pinchableMovementCenter</key>
+	<string>subsequentButtonLocation</string>
+	<key>sizedboxFunctionFlags</key>
+	<string>momentumPhaseFormat</string>
+	<key>transformerForMode</key>
+	<string>resourceSingletonInteraction</string>
+	<key>workflowForComposite</key>
+	<string>stackThroughPlatform</string>
+</dict>
+</plist>

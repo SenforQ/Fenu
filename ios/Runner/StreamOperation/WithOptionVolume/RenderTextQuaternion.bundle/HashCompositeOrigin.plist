@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accordionButtonShade</key>
+	<string>axisAroundOperation</string>
+	<key>asyncGroupValidation</key>
+	<string>statefulPerActivity</string>
+	<key>baseOutsideEnvironment</key>
+	<string>menuFromObserver</string>
+	<key>boxshadowTierBehavior</key>
+	<string>taskForState</string>
+	<key>cubitInCommand</key>
+	<string>mediaTempleBound</string>
+	<key>hierarchicalConstraintTag</key>
+	<string>substantialPositionSpacing</string>
+	<key>integerForContext</key>
+	<string>accessoryPerDecorator</string>
+	<key>interfaceStrategyMomentum</key>
+	<string>resolverAlongObserver</string>
+	<key>modalAndStage</key>
+	<string>catalystNearWork</string>
+	<key>pageviewAgainstInterpreter</key>
+	<string>widgetFunctionOrigin</string>
+</dict>
+</plist>

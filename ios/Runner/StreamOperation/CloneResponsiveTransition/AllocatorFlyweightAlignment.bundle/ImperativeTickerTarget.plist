@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alertStyleDepth</key>
+	<string>histogramKindEdge</string>
+	<key>layerTypePadding</key>
+	<string>navigatorInterpreterOrigin</string>
+	<key>mediaStateSaturation</key>
+	<string>alphaPhaseOpacity</string>
+	<key>popupActionVisible</key>
+	<string>ignoredGestureCoord</string>
+	<key>seamlessSlashCenter</key>
+	<string>usecaseScopeColor</string>
+	<key>slashCompositeRate</key>
+	<string>cupertinoCompositeTransparency</string>
+	<key>texturePerPlatform</key>
+	<string>ephemeralMarginSize</string>
+	<key>uniqueSegmentVelocity</key>
+	<string>statefulOfDecorator</string>
+</dict>
+</plist>

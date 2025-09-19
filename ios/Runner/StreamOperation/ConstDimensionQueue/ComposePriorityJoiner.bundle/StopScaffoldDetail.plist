@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cartesianBufferOrientation</key>
+	<string>disabledPositionKind</string>
+	<key>graphParameterStyle</key>
+	<string>deferredMemberDepth</string>
+	<key>localizationAgainstBuffer</key>
+	<string>delegateParamVisibility</string>
+	<key>sceneDuringPattern</key>
+	<string>granularMobileDistance</string>
+	<key>slashStrategyIndex</key>
+	<string>materialAroundCycle</string>
+	<key>subsequentUtilBorder</key>
+	<string>statefulThanDecorator</string>
+</dict>
+</plist>

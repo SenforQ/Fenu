@@ -57,7 +57,7 @@ class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
     return [
       {
         'id': 'forest_1',
-        'image': 'forest_type_1_bg_20250902.jpg',
+        'image': 'forest_type_1_bg_20250902.webp',
         'title': 'Melbourne\'s Fairy Tale Paradise',
         'location': 'Alfred Nicholas',
         'views': '50 people viewed',
@@ -66,7 +66,7 @@ class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
       },
       {
         'id': 'forest_2',
-        'image': 'forest_type_2_bg_20250902.jpg',
+        'image': 'forest_type_2_bg_20250902.webp',
         'title': 'Magic Forest Really Exists!!',
         'location': 'De Djawatan',
         'views': '43 people viewed',
@@ -75,7 +75,7 @@ class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
       },
       {
         'id': 'forest_3',
-        'image': 'forest_type_3_bg_20250902.jpg',
+        'image': 'forest_type_3_bg_20250902.webp',
         'title': 'Melbourne Amazon Rainforest Day Trip',
         'location': 'Maroondah Park',
         'views': '23 people viewed',
@@ -84,7 +84,7 @@ class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
       },
       {
         'id': 'canyon_1',
-        'image': 'canyon_type_1_bg_20250902.jpg',
+        'image': 'canyon_type_1_bg_20250902.webp',
         'title': 'Natural Wonder: Majestic Glaciers Create Most Fragmented Canyon',
         'location': 'Fjaðrárgljúfur',
         'views': '25 people viewed',
@@ -93,7 +93,7 @@ class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
       },
       {
         'id': 'canyon_2',
-        'image': 'canyon_type_2_bg_20250902.jpg',
+        'image': 'canyon_type_2_bg_20250902.webp',
         'title': 'Grand Canyon Antelope Valley',
         'location': 'Grand Canyon',
         'views': '33 people viewed',
@@ -102,7 +102,7 @@ class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
       },
       {
         'id': 'canyon_3',
-        'image': 'canyon_type_3_bg_20250902.jpg',
+        'image': 'canyon_type_3_bg_20250902.webp',
         'title': 'Grand Canyon',
         'location': 'Grand Canyon',
         'views': '39 people viewed',
@@ -111,7 +111,7 @@ class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
       },
       {
         'id': 'desert_1',
-        'image': 'desert_type_1_bg_20250902.jpg',
+        'image': 'desert_type_1_bg_20250902.webp',
         'title': 'Egypt Black Desert Crystal Mountain White Desert',
         'location': 'Sahara Desert',
         'views': '29 people viewed',
@@ -120,7 +120,7 @@ class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
       },
       {
         'id': 'desert_2',
-        'image': 'desert_type_2_bg_20250902.jpg',
+        'image': 'desert_type_2_bg_20250902.webp',
         'title': 'Morocco Desert Journey',
         'location': 'Morocco Desert',
         'views': '27 people viewed',
@@ -129,7 +129,7 @@ class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
       },
       {
         'id': 'desert_3',
-        'image': 'desert_type_3_bg_20250902.jpg',
+        'image': 'desert_type_3_bg_20250902.webp',
         'title': 'Not in Sahara Desert! In Melbourne!',
         'location': 'Big Drift',
         'views': '26 people viewed',
@@ -138,7 +138,7 @@ class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
       },
       {
         'id': 'lake_1',
-        'image': 'lake_type_1_bg_20250902.jpg',
+        'image': 'lake_type_1_bg_20250902.webp',
         'title': 'God\'s Palette: Australia Pink Lakes',
         'location': 'Lake Hillier',
         'views': '13 people viewed',
@@ -147,7 +147,7 @@ class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
       },
       {
         'id': 'lake_2',
-        'image': 'lake_type_2_bg_20250902.jpg',
+        'image': 'lake_type_2_bg_20250902.webp',
         'title': 'Utah Salt Lake City Pink Salt Lake',
         'location': 'Stansbury View',
         'views': '11 people viewed',
@@ -156,7 +156,7 @@ class _FavoriteDetailPageState extends State<FavoriteDetailPage> {
       },
       {
         'id': 'lake_3',
-        'image': 'lake_type_3_bg_20250902.jpg',
+        'image': 'lake_type_3_bg_20250902.webp',
         'title': 'Oeschinensee Lake',
         'location': 'Interlaken',
         'views': '19 people viewed',

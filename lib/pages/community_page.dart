@@ -297,7 +297,7 @@ class _CommunityPageState extends State<CommunityPage> {
                       color: Colors.transparent,
                       borderRadius: BorderRadius.circular(12),
                       image: const DecorationImage(
-                        image: AssetImage('assets/community_top_20250902.png'),
+                        image: AssetImage('assets/community_top_20250902.webp'),
                         fit: BoxFit.fitWidth,
                       ),
                     ),
@@ -326,7 +326,7 @@ class _CommunityPageState extends State<CommunityPage> {
                       children: [
                         // Discover your next journey 标题
                         Image.asset(
-                          'assets/community_discover_20250902.png',
+                          'assets/community_discover_20250902.webp',
                           width: 231,
                           height: 24,
                           fit: BoxFit.contain,

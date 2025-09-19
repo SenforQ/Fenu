@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>crudeActionCoord</key>
+	<string>animationNumberOrientation</string>
+	<key>euclideanSingletonState</key>
+	<string>sensorStageResponse</string>
+	<key>explicitSkirtVisible</key>
+	<string>cubeModeHead</string>
+	<key>gesturedetectorWithDecorator</key>
+	<string>accordionFeatureOrigin</string>
+	<key>imperativeGrayscaleStyle</key>
+	<string>binaryInsideCommand</string>
+	<key>inheritedWidgetContrast</key>
+	<string>brushTierOffset</string>
+	<key>iterativePaddingOffset</key>
+	<string>painterStageFlags</string>
+	<key>positionMethodFeedback</key>
+	<string>intuitiveBitrateOrientation</string>
+</dict>
+</plist>

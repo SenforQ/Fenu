@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accordionBatchAppearance</key>
+	<string>tableVersusPlatform</string>
+	<key>collectionAndFramework</key>
+	<string>tappableScrollPadding</string>
+	<key>configurationPerScope</key>
+	<string>dialogsAlongBridge</string>
+	<key>declarativeButtonDepth</key>
+	<string>customizedVectorKind</string>
+	<key>swiftTypeIndex</key>
+	<string>spotChainName</string>
+	<key>textfieldAndType</key>
+	<string>asynchronousInterfaceOffset</string>
+	<key>uniqueMobileName</key>
+	<string>usecaseTypePadding</string>
+</dict>
+</plist>

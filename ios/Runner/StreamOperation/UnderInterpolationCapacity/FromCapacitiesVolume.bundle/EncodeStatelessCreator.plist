@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alertForStrategy</key>
+	<string>composableMapOrientation</string>
+	<key>binarySystemPadding</key>
+	<string>transformerContainCycle</string>
+	<key>declarativeBoxshadowSkewx</key>
+	<string>unsortedMomentumValidation</string>
+	<key>easyDrawerBound</key>
+	<string>arithmeticControllerBound</string>
+	<key>isolateFacadePosition</key>
+	<string>priorProgressbarKind</string>
+	<key>metadataPrototypeSkewy</key>
+	<string>reducerForProxy</string>
+	<key>pointThroughFlyweight</key>
+	<string>playbackWorkOpacity</string>
+	<key>sliderLevelForce</key>
+	<string>intuitiveCallbackSpeed</string>
+	<key>standaloneSignatureDepth</key>
+	<string>inheritedSliderPadding</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>asynchronousClipperKind</key>
+	<string>graphicValueFormat</string>
+	<key>mediumStateCount</key>
+	<string>primaryChapterState</string>
+	<key>queryCommandScale</key>
+	<string>constTernaryDirection</string>
+	<key>rowFormVisibility</key>
+	<string>multiCollectionLeft</string>
+	<key>skirtStructureShape</key>
+	<string>sizeVersusContext</string>
+	<key>stateBridgeSize</key>
+	<string>hierarchicalTitleTension</string>
+	<key>textAsLevel</key>
+	<string>buttonDecoratorBottom</string>
+</dict>
+</plist>

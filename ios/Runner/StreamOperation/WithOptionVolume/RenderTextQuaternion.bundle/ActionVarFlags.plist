@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accessibleGridTransparency</key>
+	<string>brushUntilNumber</string>
+	<key>coordinatorDuringDecorator</key>
+	<string>respectiveRequestAcceleration</string>
+	<key>currentExtensionOpacity</key>
+	<string>asyncCompleterOpacity</string>
+	<key>frameLikeFunction</key>
+	<string>priorSemanticsSize</string>
+	<key>invisibleAssetBorder</key>
+	<string>labelStyleValidation</string>
+	<key>projectionThanVariable</key>
+	<string>singletonBesideNumber</string>
+	<key>resourceDuringStructure</key>
+	<string>reactiveLossDistance</string>
+	<key>temporaryExponentBehavior</key>
+	<string>accessibleUnaryInset</string>
+	<key>viewUntilAdapter</key>
+	<string>resizableCallbackLeft</string>
+</dict>
+</plist>

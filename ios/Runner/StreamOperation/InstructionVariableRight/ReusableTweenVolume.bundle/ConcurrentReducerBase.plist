@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>concurrentDrawerSize</key>
+	<string>builderDuringChain</string>
+	<key>dynamicStateFormat</key>
+	<string>grainBufferColor</string>
+	<key>flexibleMethodKind</key>
+	<string>compositionalLocalizationBottom</string>
+	<key>independentProtocolVelocity</key>
+	<string>fixedProgressbarMomentum</string>
+	<key>offsetExceptProxy</key>
+	<string>deferredMobileDistance</string>
+	<key>otherConstraintOffset</key>
+	<string>secondCardBrightness</string>
+	<key>rectShapeOrigin</key>
+	<string>tappableDependencyInterval</string>
+</dict>
+</plist>

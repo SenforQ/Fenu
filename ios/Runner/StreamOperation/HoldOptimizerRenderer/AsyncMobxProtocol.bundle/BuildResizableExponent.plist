@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aspectFunctionDelay</key>
+	<string>smallGrainScale</string>
+	<key>commandAroundFramework</key>
+	<string>elasticSwiftVelocity</string>
+	<key>composableChartCount</key>
+	<string>liteCatalystScale</string>
+	<key>displayableNotifierTop</key>
+	<string>animationActivityDelay</string>
+	<key>keyTableBehavior</key>
+	<string>lossTierMargin</string>
+	<key>serviceFunctionRate</key>
+	<string>baseOfParameter</string>
+	<key>spineWithoutCommand</key>
+	<string>coordinatorVariableInterval</string>
+</dict>
+</plist>

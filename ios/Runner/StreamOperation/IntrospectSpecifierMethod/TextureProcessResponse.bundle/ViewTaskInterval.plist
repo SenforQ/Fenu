@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allocatorTierFrequency</key>
+	<string>responseAtPlatform</string>
+	<key>curvePatternInteraction</key>
+	<string>referenceStageStatus</string>
+	<key>effectIncludeNumber</key>
+	<string>spotPatternShade</string>
+	<key>hashCommandDensity</key>
+	<string>timerWithTask</string>
+	<key>providerActivityBottom</key>
+	<string>paddingCycleOrientation</string>
+	<key>semanticTabviewSpacing</key>
+	<string>toolLevelCenter</string>
+	<key>significantConstraintName</key>
+	<string>consumerPerActivity</string>
+	<key>sliderAlongTask</key>
+	<string>borderJobDensity</string>
+</dict>
+</plist>

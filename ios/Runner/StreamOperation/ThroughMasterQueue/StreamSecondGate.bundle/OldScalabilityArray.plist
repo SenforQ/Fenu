@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>heapKindForce</key>
+	<string>chartPerStructure</string>
+	<key>labelPrototypeTint</key>
+	<string>overlayAsKind</string>
+	<key>lostHeroVisibility</key>
+	<string>spriteLevelCount</string>
+	<key>projectionActionStatus</key>
+	<string>requestStrategyVisibility</string>
+	<key>sequentialCurveScale</key>
+	<string>radiusSingletonDensity</string>
+	<key>standaloneResourceInset</key>
+	<string>reducerEnvironmentDelay</string>
+	<key>unactivatedEffectRate</key>
+	<string>vectorPerPattern</string>
+</dict>
+</plist>

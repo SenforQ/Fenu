@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chartStrategyInteraction</key>
+	<string>mediocreGateFrequency</string>
+	<key>loopUntilComposite</key>
+	<string>cellWithParameter</string>
+	<key>particleCompositeKind</key>
+	<string>custompaintOperationSize</string>
+	<key>spriteAroundMethod</key>
+	<string>asynchronousSignAlignment</string>
+	<key>vectorTypeColor</key>
+	<string>descriptionStyleSkewx</string>
+</dict>
+</plist>

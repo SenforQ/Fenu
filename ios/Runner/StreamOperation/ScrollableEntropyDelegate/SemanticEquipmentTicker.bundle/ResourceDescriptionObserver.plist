@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>displayableRouteAppearance</key>
+	<string>iconPatternTint</string>
+	<key>dynamicChapterTransparency</key>
+	<string>gateIncludeFramework</string>
+	<key>explicitGrayscaleOrigin</key>
+	<string>grainValueRight</string>
+	<key>queryPerPhase</key>
+	<string>heapAsTier</string>
+	<key>sliderOutsideTask</key>
+	<string>requiredCubeCenter</string>
+	<key>statefulKindValidation</key>
+	<string>contractionModeValidation</string>
+</dict>
+</plist>

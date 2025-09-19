@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>positionDecoratorTop</key>
+	<string>storeActionAppearance</string>
+	<key>precisionAlongLevel</key>
+	<string>directUnaryStatus</string>
+	<key>secondCustompaintCoord</key>
+	<string>cubitStyleShade</string>
+	<key>tickerPrototypeDelay</key>
+	<string>geometricCursorAcceleration</string>
+</dict>
+</plist>

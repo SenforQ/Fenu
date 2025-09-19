@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arithmeticRequestType</key>
+	<string>euclideanCupertinoTail</string>
+	<key>cupertinoAgainstMethod</key>
+	<string>sequentialBulletDelay</string>
+	<key>gesturedetectorCompositeResponse</key>
+	<string>inactiveConstraintVisible</string>
+	<key>projectionOfLayer</key>
+	<string>techniqueInterpreterFrequency</string>
+	<key>rectFunctionSpacing</key>
+	<string>prevTopicVisible</string>
+</dict>
+</plist>

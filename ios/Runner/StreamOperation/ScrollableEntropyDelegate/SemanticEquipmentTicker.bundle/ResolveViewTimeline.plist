@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accessibleScreenForce</key>
+	<string>sizeSystemTail</string>
+	<key>documentAgainstPrototype</key>
+	<string>actionAgainstDecorator</string>
+	<key>enabledInteractorAppearance</key>
+	<string>containerEnvironmentAcceleration</string>
+	<key>layoutAwayPattern</key>
+	<string>sequentialShaderCount</string>
+	<key>mainStackType</key>
+	<string>switchCompositeResponse</string>
+	<key>radiusOutsideCycle</key>
+	<string>constraintStructureCoord</string>
+	<key>threadAmongOperation</key>
+	<string>concurrentTableHead</string>
+</dict>
+</plist>

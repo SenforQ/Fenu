@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>anchorLayerLocation</key>
+	<string>monsterForBridge</string>
+	<key>buttonAgainstCycle</key>
+	<string>staticSliderBottom</string>
+	<key>futureStatePressure</key>
+	<string>logOperationAcceleration</string>
+	<key>keySpriteIndex</key>
+	<string>reductionBridgeTail</string>
+	<key>paddingNearVariable</key>
+	<string>localDropdownbuttonFrequency</string>
+	<key>rectIncludeFacade</key>
+	<string>hardGestureInterval</string>
+	<key>ternaryAgainstFunction</key>
+	<string>ephemeralDropdownbuttonHead</string>
+	<key>transformerOfJob</key>
+	<string>columnThroughForm</string>
+	<key>transitionVisitorSkewy</key>
+	<string>visibleCurveSize</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appbarMediatorInset</key>
+	<string>rectActivityPadding</string>
+	<key>binaryStageAlignment</key>
+	<string>permissiveExtensionSize</string>
+	<key>brushContextPadding</key>
+	<string>hashForDecorator</string>
+	<key>bufferAmongObserver</key>
+	<string>repositoryFacadeBorder</string>
+	<key>commonEventFormat</key>
+	<string>storageEnvironmentBehavior</string>
+	<key>injectionNumberShape</key>
+	<string>indicatorParameterBound</string>
+	<key>transitionProcessDensity</key>
+	<string>pivotalTimerPadding</string>
+</dict>
+</plist>

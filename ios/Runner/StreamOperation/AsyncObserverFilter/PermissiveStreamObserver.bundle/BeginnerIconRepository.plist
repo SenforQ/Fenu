@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>currentMenuVelocity</key>
+	<string>navigatorOfCommand</string>
+	<key>factoryAndLayer</key>
+	<string>sampleSinceFlyweight</string>
+	<key>precisionFromStyle</key>
+	<string>sinkEnvironmentScale</string>
+	<key>projectionInsideShape</key>
+	<string>textSystemDirection</string>
+	<key>timerFacadeType</key>
+	<string>tappableUsageState</string>
+	<key>uniformResolverForce</key>
+	<string>builderOfBuffer</string>
+</dict>
+</plist>

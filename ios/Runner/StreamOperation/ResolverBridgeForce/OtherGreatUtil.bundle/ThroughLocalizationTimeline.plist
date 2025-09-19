@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>giftVersusState</key>
+	<string>directWidgetDelay</string>
+	<key>numericalTextfieldDelay</key>
+	<string>radioFunctionSkewy</string>
+	<key>scaffoldSystemContrast</key>
+	<string>desktopMaterialDistance</string>
+	<key>tabviewAsVar</key>
+	<string>statefulVarShape</string>
+	<key>webConfigurationSaturation</key>
+	<string>intuitiveGroupContrast</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationAwayMediator</key>
+	<string>layoutForBridge</string>
+	<key>batchFacadeBrightness</key>
+	<string>sceneOutsideContext</string>
+	<key>blocInsideMethod</key>
+	<string>taskShapeTransparency</string>
+	<key>eventStructureShade</key>
+	<string>storagePlatformPosition</string>
+	<key>metadataJobMomentum</key>
+	<string>sizedboxAsCycle</string>
+	<key>mobilePageviewFeedback</key>
+	<string>radiusWithoutPattern</string>
+	<key>substantialScaffoldIndex</key>
+	<string>buttonBufferAlignment</string>
+	<key>widgetFormTheme</key>
+	<string>gesturedetectorExceptValue</string>
+</dict>
+</plist>

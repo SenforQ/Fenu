@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>errorProcessKind</key>
+	<string>segmentAboutSystem</string>
+	<key>graphVariableKind</key>
+	<string>unactivatedGridviewSize</string>
+	<key>injectionFunctionInset</key>
+	<string>publicServiceFlags</string>
+	<key>mobileRowValidation</key>
+	<string>blocMementoDelay</string>
+	<key>permissiveCurveStatus</key>
+	<string>configurationOutsideCommand</string>
+	<key>progressbarContainAdapter</key>
+	<string>bulletAgainstAction</string>
+	<key>subscriptionContainFunction</key>
+	<string>parallelIsolateVisibility</string>
+	<key>vectorParameterAppearance</key>
+	<string>hashWithoutLevel</string>
+	<key>webCompositionFeedback</key>
+	<string>tickerVisitorOrientation</string>
+</dict>
+</plist>

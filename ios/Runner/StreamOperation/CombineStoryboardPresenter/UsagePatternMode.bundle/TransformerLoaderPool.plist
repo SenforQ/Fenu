@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alphaExceptStrategy</key>
+	<string>cellProxyCoord</string>
+	<key>decorationViaType</key>
+	<string>inkwellCompositeFeedback</string>
+	<key>fragmentLikePattern</key>
+	<string>greatCompleterMode</string>
+	<key>rectScopeTheme</key>
+	<string>descriptionWorkKind</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>asyncStrategyRight</key>
+	<string>equipmentWithoutSystem</string>
+	<key>deferredCallbackCount</key>
+	<string>desktopEquipmentAcceleration</string>
+	<key>displayableTweenOffset</key>
+	<string>gestureAdapterSkewy</string>
+	<key>frameSinceActivity</key>
+	<string>sensorDuringActivity</string>
+	<key>listenerUntilVar</key>
+	<string>similarRequestBound</string>
+	<key>mediocreTextShade</key>
+	<string>exponentAsState</string>
+</dict>
+</plist>

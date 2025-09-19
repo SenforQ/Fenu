@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationStructureMomentum</key>
+	<string>sceneMediatorShade</string>
+	<key>contractionPhaseContrast</key>
+	<string>activityAsObserver</string>
+	<key>cycleEnvironmentRotation</key>
+	<string>publicInterfaceTint</string>
+	<key>disparateUtilFlags</key>
+	<string>tabbarTaskAppearance</string>
+	<key>gridviewInProcess</key>
+	<string>scaleLevelInset</string>
+	<key>listenerLayerDuration</key>
+	<string>clipperWithoutCommand</string>
+	<key>matrixBridgeOrigin</key>
+	<string>resourceContextSpacing</string>
+	<key>sceneActionRate</key>
+	<string>imperativePageviewMode</string>
+	<key>symbolAlongStyle</key>
+	<string>eventLikeActivity</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>crucialVectorPadding</key>
+	<string>euclideanTextureContrast</string>
+	<key>effectIncludeLevel</key>
+	<string>staticDecorationMargin</string>
+	<key>factoryOfOperation</key>
+	<string>singleTaskInteraction</string>
+	<key>missedTouchName</key>
+	<string>gestureBeyondSystem</string>
+</dict>
+</plist>

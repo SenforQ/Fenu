@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allocatorActivityRate</key>
+	<string>invisibleButtonResponse</string>
+	<key>autoControllerState</key>
+	<string>usageAndStage</string>
+	<key>blocContextMargin</key>
+	<string>frameDecoratorTop</string>
+	<key>entityOrPattern</key>
+	<string>buttonForJob</string>
+	<key>offsetAlongStage</key>
+	<string>otherScaleKind</string>
+	<key>rowOrValue</key>
+	<string>ephemeralKernelDuration</string>
+	<key>sliderVersusFacade</key>
+	<string>managerBeyondState</string>
+	<key>transformerBeyondStyle</key>
+	<string>directBoxshadowResponse</string>
+	<key>transitionOutsideParameter</key>
+	<string>injectionAdapterTag</string>
+</dict>
+</plist>

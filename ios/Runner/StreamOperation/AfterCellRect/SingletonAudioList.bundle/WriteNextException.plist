@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>capsuleMethodFormat</key>
+	<string>globalSizedboxTail</string>
+	<key>discardedRadiusAlignment</key>
+	<string>heroInMode</string>
+	<key>labelAwayFlyweight</key>
+	<string>swiftAndVariable</string>
+	<key>modalAndSingleton</key>
+	<string>invisiblePositionedHead</string>
+	<key>observerFrameworkSpacing</key>
+	<string>crudeClipperBehavior</string>
+</dict>
+</plist>

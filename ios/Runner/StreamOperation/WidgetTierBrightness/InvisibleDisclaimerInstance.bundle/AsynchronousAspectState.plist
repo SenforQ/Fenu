@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cartesianMetadataBehavior</key>
+	<string>multiTouchPressure</string>
+	<key>characterNearPhase</key>
+	<string>managerPhaseCount</string>
+	<key>documentOutsideCycle</key>
+	<string>configurationForCommand</string>
+	<key>groupIncludeLevel</key>
+	<string>cacheWithSystem</string>
+	<key>mutableAnimatedcontainerCenter</key>
+	<string>firstServiceOffset</string>
+	<key>queuePlatformDuration</key>
+	<string>flexDecoratorRight</string>
+	<key>requiredGroupTransparency</key>
+	<string>responseShapeFrequency</string>
+	<key>significantTweenLocation</key>
+	<string>imperativeDecorationInteraction</string>
+	<key>subscriptionShapeMomentum</key>
+	<string>localizationAdapterSaturation</string>
+</dict>
+</plist>

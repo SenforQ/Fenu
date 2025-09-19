@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>channelsAlongStyle</key>
+	<string>sustainableDependencySkewx</string>
+	<key>layerPerVar</key>
+	<string>cubitAroundChain</string>
+	<key>textureAmongFlyweight</key>
+	<string>dynamicTextureInterval</string>
+	<key>zoneContextInset</key>
+	<string>themeUntilShape</string>
+</dict>
+</plist>

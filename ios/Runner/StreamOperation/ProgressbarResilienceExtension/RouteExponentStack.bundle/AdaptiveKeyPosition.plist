@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arithmeticPhaseOffset</key>
+	<string>workflowStateState</string>
+	<key>completionStructureStyle</key>
+	<string>mediumResponseShape</string>
+	<key>cupertinoAlignmentForce</key>
+	<string>responsiveContainerContrast</string>
+	<key>enabledRectOffset</key>
+	<string>usecaseWithoutFlyweight</string>
+	<key>optionActionTint</key>
+	<string>beginnerTopicResponse</string>
+	<key>resourceAlongShape</key>
+	<string>decorationCompositeSpacing</string>
+	<key>streamParameterTint</key>
+	<string>deferredHandlerVelocity</string>
+</dict>
+</plist>

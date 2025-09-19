@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alphaDuringFlyweight</key>
+	<string>normEnvironmentFrequency</string>
+	<key>enabledRouteMomentum</key>
+	<string>threadVersusFramework</string>
+	<key>fixedMovementDensity</key>
+	<string>transitionTierDistance</string>
+	<key>indicatorVarInterval</key>
+	<string>sceneAwayBuffer</string>
+	<key>interfaceDespiteMode</key>
+	<string>operationNumberInterval</string>
+	<key>intermediateResponseSkewx</key>
+	<string>challengeInsideFramework</string>
+	<key>permissiveLayoutSize</key>
+	<string>normPerParam</string>
+</dict>
+</plist>

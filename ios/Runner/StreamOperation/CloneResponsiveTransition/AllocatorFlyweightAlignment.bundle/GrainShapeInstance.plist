@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>asyncMediatorSaturation</key>
+	<string>modelWithoutFacade</string>
+	<key>blocModeTransparency</key>
+	<string>temporaryLayoutSaturation</string>
+	<key>gestureNearFramework</key>
+	<string>serviceInterpreterVisibility</string>
+	<key>interpolationPhaseHue</key>
+	<string>diversifiedSliderVisibility</string>
+	<key>streamProxyLocation</key>
+	<string>brushInterpreterTag</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalystProcessFrequency</key>
+	<string>labelDecoratorDistance</string>
+	<key>containerWorkSkewx</key>
+	<string>reducerNearParam</string>
+	<key>contractionFlyweightOpacity</key>
+	<string>mediaqueryContainState</string>
+	<key>graphicWorkVisible</key>
+	<string>scaleStageInterval</string>
+	<key>newestListenerBound</key>
+	<string>mainGridAlignment</string>
+	<key>retainedCubitSpacing</key>
+	<string>optionTypeTransparency</string>
+	<key>riverpodFlyweightBehavior</key>
+	<string>smartRectInterval</string>
+	<key>techniqueCompositeSpacing</key>
+	<string>symmetricCommandVisibility</string>
+</dict>
+</plist>

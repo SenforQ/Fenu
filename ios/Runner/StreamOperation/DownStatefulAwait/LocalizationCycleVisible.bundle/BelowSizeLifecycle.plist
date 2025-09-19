@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>injectionBeyondCycle</key>
+	<string>cartesianMobxFrequency</string>
+	<key>intensityAgainstComposite</key>
+	<string>criticalOffsetEdge</string>
+	<key>queryAtStructure</key>
+	<string>seamlessSpecifierInset</string>
+	<key>widgetAsState</key>
+	<string>errorOrPrototype</string>
+</dict>
+</plist>

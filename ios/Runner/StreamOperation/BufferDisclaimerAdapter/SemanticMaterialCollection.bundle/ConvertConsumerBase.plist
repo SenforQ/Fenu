@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>assetStateLeft</key>
+	<string>seamlessAlphaResponse</string>
+	<key>buttonStyleEdge</key>
+	<string>mediaqueryByCommand</string>
+	<key>controllerAmongState</key>
+	<string>blocTypeTop</string>
+	<key>independentTopicOrigin</key>
+	<string>scaleLayerScale</string>
+	<key>interactiveBuilderValidation</key>
+	<string>activePaddingBehavior</string>
+	<key>similarWidgetPressure</key>
+	<string>alignmentAmongFacade</string>
+	<key>temporaryChartAppearance</key>
+	<string>drawerExceptLevel</string>
+</dict>
+</plist>

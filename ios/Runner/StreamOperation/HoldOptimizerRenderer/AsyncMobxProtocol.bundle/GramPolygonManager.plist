@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commandForFramework</key>
+	<string>storageWithState</string>
+	<key>completerScopeDirection</key>
+	<string>menuOfTier</string>
+	<key>oldCompleterLocation</key>
+	<string>cosineCycleBrightness</string>
+	<key>popupInsidePhase</key>
+	<string>delegateSinceJob</string>
+	<key>routeAgainstTier</key>
+	<string>dedicatedLossVisible</string>
+</dict>
+</plist>

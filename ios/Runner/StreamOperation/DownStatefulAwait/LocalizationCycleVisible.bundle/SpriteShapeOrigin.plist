@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>assetValueSize</key>
+	<string>sharedOffsetStyle</string>
+	<key>factoryModeInterval</key>
+	<string>directlySizePadding</string>
+	<key>graphSinceInterpreter</key>
+	<string>mobxLevelInset</string>
+	<key>queueTaskSpeed</key>
+	<string>keySingletonFrequency</string>
+	<key>routeThroughStrategy</key>
+	<string>timerDecoratorInterval</string>
+	<key>sharedSlashTheme</key>
+	<string>timerInsideValue</string>
+	<key>typicalSwitchFlags</key>
+	<string>builderByAction</string>
+	<key>usecaseSinceActivity</key>
+	<string>managerForCommand</string>
+	<key>zoneAboutShape</key>
+	<string>layoutInStrategy</string>
+</dict>
+</plist>

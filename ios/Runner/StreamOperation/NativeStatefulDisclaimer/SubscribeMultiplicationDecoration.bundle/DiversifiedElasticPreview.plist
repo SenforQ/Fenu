@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>completerFlyweightBehavior</key>
+	<string>swiftStagePosition</string>
+	<key>concreteCatalystScale</key>
+	<string>asyncOfVariable</string>
+	<key>fixedZoneRate</key>
+	<string>cubitWorkSpeed</string>
+	<key>gesturedetectorWithCommand</key>
+	<string>semanticsWorkCenter</string>
+	<key>particleAroundType</key>
+	<string>transitionIncludeMemento</string>
+	<key>sceneFlyweightFrequency</key>
+	<string>completionFromWork</string>
+</dict>
+</plist>

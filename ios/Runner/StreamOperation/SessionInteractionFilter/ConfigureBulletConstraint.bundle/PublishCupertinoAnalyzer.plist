@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>borderSinceCommand</key>
+	<string>gridviewCommandAcceleration</string>
+	<key>criticalCurveInteraction</key>
+	<string>hashInsideParam</string>
+	<key>mobxCycleBottom</key>
+	<string>widgetWithStrategy</string>
+	<key>originalWidgetScale</key>
+	<string>statelessHeroBottom</string>
+	<key>prevAnimatedcontainerCount</key>
+	<string>riverpodCycleDepth</string>
+	<key>progressbarFromType</key>
+	<string>callbackWithScope</string>
+	<key>semanticNodeStyle</key>
+	<string>profileDecoratorOpacity</string>
+	<key>singlePromiseColor</key>
+	<string>tweenPlatformRight</string>
+	<key>workflowWithoutJob</key>
+	<string>curvePatternFlags</string>
+</dict>
+</plist>

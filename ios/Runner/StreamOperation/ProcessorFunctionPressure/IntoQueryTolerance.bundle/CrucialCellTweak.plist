@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>axisWorkInterval</key>
+	<string>baseSystemCenter</string>
+	<key>descriptorCommandFrequency</key>
+	<string>graphPatternAppearance</string>
+	<key>dialogsKindMargin</key>
+	<string>fusedCapacitiesBrightness</string>
+	<key>mobileHashPosition</key>
+	<string>builderStrategyTop</string>
+	<key>navigationValuePosition</key>
+	<string>constraintCycleBorder</string>
+	<key>navigatorMethodCenter</key>
+	<string>resizableWorkflowBorder</string>
+	<key>textureFromType</key>
+	<string>vectorVarDistance</string>
+</dict>
+</plist>

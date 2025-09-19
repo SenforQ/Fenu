@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>completionDespiteMemento</key>
+	<string>previewThroughMediator</string>
+	<key>directGraphicInteraction</key>
+	<string>masterAsPhase</string>
+	<key>layerAndParam</key>
+	<string>touchTypeMode</string>
+	<key>metadataVersusContext</key>
+	<string>significantRowDistance</string>
+	<key>reductionVariableContrast</key>
+	<string>signPatternStyle</string>
+	<key>sortedSlashDensity</key>
+	<string>curveSinceBridge</string>
+</dict>
+</plist>

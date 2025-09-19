@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>controllerViaStrategy</key>
+	<string>mobileThroughComposite</string>
+	<key>overlayInsideState</key>
+	<string>retainedRectAppearance</string>
+	<key>progressbarTempleFormat</key>
+	<string>gemByVar</string>
+	<key>reducerCompositeVisibility</key>
+	<string>cubeNumberStyle</string>
+	<key>singleTechniqueResponse</key>
+	<string>transitionByMethod</string>
+	<key>usecaseVisitorShape</key>
+	<string>taskOperationBorder</string>
+	<key>webHeapTail</key>
+	<string>dependencySystemLocation</string>
+</dict>
+</plist>

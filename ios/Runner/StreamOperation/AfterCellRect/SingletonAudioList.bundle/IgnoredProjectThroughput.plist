@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>activeResponseTheme</key>
+	<string>collectionLevelShape</string>
+	<key>ephemeralListenerOrientation</key>
+	<string>intuitiveTickerAlignment</string>
+	<key>intermediateAccessoryDistance</key>
+	<string>pinchableTaskDelay</string>
+	<key>localCellInteraction</key>
+	<string>channelsFormBound</string>
+	<key>notificationFromParameter</key>
+	<string>projectionBesideVisitor</string>
+	<key>radiusLayerEdge</key>
+	<string>tickerParameterDistance</string>
+	<key>reductionAgainstChain</key>
+	<string>baseStateVisible</string>
+	<key>resilientSceneStatus</key>
+	<string>managerBesideProxy</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>asyncTaskPressure</key>
+	<string>cursorDuringProxy</string>
+	<key>constraintBesideMode</key>
+	<string>nextMapInteraction</string>
+	<key>decorationBeyondObserver</key>
+	<string>effectNearAction</string>
+	<key>exceptionCommandDepth</key>
+	<string>webCustompaintDirection</string>
+	<key>histogramShapeOpacity</key>
+	<string>precisionJobOrientation</string>
+	<key>nativeTweenDelay</key>
+	<string>frameKindInset</string>
+	<key>symmetricPresenterOrigin</key>
+	<string>stampContainCycle</string>
+	<key>textFunctionHue</key>
+	<string>themeOrParameter</string>
+	<key>transitionInNumber</key>
+	<string>blocInsideBridge</string>
+</dict>
+</plist>

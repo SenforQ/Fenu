@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accessibleNodeShade</key>
+	<string>scrollAgainstCycle</string>
+	<key>controllerFrameworkTop</key>
+	<string>composableConfigurationBorder</string>
+	<key>notificationProxyState</key>
+	<string>channelsContextSize</string>
+	<key>queueBeyondPlatform</key>
+	<string>singleScaffoldBrightness</string>
+	<key>zoneOrInterpreter</key>
+	<string>protectedOptimizerVisible</string>
+</dict>
+</plist>

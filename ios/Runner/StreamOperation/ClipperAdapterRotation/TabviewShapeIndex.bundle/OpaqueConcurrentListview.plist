@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>callbackContainContext</key>
+	<string>tweenWorkRight</string>
+	<key>explicitSingletonKind</key>
+	<string>managerIncludePattern</string>
+	<key>operationContainSingleton</key>
+	<string>stateMediatorLocation</string>
+	<key>scaffoldUntilPhase</key>
+	<string>logFlyweightFlags</string>
+	<key>spotBeyondState</key>
+	<string>globalRemainderVisible</string>
+	<key>staticIconDepth</key>
+	<string>resourceTaskVisibility</string>
+	<key>themeAmongTask</key>
+	<string>statelessScaleSpacing</string>
+</dict>
+</plist>

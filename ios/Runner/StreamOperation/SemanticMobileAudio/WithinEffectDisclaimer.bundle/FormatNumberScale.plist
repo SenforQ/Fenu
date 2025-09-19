@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>buttonVersusTask</key>
+	<string>promiseExceptPlatform</string>
+	<key>listenerThroughSingleton</key>
+	<string>synchronousCellCoord</string>
+	<key>movementLayerContrast</key>
+	<string>behaviorVisitorTag</string>
+	<key>resolverAndMemento</key>
+	<string>heroOutsideSystem</string>
+	<key>resultMediatorVisible</key>
+	<string>loopForComposite</string>
+	<key>routerPatternBottom</key>
+	<string>assetContainStage</string>
+	<key>scrollableTouchFormat</key>
+	<string>uniqueAsyncDuration</string>
+</dict>
+</plist>

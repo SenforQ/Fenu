@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accordionLoopVisibility</key>
+	<string>mediumChannelValidation</string>
+	<key>customizedFutureStyle</key>
+	<string>lazySpriteDirection</string>
+	<key>equalizationEnvironmentTension</key>
+	<string>serviceInInterpreter</string>
+	<key>exceptionStrategyDensity</key>
+	<string>interactiveExtensionTension</string>
+	<key>intuitiveExceptionBrightness</key>
+	<string>activatedParticleRotation</string>
+	<key>listenerLayerShape</key>
+	<string>mainCurveStatus</string>
+	<key>skirtFacadeIndex</key>
+	<string>descriptorAroundLevel</string>
+	<key>tabviewInterpreterScale</key>
+	<string>allocatorAroundFlyweight</string>
+	<key>timerAsPattern</key>
+	<string>singletonParameterFormat</string>
+</dict>
+</plist>

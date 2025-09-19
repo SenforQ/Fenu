@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>firstNavigatorHue</key>
+	<string>staticStoreTransparency</string>
+	<key>queryFrameworkDensity</key>
+	<string>concurrentExceptionContrast</string>
+	<key>transformerStructureOrientation</key>
+	<string>staticCellOrigin</string>
+	<key>utilProxyScale</key>
+	<string>resourcePrototypeDensity</string>
+</dict>
+</plist>

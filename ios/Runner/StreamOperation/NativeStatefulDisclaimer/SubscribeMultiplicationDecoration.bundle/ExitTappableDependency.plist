@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>curveScopeSaturation</key>
+	<string>concurrentPrecisionAcceleration</string>
+	<key>dynamicAnimationPressure</key>
+	<string>advancedNodeEdge</string>
+	<key>hierarchicalDescriptionResponse</key>
+	<string>usecaseKindOpacity</string>
+	<key>interpolationBesideMode</key>
+	<string>responsiveSampleRotation</string>
+	<key>mediocreCommandSpeed</key>
+	<string>containerByVariable</string>
+	<key>otherTouchSpeed</key>
+	<string>handlerModeShape</string>
+	<key>responsivePresenterIndex</key>
+	<string>persistentMetadataDuration</string>
+</dict>
+</plist>

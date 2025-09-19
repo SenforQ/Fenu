@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>localizationStateSpeed</key>
+	<string>sinkForState</string>
+	<key>oldGramValidation</key>
+	<string>subscriptionByStyle</string>
+	<key>pinchableAnimationMargin</key>
+	<string>tweenUntilNumber</string>
+	<key>popupOrFlyweight</key>
+	<string>easyEventVelocity</string>
+	<key>reactiveFactoryBottom</key>
+	<string>inactiveIsolateRotation</string>
+</dict>
+</plist>

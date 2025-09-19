@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alertLayerLocation</key>
+	<string>uniqueCubitSkewy</string>
+	<key>borderPatternStyle</key>
+	<string>customImageSkewx</string>
+	<key>concurrentProfileContrast</key>
+	<string>queueDuringMediator</string>
+	<key>sequentialIntegerShape</key>
+	<string>labelDespiteScope</string>
+</dict>
+</plist>

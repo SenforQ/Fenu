@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>batchFunctionInset</key>
+	<string>utilPlatformValidation</string>
+	<key>boxshadowDuringFunction</key>
+	<string>dynamicBorderInterval</string>
+	<key>cupertinoAgainstValue</key>
+	<string>usageOrTask</string>
+	<key>histogramModeDirection</key>
+	<string>overlayProxyTheme</string>
+	<key>interactorExceptMode</key>
+	<string>equalizationFromMethod</string>
+	<key>iterativeEffectFormat</key>
+	<string>expandedUntilStrategy</string>
+	<key>modulusLevelTop</key>
+	<string>captionLevelTop</string>
+	<key>profileFromTier</key>
+	<string>constraintCommandInterval</string>
+	<key>vectorShapeBound</key>
+	<string>checkboxProxyDensity</string>
+	<key>workflowWorkLeft</key>
+	<string>mediocreConvolutionCenter</string>
+</dict>
+</plist>

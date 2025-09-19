@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>featureKindOrigin</key>
+	<string>advancedObserverBound</string>
+	<key>fixedQueueFormat</key>
+	<string>rectAroundPattern</string>
+	<key>offsetSinceComposite</key>
+	<string>observerWorkStatus</string>
+	<key>routerByTier</key>
+	<string>accessibleDescriptorCount</string>
+	<key>storeDuringDecorator</key>
+	<string>enabledNavigatorBorder</string>
+	<key>usecaseAtInterpreter</key>
+	<string>mainPointDelay</string>
+</dict>
+</plist>

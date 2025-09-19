@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>builderContextTheme</key>
+	<string>priorBuilderCenter</string>
+	<key>completionPerChain</key>
+	<string>modulusOutsideContext</string>
+	<key>criticalBuilderAppearance</key>
+	<string>cubitStateBorder</string>
+	<key>disparateGroupVisibility</key>
+	<string>particleBufferFeedback</string>
+	<key>errorVariableHue</key>
+	<string>entityPhaseSaturation</string>
+	<key>frameForState</key>
+	<string>labelContainCycle</string>
+	<key>projectDespiteLayer</key>
+	<string>statefulProfileSaturation</string>
+	<key>queueVariableRight</key>
+	<string>reactiveBaselineMode</string>
+	<key>reducerStrategyRate</key>
+	<string>repositoryNearParameter</string>
+</dict>
+</plist>

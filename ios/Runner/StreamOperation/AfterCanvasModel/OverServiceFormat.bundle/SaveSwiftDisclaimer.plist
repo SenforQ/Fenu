@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alignmentAroundScope</key>
+	<string>groupOrFacade</string>
+	<key>independentMasterCount</key>
+	<string>interactiveThreadOffset</string>
+	<key>keyDimensionContrast</key>
+	<string>exponentAtInterpreter</string>
+	<key>singleAnimationInset</key>
+	<string>contractionLevelScale</string>
+	<key>subpixelBeyondPattern</key>
+	<string>mobxOperationRate</string>
+	<key>textureVersusEnvironment</key>
+	<string>protectedPlateBottom</string>
+</dict>
+</plist>

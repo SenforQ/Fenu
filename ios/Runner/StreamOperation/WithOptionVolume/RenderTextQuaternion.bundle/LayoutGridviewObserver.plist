@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allocatorPerJob</key>
+	<string>diffableDocumentInteraction</string>
+	<key>commandBufferBound</key>
+	<string>navigatorByFlyweight</string>
+	<key>singletonVersusMode</key>
+	<string>futureOperationRight</string>
+	<key>standaloneSignatureVisibility</key>
+	<string>storeViaParameter</string>
+	<key>vectorSinceLayer</key>
+	<string>euclideanAnchorVisible</string>
+	<key>widgetAmongShape</key>
+	<string>masterAgainstMediator</string>
+</dict>
+</plist>

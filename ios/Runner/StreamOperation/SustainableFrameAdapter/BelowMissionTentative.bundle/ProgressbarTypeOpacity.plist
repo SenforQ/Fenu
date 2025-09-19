@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>assetSingletonType</key>
+	<string>screenVersusTask</string>
+	<key>boxshadowPlatformMargin</key>
+	<string>layerAsCycle</string>
+	<key>callbackOfSystem</key>
+	<string>listenerStateIndex</string>
+	<key>dynamicRectRotation</key>
+	<string>specifyListenerPressure</string>
+	<key>nativeChannelStatus</key>
+	<string>unsortedLayoutKind</string>
+	<key>providerVersusPlatform</key>
+	<string>logInStage</string>
+	<key>staticGridviewColor</key>
+	<string>baseTierRotation</string>
+	<key>zoneStrategyForce</key>
+	<string>agileManagerCenter</string>
+</dict>
+</plist>

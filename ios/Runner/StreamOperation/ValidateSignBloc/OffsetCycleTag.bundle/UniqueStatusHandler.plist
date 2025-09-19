@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>basicBatchPadding</key>
+	<string>transformerBesideDecorator</string>
+	<key>captionInCommand</key>
+	<string>cacheAsCommand</string>
+	<key>channelTierName</key>
+	<string>singleBasePadding</string>
+	<key>cupertinoPerAction</key>
+	<string>layerStyleCoord</string>
+	<key>fixedClipperAlignment</key>
+	<string>controllerFlyweightPosition</string>
+	<key>inheritedWorkflowCenter</key>
+	<string>viewDuringCommand</string>
+	<key>titleInState</key>
+	<string>frameWithoutState</string>
+	<key>visibleGridLocation</key>
+	<string>particleAwayPlatform</string>
+</dict>
+</plist>

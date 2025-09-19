@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationDuringComposite</key>
+	<string>spineWithInterpreter</string>
+	<key>discardedMethodAcceleration</key>
+	<string>scrollableHistogramLeft</string>
+	<key>intensityActionKind</key>
+	<string>positionedStyleOpacity</string>
+	<key>referenceAtScope</key>
+	<string>providerFromVar</string>
+	<key>robustCollectionCoord</key>
+	<string>normalAwaitPosition</string>
+	<key>robustRowOrigin</key>
+	<string>rectParameterFeedback</string>
+	<key>statelessConstraintTail</key>
+	<string>buttonByLevel</string>
+	<key>substantialBinaryEdge</key>
+	<string>behaviorVersusObserver</string>
+	<key>synchronousActionTransparency</key>
+	<string>tabbarThroughAdapter</string>
+	<key>tweenNearVar</key>
+	<string>requiredPlateSaturation</string>
+</dict>
+</plist>

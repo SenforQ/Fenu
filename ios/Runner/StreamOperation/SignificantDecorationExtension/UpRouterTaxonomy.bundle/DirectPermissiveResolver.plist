@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gestureAlongCycle</key>
+	<string>gestureFromVariable</string>
+	<key>managerByProcess</key>
+	<string>skinParameterValidation</string>
+	<key>mediumSegueOrientation</key>
+	<string>loopPatternTop</string>
+	<key>notifierContextSaturation</key>
+	<string>nativeStreamShape</string>
+	<key>statelessMediatorTransparency</key>
+	<string>largeCompleterStyle</string>
+	<key>subscriptionSystemTop</key>
+	<string>taskContainSystem</string>
+	<key>tabviewBesideMode</key>
+	<string>basePerPlatform</string>
+</dict>
+</plist>

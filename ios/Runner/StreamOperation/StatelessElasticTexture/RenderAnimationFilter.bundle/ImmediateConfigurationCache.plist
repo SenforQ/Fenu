@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accessoryMethodIndex</key>
+	<string>fixedLocalizationVelocity</string>
+	<key>binaryNearType</key>
+	<string>entityThroughWork</string>
+	<key>collectionInsideSingleton</key>
+	<string>tableInsideOperation</string>
+	<key>cursorStateOpacity</key>
+	<string>memberBufferRotation</string>
+	<key>semanticSpriteSpacing</key>
+	<string>imperativeBufferSaturation</string>
+</dict>
+</plist>

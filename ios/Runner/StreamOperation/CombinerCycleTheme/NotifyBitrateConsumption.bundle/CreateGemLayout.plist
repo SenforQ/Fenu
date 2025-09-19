@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>agileObserverOffset</key>
+	<string>histogramLikeBuffer</string>
+	<key>diversifiedRouteSaturation</key>
+	<string>notificationBufferCoord</string>
+	<key>expandedFromMode</key>
+	<string>durationAgainstMediator</string>
+	<key>grainBufferSkewy</key>
+	<string>usedInteractorPadding</string>
+	<key>sortedGramSpacing</key>
+	<string>visibleAnimationSkewy</string>
+	<key>viewJobFeedback</key>
+	<string>techniqueBufferTransparency</string>
+</dict>
+</plist>

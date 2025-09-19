@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>behaviorAroundStage</key>
+	<string>textShapeRight</string>
+	<key>concurrentTangentVelocity</key>
+	<string>fixedMultiplicationInterval</string>
+	<key>multiplicationSystemOffset</key>
+	<string>animationTaskFrequency</string>
+	<key>originalVariantStyle</key>
+	<string>localizationInFunction</string>
+	<key>primaryGestureRate</key>
+	<string>materialBehaviorDepth</string>
+	<key>providerStrategyValidation</key>
+	<string>asyncReducerTail</string>
+	<key>uniqueTernaryColor</key>
+	<string>sophisticatedAlphaTail</string>
+</dict>
+</plist>

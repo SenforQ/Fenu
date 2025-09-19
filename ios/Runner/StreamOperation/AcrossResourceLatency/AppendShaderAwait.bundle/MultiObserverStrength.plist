@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>commandModeInteraction</key>
+	<string>smallSingletonIndex</string>
+	<key>completionDuringCommand</key>
+	<string>controllerByChain</string>
+	<key>diffableResolverRotation</key>
+	<string>finalStampSkewy</string>
+	<key>notifierLayerState</key>
+	<string>promiseVersusEnvironment</string>
+	<key>pageviewChainResponse</key>
+	<string>exceptionAmongPrototype</string>
+	<key>ternaryShapeOffset</key>
+	<string>keyPositionAppearance</string>
+	<key>transformerForBuffer</key>
+	<string>vectorAdapterKind</string>
+	<key>transformerValueVisibility</key>
+	<string>intermediateAsyncSize</string>
+	<key>vectorStructureAlignment</key>
+	<string>singletonIncludeStage</string>
+</dict>
+</plist>

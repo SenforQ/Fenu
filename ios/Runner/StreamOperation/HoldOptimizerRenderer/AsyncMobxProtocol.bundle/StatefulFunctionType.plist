@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>convolutionBeyondAction</key>
+	<string>curveLevelTail</string>
+	<key>popupProcessOffset</key>
+	<string>logPerFunction</string>
+	<key>respectiveMapOffset</key>
+	<string>constraintPrototypeRotation</string>
+	<key>sizedboxVersusParam</key>
+	<string>inheritedZoneOrigin</string>
+	<key>tabviewUntilBridge</key>
+	<string>globalHashForce</string>
+</dict>
+</plist>

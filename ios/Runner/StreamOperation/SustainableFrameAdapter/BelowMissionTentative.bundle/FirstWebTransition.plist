@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>featureInLayer</key>
+	<string>canvasWithoutMemento</string>
+	<key>futureParamBorder</key>
+	<string>asyncParameterIndex</string>
+	<key>grainForStyle</key>
+	<string>backwardIsolateEdge</string>
+	<key>mobxParamInterval</key>
+	<string>errorStrategyType</string>
+	<key>optimizerEnvironmentShape</key>
+	<string>storyboardAboutType</string>
+	<key>rapidIntensityBorder</key>
+	<string>drawerAdapterDirection</string>
+	<key>relationalControllerDepth</key>
+	<string>convolutionPrototypeTag</string>
+	<key>robustSegueColor</key>
+	<string>standaloneCompleterShade</string>
+	<key>touchFunctionOrigin</key>
+	<string>notifierStrategyCoord</string>
+	<key>transitionAgainstDecorator</key>
+	<string>awaitContextKind</string>
+</dict>
+</plist>

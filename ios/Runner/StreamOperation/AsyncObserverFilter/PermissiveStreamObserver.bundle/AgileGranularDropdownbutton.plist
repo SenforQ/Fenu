@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>blocAndShape</key>
+	<string>listenerAboutEnvironment</string>
+	<key>columnOrOperation</key>
+	<string>alignmentStageEdge</string>
+	<key>composableTouchBehavior</key>
+	<string>newestActionScale</string>
+	<key>currentWidgetOffset</key>
+	<string>sizedboxContextVelocity</string>
+	<key>ephemeralBlocVisible</key>
+	<string>nibObserverValidation</string>
+	<key>gridBySystem</key>
+	<string>navigatorDuringJob</string>
+	<key>immediateNavigationStatus</key>
+	<string>seamlessChapterFrequency</string>
+	<key>reducerPhaseHead</key>
+	<string>asyncWorkEdge</string>
+	<key>significantMetadataType</key>
+	<string>builderIncludeAdapter</string>
+	<key>storageUntilMethod</key>
+	<string>interactiveResultKind</string>
+</dict>
+</plist>

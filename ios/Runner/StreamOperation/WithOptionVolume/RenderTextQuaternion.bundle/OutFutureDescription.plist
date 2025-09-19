@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>associatedFactoryType</key>
+	<string>layerAsMemento</string>
+	<key>constraintTaskStyle</key>
+	<string>repositoryIncludeTask</string>
+	<key>directLoopTag</key>
+	<string>progressbarInterpreterCenter</string>
+	<key>interfaceScopeFlags</key>
+	<string>variantPerObserver</string>
+	<key>mediaFlyweightInset</key>
+	<string>frameSinceEnvironment</string>
+	<key>streamFromStrategy</key>
+	<string>baseAwayMediator</string>
+	<key>usecaseDuringState</key>
+	<string>layoutOutsideContext</string>
+</dict>
+</plist>

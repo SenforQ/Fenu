@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>behaviorFunctionSaturation</key>
+	<string>logThanKind</string>
+	<key>effectTaskSpeed</key>
+	<string>fusedAwaitSpacing</string>
+	<key>enabledExtensionScale</key>
+	<string>precisionParameterScale</string>
+	<key>labelForPlatform</key>
+	<string>substantialTextOffset</string>
+	<key>mediocreModalEdge</key>
+	<string>concurrentStreamRate</string>
+	<key>responsiveCycleLocation</key>
+	<string>drawerVisitorCount</string>
+</dict>
+</plist>

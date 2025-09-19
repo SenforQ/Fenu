@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>batchStructureMargin</key>
+	<string>futureFrameworkTint</string>
+	<key>loopInsideJob</key>
+	<string>playbackOrFlyweight</string>
+	<key>smartStatefulBorder</key>
+	<string>mainMediaSkewx</string>
+	<key>tappableZoneResponse</key>
+	<string>completerMementoPadding</string>
+	<key>ternaryUntilNumber</key>
+	<string>requestAwayMethod</string>
+</dict>
+</plist>

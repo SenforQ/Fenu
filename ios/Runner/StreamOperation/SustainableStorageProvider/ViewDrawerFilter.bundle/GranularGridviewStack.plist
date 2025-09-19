@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedAllocatorDepth</key>
+	<string>appbarInLayer</string>
+	<key>gradientDespiteCycle</key>
+	<string>rowWithType</string>
+	<key>permanentLossOrigin</key>
+	<string>euclideanRequestTop</string>
+	<key>rowFrameworkMomentum</key>
+	<string>semanticListenerResponse</string>
+	<key>usecaseAgainstMediator</key>
+	<string>scaleActivityContrast</string>
+</dict>
+</plist>

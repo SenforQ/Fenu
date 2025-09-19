@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accessibleAsyncInterval</key>
+	<string>storyboardFlyweightBrightness</string>
+	<key>associatedScaffoldContrast</key>
+	<string>sizeTypeDirection</string>
+	<key>captionOfStrategy</key>
+	<string>rowEnvironmentType</string>
+	<key>durationAdapterCoord</key>
+	<string>requestChainPressure</string>
+	<key>gesturedetectorParamVisible</key>
+	<string>iconObserverPadding</string>
+	<key>oldResourceFrequency</key>
+	<string>asyncCompositionVisibility</string>
+	<key>rectDuringInterpreter</key>
+	<string>concurrentDialogsDistance</string>
+	<key>segmentOrLayer</key>
+	<string>multiObserverBottom</string>
+	<key>viewStageFlags</key>
+	<string>scrollableResponseResponse</string>
+</dict>
+</plist>

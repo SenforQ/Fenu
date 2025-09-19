@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedTransitionStyle</key>
+	<string>heapJobOpacity</string>
+	<key>blocMethodDistance</key>
+	<string>particleAroundDecorator</string>
+	<key>factoryFromJob</key>
+	<string>tableAgainstStage</string>
+	<key>immediateRequestTag</key>
+	<string>lastLayoutSpacing</string>
+	<key>lastFactoryRotation</key>
+	<string>dynamicIntegerAlignment</string>
+	<key>masterFormDensity</key>
+	<string>subscriptionObserverLocation</string>
+	<key>priorityContainStrategy</key>
+	<string>numericalMethodTop</string>
+	<key>retainedDelegateCenter</key>
+	<string>liteDurationOpacity</string>
+	<key>routerExceptMediator</key>
+	<string>paddingPerScope</string>
+	<key>subscriptionOrPattern</key>
+	<string>fragmentPatternRate</string>
+</dict>
+</plist>

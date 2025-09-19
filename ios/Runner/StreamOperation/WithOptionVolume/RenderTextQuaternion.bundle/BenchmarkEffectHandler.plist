@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoRequestHead</key>
+	<string>statelessBlocVisibility</string>
+	<key>checklistTypeBottom</key>
+	<string>referenceAdapterDistance</string>
+	<key>diffableSemanticsDistance</key>
+	<string>normBesideMethod</string>
+	<key>inkwellObserverPadding</key>
+	<string>flexibleUtilMargin</string>
+	<key>isolateInParam</key>
+	<string>animationBeyondFlyweight</string>
+	<key>pointNearFacade</key>
+	<string>directlyButtonAcceleration</string>
+	<key>segmentStrategyType</key>
+	<string>storeTempleFeedback</string>
+	<key>transformerDuringVariable</key>
+	<string>allocatorStateBehavior</string>
+</dict>
+</plist>

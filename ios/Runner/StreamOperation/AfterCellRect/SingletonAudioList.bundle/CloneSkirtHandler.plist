@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>backwardCacheRate</key>
+	<string>capacitiesIncludeParameter</string>
+	<key>builderAtTier</key>
+	<string>basicResourcePadding</string>
+	<key>crudeDependencyBound</key>
+	<string>factoryLikeKind</string>
+	<key>delegateParamName</key>
+	<string>singletonModeOrigin</string>
+	<key>directlyDelegateValidation</key>
+	<string>indicatorVisitorHead</string>
+	<key>keyStreamMode</key>
+	<string>providerTierInset</string>
+	<key>segmentAndActivity</key>
+	<string>touchTierSpeed</string>
+</dict>
+</plist>

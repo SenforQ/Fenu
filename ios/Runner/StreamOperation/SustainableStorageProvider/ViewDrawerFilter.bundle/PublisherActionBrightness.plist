@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accordionGesturedetectorPadding</key>
+	<string>shaderDuringEnvironment</string>
+	<key>certificateInBridge</key>
+	<string>storageAsVisitor</string>
+	<key>dedicatedAnimationMomentum</key>
+	<string>handlerAtTask</string>
+	<key>flexibleCurveDensity</key>
+	<string>equalizationWorkSaturation</string>
+	<key>indicatorProcessSpacing</key>
+	<string>basicPlaybackStatus</string>
+	<key>loopByStage</key>
+	<string>specifyCellOrientation</string>
+	<key>mutableMultiplicationHead</key>
+	<string>chapterWithNumber</string>
+</dict>
+</plist>

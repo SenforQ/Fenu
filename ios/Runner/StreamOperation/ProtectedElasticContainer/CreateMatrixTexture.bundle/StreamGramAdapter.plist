@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>customLocalizationBorder</key>
+	<string>coordinatorScopeDepth</string>
+	<key>draggableTextIndex</key>
+	<string>resourceVersusType</string>
+	<key>enabledDecorationStyle</key>
+	<string>instructionAtOperation</string>
+	<key>observerPrototypeAlignment</key>
+	<string>borderShapeOrigin</string>
+	<key>rectThanCommand</key>
+	<string>unactivatedHeroTag</string>
+	<key>tweenAgainstObserver</key>
+	<string>localizationCycleRate</string>
+</dict>
+</plist>

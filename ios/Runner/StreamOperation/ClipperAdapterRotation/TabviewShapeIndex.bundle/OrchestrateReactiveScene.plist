@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accessoryParameterOrientation</key>
+	<string>channelOperationFeedback</string>
+	<key>axisCommandBorder</key>
+	<string>animationAsPrototype</string>
+	<key>exceptionAsChain</key>
+	<string>activityAwayEnvironment</string>
+	<key>layoutStructureOpacity</key>
+	<string>lazyRoleStyle</string>
+	<key>navigatorContextContrast</key>
+	<string>interactiveAccessoryShape</string>
+	<key>newestBorderKind</key>
+	<string>lostGroupFlags</string>
+	<key>parallelLayoutRate</key>
+	<string>observerAndInterpreter</string>
+	<key>priorModalResponse</key>
+	<string>invisibleCommandInset</string>
+</dict>
+</plist>

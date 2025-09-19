@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chartAmongTier</key>
+	<string>consultativeSliderCount</string>
+	<key>globalNavigatorFrequency</key>
+	<string>navigatorThroughFramework</string>
+	<key>isolateCommandKind</key>
+	<string>musicCommandInteraction</string>
+	<key>lastRepositoryVisible</key>
+	<string>persistentAllocatorBorder</string>
+	<key>multiplicationTaskDelay</key>
+	<string>animationFormSkewx</string>
+	<key>newestInjectionTransparency</key>
+	<string>resultContainMediator</string>
+	<key>numericalChapterBehavior</key>
+	<string>directStateScale</string>
+	<key>popupSingletonCoord</key>
+	<string>activeSignaturePosition</string>
+	<key>repositoryMediatorCenter</key>
+	<string>equalizationPhaseKind</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>delegateValueDirection</key>
+	<string>sceneOfCycle</string>
+	<key>eagerTransitionRotation</key>
+	<string>prevSkirtDepth</string>
+	<key>handlerParamFlags</key>
+	<string>prismaticDelegateRotation</string>
+	<key>inheritedCheckboxInteraction</key>
+	<string>widgetTierCount</string>
+	<key>masterKindSaturation</key>
+	<string>coordinatorPhaseLeft</string>
+	<key>sinkFlyweightScale</key>
+	<string>sampleByInterpreter</string>
+	<key>tabviewSingletonBehavior</key>
+	<string>interactiveCollectionDuration</string>
+</dict>
+</plist>

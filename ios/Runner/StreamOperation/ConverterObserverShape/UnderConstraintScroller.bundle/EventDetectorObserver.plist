@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedcontainerLayerMargin</key>
+	<string>canvasWithFramework</string>
+	<key>delegateAndFacade</key>
+	<string>notificationVersusProxy</string>
+	<key>interpolationVisitorType</key>
+	<string>interactiveAnchorBrightness</string>
+	<key>materialRadiusShade</key>
+	<string>inkwellAsStage</string>
+	<key>memberViaMemento</key>
+	<string>skinJobAlignment</string>
+	<key>roleCycleAppearance</key>
+	<string>enabledSkirtTransparency</string>
+	<key>utilDuringContext</key>
+	<string>accordionGrainFrequency</string>
+</dict>
+</plist>

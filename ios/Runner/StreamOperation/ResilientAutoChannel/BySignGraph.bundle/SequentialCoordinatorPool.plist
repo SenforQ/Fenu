@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>controllerAgainstBuffer</key>
+	<string>symbolCycleBorder</string>
+	<key>eventMediatorTag</key>
+	<string>entityCycleName</string>
+	<key>histogramKindVisible</key>
+	<string>checklistAgainstVariable</string>
+	<key>injectionFromInterpreter</key>
+	<string>gemFrameworkDirection</string>
+	<key>modelOutsideStructure</key>
+	<string>observerLevelCoord</string>
+	<key>multiWidgetHead</key>
+	<string>symmetricStampOffset</string>
+	<key>pivotalProviderValidation</key>
+	<string>layoutPrototypeStatus</string>
+	<key>reducerMediatorInteraction</key>
+	<string>displayableActionRotation</string>
+	<key>streamInScope</key>
+	<string>responseStyleFrequency</string>
+	<key>workflowPerLevel</key>
+	<string>navigationShapeInteraction</string>
+</dict>
+</plist>

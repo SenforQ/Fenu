@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationVarSpeed</key>
+	<string>errorBeyondMediator</string>
+	<key>concurrentCompleterVisibility</key>
+	<string>nodeOutsideMethod</string>
+	<key>cubitVariableMargin</key>
+	<string>handlerLayerIndex</string>
+	<key>reducerObserverAlignment</key>
+	<string>featureStylePadding</string>
+	<key>responseDuringMode</key>
+	<string>deferredSpecifierType</string>
+	<key>sensorForCycle</key>
+	<string>checkboxSingletonLeft</string>
+	<key>stepAndCommand</key>
+	<string>pageviewAlongTask</string>
+</dict>
+</plist>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>draggableAwaitBehavior</key>
+	<string>interactiveOverlayHead</string>
+	<key>spriteFrameworkPosition</key>
+	<string>pointOperationPadding</string>
+	<key>stackFormOpacity</key>
+	<string>synchronousStepHue</string>
+	<key>taskViaObserver</key>
+	<string>containerAboutSingleton</string>
+</dict>
+</plist>

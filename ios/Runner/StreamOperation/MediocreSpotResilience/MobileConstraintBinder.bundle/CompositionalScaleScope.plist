@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baseExceptCommand</key>
+	<string>certificateInVisitor</string>
+	<key>completerAndType</key>
+	<string>missionParamPosition</string>
+	<key>opaqueLayoutVelocity</key>
+	<string>resizableParticleInset</string>
+	<key>titleAlongBuffer</key>
+	<string>layerNumberColor</string>
+	<key>transformerFacadeResponse</key>
+	<string>requestWithStyle</string>
+	<key>transitionProcessPosition</key>
+	<string>grainLayerAppearance</string>
+</dict>
+</plist>

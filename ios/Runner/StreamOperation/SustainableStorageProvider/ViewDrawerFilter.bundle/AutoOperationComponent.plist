@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allocatorInsideStage</key>
+	<string>utilAgainstChain</string>
+	<key>graphicObserverAlignment</key>
+	<string>pivotalCaptionScale</string>
+	<key>imageInsideLevel</key>
+	<string>labelVariableRate</string>
+	<key>intensityProcessLocation</key>
+	<string>popupOrObserver</string>
+	<key>singleDependencyShape</key>
+	<string>screenCompositeLocation</string>
+	<key>stepContextSaturation</key>
+	<string>granularColumnVelocity</string>
+	<key>sustainableAwaitVisible</key>
+	<string>storeShapeKind</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>consumerPerObserver</key>
+	<string>lossActivityCenter</string>
+	<key>mediumRadiusState</key>
+	<string>observerActionInteraction</string>
+	<key>priorAlphaRotation</key>
+	<string>nextTitleVisible</string>
+	<key>responseAndMemento</key>
+	<string>referenceCommandHue</string>
+	<key>smartCardBorder</key>
+	<string>tensorEquipmentHue</string>
+	<key>streamStageRotation</key>
+	<string>shaderMethodStyle</string>
+</dict>
+</plist>

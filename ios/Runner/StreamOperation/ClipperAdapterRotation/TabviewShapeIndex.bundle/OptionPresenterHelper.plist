@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>advancedCubitLeft</key>
+	<string>binaryStagePosition</string>
+	<key>allocatorAsFramework</key>
+	<string>pinchableSpriteEdge</string>
+	<key>apertureForOperation</key>
+	<string>titleParameterSkewx</string>
+	<key>deferredChallengeRate</key>
+	<string>asynchronousStackInteraction</string>
+	<key>observerWithoutFlyweight</key>
+	<string>scrollableRectVisibility</string>
+	<key>resourceExceptScope</key>
+	<string>appbarIncludeStyle</string>
+	<key>singletonDecoratorOffset</key>
+	<string>lossMethodInteraction</string>
+	<key>skirtStrategyOrigin</key>
+	<string>directCubitDuration</string>
+</dict>
+</plist>

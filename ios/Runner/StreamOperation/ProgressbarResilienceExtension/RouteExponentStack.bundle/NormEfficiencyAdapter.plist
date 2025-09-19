@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalystAdapterLeft</key>
+	<string>stackWithoutPattern</string>
+	<key>dedicatedUtilInteraction</key>
+	<string>frameCompositeVelocity</string>
+	<key>delegateStageFeedback</key>
+	<string>kernelExceptLayer</string>
+	<key>framePrototypeVisibility</key>
+	<string>unactivatedExceptionFeedback</string>
+	<key>positionIncludePhase</key>
+	<string>behaviorInterpreterShade</string>
+	<key>primaryChecklistPosition</key>
+	<string>semanticGroupTension</string>
+	<key>progressbarBridgePadding</key>
+	<string>awaitAtWork</string>
+	<key>viewCompositeDistance</key>
+	<string>modelStrategySkewx</string>
+</dict>
+</plist>

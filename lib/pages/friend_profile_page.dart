@@ -366,7 +366,7 @@ class _FriendProfilePageState extends State<FriendProfilePage> {
           children: [
             // 背景图片
             Image.asset(
-              'assets/me_top_bg_20250831.png',
+              'assets/me_top_bg_20250831.webp',
               fit: BoxFit.cover,
             ),
             
@@ -495,12 +495,12 @@ class _FriendProfilePageState extends State<FriendProfilePage> {
           photos = parsedPhotos.cast<String>();
         } catch (e) {
           // 如果解析失败，使用默认照片
-          photos = [widget.friendData['FenuShowPhoto'] ?? 'user_default_icon_20250901.png'];
+          photos = [widget.friendData['FenuShowPhoto'] ?? 'user_default_icon_20250901.webp'];
         }
       }
     } else {
       // 如果没有照片列表，使用默认照片
-      photos = [widget.friendData['FenuShowPhoto'] ?? 'user_default_icon_20250901.png'];
+      photos = [widget.friendData['FenuShowPhoto'] ?? 'user_default_icon_20250901.webp'];
     }
 
     return SliverToBoxAdapter(

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>declarativeSpecifierBehavior</key>
+	<string>futureWithoutState</string>
+	<key>decorationShapePadding</key>
+	<string>euclideanPresenterRight</string>
+	<key>documentStyleMode</key>
+	<string>handlerAtLevel</string>
+	<key>draggableResultOffset</key>
+	<string>typicalRequestVelocity</string>
+	<key>dynamicTopicKind</key>
+	<string>interactorFormColor</string>
+	<key>injectionVarSpeed</key>
+	<string>modelSingletonFeedback</string>
+	<key>protocolPhaseTop</key>
+	<string>resourceBufferStyle</string>
+	<key>respectiveShaderMargin</key>
+	<string>customTitleMode</string>
+	<key>singleSpotContrast</key>
+	<string>positionStrategyBrightness</string>
+	<key>themeStrategyPadding</key>
+	<string>effectWorkBound</string>
+</dict>
+</plist>

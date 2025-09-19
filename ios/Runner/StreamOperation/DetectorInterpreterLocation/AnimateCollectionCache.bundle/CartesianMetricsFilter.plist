@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>activeEffectFormat</key>
+	<string>constraintParamInset</string>
+	<key>adaptiveDelegatePadding</key>
+	<string>menuVarMargin</string>
+	<key>appbarFunctionTint</key>
+	<string>bufferOrTier</string>
+	<key>buttonPhaseBorder</key>
+	<string>pointForLayer</string>
+	<key>intermediateStreamShade</key>
+	<string>richtextLayerTag</string>
+	<key>iterativeActionTension</key>
+	<string>axisTypeShape</string>
+	<key>notificationViaStage</key>
+	<string>ephemeralTaskAcceleration</string>
+	<key>shaderTypeFeedback</key>
+	<string>typicalAnchorTransparency</string>
+	<key>threadCommandCount</key>
+	<string>sliderUntilParam</string>
+	<key>usedRouteTop</key>
+	<string>inactiveMediaSize</string>
+</dict>
+</plist>

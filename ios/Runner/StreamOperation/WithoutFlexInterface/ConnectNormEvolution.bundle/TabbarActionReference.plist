@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accordionTweenOffset</key>
+	<string>constraintAdapterMode</string>
+	<key>completerPerOperation</key>
+	<string>requestDuringMemento</string>
+	<key>errorProxyVisible</key>
+	<string>resultOutsideSingleton</string>
+	<key>heapContainPlatform</key>
+	<string>buttonSystemVelocity</string>
+	<key>queueAlongBuffer</key>
+	<string>particleViaBridge</string>
+	<key>serviceAwayFlyweight</key>
+	<string>blocOperationMode</string>
+	<key>utilPhaseSpeed</key>
+	<string>nextFutureAppearance</string>
+</dict>
+</plist>

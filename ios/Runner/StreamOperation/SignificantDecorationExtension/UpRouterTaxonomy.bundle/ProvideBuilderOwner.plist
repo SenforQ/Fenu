@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationForDecorator</key>
+	<string>descriptionIncludeDecorator</string>
+	<key>channelWithStyle</key>
+	<string>titleEnvironmentResponse</string>
+	<key>graphicForFlyweight</key>
+	<string>documentWithMode</string>
+	<key>iconNumberBrightness</key>
+	<string>channelFrameworkShape</string>
+	<key>iconUntilPhase</key>
+	<string>enabledNibBorder</string>
+	<key>lostChannelTheme</key>
+	<string>asyncObserverLeft</string>
+	<key>operationThroughFlyweight</key>
+	<string>subsequentFeatureFrequency</string>
+	<key>skirtTaskScale</key>
+	<string>fusedGrainMode</string>
+	<key>viewAwayPhase</key>
+	<string>graphOrMode</string>
+</dict>
+</plist>

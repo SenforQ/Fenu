@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>errorFacadeSize</key>
+	<string>rectSinceWork</string>
+	<key>grainWorkDelay</key>
+	<string>screenJobDepth</string>
+	<key>managerAmongEnvironment</key>
+	<string>exponentThroughAction</string>
+	<key>queryAsJob</key>
+	<string>tabbarByProcess</string>
+	<key>textureCycleRate</key>
+	<string>robustWidgetRate</string>
+</dict>
+</plist>

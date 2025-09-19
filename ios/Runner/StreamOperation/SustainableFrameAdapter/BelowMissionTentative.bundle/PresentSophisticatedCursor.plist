@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>enabledTaskSaturation</key>
+	<string>geometricAssetInteraction</string>
+	<key>histogramUntilStrategy</key>
+	<string>navigationTierPressure</string>
+	<key>optimizerStyleFrequency</key>
+	<string>immutableGridFeedback</string>
+	<key>optimizerVisitorMode</key>
+	<string>gramAtStrategy</string>
+	<key>overlayTypeResponse</key>
+	<string>routeDuringPlatform</string>
+	<key>radioTaskValidation</key>
+	<string>blocTierResponse</string>
+	<key>rowObserverOffset</key>
+	<string>callbackThroughWork</string>
+	<key>sizedboxOrProcess</key>
+	<string>textKindTransparency</string>
+</dict>
+</plist>

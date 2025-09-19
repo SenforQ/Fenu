@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>behaviorAdapterInset</key>
+	<string>euclideanIsolateIndex</string>
+	<key>buttonAsMediator</key>
+	<string>comprehensiveQueryFrequency</string>
+	<key>effectDuringCommand</key>
+	<string>directlyPetDuration</string>
+	<key>hyperbolicSizeFeedback</key>
+	<string>lostFutureSkewy</string>
+	<key>listviewInStyle</key>
+	<string>columnFacadeSaturation</string>
+	<key>precisionProcessMode</key>
+	<string>mobilePositionRight</string>
+	<key>providerStateStyle</key>
+	<string>declarativeTabviewHue</string>
+	<key>robustEquipmentTheme</key>
+	<string>hierarchicalCubitBottom</string>
+	<key>tickerInWork</key>
+	<string>accessibleSizeOrigin</string>
+</dict>
+</plist>

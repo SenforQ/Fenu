@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dimensionFormBehavior</key>
+	<string>configurationFromContext</string>
+	<key>euclideanNavigationBorder</key>
+	<string>cubitSinceParam</string>
+	<key>movementDecoratorSpeed</key>
+	<string>statelessAlphaName</string>
+	<key>notificationTierPosition</key>
+	<string>richtextWithObserver</string>
+	<key>scrollableSizedboxBorder</key>
+	<string>sliderCycleMode</string>
+	<key>textInterpreterBottom</key>
+	<string>eventStageInset</string>
+</dict>
+</plist>

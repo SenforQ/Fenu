@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveAwaitBound</key>
+	<string>hardPopupBottom</string>
+	<key>gesturedetectorStrategyBrightness</key>
+	<string>resultDuringKind</string>
+	<key>providerSystemInterval</key>
+	<string>intermediateSegmentTop</string>
+	<key>reusableHeapKind</key>
+	<string>navigatorScopeName</string>
+	<key>temporaryRadiusTop</key>
+	<string>consumerBufferVelocity</string>
+	<key>transitionVisitorPadding</key>
+	<string>sophisticatedSineBrightness</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>labelMementoRate</key>
+	<string>cupertinoInsidePlatform</string>
+	<key>memberInsideMemento</key>
+	<string>buttonInLayer</string>
+	<key>nibFacadeForce</key>
+	<string>cupertinoFuturePressure</string>
+	<key>permissiveQuerySpeed</key>
+	<string>effectNearOperation</string>
+	<key>serviceThroughBridge</key>
+	<string>certificateAboutPattern</string>
+</dict>
+</plist>

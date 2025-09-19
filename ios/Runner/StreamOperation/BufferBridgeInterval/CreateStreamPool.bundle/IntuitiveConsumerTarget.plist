@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accordionContainerVisible</key>
+	<string>commandLevelDensity</string>
+	<key>buttonTempleIndex</key>
+	<string>groupPerShape</string>
+	<key>extensionLevelPosition</key>
+	<string>configurationForTemple</string>
+	<key>frameThanAction</key>
+	<string>injectionDecoratorCoord</string>
+	<key>nodeSinceMethod</key>
+	<string>accessoryPerPattern</string>
+	<key>referenceInCycle</key>
+	<string>factoryBesideSingleton</string>
+	<key>spriteInsideCommand</key>
+	<string>persistentRadiusFeedback</string>
+	<key>statefulDurationType</key>
+	<string>promiseUntilObserver</string>
+	<key>textAsSystem</key>
+	<string>arithmeticContextRotation</string>
+</dict>
+</plist>

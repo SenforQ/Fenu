@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>constraintCycleStyle</key>
+	<string>buttonEnvironmentSkewx</string>
+	<key>inheritedSliderName</key>
+	<string>progressbarProcessCount</string>
+	<key>localCertificateForce</key>
+	<string>currentRadiusAppearance</string>
+	<key>localizationObserverStatus</key>
+	<string>functionalSemanticsOrientation</string>
+	<key>navigatorAsForm</key>
+	<string>batchAsType</string>
+	<key>oldListviewInteraction</key>
+	<string>capacitiesDespiteFacade</string>
+	<key>protectedConfigurationShade</key>
+	<string>uniqueRouteVisible</string>
+	<key>resilientQueryInset</key>
+	<string>singleServiceResponse</string>
+	<key>stateBufferPressure</key>
+	<string>standaloneMediaqueryValidation</string>
+</dict>
+</plist>

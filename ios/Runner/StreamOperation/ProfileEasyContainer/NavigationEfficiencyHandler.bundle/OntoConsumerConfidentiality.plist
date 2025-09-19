@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoMethodAlignment</key>
+	<string>uniqueAppbarKind</string>
+	<key>boxObserverTheme</key>
+	<string>priorBuilderPadding</string>
+	<key>customizedPopupOrientation</key>
+	<string>graphObserverBehavior</string>
+	<key>handlerBufferContrast</key>
+	<string>grainStateAppearance</string>
+	<key>hardDurationMode</key>
+	<string>stateForTier</string>
+	<key>labelStageCoord</key>
+	<string>standaloneSampleMargin</string>
+	<key>queryVarFeedback</key>
+	<string>exponentDecoratorRotation</string>
+	<key>responsePerVariable</key>
+	<string>methodWorkForce</string>
+	<key>sceneFlyweightDuration</key>
+	<string>builderDespiteAction</string>
+	<key>unaryWorkVisibility</key>
+	<string>delegateEnvironmentSkewx</string>
+</dict>
+</plist>

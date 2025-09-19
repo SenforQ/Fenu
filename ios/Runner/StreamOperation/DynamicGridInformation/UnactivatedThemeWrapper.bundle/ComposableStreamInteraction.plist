@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>crudeConstraintOrientation</key>
+	<string>stepMementoBound</string>
+	<key>materialCycleDistance</key>
+	<string>rowActivityBrightness</string>
+	<key>multiFrameRotation</key>
+	<string>singletonInsideScope</string>
+	<key>petFacadeTheme</key>
+	<string>convolutionSingletonShape</string>
+	<key>pointLikeMemento</key>
+	<string>sophisticatedTickerCenter</string>
+	<key>resultMementoLocation</key>
+	<string>observerModeCoord</string>
+</dict>
+</plist>

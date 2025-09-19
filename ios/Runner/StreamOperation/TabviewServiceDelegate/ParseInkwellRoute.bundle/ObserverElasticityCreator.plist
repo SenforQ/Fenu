@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>boxForCycle</key>
+	<string>specifyGraphSaturation</string>
+	<key>largePriorityStatus</key>
+	<string>localQueueDistance</string>
+	<key>masterMediatorOrigin</key>
+	<string>positionLevelCount</string>
+	<key>modulusWithComposite</key>
+	<string>modulusAndNumber</string>
+	<key>particleActivityRate</key>
+	<string>configurationWithVar</string>
+	<key>routeOrPrototype</key>
+	<string>skinSingletonKind</string>
+	<key>tweenKindDuration</key>
+	<string>presenterDuringFacade</string>
+</dict>
+</plist>

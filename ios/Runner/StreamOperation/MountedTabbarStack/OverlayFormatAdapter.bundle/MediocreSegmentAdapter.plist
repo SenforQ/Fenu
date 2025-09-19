@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>configurationPatternMargin</key>
+	<string>eagerSampleRotation</string>
+	<key>draggableEntityFeedback</key>
+	<string>subtleIndicatorInset</string>
+	<key>elasticTouchPadding</key>
+	<string>tensorSingletonTail</string>
+	<key>gramInNumber</key>
+	<string>errorAroundState</string>
+	<key>queryVisitorRate</key>
+	<string>consumerVisitorForce</string>
+	<key>resizableContainerOrientation</key>
+	<string>functionalRepositoryInterval</string>
+	<key>riverpodStatePosition</key>
+	<string>normSystemInteraction</string>
+	<key>sinkLevelAppearance</key>
+	<string>invisiblePlaybackShade</string>
+	<key>synchronousScaleMargin</key>
+	<string>subpixelAtSystem</string>
+</dict>
+</plist>

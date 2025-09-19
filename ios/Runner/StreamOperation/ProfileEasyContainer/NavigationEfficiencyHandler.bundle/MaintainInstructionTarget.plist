@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>anchorPatternOpacity</key>
+	<string>certificateVariableLocation</string>
+	<key>cacheBridgeInset</key>
+	<string>progressbarAndState</string>
+	<key>getxOfMediator</key>
+	<string>prevViewSkewx</string>
+	<key>gramStyleDirection</key>
+	<string>lossIncludeFlyweight</string>
+	<key>heapJobAppearance</key>
+	<string>roleOperationDensity</string>
+	<key>paddingSystemDirection</key>
+	<string>positionBesideStyle</string>
+	<key>stateLayerName</key>
+	<string>channelLevelIndex</string>
+	<key>sustainableModelRight</key>
+	<string>interactivePointStyle</string>
+</dict>
+</plist>

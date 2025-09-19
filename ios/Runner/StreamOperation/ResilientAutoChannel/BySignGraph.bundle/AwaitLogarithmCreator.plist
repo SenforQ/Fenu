@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>consultativeSubpixelRotation</key>
+	<string>permanentChartPosition</string>
+	<key>durationShapeAcceleration</key>
+	<string>inheritedEqualizationVisible</string>
+	<key>iterativeMethodVisible</key>
+	<string>statefulEnvironmentBehavior</string>
+	<key>labelPrototypeMode</key>
+	<string>localizationBridgeFrequency</string>
+	<key>significantCallbackAlignment</key>
+	<string>visibleTransitionVisibility</string>
+	<key>staticErrorAcceleration</key>
+	<string>mutableActivityRotation</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>actionThroughSystem</key>
+	<string>reactiveConstraintBorder</string>
+	<key>greatRowVisible</key>
+	<string>normalSinkBorder</string>
+	<key>interfaceVariableVisibility</key>
+	<string>finalZoneLocation</string>
+	<key>mobileModeVisible</key>
+	<string>sliderDespiteEnvironment</string>
+	<key>resilientWidgetResponse</key>
+	<string>mobileExceptNumber</string>
+	<key>sequentialUtilAppearance</key>
+	<string>originalFrameTint</string>
+	<key>sizeFromActivity</key>
+	<string>errorSinceVisitor</string>
+	<key>skirtMediatorContrast</key>
+	<string>dimensionProxyFormat</string>
+	<key>statefulAllocatorHue</key>
+	<string>eventAlongStrategy</string>
+</dict>
+</plist>

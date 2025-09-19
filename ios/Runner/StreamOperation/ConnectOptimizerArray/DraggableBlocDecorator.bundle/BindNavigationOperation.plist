@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dedicatedReducerTheme</key>
+	<string>transitionFacadeCenter</string>
+	<key>localDurationSize</key>
+	<string>modalStrategyInteraction</string>
+	<key>scaffoldUntilStrategy</key>
+	<string>radiusFromForm</string>
+	<key>standaloneTaskMode</key>
+	<string>sophisticatedRoleCenter</string>
+	<key>tickerActivityState</key>
+	<string>concurrentGradientTint</string>
+</dict>
+</plist>

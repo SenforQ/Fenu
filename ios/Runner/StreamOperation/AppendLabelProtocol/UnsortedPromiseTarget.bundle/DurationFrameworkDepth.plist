@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>associatedProtocolFormat</key>
+	<string>cursorWithoutPattern</string>
+	<key>draggableViewTail</key>
+	<string>inheritedCursorOpacity</string>
+	<key>substantialLabelSkewy</key>
+	<string>ignoredResourceShape</string>
+	<key>touchBufferStyle</key>
+	<string>storageSingletonVisibility</string>
+	<key>unsortedMarginRate</key>
+	<string>commandAgainstForm</string>
+</dict>
+</plist>

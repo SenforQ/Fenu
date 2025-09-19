@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>exceptionObserverOpacity</key>
+	<string>otherViewRight</string>
+	<key>presenterOperationTint</key>
+	<string>nativeRiverpodAppearance</string>
+	<key>projectionAndLayer</key>
+	<string>fragmentCompositeMode</string>
+	<key>reactivePointRotation</key>
+	<string>rectOrStructure</string>
+	<key>requiredMusicVisible</key>
+	<string>subtleTimerTheme</string>
+	<key>resizableCubeShape</key>
+	<string>effectAndLayer</string>
+	<key>similarDrawerShape</key>
+	<string>mobileDecoratorType</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoCardTint</key>
+	<string>buttonStyleTransparency</string>
+	<key>explicitGridInteraction</key>
+	<string>metadataSinceMediator</string>
+	<key>imperativeErrorName</key>
+	<string>significantCanvasOrigin</string>
+	<key>storageOutsideLayer</key>
+	<string>consultativeAllocatorTheme</string>
+	<key>tweenOperationAlignment</key>
+	<string>spriteOfType</string>
+	<key>unactivatedCertificateType</key>
+	<string>semanticsChainTag</string>
+	<key>uniformSymbolVisibility</key>
+	<string>boxTypeState</string>
+	<key>usedFutureScale</key>
+	<string>queryChainFlags</string>
+</dict>
+</plist>

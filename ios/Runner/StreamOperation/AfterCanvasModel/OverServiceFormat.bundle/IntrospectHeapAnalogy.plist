@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>blocAndAdapter</key>
+	<string>gesturedetectorOrSingleton</string>
+	<key>composableLoopBehavior</key>
+	<string>aspectratioLevelVisibility</string>
+	<key>indicatorPatternStatus</key>
+	<string>routerWorkShape</string>
+	<key>intuitiveWidgetSkewy</key>
+	<string>descriptionBridgeOrigin</string>
+	<key>respectiveEntityDuration</key>
+	<string>blocVariablePadding</string>
+	<key>tabbarFlyweightStatus</key>
+	<string>stackByBuffer</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>buttonStrategyColor</key>
+	<string>operationByProxy</string>
+	<key>comprehensiveSingletonColor</key>
+	<string>basicProgressbarName</string>
+	<key>dropdownbuttonPrototypeForce</key>
+	<string>coordinatorOperationColor</string>
+	<key>exceptionAndParameter</key>
+	<string>significantStackStyle</string>
+	<key>independentChapterInteraction</key>
+	<string>spriteFormBrightness</string>
+	<key>inheritedCursorMode</key>
+	<string>gridWithoutLayer</string>
+	<key>parallelPromiseBound</key>
+	<string>intuitiveConsumerPadding</string>
+	<key>spineKindDuration</key>
+	<string>stampExceptActivity</string>
+	<key>transitionViaObserver</key>
+	<string>positionStageOffset</string>
+</dict>
+</plist>

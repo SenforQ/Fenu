@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>apertureCommandFlags</key>
+	<string>resultAsObserver</string>
+	<key>factoryStageAlignment</key>
+	<string>canvasActionSaturation</string>
+	<key>interactiveScrollSpeed</key>
+	<string>matrixValueShade</string>
+	<key>interactorCompositeResponse</key>
+	<string>baseSystemFrequency</string>
+	<key>resilientModelTint</key>
+	<string>sortedUnaryRotation</string>
+	<key>sizeAboutFlyweight</key>
+	<string>customNotificationMomentum</string>
+	<key>sizedboxContainCommand</key>
+	<string>mobileGrayscaleDepth</string>
+	<key>unsortedTimerScale</key>
+	<string>resourceCompositeCount</string>
+</dict>
+</plist>

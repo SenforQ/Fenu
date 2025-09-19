@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baselineExceptPattern</key>
+	<string>standaloneBinaryColor</string>
+	<key>cardLikeVar</key>
+	<string>consultativeToolEdge</string>
+	<key>completionStateStyle</key>
+	<string>mediumSingletonTint</string>
+	<key>cubeVarAlignment</key>
+	<string>mobxValueSpeed</string>
+	<key>explicitCallbackSize</key>
+	<string>serviceParamState</string>
+	<key>fixedAnchorFrequency</key>
+	<string>variantCycleTint</string>
+	<key>immediateEntityMomentum</key>
+	<string>parallelReducerHue</string>
+	<key>painterFlyweightFlags</key>
+	<string>callbackNumberStatus</string>
+	<key>textureStructureScale</key>
+	<string>navigatorNumberContrast</string>
+</dict>
+</plist>

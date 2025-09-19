@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>actionAroundProcess</key>
+	<string>accessoryDecoratorFormat</string>
+	<key>constraintVariableSpacing</key>
+	<string>threadLevelKind</string>
+	<key>dependencyBesideStyle</key>
+	<string>exponentAtOperation</string>
+	<key>flexibleLoopShade</key>
+	<string>spriteSingletonState</string>
+	<key>mapAboutValue</key>
+	<string>webCurveInterval</string>
+	<key>particleWithChain</key>
+	<string>transitionFlyweightSize</string>
+	<key>scaffoldEnvironmentTop</key>
+	<string>navigationContextDistance</string>
+	<key>tickerVersusStage</key>
+	<string>sessionAroundParam</string>
+</dict>
+</plist>

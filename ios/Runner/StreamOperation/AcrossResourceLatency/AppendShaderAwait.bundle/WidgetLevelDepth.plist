@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>consumerOfFacade</key>
+	<string>mediaqueryVariableBorder</string>
+	<key>eagerCustompaintInteraction</key>
+	<string>controllerLevelBottom</string>
+	<key>localizationOfSingleton</key>
+	<string>smartWidgetFlags</string>
+	<key>tickerSingletonTop</key>
+	<string>providerJobVisible</string>
+</dict>
+</plist>

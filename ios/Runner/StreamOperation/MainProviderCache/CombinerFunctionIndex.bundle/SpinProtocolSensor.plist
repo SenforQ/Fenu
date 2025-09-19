@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cellAndFlyweight</key>
+	<string>axisChainRate</string>
+	<key>cubitLevelDelay</key>
+	<string>inheritedCacheShade</string>
+	<key>disparateDescriptorInterval</key>
+	<string>callbackInterpreterStyle</string>
+	<key>effectParameterBehavior</key>
+	<string>scaleBufferMode</string>
+	<key>layoutActivitySize</key>
+	<string>spotSystemPadding</string>
+	<key>positionedShapeLeft</key>
+	<string>standaloneConstraintTheme</string>
+	<key>significantLayerStyle</key>
+	<string>relationalFactoryCoord</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baselineNearSingleton</key>
+	<string>routerSystemName</string>
+	<key>batchVarInteraction</key>
+	<string>normModeContrast</string>
+	<key>compositionFromFlyweight</key>
+	<string>stateIncludeMediator</string>
+	<key>constraintThroughObserver</key>
+	<string>instructionPerValue</string>
+	<key>elasticChapterCoord</key>
+	<string>challengeFrameworkTension</string>
+	<key>sliderBesideStyle</key>
+	<string>presenterCycleOrientation</string>
+	<key>storeFacadeStatus</key>
+	<string>euclideanRoleOrigin</string>
+	<key>transitionSystemOrigin</key>
+	<string>touchUntilAdapter</string>
+</dict>
+</plist>

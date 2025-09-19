@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appbarByWork</key>
+	<string>rowJobName</string>
+	<key>descriptorAwayStyle</key>
+	<string>functionalPriorityTag</string>
+	<key>effectShapeOpacity</key>
+	<string>viewFacadeVisible</string>
+	<key>ephemeralTopicSpeed</key>
+	<string>crucialRiverpodInteraction</string>
+	<key>missedClipperShape</key>
+	<string>globalEntityHead</string>
+	<key>sampleOutsideParameter</key>
+	<string>grainOfState</string>
+	<key>visibleCompleterDuration</key>
+	<string>unsortedStatefulOrigin</string>
+</dict>
+</plist>

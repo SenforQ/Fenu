@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>independentCubeMargin</key>
+	<string>immutableLocalizationTheme</string>
+	<key>observerAtLevel</key>
+	<string>decorationByFlyweight</string>
+	<key>radioBufferDensity</key>
+	<string>sequentialCacheStatus</string>
+	<key>responsiveBuilderState</key>
+	<string>directReducerShape</string>
+	<key>sceneFrameworkIndex</key>
+	<string>compositionThanMemento</string>
+	<key>usecaseAndProcess</key>
+	<string>stackDuringNumber</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>exponentStyleRight</key>
+	<string>mobileModelState</string>
+	<key>layerUntilPlatform</key>
+	<string>activitySinceEnvironment</string>
+	<key>publicTextDistance</key>
+	<string>labelInActivity</string>
+	<key>relationalNotifierSkewx</key>
+	<string>coordinatorFrameworkContrast</string>
+	<key>responsiveListviewPressure</key>
+	<string>cupertinoPopupDepth</string>
+</dict>
+</plist>

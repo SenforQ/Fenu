@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>disabledResolverAppearance</key>
+	<string>chartOperationKind</string>
+	<key>grayscaleCycleLocation</key>
+	<string>nextSampleTheme</string>
+	<key>immutableCubitOrigin</key>
+	<string>platePerAction</string>
+	<key>presenterBufferShape</key>
+	<string>spotPerStyle</string>
+	<key>robustLayoutMargin</key>
+	<string>protocolVariableDuration</string>
+	<key>routeAgainstCycle</key>
+	<string>enabledDescriptionSpacing</string>
+	<key>scrollableCoordinatorFlags</key>
+	<string>actionPerMethod</string>
+	<key>zonePhaseLocation</key>
+	<string>assetExceptPattern</string>
+</dict>
+</plist>

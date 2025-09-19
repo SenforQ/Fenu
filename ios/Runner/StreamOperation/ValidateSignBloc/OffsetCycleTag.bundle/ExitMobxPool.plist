@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aspectMethodBehavior</key>
+	<string>eventThanPattern</string>
+	<key>chartModeOrientation</key>
+	<string>durationViaBridge</string>
+	<key>dependencyFormType</key>
+	<string>queryLikeTask</string>
+	<key>mediaOrTask</key>
+	<string>firstRectRight</string>
+	<key>nibThanCycle</key>
+	<string>streamCycleMargin</string>
+	<key>oldZoneColor</key>
+	<string>callbackEnvironmentShade</string>
+	<key>popupEnvironmentFormat</key>
+	<string>webModelFlags</string>
+	<key>resilientEffectValidation</key>
+	<string>sceneParameterType</string>
+	<key>rowAboutTask</key>
+	<string>imperativeGetxFlags</string>
+	<key>rowPerShape</key>
+	<string>metadataStrategyForce</string>
+</dict>
+</plist>

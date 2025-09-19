@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alignmentChainTint</key>
+	<string>assetChainRight</string>
+	<key>contractionAgainstFlyweight</key>
+	<string>desktopCatalystOpacity</string>
+	<key>tabviewByProcess</key>
+	<string>mainMenuEdge</string>
+	<key>utilStyleSize</key>
+	<string>labelObserverName</string>
+</dict>
+</plist>

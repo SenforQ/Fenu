@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>borderOutsidePlatform</key>
+	<string>columnWithoutFacade</string>
+	<key>canvasForBridge</key>
+	<string>variantBridgeDirection</string>
+	<key>curveWithoutFacade</key>
+	<string>remainderIncludeInterpreter</string>
+	<key>interpolationObserverName</key>
+	<string>resultDuringMemento</string>
+	<key>zoneVersusPrototype</key>
+	<string>diversifiedViewSaturation</string>
+</dict>
+</plist>

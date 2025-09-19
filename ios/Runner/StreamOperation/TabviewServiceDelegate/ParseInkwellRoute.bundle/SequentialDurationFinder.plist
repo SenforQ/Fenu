@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>assetCommandOrigin</key>
+	<string>euclideanAppbarSpacing</string>
+	<key>backwardCacheDelay</key>
+	<string>listviewNearAction</string>
+	<key>consumerStageBehavior</key>
+	<string>vectorAndActivity</string>
+	<key>decorationPhaseAlignment</key>
+	<string>cosineNumberScale</string>
+	<key>expandedActivityLeft</key>
+	<string>overlayAmongSingleton</string>
+	<key>heapOutsideLevel</key>
+	<string>sizeUntilLayer</string>
+	<key>mobileTaskShade</key>
+	<string>unsortedProjectHue</string>
+	<key>pivotalImageOffset</key>
+	<string>stackByProcess</string>
+	<key>positionExceptOperation</key>
+	<string>listenerTaskVelocity</string>
+</dict>
+</plist>

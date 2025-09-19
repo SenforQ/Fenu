@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>specifierCommandSkewy</key>
+	<string>brushActivityResponse</string>
+	<key>viewChainPressure</key>
+	<string>responseDespiteMethod</string>
+</dict>
+</plist>

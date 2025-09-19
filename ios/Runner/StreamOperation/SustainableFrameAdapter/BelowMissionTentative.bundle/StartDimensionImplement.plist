@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>catalystContextBorder</key>
+	<string>diffableRouterBorder</string>
+	<key>compositionalRowStyle</key>
+	<string>dependencyChainShape</string>
+	<key>rowDecoratorName</key>
+	<string>lazyGiftKind</string>
+	<key>segueCycleRotation</key>
+	<string>accessoryNearState</string>
+</dict>
+</plist>

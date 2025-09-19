@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allocatorChainSpeed</key>
+	<string>associatedButtonVelocity</string>
+	<key>globalEffectOrientation</key>
+	<string>sizeThroughStructure</string>
+	<key>layoutBeyondTier</key>
+	<string>collectionStyleResponse</string>
+	<key>resultStageTension</key>
+	<string>resultCommandTop</string>
+	<key>spineNearVariable</key>
+	<string>sliderLevelMode</string>
+	<key>zonePerNumber</key>
+	<string>blocAgainstTask</string>
+</dict>
+</plist>

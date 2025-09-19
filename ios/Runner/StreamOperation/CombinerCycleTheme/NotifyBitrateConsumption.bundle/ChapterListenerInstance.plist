@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>completerOutsideScope</key>
+	<string>spriteAndSystem</string>
+	<key>keyControllerRight</key>
+	<string>singletonWithProxy</string>
+	<key>mainAsyncOrientation</key>
+	<string>disparateRepositoryMode</string>
+	<key>singletonModeDensity</key>
+	<string>grayscaleAndStyle</string>
+	<key>swiftOfEnvironment</key>
+	<string>constraintCyclePressure</string>
+	<key>variantVersusDecorator</key>
+	<string>builderAboutCommand</string>
+</dict>
+</plist>

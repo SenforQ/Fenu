@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>basicIntensitySpeed</key>
+	<string>curveByStyle</string>
+	<key>capacitiesAtTask</key>
+	<string>reductionStyleSpacing</string>
+	<key>dialogsMediatorResponse</key>
+	<string>coordinatorFunctionType</string>
+	<key>graphPerLevel</key>
+	<string>entityStrategyKind</string>
+	<key>navigatorAboutFlyweight</key>
+	<string>autoTextfieldPosition</string>
+	<key>nibChainVelocity</key>
+	<string>fusedPointState</string>
+	<key>roleActionColor</key>
+	<string>inactiveCoordinatorInterval</string>
+	<key>textureViaSystem</key>
+	<string>transitionTierBrightness</string>
+</dict>
+</plist>

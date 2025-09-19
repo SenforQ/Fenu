@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cubitLevelLeft</key>
+	<string>layoutAlongCycle</string>
+	<key>invisibleProgressbarDirection</key>
+	<string>controllerCommandSkewx</string>
+	<key>permanentZonePosition</key>
+	<string>delegatePerCommand</string>
+	<key>primaryRadiusTension</key>
+	<string>widgetWithoutMode</string>
+	<key>semanticScrollFrequency</key>
+	<string>associatedActivityStyle</string>
+	<key>spriteContainStructure</key>
+	<string>disparateRadioForce</string>
+	<key>storyboardStrategyOrientation</key>
+	<string>variantByComposite</string>
+	<key>widgetContextDirection</key>
+	<string>handlerLayerMargin</string>
+</dict>
+</plist>

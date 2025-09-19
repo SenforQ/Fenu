@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beginnerPriorityFrequency</key>
+	<string>customHistogramShade</string>
+	<key>boxForBuffer</key>
+	<string>resolverBufferOrientation</string>
+	<key>primaryNormBorder</key>
+	<string>curveExceptSystem</string>
+</dict>
+</plist>

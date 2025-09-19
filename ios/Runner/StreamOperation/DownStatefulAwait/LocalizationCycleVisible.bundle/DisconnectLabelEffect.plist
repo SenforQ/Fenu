@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>associatedLocalizationAppearance</key>
+	<string>mainCommandInteraction</string>
+	<key>buttonLikeWork</key>
+	<string>baselineNearShape</string>
+	<key>entropyCommandOffset</key>
+	<string>missedBlocOrientation</string>
+	<key>logAndPattern</key>
+	<string>durationContainProcess</string>
+	<key>nextMusicHue</key>
+	<string>cellBesideValue</string>
+	<key>reusableTabviewShade</key>
+	<string>rowFrameworkDirection</string>
+</dict>
+</plist>

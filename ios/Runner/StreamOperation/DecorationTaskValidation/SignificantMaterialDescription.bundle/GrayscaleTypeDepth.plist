@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cubitInterpreterAcceleration</key>
+	<string>dependencyThanComposite</string>
+	<key>entropyStructureLocation</key>
+	<string>statefulPerTask</string>
+	<key>independentGateLocation</key>
+	<string>frameOfCommand</string>
+	<key>interpolationLikeForm</key>
+	<string>retainedPresenterState</string>
+	<key>kernelBeyondPlatform</key>
+	<string>responsiveConstraintBrightness</string>
+	<key>previewFrameworkInset</key>
+	<string>webReferenceBrightness</string>
+	<key>retainedGramAppearance</key>
+	<string>alphaFromCommand</string>
+	<key>tweenPatternTint</key>
+	<string>cubitAlongTask</string>
+</dict>
+</plist>

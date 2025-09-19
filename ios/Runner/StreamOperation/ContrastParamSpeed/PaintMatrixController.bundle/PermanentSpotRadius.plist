@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>coordinatorTierBehavior</key>
+	<string>getxTierOpacity</string>
+	<key>dynamicFeatureTail</key>
+	<string>channelSystemMargin</string>
+	<key>immediateAxisDelay</key>
+	<string>graphActivityMode</string>
+	<key>queryForCycle</key>
+	<string>configurationWithLevel</string>
+	<key>radiusTypeBehavior</key>
+	<string>offsetFormStatus</string>
+	<key>responseOutsideDecorator</key>
+	<string>transitionTaskFlags</string>
+</dict>
+</plist>

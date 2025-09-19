@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>behaviorBeyondBuffer</key>
+	<string>capacitiesPlatformTail</string>
+	<key>bufferWithoutPrototype</key>
+	<string>newestRowInset</string>
+	<key>greatAwaitCenter</key>
+	<string>deferredErrorTheme</string>
+	<key>loopStageOrientation</key>
+	<string>discardedGraphicMode</string>
+	<key>mediumGrainBehavior</key>
+	<string>retainedCharacterTheme</string>
+	<key>semanticDimensionSkewy</key>
+	<string>segueParameterAlignment</string>
+	<key>substantialProjectKind</key>
+	<string>staticFrameMargin</string>
+	<key>widgetCycleSpeed</key>
+	<string>observerAwayAction</string>
+</dict>
+</plist>

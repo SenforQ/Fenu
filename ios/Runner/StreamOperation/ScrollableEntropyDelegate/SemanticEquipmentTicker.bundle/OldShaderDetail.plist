@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fragmentTaskValidation</key>
+	<string>captionFormMargin</string>
+	<key>grayscaleAboutBridge</key>
+	<string>draggableErrorTheme</string>
+	<key>inactiveSinkStyle</key>
+	<string>baselineIncludeBridge</string>
+	<key>layoutSinceForm</key>
+	<string>characterShapeStyle</string>
+	<key>querySinceNumber</key>
+	<string>sampleLevelAppearance</string>
+	<key>skirtVarTension</key>
+	<string>techniqueParamTension</string>
+	<key>tensorUtilDensity</key>
+	<string>unsortedTransitionColor</string>
+	<key>workflowMementoValidation</key>
+	<string>materialLevelOrigin</string>
+</dict>
+</plist>

@@ -6,7 +6,7 @@ class UserProfileService {
   static const String _avatarKey = 'user_avatar';
   static const String _userNameKey = 'user_name';
   static const String _signatureKey = 'user_signature';
-  static const String defaultAvatar = 'assets/user_default_icon_20250901.png';
+  static const String defaultAvatar = 'assets/user_default_icon_20250901.webp';
 
   // 获取用户头像
   static Future<String> getAvatar() async {

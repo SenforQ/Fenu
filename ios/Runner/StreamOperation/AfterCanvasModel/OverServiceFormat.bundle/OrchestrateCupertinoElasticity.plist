@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beginnerTransitionBehavior</key>
+	<string>interfaceLikeComposite</string>
+	<key>contractionVersusState</key>
+	<string>channelVersusKind</string>
+	<key>discardedMissionPressure</key>
+	<string>entityKindBehavior</string>
+	<key>dropdownbuttonIncludeAction</key>
+	<string>consultativePlateState</string>
+	<key>featureAwayTier</key>
+	<string>usedMovementForce</string>
+	<key>getxAboutCycle</key>
+	<string>histogramMethodIndex</string>
+	<key>mediaFacadeRotation</key>
+	<string>mediumRouterCoord</string>
+	<key>movementJobTint</key>
+	<string>collectionUntilWork</string>
+	<key>numericalParticleSkewy</key>
+	<string>otherFrameAlignment</string>
+</dict>
+</plist>

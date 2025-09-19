@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>checkboxAroundInterpreter</key>
+	<string>composableDelegateInset</string>
+	<key>coordinatorCompositeAcceleration</key>
+	<string>flexInsideMode</string>
+	<key>decorationVisitorMargin</key>
+	<string>delegateAmongBuffer</string>
+	<key>presenterPlatformEdge</key>
+	<string>transitionStructureRate</string>
+	<key>transitionModeAppearance</key>
+	<string>indicatorAsMethod</string>
+	<key>transitionNumberInset</key>
+	<string>opaqueDependencyAlignment</string>
+</dict>
+</plist>

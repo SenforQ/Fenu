@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accordionBorderTag</key>
+	<string>webLayoutBottom</string>
+	<key>allocatorPhaseStatus</key>
+	<string>publicLogTint</string>
+	<key>localizationNumberSpeed</key>
+	<string>fragmentOutsideLayer</string>
+	<key>movementLikeStage</key>
+	<string>rectLikeTask</string>
+	<key>mutableModalInteraction</key>
+	<string>animationWithoutFramework</string>
+	<key>significantIntegerPadding</key>
+	<string>inactiveEntropyColor</string>
+	<key>storyboardBridgeDirection</key>
+	<string>localizationOutsideParameter</string>
+</dict>
+</plist>

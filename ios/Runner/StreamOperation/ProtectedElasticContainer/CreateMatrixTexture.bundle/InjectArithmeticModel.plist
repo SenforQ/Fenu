@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>builderWithoutCycle</key>
+	<string>referenceThroughStrategy</string>
+	<key>consumerAndChain</key>
+	<string>signaturePerEnvironment</string>
+	<key>dependencyCompositeBehavior</key>
+	<string>responseAboutStyle</string>
+	<key>extensionKindName</key>
+	<string>localizationFacadeDelay</string>
+	<key>groupParameterSpacing</key>
+	<string>tickerThanDecorator</string>
+	<key>mediocreStreamFlags</key>
+	<string>localizationActivityCoord</string>
+	<key>reducerIncludeLevel</key>
+	<string>cursorPrototypeBehavior</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>coordinatorKindAlignment</key>
+	<string>tappableCoordinatorFlags</string>
+	<key>declarativeHeapTop</key>
+	<string>metadataScopeBottom</string>
+	<key>diffableButtonOffset</key>
+	<string>usageInterpreterPadding</string>
+	<key>durationBeyondMethod</key>
+	<string>missedSizeFlags</string>
+	<key>multiCubitShade</key>
+	<string>channelAmongObserver</string>
+	<key>repositoryPlatformName</key>
+	<string>particleShapeFrequency</string>
+	<key>standaloneStreamDensity</key>
+	<string>missionModeOrientation</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>enabledModelAppearance</key>
+	<string>crucialFrameDelay</string>
+	<key>finalEquipmentDensity</key>
+	<string>awaitStageSpeed</string>
+	<key>grainDuringTask</key>
+	<string>usedAllocatorOrientation</string>
+	<key>labelThroughBuffer</key>
+	<string>grainStructureInset</string>
+	<key>resolverAsInterpreter</key>
+	<string>serviceIncludeShape</string>
+	<key>sensorTempleAcceleration</key>
+	<string>consumerInFlyweight</string>
+</dict>
+</plist>

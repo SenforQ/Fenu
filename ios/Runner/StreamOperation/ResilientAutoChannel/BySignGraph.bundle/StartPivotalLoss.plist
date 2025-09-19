@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>builderPhasePadding</key>
+	<string>viewBufferDensity</string>
+	<key>resolverMementoShade</key>
+	<string>consumerStructureDelay</string>
+	<key>resultCycleKind</key>
+	<string>effectMementoOrigin</string>
+	<key>temporaryTickerEdge</key>
+	<string>tappablePainterSpeed</string>
+	<key>tensorChannelDistance</key>
+	<string>reducerAwaySingleton</string>
+</dict>
+</plist>

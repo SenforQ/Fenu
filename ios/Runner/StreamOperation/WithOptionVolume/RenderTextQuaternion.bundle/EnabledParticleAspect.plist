@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baselineTempleState</key>
+	<string>iconAlongAction</string>
+	<key>callbackStyleLocation</key>
+	<string>serviceStyleIndex</string>
+	<key>chartVisitorAppearance</key>
+	<string>primaryEntityContrast</string>
+	<key>gridAtMediator</key>
+	<string>titleOperationDelay</string>
+	<key>inheritedBaseBrightness</key>
+	<string>callbackContainComposite</string>
+	<key>interfaceAboutForm</key>
+	<string>signatureJobBottom</string>
+	<key>menuInAction</key>
+	<string>retainedClipperAppearance</string>
+	<key>sceneAroundChain</key>
+	<string>captionAdapterForce</string>
+	<key>statelessCommandFrequency</key>
+	<string>customPrecisionStyle</string>
+	<key>workflowStageInterval</key>
+	<string>alphaScopeCount</string>
+</dict>
+</plist>

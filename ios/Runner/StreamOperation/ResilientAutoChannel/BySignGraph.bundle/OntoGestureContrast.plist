@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedLocalizationDensity</key>
+	<string>stackByStyle</string>
+	<key>buttonSingletonCount</key>
+	<string>characterExceptShape</string>
+	<key>hardSingletonRotation</key>
+	<string>keyPriorityPressure</string>
+	<key>keyNodeColor</key>
+	<string>stateAtWork</string>
+	<key>signatureAgainstLayer</key>
+	<string>usageAwayStage</string>
+	<key>statefulContainProxy</key>
+	<string>loopPerOperation</string>
+	<key>tangentFacadeFlags</key>
+	<string>storeSingletonKind</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alphaWithMemento</key>
+	<string>grainTierStatus</string>
+	<key>behaviorDuringFlyweight</key>
+	<string>fusedBinaryState</string>
+	<key>custompaintActionState</key>
+	<string>stackForLayer</string>
+	<key>observerDuringMediator</key>
+	<string>viewPerSingleton</string>
+	<key>permanentMobileDistance</key>
+	<string>builderKindEdge</string>
+	<key>unsortedBlocValidation</key>
+	<string>multiplicationThanForm</string>
+</dict>
+</plist>

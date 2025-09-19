@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>batchChainSpeed</key>
+	<string>mobileAsCycle</string>
+	<key>behaviorNearProxy</key>
+	<string>euclideanTableRotation</string>
+	<key>commonSpriteSaturation</key>
+	<string>diffableBlocRight</string>
+	<key>delegateBufferVelocity</key>
+	<string>hierarchicalEqualizationBound</string>
+	<key>descriptionMethodVisible</key>
+	<string>widgetOrBuffer</string>
+	<key>providerTypeDelay</key>
+	<string>grayscaleObserverShape</string>
+	<key>requestPrototypeRight</key>
+	<string>permanentResponseBottom</string>
+	<key>sharedConstraintBrightness</key>
+	<string>interactiveBrushStyle</string>
+</dict>
+</plist>

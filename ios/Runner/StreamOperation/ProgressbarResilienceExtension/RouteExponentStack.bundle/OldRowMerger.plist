@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>advancedNotificationShape</key>
+	<string>metadataActionDistance</string>
+	<key>backwardTransformerSkewx</key>
+	<string>crudeColumnName</string>
+	<key>customizedAppbarTransparency</key>
+	<string>accessoryFunctionSaturation</string>
+	<key>entityInsideCycle</key>
+	<string>progressbarOutsideTier</string>
+	<key>grayscaleFlyweightShape</key>
+	<string>statefulFacadeVelocity</string>
+	<key>groupFacadeIndex</key>
+	<string>spotAtLayer</string>
+	<key>invisibleControllerCount</key>
+	<string>notificationViaStyle</string>
+	<key>semanticsByCycle</key>
+	<string>channelStateSpacing</string>
+	<key>staticDimensionOrigin</key>
+	<string>independentStatefulLeft</string>
+</dict>
+</plist>

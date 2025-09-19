@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aspectAsContext</key>
+	<string>elasticGiftRotation</string>
+	<key>resourceObserverValidation</key>
+	<string>originalDurationOrientation</string>
+	<key>stateMethodTag</key>
+	<string>pivotalIconScale</string>
+	<key>subsequentCupertinoTheme</key>
+	<string>allocatorStyleState</string>
+</dict>
+</plist>

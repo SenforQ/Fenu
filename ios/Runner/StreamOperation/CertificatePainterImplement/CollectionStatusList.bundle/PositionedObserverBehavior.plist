@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>constraintLayerDelay</key>
+	<string>statefulAboutScope</string>
+	<key>cupertinoContextResponse</key>
+	<string>normalRouteOrientation</string>
+	<key>globalListenerState</key>
+	<string>nativeGesturedetectorBound</string>
+	<key>responsePhaseAlignment</key>
+	<string>optimizerBesideCycle</string>
+	<key>similarGraphFormat</key>
+	<string>requiredSpotCount</string>
+	<key>swiftEnvironmentSkewy</key>
+	<string>bufferViaTask</string>
+	<key>tickerTempleFormat</key>
+	<string>indicatorAgainstScope</string>
+</dict>
+</plist>

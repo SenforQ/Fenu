@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>asynchronousProfilePadding</key>
+	<string>callbackSystemShade</string>
+	<key>blocInsideBridge</key>
+	<string>respectiveAlphaDuration</string>
+	<key>brushParameterBorder</key>
+	<string>nodeAboutContext</string>
+	<key>composableFeatureStyle</key>
+	<string>unaryScopeScale</string>
+	<key>graphTypeDepth</key>
+	<string>mobilePreviewPadding</string>
+	<key>histogramVisitorShade</key>
+	<string>otherTabviewOrientation</string>
+	<key>intermediateCubitPosition</key>
+	<string>interfaceStateBorder</string>
+	<key>labelVersusPlatform</key>
+	<string>cursorOutsideFunction</string>
+	<key>relationalLayerSkewy</key>
+	<string>accessibleTopicMode</string>
+</dict>
+</plist>

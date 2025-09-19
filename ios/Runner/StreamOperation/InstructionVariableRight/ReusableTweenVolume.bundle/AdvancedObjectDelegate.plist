@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aspectratioVersusProcess</key>
+	<string>persistentTickerDuration</string>
+	<key>builderViaBridge</key>
+	<string>routeStageStyle</string>
+	<key>criticalWorkflowInteraction</key>
+	<string>sliderStructureSpeed</string>
+	<key>localizationCommandBorder</key>
+	<string>nativeDurationVisible</string>
+	<key>logWithoutProxy</key>
+	<string>otherAlertName</string>
+	<key>mediumMediaValidation</key>
+	<string>particleOfJob</string>
+	<key>positionedWorkValidation</key>
+	<string>routerStructureCenter</string>
+	<key>stampVersusProxy</key>
+	<string>featureAlongInterpreter</string>
+</dict>
+</plist>

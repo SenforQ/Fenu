@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>axisNearStrategy</key>
+	<string>callbackThroughMethod</string>
+	<key>blocDuringParameter</key>
+	<string>stackBesideParam</string>
+	<key>discardedLossBound</key>
+	<string>requestAboutInterpreter</string>
+	<key>functionalContainerDistance</key>
+	<string>resourceFlyweightVisible</string>
+	<key>offsetVisitorHue</key>
+	<string>navigationAroundState</string>
+	<key>pinchableCoordinatorContrast</key>
+	<string>originalControllerFeedback</string>
+	<key>pointValueTension</key>
+	<string>unactivatedMultiplicationOpacity</string>
+	<key>semanticGateSpeed</key>
+	<string>uniqueStoryboardHue</string>
+	<key>unarySinceEnvironment</key>
+	<string>futureAgainstSingleton</string>
+</dict>
+</plist>

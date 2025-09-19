@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chartAgainstStyle</key>
+	<string>decorationOfMode</string>
+	<key>enabledSliderCount</key>
+	<string>fusedHeapDirection</string>
+	<key>gridParameterResponse</key>
+	<string>layoutPhaseDuration</string>
+	<key>gridviewWithMode</key>
+	<string>actionValueType</string>
+	<key>hierarchicalAlignmentFormat</key>
+	<string>sampleNumberColor</string>
+	<key>intensityThroughProxy</key>
+	<string>widgetOutsideFacade</string>
+	<key>progressbarExceptState</key>
+	<string>viewOutsideBuffer</string>
+	<key>statefulBlocCenter</key>
+	<string>documentSystemStatus</string>
+</dict>
+</plist>

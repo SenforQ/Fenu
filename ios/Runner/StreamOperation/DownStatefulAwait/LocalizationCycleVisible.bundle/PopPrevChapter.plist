@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arithmeticDescriptionBound</key>
+	<string>gridProcessOffset</string>
+	<key>axisForVar</key>
+	<string>elasticInteractorSpacing</string>
+	<key>convolutionCompositeTheme</key>
+	<string>gemInsideStage</string>
+	<key>exceptionStructureAlignment</key>
+	<string>timerViaVisitor</string>
+	<key>expandedAgainstProcess</key>
+	<string>shaderDespitePlatform</string>
+	<key>nibExceptPhase</key>
+	<string>binaryFromMode</string>
+	<key>reusableScreenInteraction</key>
+	<string>containerMethodCount</string>
+	<key>storeNearVariable</key>
+	<string>providerAroundVariable</string>
+	<key>transitionAndAction</key>
+	<string>nodeFlyweightForce</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>dedicatedAnimatedcontainerDistance</key>
+	<string>beginnerFactoryPosition</string>
+	<key>dependencyShapeAppearance</key>
+	<string>batchNearLayer</string>
+	<key>desktopCoordinatorRight</key>
+	<string>oldConstraintBehavior</string>
+	<key>giftMethodDensity</key>
+	<string>subtleGradientAppearance</string>
+	<key>hashAlongChain</key>
+	<string>sceneKindBound</string>
+	<key>liteCaptionDuration</key>
+	<string>pinchableTabbarSpeed</string>
+	<key>notifierCommandSpacing</key>
+	<string>nodeThroughMode</string>
+	<key>specifyContractionRotation</key>
+	<string>convolutionOutsideComposite</string>
+</dict>
+</plist>

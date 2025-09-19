@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>consumerOrObserver</key>
+	<string>navigationDuringPhase</string>
+	<key>materialResolverTension</key>
+	<string>diffableStorageBrightness</string>
+	<key>metadataPhaseAppearance</key>
+	<string>scrollableChannelSpeed</string>
+	<key>remainderBeyondVariable</key>
+	<string>collectionMediatorBehavior</string>
+	<key>routerDuringMode</key>
+	<string>constBehaviorSkewy</string>
+</dict>
+</plist>

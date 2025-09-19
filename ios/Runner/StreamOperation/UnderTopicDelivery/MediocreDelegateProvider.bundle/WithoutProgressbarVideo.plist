@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>draggableDecorationFormat</key>
+	<string>commonHashBorder</string>
+	<key>eventActionRate</key>
+	<string>criticalBuilderAcceleration</string>
+	<key>gestureAwayMode</key>
+	<string>semanticsOutsideMediator</string>
+	<key>rowViaParameter</key>
+	<string>riverpodEnvironmentPosition</string>
+	<key>segmentCommandBehavior</key>
+	<string>prismaticActivityHue</string>
+	<key>symmetricRemainderAppearance</key>
+	<string>injectionDuringActivity</string>
+	<key>tweenDecoratorStatus</key>
+	<string>checklistStructureSize</string>
+</dict>
+</plist>

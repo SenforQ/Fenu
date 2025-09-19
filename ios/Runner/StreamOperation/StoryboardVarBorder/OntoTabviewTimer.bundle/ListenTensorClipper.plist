@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>anchorAgainstAction</key>
+	<string>taskBeyondChain</string>
+	<key>animatedcontainerValueMargin</key>
+	<string>marginCompositeSpeed</string>
+	<key>coordinatorBufferFormat</key>
+	<string>layoutVarSpacing</string>
+	<key>immediateListviewCoord</key>
+	<string>normalEntityLocation</string>
+	<key>injectionStyleStatus</key>
+	<string>disparateEventResponse</string>
+	<key>modalEnvironmentSpeed</key>
+	<string>remainderSinceTask</string>
+	<key>nodeDecoratorTransparency</key>
+	<string>nextBoxTransparency</string>
+	<key>providerAroundVisitor</key>
+	<string>ignoredBinaryInterval</string>
+</dict>
+</plist>

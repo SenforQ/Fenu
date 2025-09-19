@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>advancedSceneDensity</key>
+	<string>equalizationInterpreterAppearance</string>
+	<key>crucialSubscriptionMode</key>
+	<string>grainFromObserver</string>
+	<key>immediateWidgetInterval</key>
+	<string>consumerDecoratorDuration</string>
+	<key>interactorSystemLocation</key>
+	<string>checklistFrameworkShade</string>
+	<key>methodTaskTheme</key>
+	<string>largeKernelMargin</string>
+	<key>resolverParameterDistance</key>
+	<string>arithmeticSpotVisible</string>
+	<key>sensorKindSkewy</key>
+	<string>catalystPerFacade</string>
+	<key>sineAndBuffer</key>
+	<string>decorationOrVar</string>
+	<key>subpixelBufferDepth</key>
+	<string>viewAmongBridge</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>configurationAsLevel</key>
+	<string>observerBesideMode</string>
+	<key>coordinatorMethodBehavior</key>
+	<string>opaqueRowName</string>
+	<key>curveThanLevel</key>
+	<string>autoGesturedetectorFrequency</string>
+	<key>drawerFacadeStatus</key>
+	<string>buttonProcessHead</string>
+	<key>resourceBufferBrightness</key>
+	<string>hardOptionBehavior</string>
+	<key>spriteObserverMode</key>
+	<string>statelessInterpreterContrast</string>
+	<key>statelessImageRotation</key>
+	<string>modulusPerSystem</string>
+</dict>
+</plist>

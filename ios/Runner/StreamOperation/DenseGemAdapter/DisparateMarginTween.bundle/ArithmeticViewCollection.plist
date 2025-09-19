@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>constGraphStatus</key>
+	<string>tappablePageviewTransparency</string>
+	<key>interactorActionResponse</key>
+	<string>criticalResolverAppearance</string>
+	<key>intuitiveKernelRate</key>
+	<string>coordinatorTypeBottom</string>
+	<key>metadataVersusBuffer</key>
+	<string>inkwellContainMediator</string>
+	<key>responseStageInteraction</key>
+	<string>associatedTransitionSize</string>
+	<key>singletonLevelValidation</key>
+	<string>progressbarLevelBorder</string>
+	<key>symbolLevelLocation</key>
+	<string>sceneSinceVisitor</string>
+	<key>symmetricChecklistHue</key>
+	<string>signatureAmongMethod</string>
+	<key>taskSystemSkewx</key>
+	<string>blocOperationOpacity</string>
+</dict>
+</plist>

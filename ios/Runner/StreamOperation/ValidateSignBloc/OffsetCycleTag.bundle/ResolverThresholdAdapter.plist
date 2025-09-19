@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>adaptiveRichtextContrast</key>
+	<string>uniqueSinkInset</string>
+	<key>axisSystemShape</key>
+	<string>spriteAgainstOperation</string>
+	<key>isolateWorkSkewx</key>
+	<string>sequentialAnchorShape</string>
+	<key>scrollOperationMargin</key>
+	<string>utilAtTemple</string>
+</dict>
+</plist>

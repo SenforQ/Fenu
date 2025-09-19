@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entityIncludeStructure</key>
+	<string>requestStateInset</string>
+	<key>gestureStageInset</key>
+	<string>imperativeLabelVisibility</string>
+	<key>interactiveInteractorVelocity</key>
+	<string>sessionInterpreterAcceleration</string>
+	<key>layoutAsMediator</key>
+	<string>gridviewCommandMargin</string>
+	<key>particleChainKind</key>
+	<string>gemPerChain</string>
+	<key>repositoryShapeStyle</key>
+	<string>diffableGraphicTension</string>
+</dict>
+</plist>

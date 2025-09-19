@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>advancedAccessoryInteraction</key>
+	<string>sessionSystemContrast</string>
+	<key>consumerParamVisible</key>
+	<string>mediaqueryForObserver</string>
+	<key>hierarchicalZoneFeedback</key>
+	<string>presenterLayerShade</string>
+	<key>oldSessionInset</key>
+	<string>contractionLikeBridge</string>
+	<key>popupThanTemple</key>
+	<string>requestFacadeDelay</string>
+	<key>statefulStateSpeed</key>
+	<string>sortedTimerPressure</string>
+	<key>subscriptionDecoratorDepth</key>
+	<string>statelessOfMode</string>
+	<key>symbolPatternRate</key>
+	<string>fragmentTierDepth</string>
+</dict>
+</plist>

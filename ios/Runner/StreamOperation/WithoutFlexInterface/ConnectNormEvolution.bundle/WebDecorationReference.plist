@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>anchorInState</key>
+	<string>stepFlyweightHue</string>
+	<key>blocPrototypeDuration</key>
+	<string>unaryAwaySingleton</string>
+	<key>capsulePlatformDepth</key>
+	<string>associatedChannelsOpacity</string>
+	<key>compositionStyleSkewx</key>
+	<string>listenerDuringOperation</string>
+	<key>graphActionOrientation</key>
+	<string>hardInterpolationBrightness</string>
+	<key>subsequentAxisDelay</key>
+	<string>coordinatorModeTheme</string>
+	<key>textModeRotation</key>
+	<string>criticalBufferRight</string>
+	<key>transitionCompositeTag</key>
+	<string>coordinatorLikePhase</string>
+</dict>
+</plist>

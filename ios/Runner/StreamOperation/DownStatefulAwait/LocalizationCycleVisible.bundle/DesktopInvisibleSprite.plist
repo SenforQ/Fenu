@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compositionalCatalystCount</key>
+	<string>spriteTierVisible</string>
+	<key>directEntityValidation</key>
+	<string>geometricContainerOffset</string>
+	<key>mobileProxySkewy</key>
+	<string>curveAmongMediator</string>
+	<key>mutableBoxHead</key>
+	<string>heapActionSize</string>
+	<key>mutableFrameDistance</key>
+	<string>tabviewBufferColor</string>
+	<key>nextDescriptionSkewy</key>
+	<string>responseFacadeHead</string>
+	<key>positionFormKind</key>
+	<string>staticCellDirection</string>
+	<key>reactiveTimerAcceleration</key>
+	<string>rowPerLayer</string>
+	<key>roleAwayMode</key>
+	<string>discardedSinkOffset</string>
+</dict>
+</plist>

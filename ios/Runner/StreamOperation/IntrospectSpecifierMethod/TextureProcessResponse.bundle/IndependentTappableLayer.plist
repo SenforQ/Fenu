@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>actionProcessTop</key>
+	<string>columnInParam</string>
+	<key>bufferFunctionCount</key>
+	<string>indicatorInsideVariable</string>
+	<key>consultativeBlocDelay</key>
+	<string>chartProxyFormat</string>
+	<key>flexLikeCycle</key>
+	<string>directMetadataTheme</string>
+	<key>getxVariableShape</key>
+	<string>arithmeticGrainPadding</string>
+	<key>numericalPaddingOffset</key>
+	<string>viewTierBrightness</string>
+	<key>roleCycleMargin</key>
+	<string>controllerAtShape</string>
+	<key>tensorTweenSize</key>
+	<string>futureDecoratorStatus</string>
+</dict>
+</plist>

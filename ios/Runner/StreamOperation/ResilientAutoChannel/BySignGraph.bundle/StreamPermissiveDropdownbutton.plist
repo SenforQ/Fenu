@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allocatorAsFlyweight</key>
+	<string>cupertinoProjectStyle</string>
+	<key>gridviewNearStructure</key>
+	<string>asyncCharacterStatus</string>
+	<key>mediumTransitionOpacity</key>
+	<string>asyncSinceFramework</string>
+	<key>notificationBeyondNumber</key>
+	<string>granularGramVisible</string>
+</dict>
+</plist>

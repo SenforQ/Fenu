@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cardWithOperation</key>
+	<string>entropyInScope</string>
+	<key>crudeRowBehavior</key>
+	<string>logCycleDistance</string>
+	<key>hashScopeCoord</key>
+	<string>optionShapeForce</string>
+	<key>providerMementoBehavior</key>
+	<string>routePatternTop</string>
+	<key>transitionStageTheme</key>
+	<string>localResponseIndex</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>configurationInsideDecorator</key>
+	<string>temporaryPositionLocation</string>
+	<key>lostConfigurationOpacity</key>
+	<string>zoneAtEnvironment</string>
+	<key>lostRequestFlags</key>
+	<string>nativeSinkPosition</string>
+	<key>routeModeDepth</key>
+	<string>sizeMethodFrequency</string>
+	<key>tensorSpineOrientation</key>
+	<string>sceneOrStyle</string>
+</dict>
+</plist>

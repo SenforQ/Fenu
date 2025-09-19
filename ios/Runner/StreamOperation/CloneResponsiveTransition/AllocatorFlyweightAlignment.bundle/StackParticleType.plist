@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>agilePetInteraction</key>
+	<string>tappableResolverDelay</string>
+	<key>clipperSingletonFeedback</key>
+	<string>widgetTypeMargin</string>
+	<key>controllerFacadeStatus</key>
+	<string>vectorByOperation</string>
+</dict>
+</plist>

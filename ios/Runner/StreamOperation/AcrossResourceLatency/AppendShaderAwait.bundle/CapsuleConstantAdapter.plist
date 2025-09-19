@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>frameBesideType</key>
+	<string>secondGesturedetectorRotation</string>
+	<key>histogramAsTier</key>
+	<string>dynamicChecklistRotation</string>
+	<key>numericalCompleterInteraction</key>
+	<string>labelThanTask</string>
+	<key>resultAtPlatform</key>
+	<string>assetAmongActivity</string>
+	<key>shaderFrameworkBorder</key>
+	<string>layoutOrWork</string>
+	<key>sizeFromMediator</key>
+	<string>semanticsAtChain</string>
+</dict>
+</plist>

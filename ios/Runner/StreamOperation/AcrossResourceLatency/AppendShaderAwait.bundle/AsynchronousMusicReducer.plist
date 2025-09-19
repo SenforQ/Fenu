@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>buttonStrategyContrast</key>
+	<string>multiReferenceDensity</string>
+	<key>gemShapeRight</key>
+	<string>flexibleDurationBorder</string>
+	<key>gesturedetectorVersusParam</key>
+	<string>geometricResourceInterval</string>
+	<key>inkwellLayerAcceleration</key>
+	<string>mobileConvolutionStatus</string>
+	<key>labelScopeCenter</key>
+	<string>sceneFormMode</string>
+	<key>paddingCommandEdge</key>
+	<string>eventDecoratorPosition</string>
+	<key>pinchableBulletResponse</key>
+	<string>singletonPerOperation</string>
+	<key>sceneContainProcess</key>
+	<string>textureFrameworkTag</string>
+	<key>viewAsMethod</key>
+	<string>characterCommandSize</string>
+</dict>
+</plist>

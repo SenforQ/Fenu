@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>assetAwayAction</key>
+	<string>completerOperationInteraction</string>
+	<key>buttonFrameworkBehavior</key>
+	<string>protectedCallbackDirection</string>
+	<key>desktopFutureDuration</key>
+	<string>bufferLayerBorder</string>
+	<key>graphStateOffset</key>
+	<string>criticalMobxOffset</string>
+	<key>metadataProxyBorder</key>
+	<string>statefulNumberFrequency</string>
+	<key>movementLikeMethod</key>
+	<string>sinkContainKind</string>
+	<key>significantEventShade</key>
+	<string>discardedInstructionOffset</string>
+	<key>tabviewModeTop</key>
+	<string>referenceLayerHead</string>
+</dict>
+</plist>

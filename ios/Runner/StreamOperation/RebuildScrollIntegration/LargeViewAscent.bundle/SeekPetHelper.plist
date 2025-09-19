@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationEnvironmentBound</key>
+	<string>alertStageMargin</string>
+	<key>delegateAboutMediator</key>
+	<string>textParameterLocation</string>
+	<key>inactiveSliderSkewy</key>
+	<string>graphicFrameworkTint</string>
+	<key>materialSizeType</key>
+	<string>immutableThemeDepth</string>
+	<key>pinchableSymbolPosition</key>
+	<string>popupOutsideEnvironment</string>
+</dict>
+</plist>

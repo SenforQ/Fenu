@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>criticalRemainderBrightness</key>
+	<string>iterativeMediaShade</string>
+	<key>factoryDuringLevel</key>
+	<string>gemFacadeDistance</string>
+	<key>localizationDuringCycle</key>
+	<string>resourceDecoratorSize</string>
+	<key>observerThroughCycle</key>
+	<string>responsiveSubpixelPosition</string>
+	<key>pageviewThroughFlyweight</key>
+	<string>currentServiceInset</string>
+	<key>positionAgainstBridge</key>
+	<string>descriptionPerMemento</string>
+	<key>spineThroughActivity</key>
+	<string>actionFunctionEdge</string>
+</dict>
+</plist>

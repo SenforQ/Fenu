@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>disparateBufferDirection</key>
+	<string>precisionChainRotation</string>
+	<key>effectVariableFlags</key>
+	<string>scaleExceptScope</string>
+	<key>gradientCompositeTail</key>
+	<string>stepBeyondShape</string>
+	<key>hashBeyondType</key>
+	<string>operationInsideLevel</string>
+	<key>themeForComposite</key>
+	<string>observerDecoratorVisible</string>
+	<key>timerTempleVelocity</key>
+	<string>awaitTypeDelay</string>
+</dict>
+</plist>

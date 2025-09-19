@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alignmentContextSpeed</key>
+	<string>logOutsideProxy</string>
+	<key>draggableObserverSize</key>
+	<string>checkboxAmongFlyweight</string>
+	<key>featureContextShape</key>
+	<string>grainDecoratorName</string>
+	<key>globalChannelSpeed</key>
+	<string>controllerStrategyLeft</string>
+	<key>marginAdapterDirection</key>
+	<string>interactiveLabelVisibility</string>
+	<key>subscriptionFacadeFlags</key>
+	<string>routerBufferOpacity</string>
+</dict>
+</plist>

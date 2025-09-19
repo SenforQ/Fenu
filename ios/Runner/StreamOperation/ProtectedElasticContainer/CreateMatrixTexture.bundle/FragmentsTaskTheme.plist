@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alignmentNumberRight</key>
+	<string>menuAndObserver</string>
+	<key>controllerForStructure</key>
+	<string>descriptionExceptKind</string>
+	<key>managerThroughProcess</key>
+	<string>priorVariantLocation</string>
+	<key>nodeCompositeFrequency</key>
+	<string>alertInMethod</string>
+	<key>observerVersusMethod</key>
+	<string>resultNearMethod</string>
+</dict>
+</plist>

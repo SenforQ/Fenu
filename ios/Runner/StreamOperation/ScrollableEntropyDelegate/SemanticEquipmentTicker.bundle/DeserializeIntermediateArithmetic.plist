@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>configurationIncludeType</key>
+	<string>equipmentCycleIndex</string>
+	<key>hardCubitLeft</key>
+	<string>localizationPerPhase</string>
+	<key>missionOrMethod</key>
+	<string>lostTangentOrigin</string>
+	<key>priorLoopBorder</key>
+	<string>routerAdapterDistance</string>
+	<key>sliderStrategyTransparency</key>
+	<string>aspectratioAsFramework</string>
+	<key>subtleGestureName</key>
+	<string>robustFrameValidation</string>
+	<key>vectorChainDirection</key>
+	<string>dependencyFacadeBehavior</string>
+</dict>
+</plist>

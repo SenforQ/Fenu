@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationAgainstStructure</key>
+	<string>dimensionFacadePadding</string>
+	<key>checklistFacadeColor</key>
+	<string>widgetIncludeScope</string>
+	<key>delegateActivityDensity</key>
+	<string>compositionKindAcceleration</string>
+	<key>ignoredAnimationTension</key>
+	<string>customSingletonForce</string>
+	<key>projectionOfInterpreter</key>
+	<string>topicParamTheme</string>
+	<key>responsiveAwaitRate</key>
+	<string>queueActivityHue</string>
+	<key>sliderOfDecorator</key>
+	<string>subtleAnimationContrast</string>
+	<key>stateMediatorDepth</key>
+	<string>decorationAsActivity</string>
+	<key>titleOutsideComposite</key>
+	<string>scrollAroundState</string>
+	<key>typicalInteractorLocation</key>
+	<string>behaviorIncludeParameter</string>
+</dict>
+</plist>

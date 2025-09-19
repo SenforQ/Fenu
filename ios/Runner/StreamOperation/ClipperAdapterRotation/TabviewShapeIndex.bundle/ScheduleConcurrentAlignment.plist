@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>apertureAtBuffer</key>
+	<string>semanticCharacterInteraction</string>
+	<key>decorationAlongContext</key>
+	<string>constraintContainParam</string>
+	<key>futureWithLevel</key>
+	<string>completerCompositeDensity</string>
+	<key>grainEnvironmentMargin</key>
+	<string>baselineBeyondProxy</string>
+	<key>offsetStrategyFeedback</key>
+	<string>asyncManagerRate</string>
+	<key>textAlongStrategy</key>
+	<string>routeForVar</string>
+</dict>
+</plist>

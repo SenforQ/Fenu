@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>convolutionIncludeObserver</key>
+	<string>monsterFlyweightOffset</string>
+	<key>customizedGridSize</key>
+	<string>scrollableContractionFormat</string>
+	<key>intuitiveNavigatorSkewx</key>
+	<string>sliderShapeFrequency</string>
+	<key>mediaqueryAmongStage</key>
+	<string>materialJobPressure</string>
+	<key>resultAtEnvironment</key>
+	<string>sizeValueResponse</string>
+</dict>
+</plist>

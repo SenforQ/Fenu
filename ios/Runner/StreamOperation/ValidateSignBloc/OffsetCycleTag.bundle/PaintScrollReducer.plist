@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>backwardInjectionAppearance</key>
+	<string>serviceValueTheme</string>
+	<key>coordinatorFlyweightMode</key>
+	<string>isolateActionTransparency</string>
+	<key>directlyUtilFrequency</key>
+	<string>concurrentBaseAlignment</string>
+	<key>expandedValuePadding</key>
+	<string>currentCycleRight</string>
+	<key>retainedControllerFlags</key>
+	<string>grainThroughTask</string>
+	<key>sessionTierDistance</key>
+	<string>projectDespiteBridge</string>
+	<key>statefulRowCount</key>
+	<string>instructionDuringMethod</string>
+	<key>visibleGetxTag</key>
+	<string>interfaceTaskBound</string>
+</dict>
+</plist>

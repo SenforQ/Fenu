@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allocatorSingletonTag</key>
+	<string>completerInterpreterTag</string>
+	<key>basicSizeOffset</key>
+	<string>loopAsProcess</string>
+	<key>boxshadowAndBuffer</key>
+	<string>viewNumberHead</string>
+	<key>bufferWithProxy</key>
+	<string>scrollVersusFunction</string>
+	<key>lazyLogTension</key>
+	<string>optimizerPlatformInterval</string>
+	<key>navigationForState</key>
+	<string>mobxNearOperation</string>
+	<key>secondRoleValidation</key>
+	<string>rowTempleRate</string>
+	<key>singletonBeyondObserver</key>
+	<string>managerInsideStyle</string>
+	<key>sophisticatedScaleRotation</key>
+	<string>layerVersusLevel</string>
+</dict>
+</plist>

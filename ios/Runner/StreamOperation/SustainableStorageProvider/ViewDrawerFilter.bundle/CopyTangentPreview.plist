@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>behaviorTempleSpacing</key>
+	<string>disparateCurveVisibility</string>
+	<key>difficultBaseMode</key>
+	<string>declarativeEffectVelocity</string>
+	<key>fusedConfigurationScale</key>
+	<string>fixedTickerKind</string>
+	<key>intuitiveObserverCenter</key>
+	<string>specifyGraphStyle</string>
+	<key>mapTypeFlags</key>
+	<string>streamInsideProxy</string>
+	<key>visibleBatchTension</key>
+	<string>statelessTickerResponse</string>
+</dict>
+</plist>

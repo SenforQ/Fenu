@@ -48,7 +48,7 @@ class _EditorPageState extends State<EditorPage> {
           // 背景图片
           Positioned.fill(
             child: Image.asset(
-              'assets/editor_bg_20250902.jpg',
+              'assets/editor_bg_20250902.webp',
               fit: BoxFit.cover,
             ),
           ),

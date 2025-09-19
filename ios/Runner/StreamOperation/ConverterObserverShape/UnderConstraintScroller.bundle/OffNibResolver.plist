@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entityIncludeBuffer</key>
+	<string>autoShaderTop</string>
+	<key>paddingAndVariable</key>
+	<string>cubitExceptSingleton</string>
+	<key>pinchableDelegateVisible</key>
+	<string>functionalModelFeedback</string>
+	<key>robustEffectName</key>
+	<string>cupertinoRoutePressure</string>
+	<key>scrollFormTension</key>
+	<string>stateEnvironmentMode</string>
+	<key>secondGraphCoord</key>
+	<string>factoryStyleTint</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>constraintPerLayer</key>
+	<string>synchronousDescriptionMode</string>
+	<key>firstCollectionOrigin</key>
+	<string>scaleInsideCycle</string>
+	<key>greatNotificationRotation</key>
+	<string>popupObserverMode</string>
+	<key>multiplicationAdapterTop</key>
+	<string>mapProcessRotation</string>
+	<key>semanticCallbackVisible</key>
+	<string>storyboardStyleValidation</string>
+	<key>sustainableRepositoryRight</key>
+	<string>compositionalMobileBottom</string>
+	<key>vectorFrameworkAlignment</key>
+	<string>effectPrototypeHead</string>
+	<key>vectorKindTop</key>
+	<string>directPlaybackDepth</string>
+	<key>vectorMementoSpeed</key>
+	<string>resourceAgainstVar</string>
+</dict>
+</plist>

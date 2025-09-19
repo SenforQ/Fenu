@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>channelStrategyBehavior</key>
+	<string>zoneStyleBottom</string>
+	<key>gemParamBottom</key>
+	<string>constraintViaBridge</string>
+	<key>newestNormBorder</key>
+	<string>frameLayerAppearance</string>
+	<key>observerInsideFunction</key>
+	<string>clipperAtVisitor</string>
+	<key>offsetWithoutValue</key>
+	<string>sliderInsideDecorator</string>
+	<key>pivotalFragmentBehavior</key>
+	<string>exceptionMementoResponse</string>
+</dict>
+</plist>

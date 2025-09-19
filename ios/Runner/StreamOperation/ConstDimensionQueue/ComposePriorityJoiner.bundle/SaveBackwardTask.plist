@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compositionWorkMode</key>
+	<string>eagerDelegateCoord</string>
+	<key>localizationMementoRight</key>
+	<string>screenAlongProcess</string>
+	<key>lossPerBridge</key>
+	<string>cupertinoDropdownbuttonLeft</string>
+	<key>reducerMethodTheme</key>
+	<string>tabbarVersusValue</string>
+	<key>spriteDuringLevel</key>
+	<string>radioStrategyTag</string>
+	<key>techniqueSinceTier</key>
+	<string>characterNumberSpeed</string>
+</dict>
+</plist>

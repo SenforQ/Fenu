@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accordionCycleMode</key>
+	<string>captionViaAdapter</string>
+	<key>curveAgainstContext</key>
+	<string>inkwellFormPosition</string>
+	<key>customizedEffectResponse</key>
+	<string>actionValueStyle</string>
+	<key>dropdownbuttonBeyondDecorator</key>
+	<string>constMomentumResponse</string>
+	<key>responsiveGramFeedback</key>
+	<string>positionedInScope</string>
+	<key>sizeFlyweightMode</key>
+	<string>dependencyWithoutOperation</string>
+	<key>subpixelPrototypeShade</key>
+	<string>autoGemContrast</string>
+	<key>taskFromProxy</key>
+	<string>exceptionVisitorState</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>backwardFragmentTint</key>
+	<string>segmentVariableRight</string>
+	<key>normalControllerLocation</key>
+	<string>methodViaAction</string>
+	<key>presenterBeyondBridge</key>
+	<string>intuitiveFragmentDelay</string>
+	<key>roleWorkContrast</key>
+	<string>channelSingletonOrigin</string>
+	<key>storageOperationCenter</key>
+	<string>scrollableResolverShade</string>
+</dict>
+</plist>

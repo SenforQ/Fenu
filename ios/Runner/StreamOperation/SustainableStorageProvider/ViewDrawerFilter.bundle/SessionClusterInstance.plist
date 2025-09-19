@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>behaviorViaFlyweight</key>
+	<string>decorationOrEnvironment</string>
+	<key>effectNearPattern</key>
+	<string>previewScopeDepth</string>
+	<key>liteControllerBehavior</key>
+	<string>mobxAgainstBuffer</string>
+	<key>newestContainerKind</key>
+	<string>optimizerViaSingleton</string>
+	<key>promiseViaWork</key>
+	<string>usageValueContrast</string>
+	<key>providerTypeOpacity</key>
+	<string>eagerLocalizationLeft</string>
+	<key>routeValueAcceleration</key>
+	<string>heroDuringLayer</string>
+	<key>sequentialUtilBound</key>
+	<string>commandAmongContext</string>
+	<key>zoneForParameter</key>
+	<string>providerUntilTier</string>
+</dict>
+</plist>

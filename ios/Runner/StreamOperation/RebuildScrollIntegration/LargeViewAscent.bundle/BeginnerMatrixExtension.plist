@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>buttonOperationDensity</key>
+	<string>curveWithoutLevel</string>
+	<key>callbackAboutAction</key>
+	<string>rapidCommandInteraction</string>
+	<key>cardFromProxy</key>
+	<string>cellModeStyle</string>
+	<key>cartesianAsyncTop</key>
+	<string>delegateOutsideObserver</string>
+	<key>cupertinoChapterInterval</key>
+	<string>remainderValueShape</string>
+	<key>heapShapeSpeed</key>
+	<string>currentStoryboardTop</string>
+	<key>intermediateCompleterCoord</key>
+	<string>semanticRowCoord</string>
+	<key>monsterStyleCoord</key>
+	<string>listenerWithoutVisitor</string>
+	<key>particleUntilShape</key>
+	<string>callbackOrFlyweight</string>
+	<key>topicScopeLocation</key>
+	<string>singletonLikeDecorator</string>
+</dict>
+</plist>

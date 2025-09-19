@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>activeRadiusDirection</key>
+	<string>alphaSystemSkewy</string>
+	<key>cursorPerFramework</key>
+	<string>animatedVectorBound</string>
+	<key>dedicatedInterpolationStatus</key>
+	<string>shaderInSystem</string>
+	<key>particleModeScale</key>
+	<string>diffableTransitionFlags</string>
+	<key>precisionTypeMargin</key>
+	<string>animatedcontainerNumberShape</string>
+</dict>
+</plist>

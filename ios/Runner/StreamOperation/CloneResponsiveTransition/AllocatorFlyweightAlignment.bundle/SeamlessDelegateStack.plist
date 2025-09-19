@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>axisVersusStrategy</key>
+	<string>intermediateCurveSkewy</string>
+	<key>liteZoneSkewx</key>
+	<string>disabledPointStyle</string>
+	<key>semanticsTaskAppearance</key>
+	<string>multiplicationChainContrast</string>
+	<key>stampOrDecorator</key>
+	<string>controllerMethodCount</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>materialChecklistMode</key>
+	<string>semanticsDuringMediator</string>
+	<key>observerStructureFeedback</key>
+	<string>popupAgainstBridge</string>
+	<key>offsetPatternScale</key>
+	<string>invisibleGrayscaleAlignment</string>
+	<key>subsequentZoneAlignment</key>
+	<string>navigatorMethodOrientation</string>
+	<key>webBaselineAcceleration</key>
+	<string>pivotalTextSkewx</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>binaryForMemento</key>
+	<string>currentDrawerInset</string>
+	<key>consultativeCommandScale</key>
+	<string>projectNumberFeedback</string>
+	<key>discardedCertificateBottom</key>
+	<string>smallSizeKind</string>
+	<key>protocolAndAdapter</key>
+	<string>staticButtonShape</string>
+	<key>resultThroughPattern</key>
+	<string>blocInMemento</string>
+	<key>uniqueSliderOpacity</key>
+	<string>bufferProxyVisible</string>
+</dict>
+</plist>

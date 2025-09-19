@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>behaviorBesideCycle</key>
+	<string>radioScopeHead</string>
+	<key>crudeAnimationMode</key>
+	<string>observerOrMode</string>
+	<key>functionalTickerRotation</key>
+	<string>retainedVariantOrientation</string>
+	<key>lossNumberOffset</key>
+	<string>progressbarLevelType</string>
+	<key>typicalModalBrightness</key>
+	<string>sliderActionBound</string>
+</dict>
+</plist>

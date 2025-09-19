@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>boxInSystem</key>
+	<string>queryContextType</string>
+	<key>interactorInLevel</key>
+	<string>semanticCardColor</string>
+	<key>isolateOrChain</key>
+	<string>ignoredAllocatorDuration</string>
+	<key>singleQueueForce</key>
+	<string>actionAtObserver</string>
+	<key>sizeParamDensity</key>
+	<string>musicAroundMemento</string>
+	<key>transitionContextMargin</key>
+	<string>animationModeInterval</string>
+</dict>
+</plist>

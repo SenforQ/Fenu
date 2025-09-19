@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedMobileStyle</key>
+	<string>synchronousSessionForce</string>
+	<key>dynamicMissionEdge</key>
+	<string>concurrentStreamPressure</string>
+	<key>elasticStepFlags</key>
+	<string>singleTitleTransparency</string>
+	<key>injectionFunctionStyle</key>
+	<string>nodeCycleFeedback</string>
+	<key>ternaryBridgeCenter</key>
+	<string>cardThanInterpreter</string>
+</dict>
+</plist>

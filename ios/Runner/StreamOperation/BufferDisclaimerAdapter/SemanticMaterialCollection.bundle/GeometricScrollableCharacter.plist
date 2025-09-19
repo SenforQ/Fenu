@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>asynchronousRouterSpeed</key>
+	<string>appbarWithCommand</string>
+	<key>basicScreenTransparency</key>
+	<string>buttonEnvironmentDuration</string>
+	<key>capacitiesInKind</key>
+	<string>intensityProxyDensity</string>
+	<key>displayableCurveKind</key>
+	<string>stepInCommand</string>
+	<key>sinkCycleBehavior</key>
+	<string>cacheProcessSaturation</string>
+	<key>tableTempleSaturation</key>
+	<string>builderCompositeDensity</string>
+</dict>
+</plist>

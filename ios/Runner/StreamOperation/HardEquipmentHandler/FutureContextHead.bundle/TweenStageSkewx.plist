@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>coordinatorValueValidation</key>
+	<string>activatedCompleterShade</string>
+	<key>intermediateHeroShade</key>
+	<string>inactiveResourceFeedback</string>
+	<key>mapSinceEnvironment</key>
+	<string>checkboxUntilAction</string>
+	<key>respectiveServiceScale</key>
+	<string>asynchronousZoneSaturation</string>
+	<key>semanticEventOrientation</key>
+	<string>immediateMemberDuration</string>
+	<key>sustainableHeroLeft</key>
+	<string>offsetInsideJob</string>
+</dict>
+</plist>

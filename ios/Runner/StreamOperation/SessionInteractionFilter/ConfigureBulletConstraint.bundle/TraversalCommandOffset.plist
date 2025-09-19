@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>activatedSpecifierInteraction</key>
+	<string>rowObserverTransparency</string>
+	<key>animationExceptForm</key>
+	<string>sizedboxOfTier</string>
+	<key>arithmeticExpandedHue</key>
+	<string>deferredPromiseVisibility</string>
+	<key>gateAdapterTransparency</key>
+	<string>statelessRichtextScale</string>
+	<key>immediateBatchType</key>
+	<string>entityLayerBehavior</string>
+	<key>largeInjectionTransparency</key>
+	<string>reducerFrameworkSpacing</string>
+	<key>localizationPatternInterval</key>
+	<string>prevCollectionDepth</string>
+	<key>mobileControllerVisible</key>
+	<string>streamSinceContext</string>
+	<key>painterAndSingleton</key>
+	<string>nodeModeOpacity</string>
+	<key>symmetricGrainVisible</key>
+	<string>interactiveActionValidation</string>
+</dict>
+</plist>

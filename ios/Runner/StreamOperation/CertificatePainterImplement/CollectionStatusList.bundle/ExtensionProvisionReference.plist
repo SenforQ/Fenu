@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allocatorProcessAppearance</key>
+	<string>uniformCollectionSaturation</string>
+	<key>asynchronousListviewInterval</key>
+	<string>cubitStateDuration</string>
+	<key>extensionAboutParam</key>
+	<string>transitionActivityDelay</string>
+	<key>inkwellLayerDelay</key>
+	<string>concurrentResourceSaturation</string>
+	<key>iterativeCompletionBottom</key>
+	<string>hashVisitorResponse</string>
+	<key>tensorBaseFlags</key>
+	<string>mediumSignatureDirection</string>
+	<key>textMethodDensity</key>
+	<string>fixedEventSize</string>
+	<key>textThroughTemple</key>
+	<string>responsiveImageVelocity</string>
+	<key>touchChainTop</key>
+	<string>delicateReducerBrightness</string>
+</dict>
+</plist>

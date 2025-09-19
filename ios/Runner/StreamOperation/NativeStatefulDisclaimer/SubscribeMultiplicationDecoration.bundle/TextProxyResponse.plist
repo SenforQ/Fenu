@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>channelVisitorFeedback</key>
+	<string>permanentSliderSize</string>
+	<key>concurrentLayerValidation</key>
+	<string>builderContextBrightness</string>
+	<key>criticalNavigatorVisible</key>
+	<string>managerAsFacade</string>
+	<key>primarySliderState</key>
+	<string>sustainableClipperInset</string>
+	<key>radiusThroughStage</key>
+	<string>entityAwayStrategy</string>
+	<key>scrollableSpecifierTop</key>
+	<string>blocForComposite</string>
+	<key>sinkAtDecorator</key>
+	<string>spriteInterpreterDirection</string>
+	<key>storeAlongFlyweight</key>
+	<string>swiftBufferRotation</string>
+</dict>
+</plist>

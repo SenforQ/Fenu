@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>aspectInStyle</key>
+	<string>currentRectBound</string>
+	<key>crudeDescriptionInterval</key>
+	<string>synchronousRadiusLocation</string>
+	<key>effectNearLevel</key>
+	<string>disabledConsumerFlags</string>
+	<key>mutableRolePressure</key>
+	<string>navigatorWorkStatus</string>
+	<key>priorProtocolFeedback</key>
+	<string>petPatternDirection</string>
+	<key>statelessFragmentAppearance</key>
+	<string>layerCompositeInterval</string>
+	<key>taskAroundMethod</key>
+	<string>usedTimerCoord</string>
+</dict>
+</plist>

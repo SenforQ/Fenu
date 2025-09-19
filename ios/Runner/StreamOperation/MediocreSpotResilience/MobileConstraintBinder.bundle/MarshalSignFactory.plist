@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>blocNumberBehavior</key>
+	<string>explicitDrawerAcceleration</string>
+	<key>drawerNearCycle</key>
+	<string>particlePerActivity</string>
+	<key>durationOfForm</key>
+	<string>resolverLikeLayer</string>
+	<key>keyContractionName</key>
+	<string>screenFacadeTop</string>
+	<key>keyMediaqueryBottom</key>
+	<string>elasticPositionedShape</string>
+	<key>painterOutsideStrategy</key>
+	<string>composableResponseMargin</string>
+	<key>pivotalPromiseType</key>
+	<string>dialogsDespiteStrategy</string>
+	<key>rowAtTask</key>
+	<string>cycleBeyondFramework</string>
+	<key>secondTweenEdge</key>
+	<string>multiplicationProxyMode</string>
+</dict>
+</plist>

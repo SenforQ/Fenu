@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>enabledDocumentFrequency</key>
+	<string>constraintModePressure</string>
+	<key>navigatorSingletonHead</key>
+	<string>numericalSignSpacing</string>
+	<key>playbackAtEnvironment</key>
+	<string>pageviewParamAlignment</string>
+	<key>queryBesideObserver</key>
+	<string>skinAboutMemento</string>
+	<key>rowKindInset</key>
+	<string>contractionForState</string>
+	<key>serviceKindValidation</key>
+	<string>eventAgainstValue</string>
+	<key>statelessDialogsTail</key>
+	<string>unsortedEntityBorder</string>
+	<key>symmetricInterfaceForce</key>
+	<string>blocWithoutPrototype</string>
+	<key>symmetricOptimizerAlignment</key>
+	<string>reducerWithMode</string>
+</dict>
+</plist>

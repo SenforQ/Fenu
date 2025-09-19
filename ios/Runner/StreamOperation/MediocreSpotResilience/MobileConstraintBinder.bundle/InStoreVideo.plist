@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>anchorContextFlags</key>
+	<string>criticalScreenSpeed</string>
+	<key>delicateViewBorder</key>
+	<string>characterCompositeSkewy</string>
+	<key>easyConfigurationBorder</key>
+	<string>cardCompositeAppearance</string>
+	<key>entropyBeyondStrategy</key>
+	<string>exceptionViaObserver</string>
+	<key>flexParamHue</key>
+	<string>completerAmongKind</string>
+	<key>gesturedetectorThanCommand</key>
+	<string>interactorContainFlyweight</string>
+	<key>lazySceneForce</key>
+	<string>hierarchicalLabelCenter</string>
+	<key>oldActionIndex</key>
+	<string>hardSegueForce</string>
+	<key>scenePhaseMomentum</key>
+	<string>gemLikeProxy</string>
+	<key>tappableGradientAcceleration</key>
+	<string>buttonProxySkewx</string>
+</dict>
+</plist>

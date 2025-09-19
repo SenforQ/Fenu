@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cubitKindTag</key>
+	<string>chapterParamAcceleration</string>
+	<key>equipmentLevelInteraction</key>
+	<string>durationModeType</string>
+	<key>inheritedLayerVisibility</key>
+	<string>draggableGrainState</string>
+	<key>petOfFunction</key>
+	<string>fixedSliderVelocity</string>
+	<key>temporaryExpandedDuration</key>
+	<string>eventOfComposite</string>
+	<key>usageActivityOpacity</key>
+	<string>textureAtNumber</string>
+</dict>
+</plist>

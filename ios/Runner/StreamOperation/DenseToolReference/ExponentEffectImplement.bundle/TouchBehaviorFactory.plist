@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>chartKindRight</key>
+	<string>unsortedIconSpacing</string>
+	<key>coordinatorFormShape</key>
+	<string>textureIncludePhase</string>
+	<key>descriptorKindSize</key>
+	<string>axisDuringMemento</string>
+	<key>durationProxyStyle</key>
+	<string>descriptorWithoutLayer</string>
+	<key>fusedReducerStyle</key>
+	<string>commonSpineFormat</string>
+	<key>labelUntilStage</key>
+	<string>shaderFacadeFormat</string>
+	<key>managerOrFacade</key>
+	<string>navigatorCycleStyle</string>
+	<key>pivotalStepMargin</key>
+	<string>progressbarInsideStage</string>
+	<key>swiftStateType</key>
+	<string>coordinatorContainMemento</string>
+	<key>taskOperationAppearance</key>
+	<string>titleAsProcess</string>
+</dict>
+</plist>

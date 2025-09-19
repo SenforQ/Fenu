@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>convolutionExceptVisitor</key>
+	<string>synchronousReductionIndex</string>
+	<key>grainActionLeft</key>
+	<string>uniqueModulusSpacing</string>
+	<key>gramDuringProcess</key>
+	<string>batchAlongVisitor</string>
+	<key>radiusActionType</key>
+	<string>customizedInteractorMargin</string>
+	<key>statelessMethodValidation</key>
+	<string>alignmentFormStyle</string>
+	<key>textureIncludeFacade</key>
+	<string>rowInterpreterScale</string>
+</dict>
+</plist>

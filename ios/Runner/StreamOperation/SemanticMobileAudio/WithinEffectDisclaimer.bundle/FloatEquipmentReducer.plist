@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>currentMonsterFrequency</key>
+	<string>permissiveAllocatorFrequency</string>
+	<key>displayableCubitTheme</key>
+	<string>usecaseInterpreterAlignment</string>
+	<key>effectStateMargin</key>
+	<string>textfieldCycleFeedback</string>
+	<key>featureCompositeName</key>
+	<string>inkwellTierHue</string>
+	<key>integerBridgeDirection</key>
+	<string>priorProviderBound</string>
+	<key>layerObserverInteraction</key>
+	<string>invisibleUsecaseBehavior</string>
+	<key>nativeGroupVisibility</key>
+	<string>cubitEnvironmentState</string>
+	<key>oldEventVisible</key>
+	<string>stateAboutVisitor</string>
+</dict>
+</plist>

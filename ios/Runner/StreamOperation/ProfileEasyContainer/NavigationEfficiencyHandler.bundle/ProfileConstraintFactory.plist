@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>basicWidgetHead</key>
+	<string>touchPhaseInteraction</string>
+	<key>mediaAgainstLevel</key>
+	<string>inactiveSampleTail</string>
+	<key>methodByFramework</key>
+	<string>bulletShapeKind</string>
+	<key>visiblePositionHead</key>
+	<string>bufferJobBrightness</string>
+</dict>
+</plist>

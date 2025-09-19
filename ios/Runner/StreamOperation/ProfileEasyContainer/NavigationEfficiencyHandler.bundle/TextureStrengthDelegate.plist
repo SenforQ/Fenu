@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>decorationVisitorSaturation</key>
+	<string>touchIncludePhase</string>
+	<key>denseScreenSkewx</key>
+	<string>advancedTernaryShape</string>
+	<key>directAlignmentVisibility</key>
+	<string>storyboardCycleCoord</string>
+	<key>featureTempleFrequency</key>
+	<string>nodeTaskShade</string>
+	<key>layoutStateCount</key>
+	<string>reactiveButtonInteraction</string>
+	<key>methodFormSkewx</key>
+	<string>alphaAtValue</string>
+	<key>movementPlatformShade</key>
+	<string>resultActionInterval</string>
+	<key>statefulIncludeContext</key>
+	<string>isolateIncludeFacade</string>
+	<key>titleVarMomentum</key>
+	<string>animationFlyweightPosition</string>
+</dict>
+</plist>

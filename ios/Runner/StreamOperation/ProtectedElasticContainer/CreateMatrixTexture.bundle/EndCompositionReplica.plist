@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alphaTaskRotation</key>
+	<string>queueJobRotation</string>
+	<key>assetCommandType</key>
+	<string>numericalCardInteraction</string>
+	<key>awaitKindRotation</key>
+	<string>descriptorStageForce</string>
+	<key>metadataSingletonSkewy</key>
+	<string>segueAlongJob</string>
+	<key>offsetLevelAlignment</key>
+	<string>normAlongStyle</string>
+	<key>parallelCellSkewy</key>
+	<string>localRichtextFrequency</string>
+	<key>positionedTierBehavior</key>
+	<string>hierarchicalIsolateColor</string>
+	<key>storageCompositeEdge</key>
+	<string>dimensionPerSystem</string>
+</dict>
+</plist>

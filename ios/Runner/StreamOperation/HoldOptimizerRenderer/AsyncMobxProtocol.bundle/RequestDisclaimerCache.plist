@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>axisByTemple</key>
+	<string>permissiveDescriptionVisible</string>
+	<key>chartIncludeComposite</key>
+	<string>liteNavigatorFormat</string>
+	<key>displayableTransitionContrast</key>
+	<string>timerVarDelay</string>
+	<key>geometricTransformerLeft</key>
+	<string>uniqueSwiftHue</string>
+	<key>mediumInkwellOffset</key>
+	<string>storeAtMemento</string>
+	<key>resilientTimerName</key>
+	<string>scaleParamType</string>
+	<key>rowAsTier</key>
+	<string>bufferFromStrategy</string>
+	<key>screenContainAction</key>
+	<string>listenerAndFacade</string>
+	<key>statelessControllerVelocity</key>
+	<string>observerStyleDensity</string>
+</dict>
+</plist>

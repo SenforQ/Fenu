@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>clipperAgainstMediator</key>
+	<string>reusableCoordinatorRate</string>
+	<key>dependencyEnvironmentBrightness</key>
+	<string>originalDelegateEdge</string>
+	<key>exceptionBeyondChain</key>
+	<string>singletonIncludeType</string>
+	<key>sortedImagePosition</key>
+	<string>subsequentProviderInteraction</string>
+	<key>transitionValueAlignment</key>
+	<string>commandParamTension</string>
+	<key>uniformServiceSpeed</key>
+	<string>priorInstructionOpacity</string>
+</dict>
+</plist>

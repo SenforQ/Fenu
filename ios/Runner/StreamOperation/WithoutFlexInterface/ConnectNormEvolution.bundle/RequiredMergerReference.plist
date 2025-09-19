@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arithmeticProviderTint</key>
+	<string>boxForEnvironment</string>
+	<key>gemTemplePressure</key>
+	<string>constraintAsVisitor</string>
+	<key>immutableAllocatorPressure</key>
+	<string>statelessSingletonDelay</string>
+	<key>mediaqueryFromNumber</key>
+	<string>priorityFromSystem</string>
+	<key>nextGetxFeedback</key>
+	<string>shaderSystemTheme</string>
+	<key>optionBesidePhase</key>
+	<string>uniformLogarithmBound</string>
+	<key>techniqueAroundJob</key>
+	<string>adaptiveLabelMode</string>
+	<key>textAgainstVisitor</key>
+	<string>unactivatedAnchorState</string>
+</dict>
+</plist>

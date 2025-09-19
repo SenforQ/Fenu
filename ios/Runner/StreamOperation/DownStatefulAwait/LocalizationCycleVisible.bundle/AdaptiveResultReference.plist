@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cellActionValidation</key>
+	<string>litePageviewBound</string>
+	<key>composableScaffoldStyle</key>
+	<string>segueVisitorInset</string>
+	<key>customizedContainerInteraction</key>
+	<string>usedLabelDelay</string>
+	<key>disabledConstraintColor</key>
+	<string>tensorManagerSpacing</string>
+	<key>mutableRiverpodResponse</key>
+	<string>resultTierSpacing</string>
+	<key>navigatorForLayer</key>
+	<string>inkwellTypeSize</string>
+	<key>singleFactoryTheme</key>
+	<string>concurrentGraphCoord</string>
+</dict>
+</plist>

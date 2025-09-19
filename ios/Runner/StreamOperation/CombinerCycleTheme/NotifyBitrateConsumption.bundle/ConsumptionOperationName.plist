@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>axisBesideParameter</key>
+	<string>primaryLayoutFlags</string>
+	<key>dedicatedTextStyle</key>
+	<string>logarithmAwaySingleton</string>
+	<key>particleContainFacade</key>
+	<string>menuFrameworkOpacity</string>
+	<key>positionTypeName</key>
+	<string>hyperbolicCheckboxRight</string>
+	<key>richtextParameterVelocity</key>
+	<string>entityWorkVisible</string>
+	<key>storeChainSpeed</key>
+	<string>sliderSingletonRate</string>
+	<key>transitionFromChain</key>
+	<string>globalTickerColor</string>
+	<key>utilStrategyStatus</key>
+	<string>interactorDuringFacade</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>baseChainStyle</key>
+	<string>featureProcessMargin</string>
+	<key>containerPhaseTheme</key>
+	<string>nextImageBrightness</string>
+	<key>directSwitchShade</key>
+	<string>mainDecorationDensity</string>
+	<key>documentContainActivity</key>
+	<string>protectedActionInset</string>
+	<key>entropyExceptEnvironment</key>
+	<string>unaryForStructure</string>
+	<key>gesturedetectorInsideStyle</key>
+	<string>observerFromMediator</string>
+	<key>gramByComposite</key>
+	<string>storageAmongState</string>
+	<key>greatSampleIndex</key>
+	<string>sinkAroundState</string>
+	<key>usageAdapterPosition</key>
+	<string>delegateWithoutVar</string>
+</dict>
+</plist>

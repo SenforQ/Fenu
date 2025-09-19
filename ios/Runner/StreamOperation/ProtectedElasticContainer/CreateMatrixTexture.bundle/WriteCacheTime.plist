@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>presenterNearStyle</key>
+	<string>allocatorSinceMemento</string>
+	<key>protocolBesidePattern</key>
+	<string>uniqueBlocIndex</string>
+	<key>queryNearPattern</key>
+	<string>independentAlertRight</string>
+	<key>typicalCommandResponse</key>
+	<string>builderBeyondProcess</string>
+</dict>
+</plist>

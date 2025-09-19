@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>buttonLikeLevel</key>
+	<string>titleTypeDensity</string>
+	<key>cupertinoVariantSpacing</key>
+	<string>labelAroundParameter</string>
+	<key>independentAnchorRotation</key>
+	<string>secondDelegateHead</string>
+	<key>labelOutsideTier</key>
+	<string>singleStoryboardOpacity</string>
+	<key>operationStrategyBottom</key>
+	<string>popupActionDuration</string>
+	<key>originalSampleShade</key>
+	<string>spriteCycleMargin</string>
+	<key>singleReductionTransparency</key>
+	<string>rapidDialogsForce</string>
+</dict>
+</plist>

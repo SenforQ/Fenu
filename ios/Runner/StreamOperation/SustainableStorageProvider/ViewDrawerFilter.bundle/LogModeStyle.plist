@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>anchorBesideVariable</key>
+	<string>pinchableCharacterCoord</string>
+	<key>autoCubitMomentum</key>
+	<string>synchronousProjectionSpeed</string>
+	<key>chartFromBridge</key>
+	<string>synchronousScreenPosition</string>
+	<key>previewSinceJob</key>
+	<string>completionDecoratorFormat</string>
+	<key>routeFunctionMomentum</key>
+	<string>mobileOperationFlags</string>
+	<key>segueVersusTask</key>
+	<string>observerContainTemple</string>
+	<key>symbolProxyShape</key>
+	<string>sessionPlatformPadding</string>
+</dict>
+</plist>

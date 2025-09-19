@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>directVectorFeedback</key>
+	<string>notifierAsMediator</string>
+	<key>grayscaleTierBound</key>
+	<string>usecaseNearMediator</string>
+	<key>intuitiveIntegerRight</key>
+	<string>delicateSpriteRate</string>
+	<key>queryStateVisible</key>
+	<string>singleTitleShape</string>
+	<key>semanticNavigatorRight</key>
+	<string>basicSpotFormat</string>
+	<key>textViaActivity</key>
+	<string>binaryStateVisible</string>
+	<key>tickerFunctionBehavior</key>
+	<string>resourceAroundActivity</string>
+	<key>unactivatedSubscriptionDirection</key>
+	<string>customizedMethodPressure</string>
+</dict>
+</plist>

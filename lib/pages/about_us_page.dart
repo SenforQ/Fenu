@@ -75,7 +75,7 @@ class _AboutUsPageState extends State<AboutUsPage> {
                 child: ClipRRect(
                   borderRadius: BorderRadius.circular(20),
                   child: Image.asset(
-                    'assets/applogo_20250901.png',
+                    'assets/applogo_20250901.webp',
                     fit: BoxFit.cover,
                     errorBuilder: (context, error, stackTrace) {
                       return Container(

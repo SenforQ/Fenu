@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>activityAroundLayer</key>
+	<string>timerAdapterTint</string>
+	<key>gridviewStrategyOrigin</key>
+	<string>immediateRectOpacity</string>
+	<key>interactorVersusMediator</key>
+	<string>queueFromCommand</string>
+	<key>titleDespiteObserver</key>
+	<string>channelContainEnvironment</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accordionSpriteInterval</key>
+	<string>declarativeEntityResponse</string>
+	<key>activatedCollectionFormat</key>
+	<string>progressbarNearContext</string>
+	<key>completerAsType</key>
+	<string>associatedTweenTag</string>
+	<key>elasticPositionDelay</key>
+	<string>assetScopeVelocity</string>
+	<key>presenterAgainstScope</key>
+	<string>chapterAndEnvironment</string>
+	<key>seamlessModelSkewx</key>
+	<string>expandedForFunction</string>
+	<key>sineDuringStrategy</key>
+	<string>iconUntilKind</string>
+	<key>spineThanMemento</key>
+	<string>scrollProcessFlags</string>
+	<key>uniformGesturedetectorVisibility</key>
+	<string>intensityTypeBorder</string>
+</dict>
+</plist>

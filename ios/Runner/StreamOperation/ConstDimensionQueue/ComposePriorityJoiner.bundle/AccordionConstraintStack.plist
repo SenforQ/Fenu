@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>awaitFrameworkRight</key>
+	<string>displayableAppbarKind</string>
+	<key>completerExceptMode</key>
+	<string>mobileMobxMode</string>
+	<key>firstPainterFrequency</key>
+	<string>bufferAboutMethod</string>
+	<key>mediaForSystem</key>
+	<string>stampFromTier</string>
+	<key>riverpodCyclePadding</key>
+	<string>sizeObserverRight</string>
+</dict>
+</plist>

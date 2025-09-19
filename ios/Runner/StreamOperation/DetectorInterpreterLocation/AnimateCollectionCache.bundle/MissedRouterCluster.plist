@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>appbarPerBridge</key>
+	<string>numericalLabelInteraction</string>
+	<key>canvasWithoutForm</key>
+	<string>axisExceptFacade</string>
+	<key>descriptionOfValue</key>
+	<string>dimensionSincePlatform</string>
+	<key>functionalPopupCoord</key>
+	<string>controllerProcessOpacity</string>
+	<key>histogramWithSingleton</key>
+	<string>mediocreBatchColor</string>
+	<key>loopParameterForce</key>
+	<string>delegateVarIndex</string>
+	<key>persistentEventTension</key>
+	<string>permissiveCallbackFormat</string>
+	<key>textureNearTier</key>
+	<string>backwardControllerDelay</string>
+	<key>uniqueBorderBottom</key>
+	<string>metadataThroughMemento</string>
+	<key>variantMethodMargin</key>
+	<string>visibleInjectionFormat</string>
+</dict>
+</plist>

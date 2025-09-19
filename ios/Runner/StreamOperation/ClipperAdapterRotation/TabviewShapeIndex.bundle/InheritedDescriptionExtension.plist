@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accessoryAndParameter</key>
+	<string>configurationOfComposite</string>
+	<key>cellFormValidation</key>
+	<string>resizableIsolateOffset</string>
+	<key>futureVarShade</key>
+	<string>featureProcessOffset</string>
+	<key>managerAmongObserver</key>
+	<string>transformerInterpreterStatus</string>
+	<key>roleAdapterDepth</key>
+	<string>configurationChainSize</string>
+	<key>singletonProxyScale</key>
+	<string>robustSegmentDensity</string>
+	<key>synchronousBoxVelocity</key>
+	<string>callbackModePosition</string>
+</dict>
+</plist>

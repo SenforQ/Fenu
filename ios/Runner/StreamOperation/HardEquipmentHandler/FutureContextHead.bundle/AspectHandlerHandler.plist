@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>criticalSegueValidation</key>
+	<string>streamContainForm</string>
+	<key>displayableAppbarSize</key>
+	<string>coordinatorStageSize</string>
+	<key>extensionContainInterpreter</key>
+	<string>dedicatedInstructionForce</string>
+	<key>notificationPlatformDepth</key>
+	<string>mobileSpotFormat</string>
+	<key>previewFacadeLeft</key>
+	<string>segueNearMediator</string>
+	<key>tappableResourceLocation</key>
+	<string>intensityEnvironmentContrast</string>
+</dict>
+</plist>

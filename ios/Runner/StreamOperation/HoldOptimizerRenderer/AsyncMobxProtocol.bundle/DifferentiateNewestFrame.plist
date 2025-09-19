@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arithmeticMaterialPosition</key>
+	<string>arithmeticNearStructure</string>
+	<key>baselineLevelSkewx</key>
+	<string>textOrLevel</string>
+	<key>commandAsContext</key>
+	<string>liteCupertinoColor</string>
+	<key>localizationLikeParameter</key>
+	<string>stepSincePhase</string>
+	<key>protectedNotifierAcceleration</key>
+	<string>exceptionBufferState</string>
+	<key>requestIncludeAdapter</key>
+	<string>baselineWithJob</string>
+	<key>subpixelSingletonShade</key>
+	<string>topicLayerName</string>
+	<key>uniqueConstraintInteraction</key>
+	<string>queryCommandOrientation</string>
+	<key>viewAboutMethod</key>
+	<string>smartResourceInset</string>
+</dict>
+</plist>

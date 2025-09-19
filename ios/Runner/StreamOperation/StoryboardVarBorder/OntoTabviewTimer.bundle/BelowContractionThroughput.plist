@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>configurationDuringStructure</key>
+	<string>baselineVarAcceleration</string>
+	<key>dedicatedDecorationTop</key>
+	<string>mutableResultDirection</string>
+	<key>interpolationAdapterTransparency</key>
+	<string>uniqueQueueDuration</string>
+	<key>notificationBufferScale</key>
+	<string>visibleEqualizationType</string>
+	<key>staticRoleMode</key>
+	<string>builderLayerDelay</string>
+	<key>tickerStyleInterval</key>
+	<string>scrollContextStyle</string>
+</dict>
+</plist>

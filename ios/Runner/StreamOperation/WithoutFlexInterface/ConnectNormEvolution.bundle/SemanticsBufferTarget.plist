@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>basicSpriteFormat</key>
+	<string>inactiveSubpixelTail</string>
+	<key>chartNearInterpreter</key>
+	<string>backwardBatchInterval</string>
+	<key>checkboxCycleAlignment</key>
+	<string>notificationCommandInterval</string>
+	<key>checklistExceptValue</key>
+	<string>entityCompositeDensity</string>
+	<key>methodLevelSaturation</key>
+	<string>configurationByFunction</string>
+	<key>swiftLikeKind</key>
+	<string>nodeAmongSystem</string>
+	<key>ternaryPlatformDuration</key>
+	<string>themePerFlyweight</string>
+	<key>zoneIncludeTask</key>
+	<string>independentGridHead</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>boxPerPlatform</key>
+	<string>mediaqueryAmongFlyweight</string>
+	<key>concurrentCommandValidation</key>
+	<string>singleAlignmentRight</string>
+	<key>controllerContextValidation</key>
+	<string>coordinatorOrLevel</string>
+	<key>diversifiedQueryVisible</key>
+	<string>threadInJob</string>
+	<key>heroFormState</key>
+	<string>decorationParameterDelay</string>
+	<key>layoutVisitorRate</key>
+	<string>inactiveFragmentPosition</string>
+	<key>statefulMovementInterval</key>
+	<string>projectStyleOrigin</string>
+</dict>
+</plist>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cartesianCacheName</key>
+	<string>animationLikeOperation</string>
+	<key>effectProcessSpeed</key>
+	<string>mediaqueryVarInset</string>
+	<key>menuAndParameter</key>
+	<string>containerWorkBehavior</string>
+	<key>notificationAsNumber</key>
+	<string>timerContainSingleton</string>
+	<key>repositoryAboutParam</key>
+	<string>kernelOrEnvironment</string>
+	<key>samplePlatformAcceleration</key>
+	<string>denseChartInset</string>
+	<key>semanticHeapOpacity</key>
+	<string>logarithmIncludePhase</string>
+</dict>
+</plist>

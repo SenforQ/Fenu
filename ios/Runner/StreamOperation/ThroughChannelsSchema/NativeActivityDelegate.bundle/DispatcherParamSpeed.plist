@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>globalTickerTag</key>
+	<string>profileTierDepth</string>
+	<key>interactorViaPhase</key>
+	<string>reactiveConvolutionSpeed</string>
+	<key>localIconSkewx</key>
+	<string>richtextActivityDensity</string>
+	<key>playbackAndChain</key>
+	<string>equalizationEnvironmentHue</string>
+	<key>rowWorkDistance</key>
+	<string>skinActivityScale</string>
+	<key>sliderModePadding</key>
+	<string>topicDuringJob</string>
+</dict>
+</plist>

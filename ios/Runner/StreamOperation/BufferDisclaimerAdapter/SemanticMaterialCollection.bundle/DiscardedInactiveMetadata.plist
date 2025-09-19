@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedStateDirection</key>
+	<string>chartTierRight</string>
+	<key>batchNumberFrequency</key>
+	<string>gridSingletonSize</string>
+	<key>boxAboutJob</key>
+	<string>dialogsDuringComposite</string>
+	<key>builderMethodDepth</key>
+	<string>storageActivityContrast</string>
+	<key>cupertinoGrainFeedback</key>
+	<string>bufferObserverName</string>
+	<key>custompaintOperationFrequency</key>
+	<string>lostVectorTag</string>
+	<key>descriptorViaEnvironment</key>
+	<string>labelFormSize</string>
+	<key>standaloneTaskIndex</key>
+	<string>radiusThanProcess</string>
+	<key>unsortedRowTransparency</key>
+	<string>histogramAroundMode</string>
+</dict>
+</plist>

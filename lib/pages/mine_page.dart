@@ -156,7 +156,7 @@ class _MinePageState extends State<MinePage> {
             height: topImageHeight,
             decoration: const BoxDecoration(
               image: DecorationImage(
-                image: AssetImage('assets/me_top_bg_20250831.png'),
+                image: AssetImage('assets/me_top_bg_20250831.webp'),
                 fit: BoxFit.cover,
               ),
               borderRadius: BorderRadius.only(
@@ -223,7 +223,7 @@ class _MinePageState extends State<MinePage> {
             shape: BoxShape.circle,
             border: Border.all(color: Colors.white, width: 4),
             image: const DecorationImage(
-              image: AssetImage('assets/user_default_icon_20250901.png'),
+              image: AssetImage('assets/user_default_icon_20250901.webp'),
               fit: BoxFit.cover,
             ),
           ),
@@ -307,7 +307,7 @@ class _MinePageState extends State<MinePage> {
         children: [
           Expanded(
             child: _buildFeatureCard(
-              imagePath: 'assets/mine_wallet_20250904.png',
+              imagePath: 'assets/mine_wallet_20250904.webp',
               title: 'Wallet',
               onTap: () => _navigateToPage(const WalletPage()),
             ),
@@ -315,7 +315,7 @@ class _MinePageState extends State<MinePage> {
           const SizedBox(width: 12),
           Expanded(
             child: _buildFeatureCard(
-              imagePath: 'assets/mine_vip_20250904.png',
+              imagePath: 'assets/mine_vip_20250904.webp',
               title: 'VIP',
               onTap: () => _navigateToPage(const VipPage()),
             ),
@@ -328,11 +328,11 @@ class _MinePageState extends State<MinePage> {
   // 菜单区域
   Widget _buildMenuSection() {
     final menuItems = [
-      MenuItemData('Music List', 'assets/mine_about_20250901.png', () => _navigateToPage(const MusicListPage())),
-      MenuItemData('About us', 'assets/mine_about_20250901.png', () => _navigateToPage(const AboutUsPage())),
-      MenuItemData('Setting', 'assets/mine_setting_20250901.png', () => _navigateToPage(const EditProfilePage())),
-      MenuItemData('Privacy Policy', 'assets/mine_privacy_20250901.png', () => _navigateToPage(const PrivacyPolicyPage())),
-      MenuItemData('User Agreement', 'assets/mine_userAgreement_20250901.png', () => _navigateToPage(const UserAgreementPage())),
+      MenuItemData('Music List', 'assets/mine_about_20250901.webp', () => _navigateToPage(const MusicListPage())),
+      MenuItemData('About us', 'assets/mine_about_20250901.webp', () => _navigateToPage(const AboutUsPage())),
+      MenuItemData('Setting', 'assets/mine_setting_20250901.webp', () => _navigateToPage(const EditProfilePage())),
+      MenuItemData('Privacy Policy', 'assets/mine_privacy_20250901.webp', () => _navigateToPage(const PrivacyPolicyPage())),
+      MenuItemData('User Agreement', 'assets/mine_userAgreement_20250901.webp', () => _navigateToPage(const UserAgreementPage())),
     ];
 
     return Container(

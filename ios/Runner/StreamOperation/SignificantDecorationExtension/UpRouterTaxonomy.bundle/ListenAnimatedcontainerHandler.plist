@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>heapEnvironmentOpacity</key>
+	<string>handlerDecoratorStyle</string>
+	<key>lastBehaviorMargin</key>
+	<string>denseZoneDirection</string>
+	<key>persistentMasterInterval</key>
+	<string>popupPhaseLocation</string>
+	<key>reducerIncludeContext</key>
+	<string>inactiveDimensionOrigin</string>
+	<key>semanticClipperSaturation</key>
+	<string>tappableCheckboxVisible</string>
+	<key>viewSystemStyle</key>
+	<string>subscriptionContextPressure</string>
+</dict>
+</plist>

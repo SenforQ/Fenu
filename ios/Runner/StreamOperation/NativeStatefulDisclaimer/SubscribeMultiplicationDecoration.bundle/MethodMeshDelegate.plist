@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>buttonBeyondChain</key>
+	<string>richtextAsParam</string>
+	<key>completionBridgeTheme</key>
+	<string>activatedMobileStyle</string>
+	<key>interfaceCycleDistance</key>
+	<string>cardSystemColor</string>
+	<key>momentumCommandMomentum</key>
+	<string>sensorMementoTransparency</string>
+	<key>navigationParameterFlags</key>
+	<string>flexiblePositionShade</string>
+	<key>specifierTypeName</key>
+	<string>groupTaskVisible</string>
+	<key>tabbarAroundChain</key>
+	<string>mediumStoreFeedback</string>
+	<key>textShapeResponse</key>
+	<string>primaryListviewTint</string>
+</dict>
+</plist>

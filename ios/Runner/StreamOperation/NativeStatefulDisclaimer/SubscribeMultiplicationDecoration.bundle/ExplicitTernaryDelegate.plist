@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>activeSingletonMargin</key>
+	<string>scrollThroughOperation</string>
+	<key>eventUntilPlatform</key>
+	<string>webTransitionBrightness</string>
+	<key>hashLevelHue</key>
+	<string>textfieldContainMemento</string>
+	<key>missedAnchorResponse</key>
+	<string>hierarchicalGrainTag</string>
+	<key>slashKindCenter</key>
+	<string>litePaddingTint</string>
+	<key>usageMethodType</key>
+	<string>normalInstructionVisibility</string>
+</dict>
+</plist>

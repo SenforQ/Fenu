@@ -24,7 +24,7 @@ class _WelcomePageState extends State<WelcomePage> {
           // Background Image
           Positioned.fill(
             child: Image.asset(
-              'assets/welcome_bg_20250902.png',
+              'assets/welcome_bg_20250902.webp',
               width: screenWidth,
               height: screenHeight,
               fit: BoxFit.cover,
@@ -148,6 +148,7 @@ class _WelcomePageState extends State<WelcomePage> {
                                       color: Color(0xFF4CAF50),
                                       fontSize: 14,
                                       decoration: TextDecoration.underline,
+                                      decorationColor: Color(0xFF4CAF50),
                                     ),
                                   ),
                                 ),
@@ -173,6 +174,7 @@ class _WelcomePageState extends State<WelcomePage> {
                                       color: Color(0xFF4CAF50),
                                       fontSize: 14,
                                       decoration: TextDecoration.underline,
+                                      decorationColor: Color(0xFF4CAF50),
                                     ),
                                   ),
                                 ),

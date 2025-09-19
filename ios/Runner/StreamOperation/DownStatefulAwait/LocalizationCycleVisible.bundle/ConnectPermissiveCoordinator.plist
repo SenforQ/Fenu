@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>collectionMethodInteraction</key>
+	<string>graphInMethod</string>
+	<key>constPlaybackBrightness</key>
+	<string>sortedGrainState</string>
+	<key>cosineVarTail</key>
+	<string>imperativeCycleVisible</string>
+	<key>zoneCycleRight</key>
+	<string>imperativeStorageOffset</string>
+</dict>
+</plist>

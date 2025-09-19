@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>agileRadiusBrightness</key>
+	<string>providerLevelShape</string>
+	<key>batchJobRotation</key>
+	<string>menuSingletonType</string>
+	<key>errorOrFacade</key>
+	<string>radiusPlatformBound</string>
+	<key>nativeRectStyle</key>
+	<string>textWithVariable</string>
+	<key>semanticEventInteraction</key>
+	<string>completerMethodTag</string>
+	<key>usecaseFacadeRight</key>
+	<string>completionThroughObserver</string>
+	<key>viewAtFunction</key>
+	<string>scenePatternOrientation</string>
+</dict>
+</plist>

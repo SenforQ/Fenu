@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>agileObserverTheme</key>
+	<string>backwardBaselineName</string>
+	<key>associatedGroupVisibility</key>
+	<string>draggableDrawerTag</string>
+	<key>builderInsideForm</key>
+	<string>specifyRouteDirection</string>
+	<key>entropyInsideEnvironment</key>
+	<string>labelPlatformScale</string>
+	<key>pinchableLayoutDistance</key>
+	<string>invisibleCompleterBorder</string>
+	<key>signWithoutFacade</key>
+	<string>completerAmongMode</string>
+	<key>textfieldAtMode</key>
+	<string>sessionForValue</string>
+</dict>
+</plist>

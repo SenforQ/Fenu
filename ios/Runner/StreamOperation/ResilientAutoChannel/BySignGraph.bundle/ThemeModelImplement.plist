@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>actionContextOpacity</key>
+	<string>mainCycleTail</string>
+	<key>constraintLikeVisitor</key>
+	<string>blocWorkOffset</string>
+	<key>drawerStageSkewx</key>
+	<string>screenFromTemple</string>
+	<key>interactiveReferenceOrientation</key>
+	<string>originalFrameRate</string>
+	<key>overlayActionDelay</key>
+	<string>streamOrAction</string>
+	<key>riverpodPhaseStyle</key>
+	<string>progressbarAtLayer</string>
+</dict>
+</plist>

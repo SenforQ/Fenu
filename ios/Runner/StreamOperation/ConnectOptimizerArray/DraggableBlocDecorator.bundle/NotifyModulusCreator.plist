@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accessibleNavigatorFrequency</key>
+	<string>iterativeResourceScale</string>
+	<key>alphaFromBuffer</key>
+	<string>notifierActivityInterval</string>
+	<key>animationLevelCenter</key>
+	<string>stackTypeVelocity</string>
+	<key>chartProcessCount</key>
+	<string>transitionNumberType</string>
+	<key>desktopCompositionContrast</key>
+	<string>radiusVersusWork</string>
+	<key>mediaForStructure</key>
+	<string>alertFunctionDuration</string>
+	<key>normalEffectBehavior</key>
+	<string>routeNearNumber</string>
+	<key>presenterPatternBehavior</key>
+	<string>layerWorkState</string>
+	<key>providerIncludeMemento</key>
+	<string>sessionAwayValue</string>
+	<key>slashExceptVisitor</key>
+	<string>dimensionIncludePrototype</string>
+</dict>
+</plist>

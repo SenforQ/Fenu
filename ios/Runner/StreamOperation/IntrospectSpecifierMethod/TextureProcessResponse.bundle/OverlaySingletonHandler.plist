@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gateShapeSpacing</key>
+	<string>boxAsVisitor</string>
+	<key>gridAroundLayer</key>
+	<string>rowInVar</string>
+	<key>otherCosineDirection</key>
+	<string>resourceObserverTop</string>
+	<key>textfieldStructureTheme</key>
+	<string>storyboardTypeTag</string>
+	<key>unactivatedObserverSpacing</key>
+	<string>hashAsFramework</string>
+</dict>
+</plist>

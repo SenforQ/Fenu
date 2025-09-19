@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedModulusAppearance</key>
+	<string>factoryOrSingleton</string>
+	<key>cacheVersusAction</key>
+	<string>cupertinoAnimationName</string>
+	<key>canvasUntilMode</key>
+	<string>navigatorForCycle</string>
+	<key>commonGesturedetectorMode</key>
+	<string>hierarchicalListviewOrientation</string>
+	<key>finalGrainBound</key>
+	<string>coordinatorMethodEdge</string>
+	<key>masterWithoutTask</key>
+	<string>textBridgeColor</string>
+	<key>rectWorkOrigin</key>
+	<string>pivotalGradientFlags</string>
+	<key>semanticAnimationShade</key>
+	<string>declarativeDescriptorTint</string>
+</dict>
+</plist>

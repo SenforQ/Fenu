@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>blocScopeTheme</key>
+	<string>intuitiveEffectSaturation</string>
+	<key>curveAtAdapter</key>
+	<string>pageviewPerAction</string>
+	<key>hashPerPlatform</key>
+	<string>cartesianAlertCount</string>
+	<key>integerExceptOperation</key>
+	<string>eventOperationSpeed</string>
+	<key>oldCaptionSpacing</key>
+	<string>usedIconTension</string>
+	<key>persistentParticleSpacing</key>
+	<string>reusableDescriptionCoord</string>
+	<key>sliderAmongMethod</key>
+	<string>primaryCubeBottom</string>
+	<key>spotDuringParameter</key>
+	<string>granularRadiusContrast</string>
+	<key>tensorRiverpodTop</key>
+	<string>mediaqueryLevelInset</string>
+</dict>
+</plist>

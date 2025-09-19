@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>certificateOrFunction</key>
+	<string>currentCardSize</string>
+	<key>geometricServiceDirection</key>
+	<string>cursorChainInset</string>
+	<key>requiredStorageKind</key>
+	<string>spotPhaseSkewx</string>
+	<key>scrollableNotifierShape</key>
+	<string>painterLayerFeedback</string>
+	<key>sensorLayerOrientation</key>
+	<string>subsequentRepositoryVisible</string>
+	<key>sessionVersusVar</key>
+	<string>storyboardChainAppearance</string>
+</dict>
+</plist>

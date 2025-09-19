@@ -136,7 +136,7 @@ class _VoiceCallPageState extends State<VoiceCallPage> {
                     GestureDetector(
                       onTap: _endCall,
                       child: Image.asset(
-                        'assets/call_video_20250902.png',
+                        'assets/call_video_20250902.webp',
                         width: 100,
                         height: 100,
                         fit: BoxFit.contain,

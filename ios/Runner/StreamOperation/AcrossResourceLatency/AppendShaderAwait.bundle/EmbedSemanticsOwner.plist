@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>associatedKernelKind</key>
+	<string>constraintSystemPosition</string>
+	<key>delegateFrameworkTop</key>
+	<string>taskProcessDelay</string>
+	<key>functionalStackKind</key>
+	<string>firstCatalystCount</string>
+	<key>lossSinceLayer</key>
+	<string>roleFlyweightVisibility</string>
+</dict>
+</plist>

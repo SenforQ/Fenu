@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>exceptionThroughActivity</key>
+	<string>managerNearPlatform</string>
+	<key>gradientChainStyle</key>
+	<string>gridviewChainVisible</string>
+	<key>granularControllerOpacity</key>
+	<string>layerCycleHue</string>
+	<key>hyperbolicAssetTop</key>
+	<string>reactiveAssetState</string>
+	<key>interactorStructureStyle</key>
+	<string>immediateParticleMode</string>
+	<key>largeSensorTransparency</key>
+	<string>animationVersusFlyweight</string>
+	<key>routeFunctionColor</key>
+	<string>previewParameterDuration</string>
+	<key>semanticInjectionColor</key>
+	<string>storeStageKind</string>
+</dict>
+</plist>

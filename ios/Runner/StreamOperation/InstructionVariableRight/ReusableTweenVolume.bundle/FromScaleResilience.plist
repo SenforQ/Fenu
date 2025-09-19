@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>actionMementoTransparency</key>
+	<string>plateAwayValue</string>
+	<key>animatedZoneCoord</key>
+	<string>cubeWithStructure</string>
+	<key>appbarBeyondStructure</key>
+	<string>navigatorAndMode</string>
+	<key>contractionProcessOpacity</key>
+	<string>displayableFragmentShade</string>
+	<key>ignoredNavigatorPressure</key>
+	<string>unaryAroundActivity</string>
+	<key>intuitiveChartMargin</key>
+	<string>lossVisitorDepth</string>
+	<key>logarithmStageStatus</key>
+	<string>intensityStyleDepth</string>
+	<key>sophisticatedSineScale</key>
+	<string>controllerViaAdapter</string>
+	<key>transformerContainFlyweight</key>
+	<string>textFrameworkDuration</string>
+</dict>
+</plist>

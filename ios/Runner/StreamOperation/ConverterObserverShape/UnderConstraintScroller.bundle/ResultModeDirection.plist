@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>boxEnvironmentCenter</key>
+	<string>scrollableSizedboxInterval</string>
+	<key>cellInValue</key>
+	<string>cupertinoVisitorDirection</string>
+	<key>documentStylePressure</key>
+	<string>intuitiveCoordinatorDuration</string>
+	<key>getxFrameworkInset</key>
+	<string>movementChainBound</string>
+	<key>sizePlatformVisibility</key>
+	<string>methodChainState</string>
+</dict>
+</plist>

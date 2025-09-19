@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>associatedRectPadding</key>
+	<string>intuitiveResolverDirection</string>
+	<key>boxAndFlyweight</key>
+	<string>slashVarMargin</string>
+	<key>permanentCubitMode</key>
+	<string>tappableStoreOffset</string>
+	<key>promiseMediatorForce</key>
+	<string>inactiveWidgetDelay</string>
+</dict>
+</plist>

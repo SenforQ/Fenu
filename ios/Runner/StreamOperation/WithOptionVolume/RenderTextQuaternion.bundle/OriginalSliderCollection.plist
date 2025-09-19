@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>constRadiusHead</key>
+	<string>containerWithNumber</string>
+	<key>curveParamSkewx</key>
+	<string>reactiveNodePosition</string>
+	<key>errorCycleName</key>
+	<string>stateBufferTransparency</string>
+	<key>firstGestureOrientation</key>
+	<string>durationLayerInset</string>
+	<key>iconAdapterIndex</key>
+	<string>rectWithoutAdapter</string>
+	<key>navigatorFacadeFormat</key>
+	<string>nibTaskDepth</string>
+	<key>prismaticTabbarShape</key>
+	<string>lastResponseMomentum</string>
+	<key>resilientErrorPosition</key>
+	<string>curveBesideSingleton</string>
+	<key>subsequentHeapKind</key>
+	<string>widgetVersusProcess</string>
+</dict>
+</plist>

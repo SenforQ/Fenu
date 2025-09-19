@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cellAndAdapter</key>
+	<string>menuAtTemple</string>
+	<key>convolutionAsActivity</key>
+	<string>projectionWithoutCommand</string>
+	<key>hierarchicalResolverAlignment</key>
+	<string>parallelTableLocation</string>
+	<key>histogramOrDecorator</key>
+	<string>offsetParamStyle</string>
+	<key>managerOperationName</key>
+	<string>alertAtMemento</string>
+	<key>sharedRouteTop</key>
+	<string>exceptionScopeMode</string>
+	<key>tickerKindAlignment</key>
+	<string>tabviewInsideParam</string>
+</dict>
+</plist>

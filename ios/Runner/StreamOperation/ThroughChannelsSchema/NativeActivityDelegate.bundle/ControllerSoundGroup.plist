@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationAmongState</key>
+	<string>pinchableAspectIndex</string>
+	<key>callbackFromPlatform</key>
+	<string>criticalAllocatorVelocity</string>
+	<key>gemAmongType</key>
+	<string>reducerContainMemento</string>
+	<key>lastReducerOpacity</key>
+	<string>customizedRequestTheme</string>
+	<key>marginPhaseOffset</key>
+	<string>responsiveRouterState</string>
+	<key>transformerOfCycle</key>
+	<string>convolutionPatternFeedback</string>
+</dict>
+</plist>

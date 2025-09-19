@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>buttonMethodName</key>
+	<string>matrixAsCommand</string>
+	<key>dimensionVersusParameter</key>
+	<string>binaryNumberSpacing</string>
+	<key>labelInterpreterDuration</key>
+	<string>themeAwayState</string>
+	<key>mediaqueryAmongShape</key>
+	<string>enabledDecorationLocation</string>
+	<key>menuParameterTint</key>
+	<string>animatedModalSaturation</string>
+	<key>stepShapePosition</key>
+	<string>normProxyVisibility</string>
+	<key>threadFromPhase</key>
+	<string>autoUtilForce</string>
+</dict>
+</plist>

@@ -36,7 +36,7 @@ class _ChatPageState extends State<ChatPage> {
   String _lastResetDate = '';
 
   // 本机用户信息（自己）
-  String _selfAvatarPath = 'assets/user_default_icon_20250901.png';
+  String _selfAvatarPath = 'assets/user_default_icon_20250901.webp';
   bool _selfAvatarIsLocal = false;
 
   late final String _convKey;
@@ -132,7 +132,7 @@ class _ChatPageState extends State<ChatPage> {
     // 目前使用默认头像
     if (!mounted) return;
     setState(() {
-      _selfAvatarPath = 'assets/user_default_icon_20250901.png';
+      _selfAvatarPath = 'assets/user_default_icon_20250901.webp';
       _selfAvatarIsLocal = false;
     });
   }
@@ -659,7 +659,7 @@ class _ChatPageState extends State<ChatPage> {
       } else {
         return ClipOval(
           child: Image.asset(
-            _selfAvatarPath.isNotEmpty ? _selfAvatarPath : 'assets/user_default_icon_20250901.png',
+            _selfAvatarPath.isNotEmpty ? _selfAvatarPath : 'assets/user_default_icon_20250901.webp',
             width: size,
             height: size,
             fit: BoxFit.cover,

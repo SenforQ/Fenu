@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>loopUntilChain</key>
+	<string>challengeFromSingleton</string>
+	<key>presenterDespiteStyle</key>
+	<string>layoutVarSize</string>
+	<key>resilientSliderRate</key>
+	<string>currentButtonBehavior</string>
+	<key>resultParameterLocation</key>
+	<string>spriteScopeMargin</string>
+	<key>uniqueRepositoryMargin</key>
+	<string>diffableSubscriptionSize</string>
+</dict>
+</plist>

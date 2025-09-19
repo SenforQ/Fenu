@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedcontainerThroughShape</key>
+	<string>widgetStyleAcceleration</string>
+	<key>beginnerAspectOffset</key>
+	<string>instructionFrameworkOrientation</string>
+	<key>intuitiveExpandedOrigin</key>
+	<string>baselineVisitorBrightness</string>
+	<key>monsterCycleVisibility</key>
+	<string>statelessBufferPadding</string>
+	<key>navigatorOutsideMode</key>
+	<string>fixedRouteOrientation</string>
+	<key>rapidGetxStatus</key>
+	<string>actionParamSkewy</string>
+	<key>sinkAgainstContext</key>
+	<string>allocatorDespiteLayer</string>
+	<key>storyboardInComposite</key>
+	<string>paddingPerComposite</string>
+	<key>tensorKernelSaturation</key>
+	<string>timerPerFlyweight</string>
+</dict>
+</plist>

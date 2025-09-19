@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationOutsideType</key>
+	<string>sequentialEffectHead</string>
+	<key>denseAlertRate</key>
+	<string>playbackDespiteMemento</string>
+	<key>nibAgainstMemento</key>
+	<string>singleCoordinatorTag</string>
+	<key>opaqueVectorDepth</key>
+	<string>metadataDespiteFunction</string>
+	<key>providerOfMemento</key>
+	<string>activatedTimerType</string>
+	<key>referenceMethodKind</key>
+	<string>variantByPrototype</string>
+	<key>secondZoneTheme</key>
+	<string>cardMementoAlignment</string>
+	<key>sizedboxAmongEnvironment</key>
+	<string>staticImageFeedback</string>
+	<key>subtleResourceBorder</key>
+	<string>usageAmongStructure</string>
+</dict>
+</plist>

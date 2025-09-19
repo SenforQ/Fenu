@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>characterBeyondAdapter</key>
+	<string>unactivatedMobxLocation</string>
+	<key>customGramDepth</key>
+	<string>gestureContextDuration</string>
+	<key>declarativeTextMargin</key>
+	<string>animationStatePadding</string>
+	<key>interactorPlatformContrast</key>
+	<string>radiusCycleOrientation</string>
+	<key>momentumBufferOrigin</key>
+	<string>firstPreviewInterval</string>
+	<key>providerLikePhase</key>
+	<string>marginExceptActivity</string>
+	<key>relationalViewBottom</key>
+	<string>signatureBeyondTask</string>
+	<key>riverpodPlatformBottom</key>
+	<string>errorBesideFacade</string>
+	<key>scaffoldCycleFlags</key>
+	<string>decorationAroundFlyweight</string>
+	<key>statefulDescriptorSkewx</key>
+	<string>gradientSystemInterval</string>
+</dict>
+</plist>

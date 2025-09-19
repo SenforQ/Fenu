@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>allocatorShapeAlignment</key>
+	<string>materialTierPadding</string>
+	<key>offsetCycleResponse</key>
+	<string>nextHeapBorder</string>
+	<key>stateVariableBorder</key>
+	<string>gateContainCommand</string>
+	<key>transformerFromPattern</key>
+	<string>autoSliderValidation</string>
+</dict>
+</plist>

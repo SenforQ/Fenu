@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cacheOfStrategy</key>
+	<string>isolateAsJob</string>
+	<key>canvasThanObserver</key>
+	<string>futureBesideFacade</string>
+	<key>nativeTransitionTransparency</key>
+	<string>currentTextSpeed</string>
+	<key>resolverFormFeedback</key>
+	<string>touchOrForm</string>
+	<key>specifyPlateIndex</key>
+	<string>mediaByNumber</string>
+	<key>toolValueStatus</key>
+	<string>pinchableStreamDuration</string>
+	<key>viewThanKind</key>
+	<string>tabbarDuringChain</string>
+</dict>
+</plist>

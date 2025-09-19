@@ -311,7 +311,7 @@ class _HomePageState extends State<HomePage> {
               height: screenWidth / 375 * 247,
               decoration: const BoxDecoration(
                 image: DecorationImage(
-                  image: AssetImage('assets/home_top_20250902.png'),
+                  image: AssetImage('assets/home_top_20250902.webp'),
                   fit: BoxFit.cover,
                 ),
               ),
@@ -391,7 +391,7 @@ class _HomePageState extends State<HomePage> {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
                   Image.asset(
-                    'assets/home_popular_20250902.png',
+                    'assets/home_popular_20250902.webp',
                     width: 197,
                     height: 24,
                     fit: BoxFit.contain,
@@ -402,13 +402,13 @@ class _HomePageState extends State<HomePage> {
                 child: ListView(
                   scrollDirection: Axis.horizontal,
                   children: [
-                        _buildCategoryItem('assets/home_forest_20250902.png', 'Forest', 0),
+                        _buildCategoryItem('assets/home_forest_20250902.webp', 'Forest', 0),
                     const SizedBox(width: 12),
-                        _buildCategoryItem('assets/home_canyon_20250902.png', 'Canyon', 1),
+                        _buildCategoryItem('assets/home_canyon_20250902.webp', 'Canyon', 1),
                     const SizedBox(width: 12),
-                        _buildCategoryItem('assets/home_desert_20250902.png', 'Desert', 2),
+                        _buildCategoryItem('assets/home_desert_20250902.webp', 'Desert', 2),
                     const SizedBox(width: 12),
-                        _buildCategoryItem('assets/home_lakes_20250902.png', 'Lake', 3),
+                        _buildCategoryItem('assets/home_lakes_20250902.webp', 'Lake', 3),
                       ],
                     ),
                   ),
@@ -501,8 +501,8 @@ class _HomePageState extends State<HomePage> {
                                       onTap: () => _toggleFavorite(item['id']),
                                       child: Image.asset(
                                         _isFavorite(item['id']) 
-                                            ? 'assets/home_like_s_20250902.png'
-                                            : 'assets/home_like_n_20250902.png',
+                                            ? 'assets/home_like_s_20250902.webp'
+                                            : 'assets/home_like_n_20250902.webp',
                                         width: 36,
                                         height: 36,
                                         fit: BoxFit.contain,
@@ -576,7 +576,7 @@ class _HomePageState extends State<HomePage> {
                   const SizedBox(height: 16),
       
                   Image.asset(
-                    'assets/community_discover_20250902.png',
+                    'assets/community_discover_20250902.webp',
                     width: 231,
                     height: 24,
                     fit: BoxFit.contain,
@@ -592,7 +592,7 @@ class _HomePageState extends State<HomePage> {
                       );
                     },
                     child: Image.asset(
-                      'assets/community_top_20250902.png',
+                      'assets/community_top_20250902.webp',
                       width: screenWidth,
                       fit: BoxFit.cover,
                     ),
@@ -600,7 +600,7 @@ class _HomePageState extends State<HomePage> {
 
                   const SizedBox(height: 16),
                   Image.asset(
-                    'assets/home_featured_20250902.png',
+                    'assets/home_featured_20250902.webp',
                     width: 197,
                     height: 28,
                     fit: BoxFit.contain,
@@ -899,7 +899,7 @@ class _HomePageState extends State<HomePage> {
     return [
       {
         'id': 'forest_1',
-        'image': 'forest_type_1_bg_20250902.jpg',
+        'image': 'forest_type_1_bg_20250902.webp',
         'title': 'Melbourne\'s Fairy Tale Paradise',
         'location': 'Alfred Nicholas',
         'views': '50 people viewed',
@@ -908,7 +908,7 @@ class _HomePageState extends State<HomePage> {
       },
       {
         'id': 'forest_2',
-        'image': 'forest_type_2_bg_20250902.jpg',
+        'image': 'forest_type_2_bg_20250902.webp',
         'title': 'Magic Forest Really Exists!!',
         'location': 'De Djawatan',
         'views': '43 people viewed',
@@ -917,7 +917,7 @@ class _HomePageState extends State<HomePage> {
       },
       {
         'id': 'forest_3',
-        'image': 'forest_type_3_bg_20250902.jpg',
+        'image': 'forest_type_3_bg_20250902.webp',
         'title': 'Melbourne Amazon Rainforest Day Trip',
         'location': 'Maroondah Park',
         'views': '23 people viewed',
@@ -926,7 +926,7 @@ class _HomePageState extends State<HomePage> {
       },
       {
         'id': 'canyon_1',
-        'image': 'canyon_type_1_bg_20250902.jpg',
+        'image': 'canyon_type_1_bg_20250902.webp',
         'title': 'Natural Wonder: Majestic Glaciers Create Most Fragmented Canyon',
         'location': 'Fjaðrárgljúfur',
         'views': '25 people viewed',
@@ -935,7 +935,7 @@ class _HomePageState extends State<HomePage> {
       },
       {
         'id': 'canyon_2',
-        'image': 'canyon_type_2_bg_20250902.jpg',
+        'image': 'canyon_type_2_bg_20250902.webp',
         'title': 'Grand Canyon Antelope Valley',
         'location': 'Grand Canyon',
         'views': '33 people viewed',
@@ -944,7 +944,7 @@ class _HomePageState extends State<HomePage> {
       },
       {
         'id': 'canyon_3',
-        'image': 'canyon_type_3_bg_20250902.jpg',
+        'image': 'canyon_type_3_bg_20250902.webp',
         'title': 'Grand Canyon',
         'location': 'Grand Canyon',
         'views': '39 people viewed',
@@ -953,7 +953,7 @@ class _HomePageState extends State<HomePage> {
       },
       {
         'id': 'desert_1',
-        'image': 'desert_type_1_bg_20250902.jpg',
+        'image': 'desert_type_1_bg_20250902.webp',
         'title': 'Egypt Black Desert Crystal Mountain White Desert',
         'location': 'Sahara Desert',
         'views': '29 people viewed',
@@ -962,7 +962,7 @@ class _HomePageState extends State<HomePage> {
       },
       {
         'id': 'desert_2',
-        'image': 'desert_type_2_bg_20250902.jpg',
+        'image': 'desert_type_2_bg_20250902.webp',
         'title': 'Morocco Desert Journey',
         'location': 'Morocco Desert',
         'views': '27 people viewed',
@@ -971,7 +971,7 @@ class _HomePageState extends State<HomePage> {
       },
       {
         'id': 'desert_3',
-        'image': 'desert_type_3_bg_20250902.jpg',
+        'image': 'desert_type_3_bg_20250902.webp',
         'title': 'Not in Sahara Desert! In Melbourne!',
         'location': 'Big Drift',
         'views': '26 people viewed',
@@ -980,7 +980,7 @@ class _HomePageState extends State<HomePage> {
       },
       {
         'id': 'lake_1',
-        'image': 'lake_type_1_bg_20250902.jpg',
+        'image': 'lake_type_1_bg_20250902.webp',
         'title': 'God\'s Palette: Australia Pink Lakes',
         'location': 'Lake Hillier',
         'views': '13 people viewed',
@@ -989,7 +989,7 @@ class _HomePageState extends State<HomePage> {
       },
       {
         'id': 'lake_2',
-        'image': 'lake_type_2_bg_20250902.jpg',
+        'image': 'lake_type_2_bg_20250902.webp',
         'title': 'Utah Salt Lake City Pink Salt Lake',
         'location': 'Stansbury View',
         'views': '11 people viewed',
@@ -998,7 +998,7 @@ class _HomePageState extends State<HomePage> {
       },
       {
         'id': 'lake_3',
-        'image': 'lake_type_3_bg_20250902.jpg',
+        'image': 'lake_type_3_bg_20250902.webp',
         'title': 'Oeschinensee Lake',
         'location': 'Interlaken',
         'views': '19 people viewed',
@@ -1016,7 +1016,7 @@ class _HomePageState extends State<HomePage> {
         return [
           {
             'id': 'forest_1',
-            'image': 'forest_type_1_bg_20250902.jpg',
+            'image': 'forest_type_1_bg_20250902.webp',
             'title': 'Melbourne\'s Fairy Tale Paradise',
             'location': 'Alfred Nicholas',
             'views': '50 people viewed',
@@ -1025,7 +1025,7 @@ class _HomePageState extends State<HomePage> {
           },
           {
             'id': 'forest_2',
-            'image': 'forest_type_2_bg_20250902.jpg',
+            'image': 'forest_type_2_bg_20250902.webp',
             'title': 'Magic Forest Really Exists!!',
             'location': 'De Djawatan',
             'views': '43 people viewed',
@@ -1034,7 +1034,7 @@ class _HomePageState extends State<HomePage> {
           },
           {
             'id': 'forest_3',
-            'image': 'forest_type_3_bg_20250902.jpg',
+            'image': 'forest_type_3_bg_20250902.webp',
             'title': 'Melbourne Amazon Rainforest Day Trip',
             'location': 'Maroondah Park',
             'views': '23 people viewed',
@@ -1046,7 +1046,7 @@ class _HomePageState extends State<HomePage> {
         return [
           {
             'id': 'canyon_1',
-            'image': 'canyon_type_1_bg_20250902.jpg',
+            'image': 'canyon_type_1_bg_20250902.webp',
             'title': 'Natural Wonder: Majestic Glaciers Create Most Fragmented Canyon',
             'location': 'Fjaðrárgljúfur',
             'views': '25 people viewed',
@@ -1055,7 +1055,7 @@ class _HomePageState extends State<HomePage> {
           },
           {
             'id': 'canyon_2',
-            'image': 'canyon_type_2_bg_20250902.jpg',
+            'image': 'canyon_type_2_bg_20250902.webp',
             'title': 'Grand Canyon Antelope Valley',
             'location': 'Grand Canyon',
             'views': '33 people viewed',
@@ -1064,7 +1064,7 @@ class _HomePageState extends State<HomePage> {
           },
           {
             'id': 'canyon_3',
-            'image': 'canyon_type_3_bg_20250902.jpg',
+            'image': 'canyon_type_3_bg_20250902.webp',
             'title': 'Grand Canyon',
             'location': 'Grand Canyon',
             'views': '39 people viewed',
@@ -1076,7 +1076,7 @@ class _HomePageState extends State<HomePage> {
         return [
           {
             'id': 'desert_1',
-            'image': 'desert_type_1_bg_20250902.jpg',
+            'image': 'desert_type_1_bg_20250902.webp',
             'title': 'Egypt Black Desert Crystal Mountain White Desert',
             'location': 'Sahara Desert',
             'views': '29 people viewed',
@@ -1085,7 +1085,7 @@ class _HomePageState extends State<HomePage> {
           },
           {
             'id': 'desert_2',
-            'image': 'desert_type_2_bg_20250902.jpg',
+            'image': 'desert_type_2_bg_20250902.webp',
             'title': 'Morocco Desert Journey',
             'location': 'Morocco Desert',
             'views': '27 people viewed',
@@ -1094,7 +1094,7 @@ class _HomePageState extends State<HomePage> {
           },
           {
             'id': 'desert_3',
-            'image': 'desert_type_3_bg_20250902.jpg',
+            'image': 'desert_type_3_bg_20250902.webp',
             'title': 'Not in Sahara Desert! In Melbourne!',
             'location': 'Big Drift',
             'views': '26 people viewed',
@@ -1106,7 +1106,7 @@ class _HomePageState extends State<HomePage> {
         return [
           {
             'id': 'lake_1',
-            'image': 'lake_type_1_bg_20250902.jpg',
+            'image': 'lake_type_1_bg_20250902.webp',
             'title': 'God\'s Palette: Australia Pink Lakes',
             'location': 'Lake Hillier',
             'views': '13 people viewed',
@@ -1115,7 +1115,7 @@ class _HomePageState extends State<HomePage> {
           },
           {
             'id': 'lake_2',
-            'image': 'lake_type_2_bg_20250902.jpg',
+            'image': 'lake_type_2_bg_20250902.webp',
             'title': 'Utah Salt Lake City Pink Salt Lake',
             'location': 'Stansbury View',
             'views': '11 people viewed',
@@ -1124,7 +1124,7 @@ class _HomePageState extends State<HomePage> {
           },
           {
             'id': 'lake_3',
-            'image': 'lake_type_3_bg_20250902.jpg',
+            'image': 'lake_type_3_bg_20250902.webp',
             'title': 'Oeschinensee Lake',
             'location': 'Interlaken',
             'views': '19 people viewed',

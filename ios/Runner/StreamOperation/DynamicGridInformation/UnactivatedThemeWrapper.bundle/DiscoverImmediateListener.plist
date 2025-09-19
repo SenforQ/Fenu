@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationAgainstVar</key>
+	<string>aperturePhaseColor</string>
+	<key>delegateBesideCommand</key>
+	<string>enabledQueueForce</string>
+	<key>intensityFromAdapter</key>
+	<string>exceptionValueSize</string>
+	<key>standaloneCoordinatorSkewy</key>
+	<string>sensorIncludeMode</string>
+</dict>
+</plist>

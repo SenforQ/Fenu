@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>durationAlongOperation</key>
+	<string>widgetShapeMargin</string>
+	<key>flexibleWidgetOrientation</key>
+	<string>tangentKindOpacity</string>
+	<key>presenterInsideStage</key>
+	<string>sceneMediatorOpacity</string>
+	<key>radiusOfTier</key>
+	<string>resolverAroundType</string>
+	<key>titleTaskTag</key>
+	<string>channelSinceTask</string>
+	<key>usedQueryOrientation</key>
+	<string>routerOfMode</string>
+</dict>
+</plist>

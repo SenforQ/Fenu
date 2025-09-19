@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedGrayscaleLocation</key>
+	<string>publicDecorationOffset</string>
+	<key>layoutVarInterval</key>
+	<string>discardedTernarySkewx</string>
+	<key>materialActionOrientation</key>
+	<string>singletonLayerRight</string>
+	<key>nodeDespiteFlyweight</key>
+	<string>permissiveRowPosition</string>
+	<key>smallSwitchSize</key>
+	<string>multiInterfaceInteraction</string>
+	<key>swiftStateResponse</key>
+	<string>euclideanCompleterSkewx</string>
+</dict>
+</plist>

@@ -461,7 +461,7 @@ class _VipPageState extends State<VipPage> {
         children: [
           // 背景图片
           Image.asset(
-            'assets/vip_top_bg_20250904.png',
+            'assets/vip_top_bg_20250904.webp',
             width: screenWidth,
             height: imageHeight,
             fit: BoxFit.cover,

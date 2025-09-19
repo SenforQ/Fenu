@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationKindMode</key>
+	<string>routeInsideMediator</string>
+	<key>criticalActivityPressure</key>
+	<string>displayablePainterPressure</string>
+	<key>nextSpineCount</key>
+	<string>notifierAndLevel</string>
+	<key>topicMethodIndex</key>
+	<string>topicTempleAppearance</string>
+</dict>
+</plist>

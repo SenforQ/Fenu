@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>apertureMethodValidation</key>
+	<string>monsterBeyondFramework</string>
+	<key>dimensionParameterTheme</key>
+	<string>customTickerRate</string>
+	<key>positionAboutLevel</key>
+	<string>protectedInteractorPosition</string>
+	<key>titleNearSingleton</key>
+	<string>progressbarSingletonFeedback</string>
+</dict>
+</plist>

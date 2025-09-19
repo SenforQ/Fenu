@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>channelsWorkSkewx</key>
+	<string>progressbarAtNumber</string>
+	<key>consultativeOptionScale</key>
+	<string>metadataAtMode</string>
+	<key>inkwellActionKind</key>
+	<string>curveAtState</string>
+	<key>loopBridgeFrequency</key>
+	<string>labelBufferFrequency</string>
+	<key>musicViaProcess</key>
+	<string>normalMobxHue</string>
+	<key>threadForVariable</key>
+	<string>previewFrameworkContrast</string>
+</dict>
+</plist>

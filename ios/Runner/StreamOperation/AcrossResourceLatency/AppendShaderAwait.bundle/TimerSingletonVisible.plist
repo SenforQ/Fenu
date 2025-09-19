@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>accordionUnaryType</key>
+	<string>graphBeyondObserver</string>
+	<key>awaitContainProxy</key>
+	<string>checkboxPrototypeContrast</string>
+	<key>cellAtPrototype</key>
+	<string>brushDuringComposite</string>
+	<key>commandEnvironmentContrast</key>
+	<string>localizationBeyondObserver</string>
+	<key>popupLikeFunction</key>
+	<string>labelFlyweightContrast</string>
+	<key>rowEnvironmentSize</key>
+	<string>compositionAndSingleton</string>
+	<key>sineChainTension</key>
+	<string>finalGraphicDepth</string>
+</dict>
+</plist>

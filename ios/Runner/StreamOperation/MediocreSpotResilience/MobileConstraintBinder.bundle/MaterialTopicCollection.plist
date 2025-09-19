@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cardStateSize</key>
+	<string>singleStorageDensity</string>
+	<key>clipperNumberHue</key>
+	<string>disabledGrayscaleFlags</string>
+	<key>concurrentGestureLeft</key>
+	<string>dropdownbuttonExceptProxy</string>
+	<key>getxInSystem</key>
+	<string>overlayVisitorShape</string>
+	<key>hashEnvironmentHue</key>
+	<string>listviewDespiteFunction</string>
+	<key>notificationThroughMediator</key>
+	<string>hardInterfaceEdge</string>
+	<key>playbackAndTask</key>
+	<string>featureAgainstJob</string>
+	<key>radiusFormDirection</key>
+	<string>nativePointSize</string>
+	<key>smallWidgetOffset</key>
+	<string>storageInProcess</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>advancedFutureRate</key>
+	<string>kernelAgainstProxy</string>
+	<key>batchObserverFormat</key>
+	<string>equalizationAsInterpreter</string>
+	<key>commonQueuePosition</key>
+	<string>positionedContextFeedback</string>
+	<key>constHistogramSaturation</key>
+	<string>reusableRowAlignment</string>
+	<key>elasticStackForce</key>
+	<string>workflowAwayPhase</string>
+	<key>firstTopicTag</key>
+	<string>sequentialProfileCount</string>
+	<key>rectSystemStatus</key>
+	<string>delegateOperationSkewy</string>
+	<key>sineAroundOperation</key>
+	<string>resourceLikeProxy</string>
+	<key>textViaMediator</key>
+	<string>hashAroundCommand</string>
+</dict>
+</plist>

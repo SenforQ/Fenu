@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>concurrentScaffoldHead</key>
+	<string>textBesideEnvironment</string>
+	<key>interactiveOperationColor</key>
+	<string>composableNibMargin</string>
+	<key>interactorFlyweightColor</key>
+	<string>particleForType</string>
+	<key>logBesideMemento</key>
+	<string>spriteFacadeOrigin</string>
+	<key>pinchablePointHue</key>
+	<string>responsiveCaptionForce</string>
+	<key>precisionPlatformTint</key>
+	<string>textureModeSize</string>
+</dict>
+</plist>

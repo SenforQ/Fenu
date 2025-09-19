@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>beginnerAllocatorAlignment</key>
+	<string>difficultPriorityBottom</string>
+	<key>chartContextPosition</key>
+	<string>heroStageVisibility</string>
+	<key>commonListviewTransparency</key>
+	<string>mediocreChartFormat</string>
+	<key>cycleActivityCenter</key>
+	<string>immutableButtonSkewx</string>
+	<key>layoutViaContext</key>
+	<string>usageOutsideType</string>
+	<key>metadataDecoratorMomentum</key>
+	<string>sophisticatedDecorationHue</string>
+	<key>pinchableModelInteraction</key>
+	<string>hashWithoutType</string>
+	<key>repositoryAgainstSingleton</key>
+	<string>stampWorkDirection</string>
+	<key>stateByWork</key>
+	<string>instructionIncludeSingleton</string>
+</dict>
+</plist>

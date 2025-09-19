@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arithmeticAdapterFlags</key>
+	<string>deferredStreamVelocity</string>
+	<key>clipperMediatorOpacity</key>
+	<string>widgetPrototypeLeft</string>
+	<key>expandedAboutNumber</key>
+	<string>notifierFlyweightSize</string>
+	<key>shaderStateBorder</key>
+	<string>animationBufferAcceleration</string>
+	<key>tensorSpineBehavior</key>
+	<string>resizableGesturedetectorBound</string>
+	<key>transitionKindOrientation</key>
+	<string>sophisticatedMobileAlignment</string>
+	<key>transitionMediatorDirection</key>
+	<string>reductionOrPrototype</string>
+</dict>
+</plist>

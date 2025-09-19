@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>entropyOutsideVisitor</key>
+	<string>listenerViaStrategy</string>
+	<key>intuitiveFactoryAlignment</key>
+	<string>routePerFlyweight</string>
+	<key>listenerAtMethod</key>
+	<string>deferredStoreInterval</string>
+	<key>lossNearPlatform</key>
+	<string>functionalHashBehavior</string>
+	<key>mainEventPressure</key>
+	<string>ternaryParameterDirection</string>
+	<key>substantialRepositoryTheme</key>
+	<string>sinkOfScope</string>
+</dict>
+</plist>

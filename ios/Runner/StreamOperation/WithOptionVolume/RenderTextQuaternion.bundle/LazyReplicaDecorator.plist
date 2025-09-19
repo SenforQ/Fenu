@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>delegateExceptStage</key>
+	<string>interactorViaSingleton</string>
+	<key>featureUntilCycle</key>
+	<string>aspectratioTypeOrigin</string>
+	<key>heapAndStyle</key>
+	<string>listenerBeyondBuffer</string>
+	<key>layoutPrototypeDelay</key>
+	<string>eventThroughStage</string>
+	<key>mediumAssetFormat</key>
+	<string>webDescriptionPadding</string>
+	<key>modulusBufferRate</key>
+	<string>desktopGroupEdge</string>
+	<key>resilientSineSkewx</key>
+	<string>captionActionContrast</string>
+	<key>semanticDependencyFormat</key>
+	<string>slashVersusStrategy</string>
+	<key>sessionThroughAdapter</key>
+	<string>sceneChainFrequency</string>
+	<key>sophisticatedProgressbarFormat</key>
+	<string>standaloneCharacterState</string>
+</dict>
+</plist>

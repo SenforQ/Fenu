@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>globalStatefulBehavior</key>
+	<string>mutableCursorFrequency</string>
+	<key>operationAgainstDecorator</key>
+	<string>clipperTemplePadding</string>
+	<key>sustainableAnimationEdge</key>
+	<string>lossAdapterShape</string>
+	<key>taskWorkStyle</key>
+	<string>handlerAlongProcess</string>
+</dict>
+</plist>

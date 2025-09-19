@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>axisActionOrientation</key>
+	<string>positionWithAdapter</string>
+	<key>cubeWithoutForm</key>
+	<string>dimensionFunctionCoord</string>
+	<key>mediaqueryWithoutStage</key>
+	<string>lastBrushBehavior</string>
+	<key>prevRowMomentum</key>
+	<string>usecaseFromJob</string>
+	<key>scaleInFunction</key>
+	<string>localPlateFormat</string>
+</dict>
+</plist>

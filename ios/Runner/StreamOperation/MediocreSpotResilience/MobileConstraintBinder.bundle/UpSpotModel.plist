@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>behaviorBridgeTint</key>
+	<string>logOfParam</string>
+	<key>builderPhaseOrigin</key>
+	<string>iterativePageviewLocation</string>
+	<key>memberUntilScope</key>
+	<string>subpixelStyleOrientation</string>
+	<key>sessionPerStyle</key>
+	<string>missedResourceOffset</string>
+	<key>transitionAlongEnvironment</key>
+	<string>movementWithoutSystem</string>
+</dict>
+</plist>

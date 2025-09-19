@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationVersusBridge</key>
+	<string>isolateLikeShape</string>
+	<key>animationWorkTag</key>
+	<string>presenterFlyweightResponse</string>
+	<key>boxshadowActivityBound</key>
+	<string>hyperbolicCharacterState</string>
+	<key>cupertinoMatrixInteraction</key>
+	<string>kernelInAction</string>
+	<key>progressbarInContext</key>
+	<string>iconPlatformValidation</string>
+	<key>stackViaJob</key>
+	<string>eventStructureAlignment</string>
+	<key>statelessAmongNumber</key>
+	<string>animatedPopupType</string>
+	<key>uniqueBufferRotation</key>
+	<string>symmetricTickerCoord</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alignmentExceptMode</key>
+	<string>gramWithoutAdapter</string>
+	<key>cellAgainstStyle</key>
+	<string>lossVariableRate</string>
+	<key>deferredScaleInteraction</key>
+	<string>notifierAboutStage</string>
+	<key>delegateCompositeIndex</key>
+	<string>fragmentKindOffset</string>
+	<key>featureSinceStructure</key>
+	<string>sortedTaskPosition</string>
+	<key>operationAtOperation</key>
+	<string>modelWithContext</string>
+	<key>prismaticProviderShape</key>
+	<string>assetFlyweightType</string>
+	<key>tappableRouteFlags</key>
+	<string>buttonStrategyTag</string>
+</dict>
+</plist>

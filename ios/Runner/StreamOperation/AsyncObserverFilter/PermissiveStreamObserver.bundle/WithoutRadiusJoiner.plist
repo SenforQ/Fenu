@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>asyncTransitionOrientation</key>
+	<string>litePriorityFlags</string>
+	<key>axisObserverType</key>
+	<string>usecaseFlyweightRotation</string>
+	<key>gestureAgainstContext</key>
+	<string>assetLevelSize</string>
+	<key>liteInjectionInterval</key>
+	<string>hyperbolicServiceCoord</string>
+	<key>prismaticTopicDirection</key>
+	<string>captionCommandDepth</string>
+	<key>spriteOrBridge</key>
+	<string>remainderMethodScale</string>
+</dict>
+</plist>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arithmeticPreviewHue</key>
+	<string>widgetJobOpacity</string>
+	<key>coordinatorInFunction</key>
+	<string>groupPatternRight</string>
+	<key>gridviewPatternShape</key>
+	<string>previewTaskAlignment</string>
+	<key>inheritedSpriteDuration</key>
+	<string>radioLevelShape</string>
+	<key>modalAndLevel</key>
+	<string>channelOrTask</string>
+	<key>uniformControllerStyle</key>
+	<string>widgetWorkContrast</string>
+</dict>
+</plist>

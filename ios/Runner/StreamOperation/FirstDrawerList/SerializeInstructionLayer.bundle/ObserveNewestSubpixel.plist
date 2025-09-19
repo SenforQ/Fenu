@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>agileOptimizerSize</key>
+	<string>largeNotifierAcceleration</string>
+	<key>displayableLayerAppearance</key>
+	<string>framePrototypeAppearance</string>
+	<key>grayscalePlatformOrigin</key>
+	<string>channelsVarOffset</string>
+	<key>invisibleMediaquerySaturation</key>
+	<string>tickerMethodContrast</string>
+	<key>storeVarCoord</key>
+	<string>requiredSliderSize</string>
+	<key>tabbarOrSingleton</key>
+	<string>compositionalFragmentTransparency</string>
+	<key>ternaryObserverAcceleration</key>
+	<string>checklistValueColor</string>
+	<key>tweenNumberFrequency</key>
+	<string>sliderSinceObserver</string>
+</dict>
+</plist>

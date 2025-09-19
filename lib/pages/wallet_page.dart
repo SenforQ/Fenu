@@ -233,7 +233,7 @@ class _WalletPageState extends State<WalletPage> {
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: [
                         Image.asset(
-                          'assets/wallet_icon_20250904.png',
+                          'assets/wallet_icon_20250904.webp',
                           width: 32,
                           height: 32,
                           fit: BoxFit.contain,
@@ -571,7 +571,7 @@ class _WalletPageState extends State<WalletPage> {
                 height: imageHeight,
                 decoration: const BoxDecoration(
                   image: DecorationImage(
-                    image: AssetImage('assets/wallet_bg_20250904.png'),
+                    image: AssetImage('assets/wallet_bg_20250904.webp'),
                     fit: BoxFit.cover,
                   ),
                 ),
@@ -787,7 +787,7 @@ class _WalletPageState extends State<WalletPage> {
                 ),
                 child: Center(
                   child: Image.asset(
-                    'assets/wallet_icon_20250904.png',
+                    'assets/wallet_icon_20250904.webp',
                     width: 32,
                     height: 32,
                     fit: BoxFit.contain,

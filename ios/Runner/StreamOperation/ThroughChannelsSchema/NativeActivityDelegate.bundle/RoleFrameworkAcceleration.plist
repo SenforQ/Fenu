@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>apertureIncludeForm</key>
+	<string>hyperbolicInterfaceFlags</string>
+	<key>draggableBufferBehavior</key>
+	<string>lostSceneSpacing</string>
+	<key>isolateProcessAcceleration</key>
+	<string>tickerAmongMediator</string>
+	<key>methodLayerStatus</key>
+	<string>mobxContainComposite</string>
+	<key>unactivatedResourceAcceleration</key>
+	<string>geometricCacheSkewx</string>
+</dict>
+</plist>

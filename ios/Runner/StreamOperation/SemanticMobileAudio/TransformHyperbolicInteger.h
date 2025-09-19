@@ -1,0 +1,18 @@
+#import "ControllerCycleAppearance.h"
+#import "UnderScaleWidget.h"
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface TransformHyperbolicInteger : NSObject
+
+
+- (void) rebuildOnAnchorBuffer;
+
+- (void) unmountPainterAwayText;
+
+@end
+
+NS_ASSUME_NONNULL_END
+        

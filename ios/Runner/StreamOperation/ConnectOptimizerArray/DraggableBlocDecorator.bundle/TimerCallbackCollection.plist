@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>anchorInsideStrategy</key>
+	<string>dedicatedEquipmentBound</string>
+	<key>completerAlongStage</key>
+	<string>similarStepVelocity</string>
+	<key>cursorNumberStatus</key>
+	<string>specifyChapterHue</string>
+	<key>customShaderHue</key>
+	<string>navigatorFromContext</string>
+	<key>delegateNumberInterval</key>
+	<string>futureVisitorSkewy</string>
+	<key>heroShapeBorder</key>
+	<string>rapidSignatureHead</string>
+	<key>mediumCharacterLocation</key>
+	<string>loopPatternStyle</string>
+	<key>referenceAlongScope</key>
+	<string>vectorVariableOpacity</string>
+	<key>singleImageVisible</key>
+	<string>baseAgainstStructure</string>
+</dict>
+</plist>

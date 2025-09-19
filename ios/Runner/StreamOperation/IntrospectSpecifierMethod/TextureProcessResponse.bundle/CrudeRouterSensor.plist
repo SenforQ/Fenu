@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>compositionalConstraintVisibility</key>
+	<string>resizableCallbackType</string>
+	<key>currentMissionResponse</key>
+	<string>animationLayerRotation</string>
+	<key>factoryActivityType</key>
+	<string>sequentialResultOrientation</string>
+	<key>fixedTextRight</key>
+	<string>matrixViaFacade</string>
+	<key>fragmentAmongSingleton</key>
+	<string>backwardCycleOrientation</string>
+	<key>inactiveSignForce</key>
+	<string>topicBeyondMemento</string>
+	<key>labelLayerDensity</key>
+	<string>timerLevelFormat</string>
+	<key>primaryCubeBottom</key>
+	<string>constraintOfCycle</string>
+	<key>toolVarLocation</key>
+	<string>mainButtonHue</string>
+</dict>
+</plist>

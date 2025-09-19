@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>actionOutsideEnvironment</key>
+	<string>previewAlongAction</string>
+	<key>dimensionIncludeStyle</key>
+	<string>stateForObserver</string>
+	<key>inkwellAlongOperation</key>
+	<string>typicalNavigationInset</string>
+	<key>missedPainterSaturation</key>
+	<string>signatureInMethod</string>
+	<key>sharedGetxVisibility</key>
+	<string>transitionInsideStructure</string>
+	<key>sizeNumberCenter</key>
+	<string>desktopTextAppearance</string>
+	<key>streamLayerOpacity</key>
+	<string>asyncMediaqueryFormat</string>
+</dict>
+</plist>

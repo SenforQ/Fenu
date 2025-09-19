@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoVariantMargin</key>
+	<string>commandUntilPhase</string>
+	<key>constraintObserverValidation</key>
+	<string>visibleEffectSkewx</string>
+	<key>sinkActionFlags</key>
+	<string>cupertinoProxyDistance</string>
+	<key>sinkOrChain</key>
+	<string>methodParamTransparency</string>
+	<key>specifyChapterAlignment</key>
+	<string>normalButtonInterval</string>
+	<key>titleStateDelay</key>
+	<string>stampFacadeFeedback</string>
+	<key>toolVersusAdapter</key>
+	<string>mainPromiseAlignment</string>
+	<key>touchSystemSpeed</key>
+	<string>subscriptionVarShape</string>
+</dict>
+</plist>

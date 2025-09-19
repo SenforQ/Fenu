@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoImageFlags</key>
+	<string>interactorAroundFramework</string>
+	<key>boxshadowTaskOrigin</key>
+	<string>draggableInterfaceVelocity</string>
+	<key>channelContainParam</key>
+	<string>cupertinoUnaryDistance</string>
+	<key>coordinatorAndVisitor</key>
+	<string>smallControllerRotation</string>
+	<key>dimensionAtMethod</key>
+	<string>configurationValueBottom</string>
+	<key>iterativeGesturedetectorResponse</key>
+	<string>containerAsProcess</string>
+	<key>normDuringAdapter</key>
+	<string>controllerParameterStatus</string>
+	<key>scaleAtMethod</key>
+	<string>behaviorBesideStyle</string>
+	<key>synchronousChannelSaturation</key>
+	<string>persistentDurationHue</string>
+	<key>typicalConfigurationLeft</key>
+	<string>topicInVisitor</string>
+</dict>
+</plist>

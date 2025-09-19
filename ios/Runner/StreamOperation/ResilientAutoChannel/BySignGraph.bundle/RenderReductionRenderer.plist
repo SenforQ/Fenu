@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cupertinoViaStage</key>
+	<string>clipperCommandSpeed</string>
+	<key>pageviewVariableAlignment</key>
+	<string>positionVersusPlatform</string>
+	<key>positionedCompositePadding</key>
+	<string>pointSinceForm</string>
+	<key>standaloneInstructionVisible</key>
+	<string>dedicatedBufferIndex</string>
+	<key>uniformStoreOrigin</key>
+	<string>difficultBulletKind</string>
+</dict>
+</plist>

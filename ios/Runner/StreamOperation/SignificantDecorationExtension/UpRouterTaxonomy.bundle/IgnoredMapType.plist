@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>brushAsState</key>
+	<string>radiusUntilComposite</string>
+	<key>dependencyNearInterpreter</key>
+	<string>transitionCompositeScale</string>
+	<key>interpolationContainValue</key>
+	<string>smartTweenSkewy</string>
+	<key>popupKindStatus</key>
+	<string>frameByWork</string>
+	<key>sceneOrParam</key>
+	<string>vectorVersusDecorator</string>
+	<key>usedRepositoryInteraction</key>
+	<string>swiftBeyondEnvironment</string>
+	<key>viewUntilStyle</key>
+	<string>pivotalSubpixelSkewx</string>
+</dict>
+</plist>

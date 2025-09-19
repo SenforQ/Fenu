@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>asyncStateKind</key>
+	<string>errorMementoVisible</string>
+	<key>customizedListenerDensity</key>
+	<string>routerMediatorAppearance</string>
+	<key>delegateSingletonScale</key>
+	<string>transitionStructureName</string>
+	<key>effectFromMode</key>
+	<string>titleThroughMode</string>
+	<key>futurePrototypeCenter</key>
+	<string>buttonChainMargin</string>
+	<key>mutableSineDuration</key>
+	<string>resilientTransitionVisible</string>
+	<key>subpixelJobVelocity</key>
+	<string>effectNumberName</string>
+	<key>unarySystemDuration</key>
+	<string>primaryBufferSpeed</string>
+</dict>
+</plist>

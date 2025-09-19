@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>arithmeticVisitorFlags</key>
+	<string>directlySwitchTag</string>
+	<key>collectionOutsideObserver</key>
+	<string>numericalCoordinatorIndex</string>
+	<key>matrixTaskRotation</key>
+	<string>resolverFacadeDelay</string>
+	<key>movementPlatformDirection</key>
+	<string>managerFromTask</string>
+	<key>pageviewForParameter</key>
+	<string>globalTransformerType</string>
+</dict>
+</plist>

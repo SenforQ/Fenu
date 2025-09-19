@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>agileCurveLeft</key>
+	<string>concurrentCharacterSize</string>
+	<key>animationAsMode</key>
+	<string>eventNearTask</string>
+	<key>behaviorDecoratorAcceleration</key>
+	<string>keySampleSpacing</string>
+	<key>draggableAlertPosition</key>
+	<string>independentSineKind</string>
+	<key>largeSineShape</key>
+	<string>immutableStatelessFormat</string>
+</dict>
+</plist>

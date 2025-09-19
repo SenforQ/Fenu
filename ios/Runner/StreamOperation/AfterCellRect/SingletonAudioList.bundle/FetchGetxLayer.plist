@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animationFacadeSpeed</key>
+	<string>accessibleLocalizationAppearance</string>
+	<key>associatedMasterSpeed</key>
+	<string>commonStreamShade</string>
+	<key>immediateSubpixelAlignment</key>
+	<string>multiplicationAgainstStyle</string>
+	<key>modelParamState</key>
+	<string>ternaryEnvironmentTint</string>
+	<key>requiredGesturedetectorSpacing</key>
+	<string>histogramVersusStage</string>
+	<key>temporaryTransitionEdge</key>
+	<string>protectedOptionFeedback</string>
+	<key>usageFrameworkBehavior</key>
+	<string>entityAsEnvironment</string>
+</dict>
+</plist>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>convolutionFlyweightInterval</key>
+	<string>newestBlocInterval</string>
+	<key>coordinatorTaskAppearance</key>
+	<string>constraintChainInterval</string>
+	<key>movementViaParameter</key>
+	<string>signPerFacade</string>
+	<key>synchronousResponseFrequency</key>
+	<string>roleThanFramework</string>
+	<key>typicalDescriptionTint</key>
+	<string>callbackPrototypeName</string>
+</dict>
+</plist>

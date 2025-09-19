@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>animatedOffsetRotation</key>
+	<string>textLayerTop</string>
+	<key>bulletVariableFormat</key>
+	<string>alignmentThroughContext</string>
+	<key>checklistStructureOrigin</key>
+	<string>priorAssetBorder</string>
+	<key>gesturedetectorExceptSingleton</key>
+	<string>hardInstructionLocation</string>
+	<key>granularLoopResponse</key>
+	<string>imperativeGraphVisible</string>
+	<key>granularTextureTail</key>
+	<string>synchronousChartInset</string>
+	<key>hashAtType</key>
+	<string>groupDuringPhase</string>
+	<key>projectAboutSystem</key>
+	<string>routerObserverDuration</string>
+	<key>protectedExceptionStyle</key>
+	<string>bufferStateRate</string>
+	<key>respectiveToolDensity</key>
+	<string>decorationTypeBrightness</string>
+</dict>
+</plist>

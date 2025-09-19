@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>gridviewOutsideTier</key>
+	<string>reusableChecklistMomentum</string>
+	<key>immutableSwitchTail</key>
+	<string>widgetMediatorMomentum</string>
+	<key>observerExceptActivity</key>
+	<string>animationMethodTint</string>
+	<key>operationStyleTint</key>
+	<string>stampOrType</string>
+</dict>
+</plist>

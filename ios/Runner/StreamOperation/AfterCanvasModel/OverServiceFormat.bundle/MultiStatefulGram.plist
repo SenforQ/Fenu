@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>grainJobInteraction</key>
+	<string>reusableCacheOrigin</string>
+	<key>gridviewBufferOffset</key>
+	<string>rowForJob</string>
+	<key>interfaceContainType</key>
+	<string>interpolationTierBorder</string>
+	<key>overlayAndObserver</key>
+	<string>constraintFromActivity</string>
+	<key>robustWidgetMode</key>
+	<string>interactiveLayerColor</string>
+	<key>sortedListviewRight</key>
+	<string>custompaintPerScope</string>
+	<key>storageActivityPressure</key>
+	<string>dimensionLevelStyle</string>
+</dict>
+</plist>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>expandedAdapterVisibility</key>
+	<string>factoryLikeObserver</string>
+	<key>futureThroughBridge</key>
+	<string>progressbarKindTransparency</string>
+	<key>inheritedBufferScale</key>
+	<string>channelsDespiteFacade</string>
+	<key>lazyNibHue</key>
+	<string>lazySubpixelPadding</string>
+	<key>notificationModeVisible</key>
+	<string>asynchronousHeapInset</string>
+	<key>resolverOrBridge</key>
+	<string>bulletInterpreterCenter</string>
+	<key>spriteBesideVariable</key>
+	<string>gemAdapterPosition</string>
+	<key>transformerValueScale</key>
+	<string>statelessStorageStatus</string>
+</dict>
+</plist>

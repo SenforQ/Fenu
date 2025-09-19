@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>batchAsBridge</key>
+	<string>dependencyModeAcceleration</string>
+	<key>equalizationIncludeType</key>
+	<string>disparateIntensityEdge</string>
+	<key>missedViewInset</key>
+	<string>liteTextureSkewy</string>
+	<key>promiseAtFramework</key>
+	<string>certificateViaStrategy</string>
+	<key>taskStateScale</key>
+	<string>commonInjectionBound</string>
+	<key>textMethodTop</key>
+	<string>permanentRouteSkewy</string>
+	<key>textThroughDecorator</key>
+	<string>tappableChannelSpacing</string>
+</dict>
+</plist>

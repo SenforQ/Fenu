@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>cosinePhaseBrightness</key>
+	<string>inkwellLikeTier</string>
+	<key>factoryMementoInterval</key>
+	<string>desktopSubpixelVisibility</string>
+	<key>greatGraphSkewx</key>
+	<string>crudeActivityContrast</string>
+	<key>hyperbolicConvolutionOffset</key>
+	<string>normFunctionOffset</string>
+	<key>independentRepositoryScale</key>
+	<string>vectorVersusParameter</string>
+	<key>originalSingletonMargin</key>
+	<string>documentBesidePrototype</string>
+	<key>sensorAtBuffer</key>
+	<string>navigatorStyleDirection</string>
+</dict>
+</plist>

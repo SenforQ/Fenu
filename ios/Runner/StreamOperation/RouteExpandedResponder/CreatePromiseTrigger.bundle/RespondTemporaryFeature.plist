@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>completerDespiteAdapter</key>
+	<string>constNibName</string>
+	<key>decorationAsFacade</key>
+	<string>errorLevelState</string>
+	<key>descriptionBridgeShade</key>
+	<string>sceneBesideFunction</string>
+	<key>protectedCanvasSaturation</key>
+	<string>completionAgainstVisitor</string>
+	<key>reducerLayerSize</key>
+	<string>accordionTransitionForce</string>
+	<key>routerWithoutMode</key>
+	<string>metadataParameterPressure</string>
+	<key>temporaryCallbackRotation</key>
+	<string>labelStyleRate</string>
+</dict>
+</plist>

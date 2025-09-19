@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>associatedPreviewName</key>
+	<string>batchCommandFormat</string>
+	<key>delicateGroupBound</key>
+	<string>graphOrParam</string>
+	<key>fixedMenuPadding</key>
+	<string>interfacePerSystem</string>
+	<key>semanticsOfCycle</key>
+	<string>resourcePrototypeCoord</string>
+</dict>
+</plist>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoDescriptionScale</key>
+	<string>iterativeGraphLeft</string>
+	<key>awaitDuringDecorator</key>
+	<string>momentumDuringComposite</string>
+	<key>callbackAlongObserver</key>
+	<string>pageviewWorkSize</string>
+	<key>cosineOfComposite</key>
+	<string>reusableSemanticsSaturation</string>
+	<key>durationBeyondPhase</key>
+	<string>metadataExceptKind</string>
+	<key>durationStructureRotation</key>
+	<string>localActionSize</string>
+	<key>frameContextDepth</key>
+	<string>inactiveMenuTop</string>
+	<key>mobxAroundCommand</key>
+	<string>containerProcessName</string>
+	<key>storeLevelContrast</key>
+	<string>cellViaMemento</string>
+</dict>
+</plist>

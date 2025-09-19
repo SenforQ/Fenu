@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>autoTransitionTag</key>
+	<string>buttonStageFormat</string>
+	<key>characterThroughContext</key>
+	<string>singletonInsideInterpreter</string>
+	<key>containerSystemStyle</key>
+	<string>accessoryTempleBound</string>
+	<key>heroDuringNumber</key>
+	<string>hardDependencyCoord</string>
+	<key>observerChainState</key>
+	<string>localizationAtPhase</string>
+	<key>optimizerByLevel</key>
+	<string>subpixelOutsideStructure</string>
+	<key>synchronousCurveMomentum</key>
+	<string>transitionTempleBound</string>
+</dict>
+</plist>

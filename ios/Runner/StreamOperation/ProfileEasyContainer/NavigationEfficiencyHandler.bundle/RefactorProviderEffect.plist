@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>coordinatorInsideType</key>
+	<string>eagerTableCoord</string>
+	<key>gateActivityBehavior</key>
+	<string>layerFlyweightInset</string>
+	<key>movementEnvironmentBorder</key>
+	<string>delegateStructureMargin</string>
+	<key>otherGridForce</key>
+	<string>reducerDespiteStyle</string>
+	<key>similarInterfaceInterval</key>
+	<string>subscriptionNumberPosition</string>
+</dict>
+</plist>

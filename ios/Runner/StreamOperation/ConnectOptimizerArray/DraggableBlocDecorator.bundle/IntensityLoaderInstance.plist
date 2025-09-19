@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>channelsContextResponse</key>
+	<string>chapterForNumber</string>
+	<key>customizedEquipmentMargin</key>
+	<string>containerExceptVariable</string>
+	<key>delegateNearCommand</key>
+	<string>subscriptionParameterMode</string>
+	<key>finalControllerDelay</key>
+	<string>usedGateMomentum</string>
+	<key>multiplicationEnvironmentForce</key>
+	<string>advancedControllerMomentum</string>
+	<key>numericalGraphicPressure</key>
+	<string>respectiveScaleAcceleration</string>
+</dict>
+</plist>
