@@ -6,6 +6,7 @@ import 'place_detail_page.dart';
 import 'search_page.dart';
 import 'vip_page.dart';
 import 'community_page.dart';
+import 'ai_chat_page.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -790,6 +791,12 @@ class _HomePageState extends State<HomePage> {
               ],
             ),
           ),
+          // AI 按钮 - 右上角
+          Positioned(
+            top: MediaQuery.of(context).padding.top + 16,
+            right: 16,
+            child: _buildAiButton(),
+          ),
           // 悬浮音乐播放器
           Positioned(
             left: 0,
@@ -798,6 +805,46 @@ class _HomePageState extends State<HomePage> {
             child: _buildFloatingMusicPlayer(),
           ),
         ],
+      ),
+    );
+  }
+
+  // 构建 AI 按钮
+  Widget _buildAiButton() {
+    return GestureDetector(
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const AiChatPage(),
+          ),
+        );
+      },
+      child: Container(
+        width: 40,
+        height: 40,
+        decoration: BoxDecoration(
+          color: Colors.white,
+          shape: BoxShape.circle,
+          boxShadow: [
+            BoxShadow(
+              color: Colors.black.withOpacity(0.1),
+              spreadRadius: 1,
+              blurRadius: 4,
+              offset: const Offset(0, 2),
+            ),
+          ],
+        ),
+        child: const Center(
+          child: Text(
+            'AI',
+            style: TextStyle(
+              color: Color(0xFF4CAF50),
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
       ),
     );
   }

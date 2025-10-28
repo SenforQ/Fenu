@@ -6,6 +6,7 @@ import 'chat_page.dart';
 import 'place_detail_page.dart';
 import 'team_activity_detail_page.dart';
 import 'vip_page.dart';
+import 'recommend_detail_page.dart';
 import '../services/vip_service.dart';
 
 class DiscoverPage extends StatefulWidget {
@@ -310,26 +311,13 @@ class _DiscoverPageState extends State<DiscoverPage> {
 
   Widget _buildRecommendBackground() {
     return GestureDetector(
-      onTap: () async {
-        try {
-          // 直接从 Allpopular.json 中获取 forest 分类的第一组数据
-          final String placesJsonString = await rootBundle.loadString('assets/Allpopular.json');
-          final Map<String, dynamic> placesJsonData = json.decode(placesJsonString);
-          
-          if (placesJsonData.containsKey('forest') && placesJsonData['forest'] is List) {
-            final List<dynamic> forestPlaces = placesJsonData['forest'];
-            if (forestPlaces.isNotEmpty) {
-              Navigator.push(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => PlaceDetailPage(placeData: forestPlaces.first),
-                ),
-              );
-            }
-          }
-        } catch (e) {
-          print('Error loading forest data: $e');
-        }
+      onTap: () {
+        Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => const RecommendDetailPage(),
+          ),
+        );
       },
       child: Image.asset(
         'assets/recommend_bg_20250902.webp',

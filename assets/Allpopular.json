@@ -2,7 +2,7 @@
   "forest": [
     {
       "id": 1,
-      "image": "forest_type_1_bg_20250902.jpg",
+      "image": "forest_type_1_bg_20250902.webp",
       "title": "Melbourne's Fairy Tale Paradise",
       "location": "Alfred Nicholas",
       "views": "50 people viewed",
@@ -11,7 +11,7 @@
     },
     {
       "id": 2,
-      "image": "forest_type_2_bg_20250902.jpg",
+      "image": "forest_type_2_bg_20250902.webp",
       "title": "Magic Forest Really Exists!!",
       "location": "De Djawatan",
       "views": "43 people viewed",
@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "image": "forest_type_3_bg_20250902.jpg",
+      "image": "forest_type_3_bg_20250902.webp",
       "title": "💥 Melbourne | Experience 🌴 Amazon Rainforest 🌿 Secret 🚘 Day Trip",
       "location": "Maroondah Park",
       "views": "23 people viewed",
@@ -31,7 +31,7 @@
   "canyon": [
     {
       "id": 1,
-      "image": "canyon_type_1_bg_20250902.jpg",
+      "image": "canyon_type_1_bg_20250902.webp",
       "title": "Natural Wonder: Majestic Glaciers Create Most Fragmented Canyon",
       "location": "Fjaðrárgljúfur",
       "views": "25 people viewed",
@@ -40,7 +40,7 @@
     },
     {
       "id": 2,
-      "image": "canyon_type_2_bg_20250902.jpg",
+      "image": "canyon_type_2_bg_20250902.webp",
       "title": "Grand Canyon Antelope Valley | Who Says Cracks Aren't Beautiful",
       "location": "Grand Canyon",
       "views": "33 people viewed",
@@ -49,7 +49,7 @@
     },
     {
       "id": 3,
-      "image": "canyon_type_3_bg_20250902.jpg",
+      "image": "canyon_type_3_bg_20250902.webp",
       "title": "Grand Canyon",
       "location": "Grand Canyon",
       "views": "39 people viewed",
@@ -60,7 +60,7 @@
   "desert": [
     {
       "id": 1,
-      "image": "desert_type_1_bg_20250902.jpg",
+      "image": "desert_type_1_bg_20250902.webp",
       "title": "Egypt Black Desert Crystal Mountain White Desert",
       "location": "Sahara Desert",
       "views": "29 people viewed",
@@ -69,7 +69,7 @@
     },
     {
       "id": 2,
-      "image": "desert_type_2_bg_20250902.jpg",
+      "image": "desert_type_2_bg_20250902.webp",
       "title": "🇲🇦 Morocco Desert Journey | Enter North Africa's Golden Wonderland",
       "location": "Morocco Desert",
       "views": "27 people viewed",
@@ -78,7 +78,7 @@
     },
     {
       "id": 3,
-      "image": "desert_type_3_bg_20250902.jpg",
+      "image": "desert_type_3_bg_20250902.webp",
       "title": "Not in Sahara Desert! In Melbourne!",
       "location": "Big Drift",
       "views": "26 people viewed",
@@ -89,7 +89,7 @@
   "lake": [
     {
       "id": 1,
-      "image": "lake_type_1_bg_20250902.jpg",
+      "image": "lake_type_1_bg_20250902.webp",
       "title": "God's Palette: Australia Pink Lakes, Love at First Sight🌸",
       "location": "Lake Hillier",
       "views": "13 people viewed",
@@ -98,7 +98,7 @@
     },
     {
       "id": 2,
-      "image": "lake_type_2_bg_20250902.jpg",
+      "image": "lake_type_2_bg_20250902.webp",
       "title": "Utah Salt Lake City Pink Salt Lake",
       "location": "Stansbury View",
       "views": "11 people viewed",
@@ -107,7 +107,7 @@
     },
     {
       "id": 3,
-      "image": "lake_type_3_bg_20250902.jpg",
+      "image": "lake_type_3_bg_20250902.webp",
       "title": "Oeschinensee Lake",
       "location": "Interlaken",
       "views": "19 people viewed",

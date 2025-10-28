@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'pages/welcome_page.dart';
 import 'pages/home_page.dart';
+import 'pages/aiguide_page.dart';
 import 'pages/editor_page.dart';
 import 'pages/discover_page.dart';
 import 'pages/mine_page.dart';
@@ -43,6 +44,7 @@ class _MainScreenState extends State<MainScreen> {
   
   final List<Widget> _pages = [
     const HomePage(),
+    const AiGuidePage(),
     const EditorPage(),
     const DiscoverPage(),
     const MinePage(),
